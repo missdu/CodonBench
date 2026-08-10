@@ -1,0 +1,27 @@
+{
+  "model": "encodon-80m",
+  "task": "task3_synonymous",
+  "architecture": "encoder",
+  "params_M": 80,
+  "success": true,
+  "n_samples": 600,
+  "n_pathogenic": 120,
+  "n_benign": 480,
+  "ROC-AUC": 0.5086,
+  "PR-AUC": 0.2141,
+  "neg_log10_p": 0.4144,
+  "mann_whitney_U": 29296.5,
+  "eval_time_s": 11.8,
+  "load_meta": {
+    "model_name": "encodon-80m",
+    "model_path": "goodarzilab/encodon-80M",
+    "architecture": "encoder",
+    "params_M": 80,
+    "quantized": false,
+    "device": "cuda:2",
+    "load_time_s": 5.91,
+    "vram_mb": 313.3,
+    "success": true,
+    "error": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": "ESM-2-650M",
+  "task": "task3_synonymous",
+  "model_type": "pLM",
+  "params_M": 650,
+  "input_type": "protein_sequence",
+  "success": true,
+  "n_samples": 2840,
+  "ROC-AUC_mean": 0.6797,
+  "ROC-AUC_std": 0.0227,
+  "ROC-AUC_folds": [
+    0.6835,
+    0.7027,
+    0.7025,
+    0.6431,
+    0.6665
+  ],
+  "emb_time_s": 30.3
+}

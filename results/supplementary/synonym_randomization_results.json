@@ -1,0 +1,32 @@
+[
+  {
+    "model": "encodon-80m",
+    "task": "missense",
+    "original_cv_lr": 0.6329,
+    "original_cv_lr_std": 0.0233,
+    "original_test_lr": 0.636,
+    "original_test_mlp": 0.6741,
+    "randomized_cv_lr": 0.6497,
+    "randomized_cv_lr_std": 0.0142,
+    "randomized_test_lr": 0.668,
+    "randomized_test_mlp": 0.6793,
+    "delta_lr": -0.032,
+    "delta_mlp": -0.0052,
+    "n": 5000
+  },
+  {
+    "model": "encodon-80m",
+    "task": "synonymous",
+    "original_cv_lr": 0.6856,
+    "original_cv_lr_std": 0.03,
+    "original_test_lr": 0.687,
+    "original_test_mlp": 0.8115,
+    "randomized_cv_lr": 0.7073,
+    "randomized_cv_lr_std": 0.0264,
+    "randomized_test_lr": 0.7158,
+    "randomized_test_mlp": 0.8281,
+    "delta_lr": -0.0288,
+    "delta_mlp": -0.0166,
+    "n": 2840
+  }
+]

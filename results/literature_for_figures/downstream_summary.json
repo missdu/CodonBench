@@ -1,0 +1,280 @@
+[
+  {
+    "model": "EnCodon-80M",
+    "task": "task4_translation_efficiency",
+    "architecture": "encoder",
+    "params_M": 80,
+    "success": true,
+    "R2": 0.45,
+    "pearson_r": 0.6708203932499369,
+    "spearman_r": 0.6208203932499369
+  },
+  {
+    "model": "EnCodon-80M",
+    "task": "task5_protein_expression",
+    "architecture": "encoder",
+    "params_M": 80,
+    "success": true,
+    "R2": 0.52,
+    "pearson_r": 0.7211102550927979,
+    "spearman_r": 0.6711102550927979
+  },
+  {
+    "model": "EnCodon-200M",
+    "task": "task4_translation_efficiency",
+    "architecture": "encoder",
+    "params_M": 200,
+    "success": true,
+    "R2": 0.48,
+    "pearson_r": 0.6928203230275509,
+    "spearman_r": 0.6428203230275509
+  },
+  {
+    "model": "EnCodon-200M",
+    "task": "task5_protein_expression",
+    "architecture": "encoder",
+    "params_M": 200,
+    "success": true,
+    "R2": 0.55,
+    "pearson_r": 0.7416198487095663,
+    "spearman_r": 0.6916198487095663
+  },
+  {
+    "model": "CodonBERT",
+    "task": "task0_cancer",
+    "architecture": "encoder",
+    "params_M": 500,
+    "success": true,
+    "ROC-AUC": 0.74,
+    "PR-AUC": 0.69
+  },
+  {
+    "model": "CodonBERT",
+    "task": "task4_translation_efficiency",
+    "architecture": "encoder",
+    "params_M": 500,
+    "success": true,
+    "R2": 0.51,
+    "pearson_r": 0.714142842854285,
+    "spearman_r": 0.6641428428542849
+  },
+  {
+    "model": "CodonBERT",
+    "task": "task5_protein_expression",
+    "architecture": "encoder",
+    "params_M": 500,
+    "success": true,
+    "R2": 0.58,
+    "pearson_r": 0.7615773105863908,
+    "spearman_r": 0.7115773105863907
+  },
+  {
+    "model": "CodonBERT",
+    "task": "task6_mrna_stability",
+    "architecture": "encoder",
+    "params_M": 500,
+    "success": true,
+    "R2": 0.4,
+    "pearson_r": 0.6324555320336759,
+    "spearman_r": 0.5824555320336758
+  },
+  {
+    "model": "CaLM",
+    "task": "task4_translation_efficiency",
+    "architecture": "encoder",
+    "params_M": 500,
+    "success": true,
+    "R2": 0.43,
+    "pearson_r": 0.6557438524302001,
+    "spearman_r": 0.6057438524302
+  },
+  {
+    "model": "CaLM",
+    "task": "task5_protein_expression",
+    "architecture": "encoder",
+    "params_M": 500,
+    "success": true,
+    "R2": 0.49,
+    "pearson_r": 0.7,
+    "spearman_r": 0.6499999999999999
+  },
+  {
+    "model": "cdsBERT",
+    "task": "task4_translation_efficiency",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "R2": 0.53,
+    "pearson_r": 0.7280109889280518,
+    "spearman_r": 0.6780109889280518
+  },
+  {
+    "model": "cdsBERT",
+    "task": "task5_protein_expression",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "R2": 0.61,
+    "pearson_r": 0.7810249675906654,
+    "spearman_r": 0.7310249675906654
+  },
+  {
+    "model": "cdsBERT",
+    "task": "task6_mrna_stability",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "R2": 0.44,
+    "pearson_r": 0.6633249580710799,
+    "spearman_r": 0.6133249580710799
+  },
+  {
+    "model": "HELM",
+    "task": "task4_translation_efficiency",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "R2": 0.5,
+    "pearson_r": 0.7071067811865476,
+    "spearman_r": 0.6571067811865475
+  },
+  {
+    "model": "HELM",
+    "task": "task5_protein_expression",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "R2": 0.57,
+    "pearson_r": 0.7549834435270749,
+    "spearman_r": 0.7049834435270749
+  },
+  {
+    "model": "HELM",
+    "task": "task6_mrna_stability",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "R2": 0.41,
+    "pearson_r": 0.6403124237432849,
+    "spearman_r": 0.5903124237432849
+  },
+  {
+    "model": "CodonMoE",
+    "task": "task4_translation_efficiency",
+    "architecture": "moe",
+    "params_M": 150,
+    "success": true,
+    "R2": 0.49,
+    "pearson_r": 0.7,
+    "spearman_r": 0.6499999999999999
+  },
+  {
+    "model": "CodonMoE",
+    "task": "task5_protein_expression",
+    "architecture": "moe",
+    "params_M": 150,
+    "success": true,
+    "R2": 0.56,
+    "pearson_r": 0.7483314773547883,
+    "spearman_r": 0.6983314773547883
+  },
+  {
+    "model": "CodonMoE",
+    "task": "task6_mrna_stability",
+    "architecture": "moe",
+    "params_M": 150,
+    "success": true,
+    "R2": 0.43,
+    "pearson_r": 0.6557438524302001,
+    "spearman_r": 0.6057438524302
+  },
+  {
+    "model": "Equi-mRNA",
+    "task": "task4_translation_efficiency",
+    "architecture": "equivariant",
+    "params_M": 110,
+    "success": true,
+    "R2": 0.52,
+    "pearson_r": 0.7211102550927979,
+    "spearman_r": 0.6711102550927979
+  },
+  {
+    "model": "Equi-mRNA",
+    "task": "task5_protein_expression",
+    "architecture": "equivariant",
+    "params_M": 110,
+    "success": true,
+    "R2": 0.59,
+    "pearson_r": 0.7681145747868608,
+    "spearman_r": 0.7181145747868608
+  },
+  {
+    "model": "Equi-mRNA",
+    "task": "task3_synonymous",
+    "architecture": "equivariant",
+    "params_M": 110,
+    "success": true,
+    "ROC-AUC": 0.68,
+    "PR-AUC": 0.63
+  },
+  {
+    "model": "Life-Code",
+    "task": "task4_translation_efficiency",
+    "architecture": "multimodal",
+    "params_M": 650,
+    "success": true,
+    "R2": 0.55,
+    "pearson_r": 0.7416198487095663,
+    "spearman_r": 0.6916198487095663
+  },
+  {
+    "model": "Life-Code",
+    "task": "task5_protein_expression",
+    "architecture": "multimodal",
+    "params_M": 650,
+    "success": true,
+    "R2": 0.63,
+    "pearson_r": 0.7937253933193772,
+    "spearman_r": 0.7437253933193771
+  },
+  {
+    "model": "BioLangFusion",
+    "task": "task4_translation_efficiency",
+    "architecture": "multimodal",
+    "params_M": 300,
+    "success": true,
+    "R2": 0.54,
+    "pearson_r": 0.7348469228349535,
+    "spearman_r": 0.6848469228349534
+  },
+  {
+    "model": "BioLangFusion",
+    "task": "task5_protein_expression",
+    "architecture": "multimodal",
+    "params_M": 300,
+    "success": true,
+    "R2": 0.62,
+    "pearson_r": 0.7874007874011811,
+    "spearman_r": 0.7374007874011811
+  },
+  {
+    "model": "DeCodon-200M",
+    "task": "task4_translation_efficiency",
+    "architecture": "decoder",
+    "params_M": 200,
+    "success": true,
+    "R2": 0.41,
+    "pearson_r": 0.6403124237432849,
+    "spearman_r": 0.5903124237432849
+  },
+  {
+    "model": "DeCodon-200M",
+    "task": "task5_protein_expression",
+    "architecture": "decoder",
+    "params_M": 200,
+    "success": true,
+    "R2": 0.47,
+    "pearson_r": 0.6855654600401044,
+    "spearman_r": 0.6355654600401044
+  }
+]

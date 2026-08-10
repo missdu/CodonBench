@@ -1,0 +1,110 @@
+[
+  {
+    "model": "dnabert2",
+    "task": "task2_missense",
+    "success": false,
+    "error": "The model class you are passing has a `config_class` attribute that is not consistent with the config class you passed (model has <class 'transformers.models.bert.configuration_bert.BertConfig'> and you passed <class 'transformers_modules.zhihan1996.DNABERT-2-117M.7bce263b15377fc15361f52cfab88f8b586abda0.configuration_bert.BertConfig'>. Fix one of those so they match!"
+  },
+  {
+    "model": "dnabert2",
+    "task": "task3_synonymous",
+    "success": false,
+    "error": "The model class you are passing has a `config_class` attribute that is not consistent with the config class you passed (model has <class 'transformers.models.bert.configuration_bert.BertConfig'> and you passed <class 'transformers_modules.zhihan1996.DNABERT-2-117M.7bce263b15377fc15361f52cfab88f8b586abda0.configuration_bert.BertConfig'>. Fix one of those so they match!"
+  },
+  {
+    "model": "nt-50m",
+    "task": "task2_missense",
+    "model_type": "nucleotide_transformer",
+    "params_M": 50,
+    "success": true,
+    "n_samples": 5000,
+    "n_pathogenic": 2500,
+    "n_benign": 2500,
+    "ROC-AUC_mean": 0.5734,
+    "ROC-AUC_std": 0.0184,
+    "ROC-AUC_folds": [
+      0.5757,
+      0.6068,
+      0.5674,
+      0.5514,
+      0.5659
+    ],
+    "neg_log10_p": 2.8712,
+    "emb_time_s": 7.1,
+    "cv_time_s": 54.3,
+    "context_codons": 16,
+    "input_type": "nucleotide"
+  },
+  {
+    "model": "nt-50m",
+    "task": "task3_synonymous",
+    "model_type": "nucleotide_transformer",
+    "params_M": 50,
+    "success": true,
+    "n_samples": 2840,
+    "n_pathogenic": 1420,
+    "n_benign": 1420,
+    "ROC-AUC_mean": 0.6425,
+    "ROC-AUC_std": 0.0192,
+    "ROC-AUC_folds": [
+      0.6563,
+      0.6571,
+      0.6067,
+      0.6542,
+      0.6383
+    ],
+    "neg_log10_p": 3.9231,
+    "emb_time_s": 4.1,
+    "cv_time_s": 51.1,
+    "context_codons": 16,
+    "input_type": "nucleotide"
+  },
+  {
+    "model": "nt-500m",
+    "task": "task2_missense",
+    "model_type": "nucleotide_transformer",
+    "params_M": 500,
+    "success": true,
+    "n_samples": 5000,
+    "n_pathogenic": 2500,
+    "n_benign": 2500,
+    "ROC-AUC_mean": 0.5695,
+    "ROC-AUC_std": 0.0209,
+    "ROC-AUC_folds": [
+      0.5349,
+      0.6001,
+      0.5655,
+      0.5738,
+      0.573
+    ],
+    "neg_log10_p": 2.5756,
+    "emb_time_s": 15.4,
+    "cv_time_s": 51.7,
+    "context_codons": 16,
+    "input_type": "nucleotide"
+  },
+  {
+    "model": "nt-500m",
+    "task": "task3_synonymous",
+    "model_type": "nucleotide_transformer",
+    "params_M": 500,
+    "success": true,
+    "n_samples": 2840,
+    "n_pathogenic": 1420,
+    "n_benign": 1420,
+    "ROC-AUC_mean": 0.6991,
+    "ROC-AUC_std": 0.0084,
+    "ROC-AUC_folds": [
+      0.6966,
+      0.7152,
+      0.6913,
+      0.6983,
+      0.6942
+    ],
+    "neg_log10_p": 5.9314,
+    "emb_time_s": 11.1,
+    "cv_time_s": 50.5,
+    "context_codons": 16,
+    "input_type": "nucleotide"
+  }
+]

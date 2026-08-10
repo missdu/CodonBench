@@ -1,0 +1,54 @@
+[
+  {
+    "model": "ESM-2-650M",
+    "task": "task2_missense",
+    "model_type": "pLM",
+    "n": 5000,
+    "cv_lr_mean": 0.7191,
+    "cv_lr_std": 0.0162,
+    "test_lr": 0.6953,
+    "test_mlp": 0.6919,
+    "lr_to_mlp_gain": -0.0034,
+    "n_train": 4000,
+    "n_test": 1000
+  },
+  {
+    "model": "ESM-2-650M",
+    "task": "task3_synonymous",
+    "model_type": "pLM",
+    "n": 2840,
+    "cv_lr_mean": 0.6797,
+    "cv_lr_std": 0.0227,
+    "test_lr": 0.6505,
+    "test_mlp": 0.6178,
+    "lr_to_mlp_gain": -0.0327,
+    "n_train": 2272,
+    "n_test": 568
+  },
+  {
+    "model": "ESM-1b-650M",
+    "task": "task2_missense",
+    "model_type": "pLM",
+    "n": 5000,
+    "cv_lr_mean": 0.7102,
+    "cv_lr_std": 0.0138,
+    "test_lr": 0.7075,
+    "test_mlp": 0.7072,
+    "lr_to_mlp_gain": -0.0003,
+    "n_train": 4000,
+    "n_test": 1000
+  },
+  {
+    "model": "ESM-1b-650M",
+    "task": "task3_synonymous",
+    "model_type": "pLM",
+    "n": 2840,
+    "cv_lr_mean": 0.6818,
+    "cv_lr_std": 0.012,
+    "test_lr": 0.6412,
+    "test_mlp": 0.6651,
+    "lr_to_mlp_gain": 0.0239,
+    "n_train": 2272,
+    "n_test": 568
+  }
+]

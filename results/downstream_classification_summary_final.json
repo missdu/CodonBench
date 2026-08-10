@@ -1,0 +1,242 @@
+[
+  {
+    "model": "encodon-80m",
+    "task": "task2_clinvar_missense",
+    "architecture": "encoder",
+    "params_M": 80,
+    "success": true,
+    "n_samples": 5000,
+    "n_folds": 5,
+    "embedding_dim": 1024,
+    "embed_time_s": 7.5,
+    "best_feature": "diff",
+    "diff_ROC-AUC": 0.5236,
+    "diff_ROC-AUC_std": 0.0188,
+    "diff_PR-AUC": 0.5299,
+    "diff_F1": 0.5229,
+    "all_features": {
+      "diff": {
+        "ROC-AUC": 0.5236,
+        "ROC-AUC_std": 0.0188,
+        "PR-AUC": 0.5299,
+        "F1": 0.5229
+      },
+      "concat": {
+        "ROC-AUC": 0.5228,
+        "ROC-AUC_std": 0.0155,
+        "PR-AUC": 0.5255,
+        "F1": 0.5176
+      }
+    }
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task3_synonymous",
+    "architecture": "encoder",
+    "params_M": 80,
+    "success": true,
+    "n_samples": 3312,
+    "n_folds": 5,
+    "embedding_dim": 1024,
+    "embed_time_s": 4.5,
+    "best_feature": "concat",
+    "concat_ROC-AUC": 0.7627,
+    "concat_ROC-AUC_std": 0.0203,
+    "concat_PR-AUC": 0.6596,
+    "concat_F1": 0.7953,
+    "all_features": {
+      "diff": {
+        "ROC-AUC": 0.6632,
+        "ROC-AUC_std": 0.0245,
+        "PR-AUC": 0.5817,
+        "F1": 0.6962
+      },
+      "concat": {
+        "ROC-AUC": 0.7627,
+        "ROC-AUC_std": 0.0203,
+        "PR-AUC": 0.6596,
+        "F1": 0.7953
+      }
+    }
+  },
+  {
+    "model": "codonbert",
+    "task": "task2_clinvar_missense",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "n_samples": 5000,
+    "n_folds": 5,
+    "embedding_dim": 768,
+    "embed_time_s": 8.6,
+    "best_feature": "diff",
+    "diff_ROC-AUC": 0.5598,
+    "diff_ROC-AUC_std": 0.0169,
+    "diff_PR-AUC": 0.558,
+    "diff_F1": 0.5443,
+    "all_features": {
+      "diff": {
+        "ROC-AUC": 0.5598,
+        "ROC-AUC_std": 0.0169,
+        "PR-AUC": 0.558,
+        "F1": 0.5443
+      },
+      "concat": {
+        "ROC-AUC": 0.5239,
+        "ROC-AUC_std": 0.0111,
+        "PR-AUC": 0.529,
+        "F1": 0.5234
+      }
+    }
+  },
+  {
+    "model": "codonbert",
+    "task": "task3_synonymous",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "n_samples": 3312,
+    "n_folds": 5,
+    "embedding_dim": 768,
+    "embed_time_s": 5.6,
+    "best_feature": "concat",
+    "concat_ROC-AUC": 0.7138,
+    "concat_ROC-AUC_std": 0.0144,
+    "concat_PR-AUC": 0.6195,
+    "concat_F1": 0.7867,
+    "all_features": {
+      "diff": {
+        "ROC-AUC": 0.6445,
+        "ROC-AUC_std": 0.0158,
+        "PR-AUC": 0.5836,
+        "F1": 0.623
+      },
+      "concat": {
+        "ROC-AUC": 0.7138,
+        "ROC-AUC_std": 0.0144,
+        "PR-AUC": 0.6195,
+        "F1": 0.7867
+      }
+    }
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task2_clinvar_missense",
+    "architecture": "encoder",
+    "params_M": 87,
+    "success": true,
+    "n_samples": 5000,
+    "n_folds": 5,
+    "embedding_dim": 768,
+    "embed_time_s": 8.7,
+    "best_feature": "diff",
+    "diff_ROC-AUC": 0.5242,
+    "diff_ROC-AUC_std": 0.0059,
+    "diff_PR-AUC": 0.5254,
+    "diff_F1": 0.5131,
+    "all_features": {
+      "diff": {
+        "ROC-AUC": 0.5242,
+        "ROC-AUC_std": 0.0059,
+        "PR-AUC": 0.5254,
+        "F1": 0.5131
+      },
+      "concat": {
+        "ROC-AUC": 0.5207,
+        "ROC-AUC_std": 0.0035,
+        "PR-AUC": 0.5225,
+        "F1": 0.5233
+      }
+    }
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task3_synonymous",
+    "architecture": "encoder",
+    "params_M": 87,
+    "success": true,
+    "n_samples": 3312,
+    "n_folds": 5,
+    "embedding_dim": 768,
+    "embed_time_s": 5.8,
+    "best_feature": "concat",
+    "concat_ROC-AUC": 0.6739,
+    "concat_ROC-AUC_std": 0.0179,
+    "concat_PR-AUC": 0.5869,
+    "concat_F1": 0.763,
+    "all_features": {
+      "diff": {
+        "ROC-AUC": 0.6414,
+        "ROC-AUC_std": 0.0157,
+        "PR-AUC": 0.5801,
+        "F1": 0.6325
+      },
+      "concat": {
+        "ROC-AUC": 0.6739,
+        "ROC-AUC_std": 0.0179,
+        "PR-AUC": 0.5869,
+        "F1": 0.763
+      }
+    }
+  },
+  {
+    "model": "cdsbert",
+    "task": "task2_clinvar_missense",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "n_samples": 5000,
+    "n_folds": 5,
+    "embedding_dim": 1024,
+    "embed_time_s": 17.2,
+    "best_feature": "diff",
+    "diff_ROC-AUC": 0.5,
+    "diff_ROC-AUC_std": 0.0,
+    "diff_PR-AUC": 0.5,
+    "diff_F1": 0.6667,
+    "all_features": {
+      "diff": {
+        "ROC-AUC": 0.5,
+        "ROC-AUC_std": 0.0,
+        "PR-AUC": 0.5,
+        "F1": 0.6667
+      },
+      "concat": {
+        "ROC-AUC": 0.5,
+        "ROC-AUC_std": 0.0006,
+        "PR-AUC": 0.5,
+        "F1": 0.6665
+      }
+    }
+  },
+  {
+    "model": "cdsbert",
+    "task": "task3_synonymous",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "n_samples": 3312,
+    "n_folds": 5,
+    "embedding_dim": 1024,
+    "embed_time_s": 11.1,
+    "best_feature": "diff",
+    "diff_ROC-AUC": 0.5,
+    "diff_ROC-AUC_std": 0.0,
+    "diff_PR-AUC": 0.5,
+    "diff_F1": 0.5332,
+    "all_features": {
+      "diff": {
+        "ROC-AUC": 0.5,
+        "ROC-AUC_std": 0.0,
+        "PR-AUC": 0.5,
+        "F1": 0.5332
+      },
+      "concat": {
+        "ROC-AUC": 0.5,
+        "ROC-AUC_std": 0.0,
+        "PR-AUC": 0.5,
+        "F1": 0.5332
+      }
+    }
+  }
+]

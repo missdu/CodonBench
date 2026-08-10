@@ -1,0 +1,94 @@
+[
+  {
+    "model": "codonbert",
+    "task": "task2_missense",
+    "seeds": [
+      {
+        "seed": 42,
+        "auc": 0.7874,
+        "best_epoch": 30
+      },
+      {
+        "seed": 123,
+        "auc": 0.84,
+        "best_epoch": 7
+      },
+      {
+        "seed": 456,
+        "auc": 0.7992,
+        "best_epoch": 19
+      }
+    ],
+    "mean_auc": 0.8089,
+    "std_auc": 0.0225
+  },
+  {
+    "model": "codonbert",
+    "task": "task3_synonymous",
+    "seeds": [
+      {
+        "seed": 42,
+        "auc": 0.9155,
+        "best_epoch": 30
+      },
+      {
+        "seed": 123,
+        "auc": 0.9358,
+        "best_epoch": 28
+      },
+      {
+        "seed": 456,
+        "auc": 0.9077,
+        "best_epoch": 29
+      }
+    ],
+    "mean_auc": 0.9197,
+    "std_auc": 0.0118
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task2_missense",
+    "seeds": [
+      {
+        "seed": 42,
+        "auc": 0.8118,
+        "best_epoch": 5
+      },
+      {
+        "seed": 123,
+        "auc": 0.8442,
+        "best_epoch": 5
+      },
+      {
+        "seed": 456,
+        "auc": 0.8109,
+        "best_epoch": 7
+      }
+    ],
+    "mean_auc": 0.8223,
+    "std_auc": 0.0155
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task3_synonymous",
+    "seeds": [
+      {
+        "seed": 42,
+        "auc": 0.8907,
+        "best_epoch": 17
+      },
+      {
+        "seed": 123,
+        "auc": 0.9255,
+        "best_epoch": 25
+      },
+      {
+        "seed": 456,
+        "auc": 0.8844,
+        "best_epoch": 20
+      }
+    ],
+    "mean_auc": 0.9002,
+    "std_auc": 0.0181
+  }
+]

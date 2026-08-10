@@ -1,0 +1,269 @@
+{
+  "codonbert_hf": {
+    "cases": {
+      "PAH:c.1197A>T": {
+        "case": "PAH:c.1197A>T",
+        "tx_id": "NM_000277.3",
+        "cpos": 1197,
+        "true_label": 1,
+        "description": "PKU",
+        "n_tokens": 35,
+        "n_layers": 12,
+        "n_heads": 12,
+        "attention_path": "results/supplementary/codonbert_hf_PAH_c.1197A>T_attention.npy",
+        "center_local_attention": [
+          0.03681168332695961,
+          0.031136266887187958,
+          0.02714155614376068,
+          0.0441935770213604,
+          0.0574389286339283,
+          0.017792493104934692,
+          0.03267867490649223,
+          0.041733160614967346,
+          0.02961897850036621,
+          0.023338505998253822,
+          0.026758654043078423
+        ],
+        "gradient_path": "results/supplementary/codonbert_hf_PAH_c.1197A>T_gradient.npy",
+        "center_gradient": 157.79043579101562
+      },
+      "KCNQ1:c.1032G>A": {
+        "case": "KCNQ1:c.1032G>A",
+        "tx_id": "NM_000218.3",
+        "cpos": 1032,
+        "true_label": 1,
+        "description": "Long QT",
+        "n_tokens": 35,
+        "n_layers": 12,
+        "n_heads": 12,
+        "attention_path": "results/supplementary/codonbert_hf_KCNQ1_c.1032G>A_attention.npy",
+        "center_local_attention": [
+          0.021678438410162926,
+          0.029123617336153984,
+          0.02232288382947445,
+          0.04819144308567047,
+          0.05199927091598511,
+          0.025704331696033478,
+          0.03990251570940018,
+          0.0374658964574337,
+          0.04146568477153778,
+          0.02935665473341942,
+          0.025211937725543976
+        ],
+        "gradient_path": "results/supplementary/codonbert_hf_KCNQ1_c.1032G>A_gradient.npy",
+        "center_gradient": 548.8775634765625
+      },
+      "BRCA2:c.9117G>A": {
+        "case": "BRCA2:c.9117G>A",
+        "tx_id": "NM_000059.4",
+        "cpos": 9117,
+        "true_label": 1,
+        "description": "HBOC",
+        "n_tokens": 35,
+        "n_layers": 12,
+        "n_heads": 12,
+        "attention_path": "results/supplementary/codonbert_hf_BRCA2_c.9117G>A_attention.npy",
+        "center_local_attention": [
+          0.027517268434166908,
+          0.026984363794326782,
+          0.022827208042144775,
+          0.0410148985683918,
+          0.05661018192768097,
+          0.0204854067414999,
+          0.03818906843662262,
+          0.043797314167022705,
+          0.031507570296525955,
+          0.02380238100886345,
+          0.021040178835392
+        ],
+        "gradient_path": "results/supplementary/codonbert_hf_BRCA2_c.9117G>A_gradient.npy",
+        "center_gradient": 50.78900146484375
+      },
+      "MSH2:c.2634G>A": {
+        "case": "MSH2:c.2634G>A",
+        "tx_id": "NM_000251.3",
+        "cpos": 2634,
+        "true_label": 1,
+        "description": "Lynch",
+        "n_tokens": 35,
+        "n_layers": 12,
+        "n_heads": 12,
+        "attention_path": "results/supplementary/codonbert_hf_MSH2_c.2634G>A_attention.npy",
+        "center_local_attention": [
+          0.028186358511447906,
+          0.03256852179765701,
+          0.02414415217936039,
+          0.044714175164699554,
+          0.04506004601716995,
+          0.025201650336384773,
+          0.04470200464129448,
+          0.03807266801595688,
+          0.03300084173679352,
+          0.025199104100465775,
+          0.02429828979074955
+        ],
+        "gradient_path": "results/supplementary/codonbert_hf_MSH2_c.2634G>A_gradient.npy",
+        "center_gradient": 420.1966247558594
+      },
+      "F8:c.5217C>T": {
+        "case": "F8:c.5217C>T",
+        "tx_id": "NM_000132.4",
+        "cpos": 5217,
+        "true_label": 1,
+        "description": "Hemophilia A",
+        "n_tokens": 35,
+        "n_layers": 12,
+        "n_heads": 12,
+        "attention_path": "results/supplementary/codonbert_hf_F8_c.5217C>T_attention.npy",
+        "center_local_attention": [
+          0.023914866149425507,
+          0.028727952390909195,
+          0.03394993767142296,
+          0.04049363359808922,
+          0.048983246088027954,
+          0.019575318321585655,
+          0.03842087462544441,
+          0.04065100848674774,
+          0.0297021996229887,
+          0.02885277383029461,
+          0.02411561831831932
+        ],
+        "gradient_path": "results/supplementary/codonbert_hf_F8_c.5217C>T_gradient.npy",
+        "center_gradient": 104.14280700683594
+      },
+      "GCK:c.1285A>C": {
+        "case": "GCK:c.1285A>C",
+        "tx_id": "NM_000162.5",
+        "cpos": 1285,
+        "true_label": 0,
+        "description": "MODY (benign)",
+        "n_tokens": 35,
+        "n_layers": 12,
+        "n_heads": 12,
+        "attention_path": "results/supplementary/codonbert_hf_GCK_c.1285A>C_attention.npy",
+        "center_local_attention": [
+          0.026455668732523918,
+          0.034902434796094894,
+          0.029622545465826988,
+          0.046415820717811584,
+          0.04493916034698486,
+          0.01874053291976452,
+          0.039705947041511536,
+          0.042269375175237656,
+          0.038624927401542664,
+          0.02173037827014923,
+          0.032651178538799286
+        ],
+        "gradient_path": "results/supplementary/codonbert_hf_GCK_c.1285A>C_gradient.npy",
+        "center_gradient": 178.4293212890625
+      },
+      "MLH1:c.1959G>T": {
+        "case": "MLH1:c.1959G>T",
+        "tx_id": "NM_000249.4",
+        "cpos": 1959,
+        "true_label": 0,
+        "description": "Lynch (benign)",
+        "n_tokens": 35,
+        "n_layers": 12,
+        "n_heads": 12,
+        "attention_path": "results/supplementary/codonbert_hf_MLH1_c.1959G>T_attention.npy",
+        "center_local_attention": [
+          0.02187616378068924,
+          0.030737629160284996,
+          0.032427236437797546,
+          0.04496361315250397,
+          0.046931542456150055,
+          0.023563938215374947,
+          0.042163532227277756,
+          0.04412566497921944,
+          0.031570419669151306,
+          0.02487296611070633,
+          0.03003677725791931
+        ],
+        "gradient_path": "results/supplementary/codonbert_hf_MLH1_c.1959G>T_gradient.npy",
+        "center_gradient": 171.69412231445312
+      },
+      "MSH2:c.1666T>C": {
+        "case": "MSH2:c.1666T>C",
+        "tx_id": "NM_000251.3",
+        "cpos": 1666,
+        "true_label": 0,
+        "description": "Lynch (benign)",
+        "n_tokens": 35,
+        "n_layers": 12,
+        "n_heads": 12,
+        "attention_path": "results/supplementary/codonbert_hf_MSH2_c.1666T>C_attention.npy",
+        "center_local_attention": [
+          0.027061937376856804,
+          0.03872571513056755,
+          0.028863992542028427,
+          0.04718346893787384,
+          0.0416845828294754,
+          0.024230225011706352,
+          0.04156126081943512,
+          0.04040298983454704,
+          0.035249609500169754,
+          0.019712790846824646,
+          0.023567289113998413
+        ],
+        "gradient_path": "results/supplementary/codonbert_hf_MSH2_c.1666T>C_gradient.npy",
+        "center_gradient": 151.73361206054688
+      }
+    },
+    "tsne_data": {},
+    "tsne_coords": [
+      [
+        61.46001052856445,
+        -12.061578750610352
+      ],
+      [
+        -22.786128997802734,
+        43.911949157714844
+      ],
+      [
+        58.57177734375,
+        33.092254638671875
+      ],
+      [
+        13.187135696411133,
+        6.107812881469727
+      ],
+      [
+        20.406829833984375,
+        57.360042572021484
+      ],
+      [
+        -38.801605224609375,
+        1.5842221975326538
+      ],
+      [
+        29.343372344970703,
+        -43.810264587402344
+      ],
+      [
+        -15.39106559753418,
+        -37.13391876220703
+      ]
+    ],
+    "tsne_labels": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "tsne_names": [
+      "PAH:c.1197A>T",
+      "KCNQ1:c.1032G>A",
+      "BRCA2:c.9117G>A",
+      "MSH2:c.2634G>A",
+      "F8:c.5217C>T",
+      "GCK:c.1285A>C",
+      "MLH1:c.1959G>T",
+      "MSH2:c.1666T>C"
+    ]
+  }
+}

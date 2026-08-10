@@ -1,0 +1,54 @@
+[
+  {
+    "model": "encodon-620m",
+    "task": "task2_missense",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "test_auc": 0.7264,
+    "n_samples": 5000,
+    "success": true
+  },
+  {
+    "model": "encodon-620m",
+    "task": "task3_synonymous",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "test_auc": 0.88,
+    "n_samples": 2840,
+    "success": true
+  },
+  {
+    "model": "codontransformer",
+    "task": "task2_missense",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "test_auc": 0.7994,
+    "n_samples": 5000,
+    "success": true
+  },
+  {
+    "model": "codontransformer",
+    "task": "task3_synonymous",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "test_auc": 0.9425,
+    "n_samples": 2840,
+    "success": true
+  },
+  {
+    "model": "calm",
+    "task": "task2_missense",
+    "success": false,
+    "error": "'CaLM' object has no attribute 'tokenizer'"
+  },
+  {
+    "model": "calm",
+    "task": "task3_synonymous",
+    "success": false,
+    "error": "'CaLM' object has no attribute 'tokenizer'"
+  }
+]

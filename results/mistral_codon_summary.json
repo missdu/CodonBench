@@ -1,0 +1,122 @@
+[
+  {
+    "model": "mistral-codon-117m",
+    "task": "task2_missense",
+    "type": "cLM",
+    "params_M": 117,
+    "emb_dim": 768,
+    "n_samples": 5000,
+    "success": true,
+    "lr_auc_mean": 0.6112,
+    "lr_auc_std": 0.017,
+    "lr_auc_folds": [
+      0.6076,
+      0.6382,
+      0.585,
+      0.6147,
+      0.6107
+    ],
+    "mlp_auc_test": 0.5741,
+    "emb_time_s": 98.5
+  },
+  {
+    "model": "mistral-codon-117m",
+    "task": "task3_synonymous",
+    "type": "cLM",
+    "params_M": 117,
+    "emb_dim": 768,
+    "n_samples": 2840,
+    "success": true,
+    "lr_auc_mean": 0.6564,
+    "lr_auc_std": 0.0271,
+    "lr_auc_folds": [
+      0.6787,
+      0.6738,
+      0.613,
+      0.6362,
+      0.6804
+    ],
+    "mlp_auc_test": 0.7998,
+    "emb_time_s": 25.5
+  },
+  {
+    "model": "mistral-codon-16m",
+    "task": "task2_missense",
+    "type": "cLM",
+    "params_M": 16,
+    "emb_dim": 256,
+    "n_samples": 5000,
+    "success": true,
+    "lr_auc_mean": 0.671,
+    "lr_auc_std": 0.025,
+    "lr_auc_folds": [
+      0.6651,
+      0.7121,
+      0.6823,
+      0.6376,
+      0.6577
+    ],
+    "mlp_auc_test": 0.6761,
+    "emb_time_s": 101.5
+  },
+  {
+    "model": "mistral-codon-16m",
+    "task": "task3_synonymous",
+    "type": "cLM",
+    "params_M": 16,
+    "emb_dim": 256,
+    "n_samples": 2840,
+    "success": true,
+    "lr_auc_mean": 0.5984,
+    "lr_auc_std": 0.0115,
+    "lr_auc_folds": [
+      0.6043,
+      0.5804,
+      0.5899,
+      0.6111,
+      0.6062
+    ],
+    "mlp_auc_test": 0.841,
+    "emb_time_s": 90.9
+  },
+  {
+    "model": "mistral-codon-1m",
+    "task": "task2_missense",
+    "type": "cLM",
+    "params_M": 1,
+    "emb_dim": 64,
+    "n_samples": 5000,
+    "success": true,
+    "lr_auc_mean": 0.6656,
+    "lr_auc_std": 0.0163,
+    "lr_auc_folds": [
+      0.6523,
+      0.6886,
+      0.6814,
+      0.6575,
+      0.648
+    ],
+    "mlp_auc_test": 0.6708,
+    "emb_time_s": 89.1
+  },
+  {
+    "model": "mistral-codon-1m",
+    "task": "task3_synonymous",
+    "type": "cLM",
+    "params_M": 1,
+    "emb_dim": 64,
+    "n_samples": 2840,
+    "success": true,
+    "lr_auc_mean": 0.5914,
+    "lr_auc_std": 0.0088,
+    "lr_auc_folds": [
+      0.6066,
+      0.5821,
+      0.5835,
+      0.5947,
+      0.5901
+    ],
+    "mlp_auc_test": 0.734,
+    "emb_time_s": 43.7
+  }
+]

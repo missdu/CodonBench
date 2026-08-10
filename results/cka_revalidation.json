@@ -1,0 +1,44 @@
+[
+  {
+    "model1": "codonbert",
+    "model2": "codonbert_hf",
+    "linear_cka": 0.3618,
+    "rbf_cka": 0.9697,
+    "X_shape": [
+      2000,
+      768
+    ],
+    "Y_shape": [
+      2000,
+      768
+    ]
+  },
+  {
+    "model1": "codonbert",
+    "model2": "encodon-80m",
+    "linear_cka": 0.3338,
+    "rbf_cka": 0.0445,
+    "X_shape": [
+      2000,
+      768
+    ],
+    "Y_shape": [
+      2000,
+      1024
+    ]
+  },
+  {
+    "model1": "codonbert_hf",
+    "model2": "encodon-80m",
+    "linear_cka": 0.4762,
+    "rbf_cka": 0.0443,
+    "X_shape": [
+      2000,
+      768
+    ],
+    "Y_shape": [
+      2000,
+      1024
+    ]
+  }
+]

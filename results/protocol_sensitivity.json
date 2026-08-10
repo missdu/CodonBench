@@ -1,0 +1,192 @@
+{
+  "task2_missense": {
+    "lora_vs_lr": {
+      "spearman_rho": 0.5,
+      "p_value": 0.391,
+      "n_models": 5,
+      "models": [
+        "codonbert",
+        "codonbert_hf",
+        "codontransformer",
+        "encodon-620m",
+        "encodon-80m"
+      ],
+      "vals_1": [
+        0.8084,
+        0.8143,
+        0.7994,
+        0.7264,
+        0.6962
+      ],
+      "vals_2": [
+        0.6602,
+        0.6594,
+        0.6944,
+        0.6167,
+        0.6329
+      ]
+    },
+    "lora_vs_mlp": {
+      "spearman_rho": -0.2,
+      "p_value": 0.7471,
+      "n_models": 5,
+      "models": [
+        "codonbert",
+        "codonbert_hf",
+        "codontransformer",
+        "encodon-620m",
+        "encodon-80m"
+      ],
+      "vals_1": [
+        0.8084,
+        0.8143,
+        0.7994,
+        0.7264,
+        0.6962
+      ],
+      "vals_2": [
+        0.6772,
+        0.6499,
+        0.6796,
+        0.6667,
+        0.6741
+      ]
+    },
+    "lr_vs_mlp": {
+      "spearman_rho": 0.8545,
+      "p_value": 0.0016,
+      "n_models": 10,
+      "models": [
+        "calm",
+        "cdsbert",
+        "codonbert",
+        "codonbert_hf",
+        "codontransformer",
+        "encodon-620m",
+        "encodon-80m",
+        "mistral_codon_117m",
+        "mistral_codon_16m",
+        "mistral_codon_1m"
+      ],
+      "vals_1": [
+        0.6886,
+        0.6288,
+        0.6602,
+        0.6594,
+        0.6944,
+        0.6167,
+        0.6329,
+        0.6112,
+        0.671,
+        0.6656
+      ],
+      "vals_2": [
+        0.6922,
+        0.609,
+        0.6772,
+        0.6499,
+        0.6796,
+        0.6667,
+        0.6741,
+        0.5741,
+        0.6761,
+        0.6708
+      ]
+    }
+  },
+  "task3_synonymous": {
+    "lora_vs_lr": {
+      "spearman_rho": 0.1,
+      "p_value": 0.8729,
+      "n_models": 5,
+      "models": [
+        "codonbert",
+        "codonbert_hf",
+        "codontransformer",
+        "encodon-620m",
+        "encodon-80m"
+      ],
+      "vals_1": [
+        0.9115,
+        0.8796,
+        0.9425,
+        0.88,
+        0.8929
+      ],
+      "vals_2": [
+        0.7336,
+        0.7047,
+        0.713,
+        0.785,
+        0.6856
+      ]
+    },
+    "lora_vs_mlp": {
+      "spearman_rho": 0.6,
+      "p_value": 0.2848,
+      "n_models": 5,
+      "models": [
+        "codonbert",
+        "codonbert_hf",
+        "codontransformer",
+        "encodon-620m",
+        "encodon-80m"
+      ],
+      "vals_1": [
+        0.9115,
+        0.8796,
+        0.9425,
+        0.88,
+        0.8929
+      ],
+      "vals_2": [
+        0.8486,
+        0.816,
+        0.8178,
+        0.8,
+        0.8115
+      ]
+    },
+    "lr_vs_mlp": {
+      "spearman_rho": 0.5879,
+      "p_value": 0.0739,
+      "n_models": 10,
+      "models": [
+        "calm",
+        "cdsbert",
+        "codonbert",
+        "codonbert_hf",
+        "codontransformer",
+        "encodon-620m",
+        "encodon-80m",
+        "mistral_codon_117m",
+        "mistral_codon_16m",
+        "mistral_codon_1m"
+      ],
+      "vals_1": [
+        0.6725,
+        0.5979,
+        0.7336,
+        0.7047,
+        0.713,
+        0.785,
+        0.6856,
+        0.6564,
+        0.5984,
+        0.5914
+      ],
+      "vals_2": [
+        0.7825,
+        0.5819,
+        0.8486,
+        0.816,
+        0.8178,
+        0.8,
+        0.8115,
+        0.7998,
+        0.841,
+        0.734
+      ]
+    }
+  }
+}

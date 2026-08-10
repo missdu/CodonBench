@@ -1,0 +1,16 @@
+{
+  "task": "task3_synonymous",
+  "feature_description": "codon_freq(64) + gc3(1) + position_codon_onehot(33*64=2112) = 2177 features",
+  "n_features": 2177,
+  "n_samples": 2840,
+  "gbt_5fold_auc_mean": 0.8486,
+  "gbt_5fold_auc_std": 0.0255,
+  "gbt_5fold_auc_folds": [
+    0.8495,
+    0.8384,
+    0.891,
+    0.8523,
+    0.812
+  ],
+  "gbt_independent_test_auc": 0.949
+}

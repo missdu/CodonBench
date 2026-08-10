@@ -1,0 +1,27 @@
+{
+  "model": "encodon-80m",
+  "task": "task2_clinvar_missense",
+  "architecture": "encoder",
+  "params_M": 80,
+  "success": true,
+  "n_samples": 0,
+  "n_pathogenic": 0,
+  "n_benign": 0,
+  "ROC-AUC": NaN,
+  "PR-AUC": NaN,
+  "neg_log10_p": null,
+  "mann_whitney_U": null,
+  "eval_time_s": 0.0,
+  "load_meta": {
+    "model_name": "encodon-80m",
+    "model_path": "goodarzilab/encodon-80M",
+    "architecture": "encoder",
+    "params_M": 80,
+    "quantized": false,
+    "device": "cuda:2",
+    "load_time_s": 4.39,
+    "vram_mb": 313.3,
+    "success": true,
+    "error": null
+  }
+}

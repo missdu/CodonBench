@@ -1,0 +1,212 @@
+[
+  {
+    "method": "onehot_pos_shuffled",
+    "task": "task2_missense",
+    "feat_dim": 2112,
+    "lr_auc_mean": 0.5653,
+    "lr_auc_std": 0.0163,
+    "lr_auc_folds": [
+      0.5497,
+      0.5952,
+      0.5674,
+      0.5616,
+      0.5524
+    ],
+    "mlp_auc_test": 0.5698
+  },
+  {
+    "method": "position_only",
+    "task": "task2_missense",
+    "feat_dim": 4,
+    "lr_auc_mean": 0.5239,
+    "lr_auc_std": 0.0113,
+    "lr_auc_folds": [
+      0.5229,
+      0.5165,
+      0.512,
+      0.5234,
+      0.5448
+    ],
+    "mlp_auc_test": 0.5447
+  },
+  {
+    "method": "onehot_freq+pos",
+    "task": "task2_missense",
+    "feat_dim": 68,
+    "lr_auc_mean": 0.6653,
+    "lr_auc_std": 0.0134,
+    "lr_auc_folds": [
+      0.6427,
+      0.681,
+      0.6737,
+      0.6587,
+      0.6702
+    ],
+    "mlp_auc_test": 0.6617
+  },
+  {
+    "method": "onehot_freq+rand_pos",
+    "task": "task2_missense",
+    "feat_dim": 68,
+    "lr_auc_mean": 0.6642,
+    "lr_auc_std": 0.0155,
+    "lr_auc_folds": [
+      0.6456,
+      0.6833,
+      0.6801,
+      0.6489,
+      0.6633
+    ],
+    "mlp_auc_test": 0.659
+  },
+  {
+    "method": "codonbert+pos",
+    "task": "task2_missense",
+    "feat_dim": 772,
+    "lr_auc_mean": 0.6611,
+    "lr_auc_std": 0.0143,
+    "lr_auc_folds": [
+      0.6674,
+      0.6762,
+      0.6733,
+      0.6394,
+      0.6494
+    ],
+    "mlp_auc_test": 0.6615
+  },
+  {
+    "method": "codonbert_hf+pos",
+    "task": "task2_missense",
+    "feat_dim": 772,
+    "lr_auc_mean": 0.6244,
+    "lr_auc_std": 0.0103,
+    "lr_auc_folds": [
+      0.6127,
+      0.6434,
+      0.6246,
+      0.6222,
+      0.6192
+    ],
+    "mlp_auc_test": 0.6343
+  },
+  {
+    "method": "encodon-80m+pos",
+    "task": "task2_missense",
+    "feat_dim": 1028,
+    "lr_auc_mean": 0.6337,
+    "lr_auc_std": 0.023,
+    "lr_auc_folds": [
+      0.6264,
+      0.6528,
+      0.628,
+      0.5977,
+      0.6637
+    ],
+    "mlp_auc_test": 0.6744
+  },
+  {
+    "method": "onehot_pos_shuffled",
+    "task": "task3_synonymous",
+    "feat_dim": 2112,
+    "lr_auc_mean": 0.5064,
+    "lr_auc_std": 0.0125,
+    "lr_auc_folds": [
+      0.4999,
+      0.4933,
+      0.5247,
+      0.4963,
+      0.518
+    ],
+    "mlp_auc_test": 0.5237
+  },
+  {
+    "method": "position_only",
+    "task": "task3_synonymous",
+    "feat_dim": 4,
+    "lr_auc_mean": 0.5309,
+    "lr_auc_std": 0.015,
+    "lr_auc_folds": [
+      0.5543,
+      0.5332,
+      0.5259,
+      0.5076,
+      0.5334
+    ],
+    "mlp_auc_test": 0.4922
+  },
+  {
+    "method": "onehot_freq+pos",
+    "task": "task3_synonymous",
+    "feat_dim": 68,
+    "lr_auc_mean": 0.5903,
+    "lr_auc_std": 0.0192,
+    "lr_auc_folds": [
+      0.622,
+      0.5845,
+      0.596,
+      0.5628,
+      0.5861
+    ],
+    "mlp_auc_test": 0.7552
+  },
+  {
+    "method": "onehot_freq+rand_pos",
+    "task": "task3_synonymous",
+    "feat_dim": 68,
+    "lr_auc_mean": 0.5868,
+    "lr_auc_std": 0.0155,
+    "lr_auc_folds": [
+      0.6147,
+      0.5697,
+      0.5861,
+      0.5879,
+      0.5755
+    ],
+    "mlp_auc_test": 0.5413
+  },
+  {
+    "method": "codonbert+pos",
+    "task": "task3_synonymous",
+    "feat_dim": 772,
+    "lr_auc_mean": 0.7333,
+    "lr_auc_std": 0.0066,
+    "lr_auc_folds": [
+      0.7434,
+      0.7357,
+      0.7314,
+      0.7332,
+      0.7229
+    ],
+    "mlp_auc_test": 0.8486
+  },
+  {
+    "method": "codonbert_hf+pos",
+    "task": "task3_synonymous",
+    "feat_dim": 772,
+    "lr_auc_mean": 0.6833,
+    "lr_auc_std": 0.0233,
+    "lr_auc_folds": [
+      0.6417,
+      0.7101,
+      0.6959,
+      0.6917,
+      0.6773
+    ],
+    "mlp_auc_test": 0.8425
+  },
+  {
+    "method": "encodon-80m+pos",
+    "task": "task3_synonymous",
+    "feat_dim": 1028,
+    "lr_auc_mean": 0.6858,
+    "lr_auc_std": 0.0294,
+    "lr_auc_folds": [
+      0.6824,
+      0.6774,
+      0.6613,
+      0.6655,
+      0.7425
+    ],
+    "mlp_auc_test": 0.8267
+  }
+]

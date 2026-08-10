@@ -1,0 +1,58 @@
+{
+  "task2_missense": {
+    "pairwise_cka": [
+      {
+        "model_1": "codonbert",
+        "model_2": "codonbert_hf",
+        "n_samples": 2000,
+        "linear_cka": 0.0065,
+        "rbf_cka": 0.0512,
+        "svca": 0.0245
+      },
+      {
+        "model_1": "codonbert",
+        "model_2": "encodon-80m",
+        "n_samples": 2000,
+        "linear_cka": 0.0066,
+        "rbf_cka": 0.2188,
+        "svca": 0.0244
+      },
+      {
+        "model_1": "codonbert_hf",
+        "model_2": "encodon-80m",
+        "n_samples": 2000,
+        "linear_cka": 0.0086,
+        "rbf_cka": 0.2338,
+        "svca": 0.0250
+      }
+    ]
+  },
+  "task3_synonymous": {
+    "pairwise_cka": [
+      {
+        "model_1": "codonbert",
+        "model_2": "codonbert_hf",
+        "n_samples": 2000,
+        "linear_cka": 0.0073,
+        "rbf_cka": 0.052,
+        "svca": 0.0246
+      },
+      {
+        "model_1": "codonbert",
+        "model_2": "encodon-80m",
+        "n_samples": 2000,
+        "linear_cka": 0.0086,
+        "rbf_cka": 0.2113,
+        "svca": 0.0238
+      },
+      {
+        "model_1": "codonbert_hf",
+        "model_2": "encodon-80m",
+        "n_samples": 2000,
+        "linear_cka": 0.0092,
+        "rbf_cka": 0.219,
+        "svca": 0.0257
+      }
+    ]
+  }
+}

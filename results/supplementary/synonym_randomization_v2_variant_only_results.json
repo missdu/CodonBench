@@ -1,0 +1,18 @@
+[
+  {
+    "model": "codonbert",
+    "task": "missense",
+    "mode": "variant_only",
+    "original_cv_lr": 0.6602,
+    "original_cv_lr_std": 0.0136,
+    "original_test_lr": 0.6617,
+    "original_test_mlp": 0.6772,
+    "randomized_cv_lr": 0.6515,
+    "randomized_cv_lr_std": 0.0121,
+    "randomized_test_lr": 0.6504,
+    "randomized_test_mlp": 0.6678,
+    "delta_lr": 0.0113,
+    "delta_mlp": 0.0094,
+    "n": 5000
+  }
+]

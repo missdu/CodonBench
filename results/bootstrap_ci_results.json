@@ -1,0 +1,178 @@
+[
+  {
+    "comparison": "encodon-620m vs ESM-2",
+    "task": "task3",
+    "delta_auc": 0.1053,
+    "ci_95_lo": 0.0796,
+    "ci_95_hi": 0.1333,
+    "significant": true
+  },
+  {
+    "comparison": "codonbert vs ESM-2",
+    "task": "task3",
+    "delta_auc": 0.0539,
+    "ci_95_lo": 0.0369,
+    "ci_95_hi": 0.072,
+    "significant": true
+  },
+  {
+    "comparison": "codontransformer vs ESM-2",
+    "task": "task3",
+    "delta_auc": 0.0333,
+    "ci_95_lo": 0.0142,
+    "ci_95_hi": 0.0533,
+    "significant": true
+  },
+  {
+    "comparison": "codonbert_hf vs ESM-2",
+    "task": "task3",
+    "delta_auc": 0.0251,
+    "ci_95_lo": 0.007,
+    "ci_95_hi": 0.0432,
+    "significant": true
+  },
+  {
+    "comparison": "encodon-80m vs ESM-2",
+    "task": "task3",
+    "delta_auc": 0.0059,
+    "ci_95_lo": -0.026,
+    "ci_95_hi": 0.045,
+    "significant": false
+  },
+  {
+    "comparison": "calm vs ESM-2",
+    "task": "task3",
+    "delta_auc": -0.0071,
+    "ci_95_lo": -0.02,
+    "ci_95_hi": 0.0057,
+    "significant": false
+  },
+  {
+    "comparison": "mistral-117m vs ESM-2",
+    "task": "task3",
+    "delta_auc": -0.0232,
+    "ci_95_lo": -0.0567,
+    "ci_95_hi": 0.0023,
+    "significant": false
+  },
+  {
+    "comparison": "cdsbert_plus vs ESM-2",
+    "task": "task3",
+    "delta_auc": -0.079,
+    "ci_95_lo": -0.0964,
+    "ci_95_hi": -0.0647,
+    "significant": false
+  },
+  {
+    "comparison": "cdsbert vs ESM-2",
+    "task": "task3",
+    "delta_auc": -0.0818,
+    "ci_95_lo": -0.105,
+    "ci_95_hi": -0.0584,
+    "significant": false
+  },
+  {
+    "comparison": "mistral-16m vs ESM-2",
+    "task": "task3",
+    "delta_auc": -0.0813,
+    "ci_95_lo": -0.1098,
+    "ci_95_hi": -0.0528,
+    "significant": false
+  },
+  {
+    "comparison": "mistral-1m vs ESM-2",
+    "task": "task3",
+    "delta_auc": -0.0883,
+    "ci_95_lo": -0.1112,
+    "ci_95_hi": -0.0653,
+    "significant": false
+  },
+  {
+    "comparison": "kmer6 vs ESM-2",
+    "task": "task3",
+    "delta_auc": 0.0203,
+    "ci_95_lo": 0.0012,
+    "ci_95_hi": 0.0403,
+    "significant": true
+  },
+  {
+    "comparison": "encodon-620m vs ESM-1b",
+    "task": "task3",
+    "delta_auc": 0.1849,
+    "ci_95_lo": 0.1699,
+    "ci_95_hi": 0.2,
+    "significant": true
+  },
+  {
+    "comparison": "codonbert vs ESM-1b",
+    "task": "task3",
+    "delta_auc": 0.1336,
+    "ci_95_lo": 0.1229,
+    "ci_95_hi": 0.1398,
+    "significant": true
+  },
+  {
+    "comparison": "codontransformer vs ESM-1b",
+    "task": "task3",
+    "delta_auc": 0.113,
+    "ci_95_lo": 0.1016,
+    "ci_95_hi": 0.1231,
+    "significant": true
+  },
+  {
+    "comparison": "codonbert_hf vs ESM-1b",
+    "task": "task3",
+    "delta_auc": 0.1048,
+    "ci_95_lo": 0.0906,
+    "ci_95_hi": 0.1149,
+    "significant": true
+  },
+  {
+    "comparison": "encodon-80m vs ESM-1b",
+    "task": "task3",
+    "delta_auc": 0.0856,
+    "ci_95_lo": 0.0557,
+    "ci_95_hi": 0.1255,
+    "significant": true
+  },
+  {
+    "comparison": "Codon-BERT vs Char-BERT",
+    "task": "task3",
+    "delta_auc": 0.1199,
+    "ci_95_lo": 0.1087,
+    "ci_95_hi": 0.1318,
+    "significant": true
+  },
+  {
+    "comparison": "esm2 vs codontransformer",
+    "task": "task2",
+    "delta_auc": 0.0247,
+    "ci_95_lo": 0.012,
+    "ci_95_hi": 0.0389,
+    "significant": true
+  },
+  {
+    "comparison": "esm2 vs calm",
+    "task": "task2",
+    "delta_auc": 0.0305,
+    "ci_95_lo": 0.022,
+    "ci_95_hi": 0.0383,
+    "significant": true
+  },
+  {
+    "comparison": "esm1b vs codontransformer",
+    "task": "task2",
+    "delta_auc": 0.0163,
+    "ci_95_lo": 0.011,
+    "ci_95_hi": 0.0224,
+    "significant": true
+  },
+  {
+    "comparison": "esm1b vs calm",
+    "task": "task2",
+    "delta_auc": 0.0221,
+    "ci_95_lo": 0.0054,
+    "ci_95_hi": 0.0387,
+    "significant": true
+  }
+]

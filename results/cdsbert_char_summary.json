@@ -1,0 +1,82 @@
+[
+  {
+    "model": "cdsBERT",
+    "task": "task2_missense",
+    "type": "cLM (char-level)",
+    "params_M": 110,
+    "emb_dim": 1024,
+    "n_samples": 5000,
+    "success": true,
+    "tokenizer_unk_ratio": 0.333,
+    "lr_auc_mean": 0.6288,
+    "lr_auc_std": 0.0286,
+    "lr_auc_folds": [
+      0.6139,
+      0.6844,
+      0.6109,
+      0.6072,
+      0.6274
+    ],
+    "mlp_auc_test": 0.609
+  },
+  {
+    "model": "cdsBERT",
+    "task": "task3_synonymous",
+    "type": "cLM (char-level)",
+    "params_M": 110,
+    "emb_dim": 1024,
+    "n_samples": 2840,
+    "success": true,
+    "tokenizer_unk_ratio": 0.333,
+    "lr_auc_mean": 0.5979,
+    "lr_auc_std": 0.0208,
+    "lr_auc_folds": [
+      0.634,
+      0.5893,
+      0.588,
+      0.5729,
+      0.6052
+    ],
+    "mlp_auc_test": 0.5819
+  },
+  {
+    "model": "cdsBERT-plus",
+    "task": "task2_missense",
+    "type": "cLM (char-level)",
+    "params_M": 110,
+    "emb_dim": 1024,
+    "n_samples": 5000,
+    "success": true,
+    "tokenizer_unk_ratio": 0.333,
+    "lr_auc_mean": 0.6226,
+    "lr_auc_std": 0.0216,
+    "lr_auc_folds": [
+      0.6245,
+      0.6624,
+      0.6183,
+      0.6071,
+      0.6007
+    ],
+    "mlp_auc_test": 0.6174
+  },
+  {
+    "model": "cdsBERT-plus",
+    "task": "task3_synonymous",
+    "type": "cLM (char-level)",
+    "params_M": 110,
+    "emb_dim": 1024,
+    "n_samples": 2840,
+    "success": true,
+    "tokenizer_unk_ratio": 0.333,
+    "lr_auc_mean": 0.6007,
+    "lr_auc_std": 0.0162,
+    "lr_auc_folds": [
+      0.6185,
+      0.6146,
+      0.5919,
+      0.5741,
+      0.6043
+    ],
+    "mlp_auc_test": 0.5714
+  }
+]

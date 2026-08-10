@@ -1,0 +1,36 @@
+{
+  "model": "onehot_pos",
+  "task": "task2_missense",
+  "success": true,
+  "model_type": "Traditional",
+  "n_samples": 5000,
+  "n_train": 4000,
+  "n_test": 1000,
+  "feat_dim": 2112,
+  "probing_results": {
+    "LR": {
+      "test_auc": 0.7587,
+      "cv_auc_mean": 0.7554,
+      "cv_auc_std": 0.0107,
+      "train_time_s": 1.34
+    },
+    "KNN-5": {
+      "test_auc": 0.5155,
+      "cv_auc_mean": 0.5136,
+      "cv_auc_std": 0.0089,
+      "train_time_s": 0.35
+    },
+    "KNN-21": {
+      "test_auc": 0.5414,
+      "cv_auc_mean": 0.532,
+      "cv_auc_std": 0.0297,
+      "train_time_s": 0.15
+    },
+    "MLP": {
+      "test_auc": 0.7658,
+      "cv_auc_mean": 0.7615,
+      "cv_auc_std": 0.0129,
+      "train_time_s": 13.25
+    }
+  }
+}

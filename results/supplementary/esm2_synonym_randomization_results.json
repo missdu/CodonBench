@@ -1,0 +1,32 @@
+[
+  {
+    "model": "ESM-2-650M",
+    "task": "missense",
+    "original_cv_lr": 0.719,
+    "original_cv_lr_std": 0.0163,
+    "original_test_lr": 0.6946,
+    "original_test_mlp": 0.682,
+    "randomized_cv_lr": 0.719,
+    "randomized_cv_lr_std": 0.0163,
+    "randomized_test_lr": 0.6946,
+    "randomized_test_mlp": 0.682,
+    "delta_lr": 0.0,
+    "delta_mlp": 0.0,
+    "n": 5000
+  },
+  {
+    "model": "ESM-2-650M",
+    "task": "synonymous",
+    "original_cv_lr": 0.6799,
+    "original_cv_lr_std": 0.0229,
+    "original_test_lr": 0.6494,
+    "original_test_mlp": 0.6593,
+    "randomized_cv_lr": 0.6799,
+    "randomized_cv_lr_std": 0.0229,
+    "randomized_test_lr": 0.6494,
+    "randomized_test_mlp": 0.6593,
+    "delta_lr": 0.0,
+    "delta_mlp": 0.0,
+    "n": 2840
+  }
+]

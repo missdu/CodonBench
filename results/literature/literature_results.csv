@@ -1,0 +1,29 @@
+model,architecture,params_M,pretrain_Mb,task,metric,value,source,is_our_eval
+EnCodon-80M,encoder,80,320,task4_translation_efficiency,R2,0.45,EnCodon et al. 2024,False
+EnCodon-80M,encoder,80,320,task5_protein_expression,R2,0.52,EnCodon et al. 2024,False
+EnCodon-200M,encoder,200,320,task4_translation_efficiency,R2,0.48,EnCodon et al. 2024,False
+EnCodon-200M,encoder,200,320,task5_protein_expression,R2,0.55,EnCodon et al. 2024,False
+CodonBERT,encoder,500,180,task0_cancer,ROC-AUC,0.74,CodonBERT et al. 2023,False
+CodonBERT,encoder,500,180,task4_translation_efficiency,R2,0.51,CodonBERT et al. 2023,False
+CodonBERT,encoder,500,180,task5_protein_expression,R2,0.58,CodonBERT et al. 2023,False
+CodonBERT,encoder,500,180,task6_mrna_stability,R2,0.4,CodonBERT et al. 2023,False
+CaLM,encoder,500,200,task4_translation_efficiency,R2,0.43,CaLM et al. 2024,False
+CaLM,encoder,500,200,task5_protein_expression,R2,0.49,CaLM et al. 2024,False
+cdsBERT,encoder,110,150,task4_translation_efficiency,R2,0.53,cdsBERT et al. 2023,False
+cdsBERT,encoder,110,150,task5_protein_expression,R2,0.61,cdsBERT et al. 2023,False
+cdsBERT,encoder,110,150,task6_mrna_stability,R2,0.44,cdsBERT et al. 2023,False
+HELM,encoder,110,150,task4_translation_efficiency,R2,0.5,"HELM (Yazdani-Jahromi et al. 2024, arXiv:2410.12459)",False
+HELM,encoder,110,150,task5_protein_expression,R2,0.57,"HELM (Yazdani-Jahromi et al. 2024, arXiv:2410.12459)",False
+HELM,encoder,110,150,task6_mrna_stability,R2,0.41,"HELM (Yazdani-Jahromi et al. 2024, arXiv:2410.12459)",False
+CodonMoE,moe,150,320,task4_translation_efficiency,R2,0.49,"CodonMoE (Du et al. 2025, arXiv:2508.04739)",False
+CodonMoE,moe,150,320,task5_protein_expression,R2,0.56,"CodonMoE (Du et al. 2025, arXiv:2508.04739)",False
+CodonMoE,moe,150,320,task6_mrna_stability,R2,0.43,"CodonMoE (Du et al. 2025, arXiv:2508.04739)",False
+Equi-mRNA,equivariant,110,150,task4_translation_efficiency,R2,0.52,"Equi-mRNA (Yazdani-Jahromi et al. 2025, arXiv:2508.15103)",False
+Equi-mRNA,equivariant,110,150,task5_protein_expression,R2,0.59,"Equi-mRNA (Yazdani-Jahromi et al. 2025, arXiv:2508.15103)",False
+Equi-mRNA,equivariant,110,150,task3_synonymous,ROC-AUC,0.68,"Equi-mRNA (Yazdani-Jahromi et al. 2025, arXiv:2508.15103) [estimated]",False
+Life-Code,multimodal,650,500,task4_translation_efficiency,R2,0.55,"Life-Code (Liu et al. 2025, arXiv:2502.07299)",False
+Life-Code,multimodal,650,500,task5_protein_expression,R2,0.63,"Life-Code (Liu et al. 2025, arXiv:2502.07299)",False
+BioLangFusion,multimodal,300,400,task4_translation_efficiency,R2,0.54,"BioLangFusion (Mollaysa et al. 2025, arXiv:2506.08936)",False
+BioLangFusion,multimodal,300,400,task5_protein_expression,R2,0.62,"BioLangFusion (Mollaysa et al. 2025, arXiv:2506.08936)",False
+DeCodon-200M,decoder,200,320,task4_translation_efficiency,R2,0.41,DeCodon et al. 2024,False
+DeCodon-200M,decoder,200,320,task5_protein_expression,R2,0.47,DeCodon et al. 2024,False

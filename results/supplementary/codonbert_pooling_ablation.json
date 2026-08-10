@@ -1,0 +1,62 @@
+[
+  {
+    "pooling": "cls",
+    "cv_lr_mean": 0.6319,
+    "cv_lr_std": 0.0106,
+    "test_lr": 0.659,
+    "test_mlp": 0.6645,
+    "lr_to_mlp_gain": 0.0055,
+    "model": "CodonBERT",
+    "task": "task2_missense"
+  },
+  {
+    "pooling": "mean",
+    "cv_lr_mean": 0.6612,
+    "cv_lr_std": 0.0185,
+    "test_lr": 0.6573,
+    "test_mlp": 0.6597,
+    "lr_to_mlp_gain": 0.0024,
+    "model": "CodonBERT",
+    "task": "task2_missense"
+  },
+  {
+    "pooling": "variant_pos",
+    "cv_lr_mean": 0.7933,
+    "cv_lr_std": 0.0112,
+    "test_lr": 0.7707,
+    "test_mlp": 0.814,
+    "lr_to_mlp_gain": 0.0433,
+    "model": "CodonBERT",
+    "task": "task2_missense"
+  },
+  {
+    "pooling": "cls",
+    "cv_lr_mean": 0.6765,
+    "cv_lr_std": 0.0207,
+    "test_lr": 0.6744,
+    "test_mlp": 0.8135,
+    "lr_to_mlp_gain": 0.1391,
+    "model": "CodonBERT",
+    "task": "task3_synonymous"
+  },
+  {
+    "pooling": "mean",
+    "cv_lr_mean": 0.6925,
+    "cv_lr_std": 0.0276,
+    "test_lr": 0.6749,
+    "test_mlp": 0.6231,
+    "lr_to_mlp_gain": -0.0518,
+    "model": "CodonBERT",
+    "task": "task3_synonymous"
+  },
+  {
+    "pooling": "variant_pos",
+    "cv_lr_mean": 0.844,
+    "cv_lr_std": 0.0134,
+    "test_lr": 0.8301,
+    "test_mlp": 0.912,
+    "lr_to_mlp_gain": 0.0818,
+    "model": "CodonBERT",
+    "task": "task3_synonymous"
+  }
+]

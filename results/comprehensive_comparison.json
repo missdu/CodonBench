@@ -1,0 +1,354 @@
+[
+  {
+    "model": "encodon-80m",
+    "task": "task2_missense",
+    "type": "cLM",
+    "auc_mean": 0.6329,
+    "auc_std": 0.0233,
+    "auc_folds": [
+      0.6255,
+      0.6519,
+      0.6294,
+      0.5952,
+      0.6624
+    ],
+    "n_samples": 5000,
+    "params_M": 80
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task3_synonymous",
+    "type": "cLM",
+    "auc_mean": 0.6856,
+    "auc_std": 0.03,
+    "auc_folds": [
+      0.6811,
+      0.6807,
+      0.6607,
+      0.6623,
+      0.7431
+    ],
+    "n_samples": 2840,
+    "params_M": 80
+  },
+  {
+    "model": "codonbert",
+    "task": "task2_missense",
+    "type": "cLM",
+    "auc_mean": 0.6602,
+    "auc_std": 0.0136,
+    "auc_folds": [
+      0.6665,
+      0.6742,
+      0.6722,
+      0.6401,
+      0.6482
+    ],
+    "n_samples": 5000,
+    "params_M": 110
+  },
+  {
+    "model": "codonbert",
+    "task": "task3_synonymous",
+    "type": "cLM",
+    "auc_mean": 0.7336,
+    "auc_std": 0.0069,
+    "auc_folds": [
+      0.7434,
+      0.7363,
+      0.7334,
+      0.7329,
+      0.7221
+    ],
+    "n_samples": 2840,
+    "params_M": 110
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task2_missense",
+    "type": "cLM",
+    "auc_mean": 0.6594,
+    "auc_std": 0.0135,
+    "auc_folds": [
+      0.6454,
+      0.6818,
+      0.6646,
+      0.6458,
+      0.6594
+    ],
+    "n_samples": 5000,
+    "params_M": 87
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task3_synonymous",
+    "type": "cLM",
+    "auc_mean": 0.7047,
+    "auc_std": 0.0128,
+    "auc_folds": [
+      0.6894,
+      0.7193,
+      0.703,
+      0.6922,
+      0.7194
+    ],
+    "n_samples": 2840,
+    "params_M": 87
+  },
+  {
+    "model": "nt-50m",
+    "task": "task2_missense",
+    "type": "DNA LM",
+    "auc_mean": 0.5734,
+    "auc_std": 0.0184,
+    "auc_folds": [
+      0.5757,
+      0.6068,
+      0.5674,
+      0.5514,
+      0.5659
+    ],
+    "n_samples": 5000,
+    "params_M": 50
+  },
+  {
+    "model": "nt-50m",
+    "task": "task3_synonymous",
+    "type": "DNA LM",
+    "auc_mean": 0.6425,
+    "auc_std": 0.0192,
+    "auc_folds": [
+      0.6563,
+      0.6571,
+      0.6067,
+      0.6542,
+      0.6383
+    ],
+    "n_samples": 2840,
+    "params_M": 50
+  },
+  {
+    "model": "nt-500m",
+    "task": "task2_missense",
+    "type": "DNA LM",
+    "auc_mean": 0.5695,
+    "auc_std": 0.0209,
+    "auc_folds": [
+      0.5349,
+      0.6001,
+      0.5655,
+      0.5738,
+      0.573
+    ],
+    "n_samples": 5000,
+    "params_M": 500
+  },
+  {
+    "model": "nt-500m",
+    "task": "task3_synonymous",
+    "type": "DNA LM",
+    "auc_mean": 0.6991,
+    "auc_std": 0.0084,
+    "auc_folds": [
+      0.6966,
+      0.7152,
+      0.6913,
+      0.6983,
+      0.6942
+    ],
+    "n_samples": 2840,
+    "params_M": 500
+  },
+  {
+    "model": "onehot_freq",
+    "task": "task2_missense",
+    "type": "Traditional",
+    "auc_mean": 0.6669,
+    "auc_std": 0.0139,
+    "auc_folds": [
+      0.6464,
+      0.683,
+      0.6815,
+      0.6591,
+      0.6643
+    ],
+    "n_samples": 5000,
+    "params_M": 0
+  },
+  {
+    "model": "onehot_freq",
+    "task": "task3_synonymous",
+    "type": "Traditional",
+    "auc_mean": 0.589,
+    "auc_std": 0.0098,
+    "auc_folds": [
+      0.6051,
+      0.5862,
+      0.5938,
+      0.5838,
+      0.5761
+    ],
+    "n_samples": 2840,
+    "params_M": 0
+  },
+  {
+    "model": "onehot_pos",
+    "task": "task2_missense",
+    "type": "Traditional",
+    "auc_mean": 0.7554,
+    "auc_std": 0.0107,
+    "auc_folds": [
+      0.7352,
+      0.7602,
+      0.7666,
+      0.7599,
+      0.7551
+    ],
+    "n_samples": 5000,
+    "params_M": 0
+  },
+  {
+    "model": "onehot_pos",
+    "task": "task3_synonymous",
+    "type": "Traditional",
+    "auc_mean": 0.891,
+    "auc_std": 0.0208,
+    "auc_folds": [
+      0.9094,
+      0.907,
+      0.8575,
+      0.8754,
+      0.9054
+    ],
+    "n_samples": 2840,
+    "params_M": 0
+  },
+  {
+    "model": "kmer3",
+    "task": "task2_missense",
+    "type": "Traditional",
+    "auc_mean": 0.6214,
+    "auc_std": 0.0203,
+    "auc_folds": [
+      0.6258,
+      0.6567,
+      0.6021,
+      0.6218,
+      0.6007
+    ],
+    "n_samples": 5000,
+    "params_M": 0
+  },
+  {
+    "model": "kmer3",
+    "task": "task3_synonymous",
+    "type": "Traditional",
+    "auc_mean": 0.5617,
+    "auc_std": 0.0212,
+    "auc_folds": [
+      0.5777,
+      0.5672,
+      0.5219,
+      0.5604,
+      0.5813
+    ],
+    "n_samples": 2840,
+    "params_M": 0
+  },
+  {
+    "model": "kmer4",
+    "task": "task2_missense",
+    "type": "Traditional",
+    "auc_mean": 0.6271,
+    "auc_std": 0.0189,
+    "auc_folds": [
+      0.6203,
+      0.6643,
+      0.6154,
+      0.6134,
+      0.6218
+    ],
+    "n_samples": 5000,
+    "params_M": 0
+  },
+  {
+    "model": "kmer4",
+    "task": "task3_synonymous",
+    "type": "Traditional",
+    "auc_mean": 0.5804,
+    "auc_std": 0.0241,
+    "auc_folds": [
+      0.5767,
+      0.5843,
+      0.5421,
+      0.581,
+      0.6178
+    ],
+    "n_samples": 2840,
+    "params_M": 0
+  },
+  {
+    "model": "kmer6",
+    "task": "task2_missense",
+    "type": "Traditional",
+    "auc_mean": 0.6508,
+    "auc_std": 0.0245,
+    "auc_folds": [
+      0.6412,
+      0.697,
+      0.6411,
+      0.6247,
+      0.6502
+    ],
+    "n_samples": 5000,
+    "params_M": 0
+  },
+  {
+    "model": "kmer6",
+    "task": "task3_synonymous",
+    "type": "Traditional",
+    "auc_mean": 0.6999,
+    "auc_std": 0.029,
+    "auc_folds": [
+      0.7192,
+      0.6975,
+      0.6773,
+      0.6623,
+      0.7434
+    ],
+    "n_samples": 2840,
+    "params_M": 0
+  },
+  {
+    "model": "combined",
+    "task": "task2_missense",
+    "type": "Traditional",
+    "auc_mean": 0.6662,
+    "auc_std": 0.0169,
+    "auc_folds": [
+      0.6421,
+      0.6906,
+      0.6789,
+      0.662,
+      0.6575
+    ],
+    "n_samples": 5000,
+    "params_M": 0
+  },
+  {
+    "model": "combined",
+    "task": "task3_synonymous",
+    "type": "Traditional",
+    "auc_mean": 0.5936,
+    "auc_std": 0.0134,
+    "auc_folds": [
+      0.6153,
+      0.6015,
+      0.5773,
+      0.5855,
+      0.5884
+    ],
+    "n_samples": 2840,
+    "params_M": 0
+  }
+]

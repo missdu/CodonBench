@@ -1,0 +1,43 @@
+{
+  "model": "codonbert",
+  "task": "task2_missense",
+  "success": true,
+  "n_samples": 5000,
+  "probing_results": {
+    "LR": {
+      "auc_mean": 0.6602,
+      "auc_std": 0.0136,
+      "time_s": 108.8
+    },
+    "LR-C0.01": {
+      "auc_mean": 0.6751,
+      "auc_std": 0.0166,
+      "time_s": 23.3
+    },
+    "LR-C100": {
+      "auc_mean": 0.6502,
+      "auc_std": 0.0148,
+      "time_s": 152.7
+    },
+    "KNN-5": {
+      "auc_mean": 0.6058,
+      "auc_std": 0.0105,
+      "time_s": 0.5
+    },
+    "KNN-21": {
+      "auc_mean": 0.6055,
+      "auc_std": 0.012,
+      "time_s": 0.3
+    },
+    "SVM-RBF": {
+      "auc_mean": 0.6683,
+      "auc_std": 0.0157,
+      "time_s": 170.3
+    },
+    "MLP": {
+      "auc_mean": 0.6551,
+      "auc_std": 0.0136,
+      "time_s": 40.2
+    }
+  }
+}

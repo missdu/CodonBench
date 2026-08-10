@@ -1,0 +1,158 @@
+[
+  {
+    "model": "encodon-80m",
+    "task": "task4_translation_efficiency",
+    "architecture": "encoder",
+    "params_M": 80,
+    "success": true,
+    "n_samples": 2000,
+    "n_folds": 5,
+    "embedding_dim": 1024,
+    "embed_time_s": 4.9,
+    "load_meta": {
+      "model_name": "encodon-80m",
+      "model_path": "goodarzilab/encodon-80M",
+      "architecture": "encoder",
+      "params_M": 80,
+      "quantized": false,
+      "device": "cuda:2",
+      "load_time_s": 6.66,
+      "vram_mb": 305.1,
+      "success": true,
+      "error": null
+    },
+    "R2": -0.2113,
+    "pearson_r": 0.0121,
+    "spearman_r": -0.016,
+    "R2_std": 0.1306,
+    "pearson_r_std": 0.0672,
+    "spearman_r_std": 0.0583,
+    "fold_details": {
+      "R2": [
+        -0.4378,
+        -0.2318,
+        -0.2023,
+        -0.0418,
+        -0.1428
+      ],
+      "pearson_r": [
+        -0.0489,
+        -0.0051,
+        -0.046,
+        0.1347,
+        0.0258
+      ],
+      "spearman_r": [
+        -0.0812,
+        0.027,
+        -0.0462,
+        0.0758,
+        -0.0556
+      ]
+    }
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task5_protein_expression",
+    "architecture": "encoder",
+    "params_M": 80,
+    "success": true,
+    "n_samples": 1500,
+    "n_folds": 5,
+    "embedding_dim": 1024,
+    "embed_time_s": 3.2,
+    "load_meta": {
+      "model_name": "encodon-80m",
+      "model_path": "goodarzilab/encodon-80M",
+      "architecture": "encoder",
+      "params_M": 80,
+      "quantized": false,
+      "device": "cuda:2",
+      "load_time_s": 5.8,
+      "vram_mb": 313.3,
+      "success": true,
+      "error": null
+    },
+    "R2": -0.3624,
+    "pearson_r": -0.0219,
+    "spearman_r": 0.0093,
+    "R2_std": 0.2153,
+    "pearson_r_std": 0.036,
+    "spearman_r_std": 0.0461,
+    "fold_details": {
+      "R2": [
+        -0.466,
+        -0.1664,
+        -0.7394,
+        -0.2219,
+        -0.2183
+      ],
+      "pearson_r": [
+        -0.0149,
+        0.0303,
+        -0.0753,
+        -0.0453,
+        -0.0041
+      ],
+      "spearman_r": [
+        0.0664,
+        0.0556,
+        -0.0576,
+        -0.0037,
+        -0.0141
+      ]
+    }
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task6_mrna_stability",
+    "architecture": "encoder",
+    "params_M": 80,
+    "success": true,
+    "n_samples": 5000,
+    "n_folds": 5,
+    "embedding_dim": 1024,
+    "embed_time_s": 12.6,
+    "load_meta": {
+      "model_name": "encodon-80m",
+      "model_path": "goodarzilab/encodon-80M",
+      "architecture": "encoder",
+      "params_M": 80,
+      "quantized": false,
+      "device": "cuda:2",
+      "load_time_s": 3.43,
+      "vram_mb": 313.3,
+      "success": true,
+      "error": null
+    },
+    "R2": -0.1533,
+    "pearson_r": 0.0494,
+    "spearman_r": 0.0225,
+    "R2_std": 0.029,
+    "pearson_r_std": 0.039,
+    "spearman_r_std": 0.0205,
+    "fold_details": {
+      "R2": [
+        -0.1029,
+        -0.1836,
+        -0.1802,
+        -0.1523,
+        -0.1476
+      ],
+      "pearson_r": [
+        0.0867,
+        0.0522,
+        0.0363,
+        0.0892,
+        -0.0173
+      ],
+      "spearman_r": [
+        0.0301,
+        -0.0119,
+        0.0511,
+        0.0173,
+        0.026
+      ]
+    }
+  }
+]

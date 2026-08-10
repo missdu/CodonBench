@@ -1,0 +1,167 @@
+models:
+  encodon-80m:
+    hf_id: "goodarzilab/encodon-80M"
+    local_path: null
+    architecture: "encoder"
+    params_M: 80
+    pretrain_Mb: 320
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: false
+    priority: 1
+
+  encodon-600m:
+    hf_id: "nvidia/NV-CodonFM-Encodon-600M-v1"
+    local_path: null
+    architecture: "encoder"
+    params_M: 600
+    pretrain_Mb: 320
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: false
+    priority: 2
+
+  decodon-200m:
+    hf_id: "nvidia/decodon-200m"
+    local_path: null
+    architecture: "decoder"
+    params_M: 200
+    pretrain_Mb: 320
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: false
+    priority: 2
+
+  encodon-1b:
+    hf_id: "nvidia/encodon-1b"
+    local_path: null
+    architecture: "encoder"
+    params_M: 1000
+    pretrain_Mb: 320
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: true
+    priority: 3
+
+  decodon-1b:
+    hf_id: "nvidia/decodon-1b"
+    local_path: null
+    architecture: "decoder"
+    params_M: 1000
+    pretrain_Mb: 320
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: true
+    priority: 3
+
+  calm:
+    hf_id: null
+    local_path: "./cLMs/CaLM/"
+    architecture: "encoder"
+    params_M: 500
+    pretrain_Mb: 200
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: false
+    priority: 1
+
+  codonbert:
+    hf_id: null
+    local_path: "./cLMs/CodonBERT/codonbert/"
+    architecture: "encoder"
+    params_M: 110
+    pretrain_Mb: 180
+    tokenizer_type: "codon"
+    trust_remote_code: false
+    quantize_4bit: false
+    priority: 1
+
+  cdsbert:
+    hf_id: "GleghornLab/cdsBERT"
+    local_path: null
+    architecture: "encoder"
+    params_M: 110
+    pretrain_Mb: 150
+    tokenizer_type: "codon"
+    trust_remote_code: false
+    quantize_4bit: false
+    priority: 2
+
+  codonbert_hf:
+    hf_id: "lhallee/CodonBERT"
+    local_path: null
+    architecture: "encoder"
+    params_M: 87
+    pretrain_Mb: 180
+    tokenizer_type: "codon"
+    trust_remote_code: false
+    quantize_4bit: false
+    priority: 2
+
+  cdsbert_plus:
+    hf_id: "GleghornLab/cdsBERT-plus"
+    local_path: null
+    architecture: "encoder"
+    params_M: 110
+    pretrain_Mb: 150
+    tokenizer_type: "codon"
+    trust_remote_code: false
+    quantize_4bit: false
+    priority: 3
+
+  syncodonlm:
+    hf_id: null
+    local_path: "./cLMs/SynCodonLM/"
+    architecture: "decoder"
+    params_M: 200
+    pretrain_Mb: 100
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: false
+    priority: 3
+
+  codonmoe:
+    hf_id: "shiyidu/CodonMoE"
+    local_path: null
+    architecture: "moe"
+    params_M: 150
+    pretrain_Mb: 320
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: false
+    priority: 3
+
+  equi_mrna:
+    hf_id: "mehdi-yazdani-jahromi/equi-mrna"
+    local_path: null
+    architecture: "equivariant"
+    params_M: 110
+    pretrain_Mb: 150
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: false
+    priority: 3
+
+  mistral-codon-16m:
+    hf_id: "RaphaelMourad/Mistral-Codon-v1-16M"
+    local_path: null
+    architecture: "encoder"
+    params_M: 16
+    pretrain_Mb: 50
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: false
+    is_mixtral: true
+    priority: 2
+
+  mistral-codon-1m:
+    hf_id: "RaphaelMourad/Mistral-Codon-v1-1M"
+    local_path: null
+    architecture: "encoder"
+    params_M: 1
+    pretrain_Mb: 50
+    tokenizer_type: "codon"
+    trust_remote_code: true
+    quantize_4bit: false
+    is_mixtral: true
+    priority: 3

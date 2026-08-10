@@ -1,0 +1,30 @@
+{
+  "task2_missense": {
+    "lr_auc_mean": 0.6799844,
+    "lr_auc_std": 0.014388667118256633,
+    "lr_auc_folds": [
+      0.668012,
+      0.703722,
+      0.689644,
+      0.667608,
+      0.670936
+    ],
+    "mlp_auc_test": 0.6814,
+    "tokenizer_type": "codon",
+    "model_type": "from_scratch_bert"
+  },
+  "task3_synonymous": {
+    "lr_auc_mean": 0.7063925808371355,
+    "lr_auc_std": 0.012362762402265528,
+    "lr_auc_folds": [
+      0.6924097401309264,
+      0.7271870660583218,
+      0.7084655822257487,
+      0.6951497718706605,
+      0.7087507439000198
+    ],
+    "mlp_auc_test": 0.8314570521721881,
+    "tokenizer_type": "codon",
+    "model_type": "from_scratch_bert"
+  }
+}

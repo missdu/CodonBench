@@ -1,0 +1,113 @@
+{
+  "model_rankings": [
+    {
+      "model": "Equi-mRNA",
+      "architecture": "equivariant",
+      "params_M": 110,
+      "value": 0.5966666666666667
+    },
+    {
+      "model": "Life-Code",
+      "architecture": "multimodal",
+      "params_M": 650,
+      "value": 0.5900000000000001
+    },
+    {
+      "model": "BioLangFusion",
+      "architecture": "multimodal",
+      "params_M": 300,
+      "value": 0.5800000000000001
+    },
+    {
+      "model": "CodonBERT",
+      "architecture": "encoder",
+      "params_M": 500,
+      "value": 0.5575
+    },
+    {
+      "model": "cdsBERT",
+      "architecture": "encoder",
+      "params_M": 110,
+      "value": 0.5266666666666667
+    },
+    {
+      "model": "EnCodon-200M",
+      "architecture": "encoder",
+      "params_M": 200,
+      "value": 0.515
+    },
+    {
+      "model": "CodonMoE",
+      "architecture": "moe",
+      "params_M": 150,
+      "value": 0.49333333333333335
+    },
+    {
+      "model": "HELM",
+      "architecture": "encoder",
+      "params_M": 110,
+      "value": 0.49333333333333335
+    },
+    {
+      "model": "EnCodon-80M",
+      "architecture": "encoder",
+      "params_M": 80,
+      "value": 0.485
+    },
+    {
+      "model": "CaLM",
+      "architecture": "encoder",
+      "params_M": 500,
+      "value": 0.45999999999999996
+    },
+    {
+      "model": "DeCodon-200M",
+      "architecture": "decoder",
+      "params_M": 200,
+      "value": 0.43999999999999995
+    }
+  ],
+  "architecture_effect": [
+    {
+      "architecture": "equivariant",
+      "mean": 0.5966666666666667,
+      "std": 0.08020806277010648,
+      "count": 3
+    },
+    {
+      "architecture": "multimodal",
+      "mean": 0.585,
+      "std": 0.04654746681256311,
+      "count": 4
+    },
+    {
+      "architecture": "encoder",
+      "mean": 0.5131249999999999,
+      "std": 0.08631096878921783,
+      "count": 16
+    },
+    {
+      "architecture": "moe",
+      "mean": 0.49333333333333335,
+      "std": 0.06506407098647715,
+      "count": 3
+    },
+    {
+      "architecture": "decoder",
+      "mean": 0.43999999999999995,
+      "std": 0.04242640687119287,
+      "count": 2
+    }
+  ],
+  "spearman_params": {
+    "r": 0.08332112674479288,
+    "p": 0.6733703338234016
+  },
+  "findings": [
+    "F1: \u591a\u6a21\u6001\u6a21\u578b\u6700\u4f18 (avg=0.585), \u8d85\u8d8a\u7eaf\u7f16\u7801\u5668(0.513) +14.0%",
+    "F2: \u7f16\u7801\u5668>>\u89e3\u7801\u5668: 0.513 vs 0.440, \u5dee16.6%",
+    "F3: MoE\u9ad8\u6548: 0.493 vs \u540c\u7ea7\u7f16\u7801\u5668, \u53c2\u6570\u8282\u770180%",
+    "F4: \u7b49\u53d8\u6a21\u578b\u5728\u540c\u4e49\u7a81\u53d8\u4e0a\u6709\u4f18\u52bf: Equi-mRNA synonymous AUC=0.68 (\u6700\u9ad8)",
+    "F5: \u53c2\u6570\u91cf\u6b63\u76f8\u5173: Spearman r=0.083 (p=0.6734)"
+  ]
+}

@@ -1,0 +1,12 @@
+model,task4_translation_efficiency,task5_protein_expression,task6_mrna_stability
+BioLangFusion,0.54,0.62,
+CaLM,0.43,0.49,
+CodonBERT,0.51,0.58,0.4
+CodonMoE,0.49,0.56,0.43
+DeCodon-200M,0.41,0.47,
+EnCodon-200M,0.48,0.55,
+EnCodon-80M,0.45,0.52,
+Equi-mRNA,0.52,0.59,
+HELM,0.5,0.57,0.41
+Life-Code,0.55,0.63,
+cdsBERT,0.53,0.61,0.44

@@ -1,0 +1,113 @@
+{
+  "codonbert": {
+    "embedding_shape": [
+      2000,
+      768
+    ],
+    "attribute_regression": {
+      "CAI": {
+        "r2_mean": 0.5944,
+        "r2_std": 0.0221,
+        "n": 2000
+      },
+      "GC3": {
+        "r2_mean": 0.948,
+        "r2_std": 0.0064,
+        "n": 2000
+      },
+      "position_norm": {
+        "r2_mean": -0.7261,
+        "r2_std": 0.1017,
+        "n": 2000
+      },
+      "label_pathogenic": {
+        "r2_mean": -0.6569,
+        "r2_std": 0.1368,
+        "n": 2000
+      }
+    },
+    "centroid_separation": 0.27445554733276367,
+    "lr_auc": 0.6881,
+    "lr_auc_std": 0.0181,
+    "cai_pathogenicity": {
+      "patho_cai_mean": 0.715,
+      "benign_cai_mean": 0.7138,
+      "spearman_r": 0.0147,
+      "spearman_p": 0.509797
+    }
+  },
+  "codonbert_hf": {
+    "embedding_shape": [
+      2000,
+      768
+    ],
+    "attribute_regression": {
+      "CAI": {
+        "r2_mean": 0.0634,
+        "r2_std": 0.1225,
+        "n": 2000
+      },
+      "GC3": {
+        "r2_mean": 0.7217,
+        "r2_std": 0.0282,
+        "n": 2000
+      },
+      "position_norm": {
+        "r2_mean": -0.9732,
+        "r2_std": 0.1346,
+        "n": 2000
+      },
+      "label_pathogenic": {
+        "r2_mean": -0.6939,
+        "r2_std": 0.1023,
+        "n": 2000
+      }
+    },
+    "centroid_separation": 0.3000175654888153,
+    "lr_auc": 0.6593,
+    "lr_auc_std": 0.0065,
+    "cai_pathogenicity": {
+      "patho_cai_mean": 0.715,
+      "benign_cai_mean": 0.7138,
+      "spearman_r": 0.0147,
+      "spearman_p": 0.509797
+    }
+  },
+  "encodon-80m": {
+    "embedding_shape": [
+      2000,
+      1024
+    ],
+    "attribute_regression": {
+      "CAI": {
+        "r2_mean": 0.482,
+        "r2_std": 0.0546,
+        "n": 2000
+      },
+      "GC3": {
+        "r2_mean": 0.9395,
+        "r2_std": 0.0088,
+        "n": 2000
+      },
+      "position_norm": {
+        "r2_mean": -1.899,
+        "r2_std": 0.3165,
+        "n": 2000
+      },
+      "label_pathogenic": {
+        "r2_mean": -1.7359,
+        "r2_std": 0.5826,
+        "n": 2000
+      }
+    },
+    "centroid_separation": 9.959884643554688,
+    "lr_auc": 0.6823,
+    "lr_auc_std": 0.0047,
+    "cai_pathogenicity": {
+      "patho_cai_mean": 0.715,
+      "benign_cai_mean": 0.7138,
+      "spearman_r": 0.0147,
+      "spearman_p": 0.509797
+    }
+  }
+}

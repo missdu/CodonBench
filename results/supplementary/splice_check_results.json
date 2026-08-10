@@ -1,0 +1,22 @@
+{
+  "total_variants": 2840,
+  "n_pathogenic": 1420,
+  "n_benign": 1420,
+  "n_genes": 497,
+  "near_cds_boundary": {
+    "count": 6,
+    "total": 2840,
+    "pct": 0.2
+  },
+  "splice_region_3nt": {
+    "count": 4,
+    "total": 2840,
+    "pct": 0.1
+  },
+  "variants_per_gene": {
+    "mean": 5.7,
+    "median": 4.0,
+    "max": 61,
+    "min": 1
+  }
+}

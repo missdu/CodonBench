@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+
+# Data (too large for GitHub)
+data/
+*.npy
+*.npz
+*.parquet
+*.h5
+*.pt
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Databases
+*.db
+
+# System
+*.stat
+*.dict
+*.dat

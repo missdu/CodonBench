@@ -1,0 +1,68 @@
+[
+  {
+    "model": "codonbert",
+    "task": "task2_missense",
+    "n": 5000,
+    "cv_lr_mean": 0.6602,
+    "cv_lr_std": 0.0136,
+    "test_lr": 0.6617,
+    "test_mlp": 0.6772,
+    "n_train": 4000,
+    "n_test": 1000
+  },
+  {
+    "model": "codonbert",
+    "task": "task3_synonymous",
+    "n": 2840,
+    "cv_lr_mean": 0.7336,
+    "cv_lr_std": 0.0069,
+    "test_lr": 0.7157,
+    "test_mlp": 0.8486,
+    "n_train": 2272,
+    "n_test": 568
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task2_missense",
+    "n": 5000,
+    "cv_lr_mean": 0.6594,
+    "cv_lr_std": 0.0135,
+    "test_lr": 0.6457,
+    "test_mlp": 0.6499,
+    "n_train": 4000,
+    "n_test": 1000
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task3_synonymous",
+    "n": 2840,
+    "cv_lr_mean": 0.7047,
+    "cv_lr_std": 0.0128,
+    "test_lr": 0.6675,
+    "test_mlp": 0.816,
+    "n_train": 2272,
+    "n_test": 568
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task2_missense",
+    "n": 5000,
+    "cv_lr_mean": 0.6329,
+    "cv_lr_std": 0.0233,
+    "test_lr": 0.636,
+    "test_mlp": 0.6741,
+    "n_train": 4000,
+    "n_test": 1000
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task3_synonymous",
+    "n": 2840,
+    "cv_lr_mean": 0.6856,
+    "cv_lr_std": 0.03,
+    "test_lr": 0.687,
+    "test_mlp": 0.8115,
+    "n_train": 2272,
+    "n_test": 568
+  }
+]

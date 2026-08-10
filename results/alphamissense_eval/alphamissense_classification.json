@@ -1,0 +1,28 @@
+{
+  "model": "AlphaMissense",
+  "task1_missense": {
+    "n_matched": 213719,
+    "n_patho": 70302,
+    "n_benign": 143417,
+    "roc_auc_full": 0.9559,
+    "pr_auc_full": 0.9194
+  },
+  "task1_balanced": {
+    "roc_auc": 0.9565,
+    "pr_auc": 0.9583
+  },
+  "task1_5fold_cv": {
+    "auc_mean": 0.9565,
+    "auc_std": 0.0041,
+    "fold_aucs": [
+      0.9599,
+      0.9607,
+      0.9587,
+      0.9503,
+      0.9531
+    ]
+  },
+  "task2_synonymous": {
+    "roc_auc": 0.44
+  }
+}

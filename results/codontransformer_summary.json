@@ -1,0 +1,26 @@
+[
+  {
+    "model": "CodonTransformer",
+    "task": "task2_missense",
+    "type": "cLM (aa-codon)",
+    "emb_dim": 768,
+    "n_samples": 5000,
+    "success": true,
+    "lr_auc_mean": 0.6944,
+    "lr_auc_std": 0.0267,
+    "mlp_auc_test": 0.6796,
+    "emb_time_s": 12.2
+  },
+  {
+    "model": "CodonTransformer",
+    "task": "task3_synonymous",
+    "type": "cLM (aa-codon)",
+    "emb_dim": 768,
+    "n_samples": 2840,
+    "success": true,
+    "lr_auc_mean": 0.713,
+    "lr_auc_std": 0.0159,
+    "mlp_auc_test": 0.8178,
+    "emb_time_s": 6.3
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "codonbert": {
+    "success": true,
+    "r2": 0.544426015081074,
+    "spearman": 0.7102500635866164,
+    "n_train": 6089,
+    "n_test": 1000,
+    "task": "fungal_expression",
+    "source": "Wint et al. 2022 MBE",
+    "organism": "fungal"
+  },
+  "codonbert_hf": {
+    "success": true,
+    "r2": 0.5628577576481306,
+    "spearman": 0.7339006844743283,
+    "n_train": 6089,
+    "n_test": 1000,
+    "task": "fungal_expression",
+    "source": "Wint et al. 2022 MBE",
+    "organism": "fungal"
+  },
+  "encodon-80m": {
+    "success": true,
+    "r2": 0.48262524193960543,
+    "spearman": 0.7010423795613805,
+    "n_train": 6089,
+    "n_test": 1000,
+    "task": "fungal_expression",
+    "source": "Wint et al. 2022 MBE",
+    "organism": "fungal"
+  }
+}

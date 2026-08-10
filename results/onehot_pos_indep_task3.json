@@ -1,0 +1,36 @@
+{
+  "model": "onehot_pos",
+  "task": "task3_synonymous",
+  "success": true,
+  "model_type": "Traditional",
+  "n_samples": 2840,
+  "n_train": 2272,
+  "n_test": 568,
+  "feat_dim": 2112,
+  "probing_results": {
+    "LR": {
+      "test_auc": 0.8879,
+      "cv_auc_mean": 0.891,
+      "cv_auc_std": 0.0208,
+      "train_time_s": 0.81
+    },
+    "KNN-5": {
+      "test_auc": 0.8082,
+      "cv_auc_mean": 0.7913,
+      "cv_auc_std": 0.0374,
+      "train_time_s": 0.22
+    },
+    "KNN-21": {
+      "test_auc": 0.6901,
+      "cv_auc_mean": 0.7338,
+      "cv_auc_std": 0.0254,
+      "train_time_s": 0.1
+    },
+    "MLP": {
+      "test_auc": 0.929,
+      "cv_auc_mean": 0.9308,
+      "cv_auc_std": 0.0178,
+      "train_time_s": 4.92
+    }
+  }
+}

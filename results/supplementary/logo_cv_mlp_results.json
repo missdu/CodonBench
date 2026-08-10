@@ -1,0 +1,80 @@
+[
+  {
+    "model": "codonbert",
+    "task": "task3_synonymous",
+    "n": 2840,
+    "n_genes": 497,
+    "n_valid_folds_lr": 240,
+    "n_valid_folds_mlp": 240,
+    "logo_lr_mean": 0.5638,
+    "logo_lr_std": 0.3639,
+    "logo_mlp_mean": 0.6106,
+    "logo_mlp_std": 0.3637,
+    "logo_gain": 0.0468
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task3_synonymous",
+    "n": 2840,
+    "n_genes": 497,
+    "n_valid_folds_lr": 240,
+    "n_valid_folds_mlp": 240,
+    "logo_lr_mean": 0.5367,
+    "logo_lr_std": 0.3747,
+    "logo_mlp_mean": 0.5421,
+    "logo_mlp_std": 0.3797,
+    "logo_gain": 0.0054
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task3_synonymous",
+    "n": 2840,
+    "n_genes": 497,
+    "n_valid_folds_lr": 240,
+    "n_valid_folds_mlp": 240,
+    "logo_lr_mean": 0.5369,
+    "logo_lr_std": 0.379,
+    "logo_mlp_mean": 0.544,
+    "logo_mlp_std": 0.3753,
+    "logo_gain": 0.0071
+  },
+  {
+    "model": "mrnabert",
+    "task": "task3_synonymous",
+    "n": 2840,
+    "n_genes": 497,
+    "n_valid_folds_lr": 240,
+    "n_valid_folds_mlp": 240,
+    "logo_lr_mean": 0.5677,
+    "logo_lr_std": 0.3738,
+    "logo_mlp_mean": 0.5461,
+    "logo_mlp_std": 0.3798,
+    "logo_gain": -0.0215
+  },
+  {
+    "model": "ESM-2-650M",
+    "task": "task3_synonymous",
+    "n": 2840,
+    "n_genes": 497,
+    "n_valid_folds_lr": 240,
+    "n_valid_folds_mlp": 240,
+    "logo_lr_mean": 0.507,
+    "logo_lr_std": 0.38,
+    "logo_mlp_mean": 0.5283,
+    "logo_mlp_std": 0.3842,
+    "logo_gain": 0.0213
+  },
+  {
+    "model": "ESM-1b-650M",
+    "task": "task3_synonymous",
+    "n": 2840,
+    "n_genes": 497,
+    "n_valid_folds_lr": 240,
+    "n_valid_folds_mlp": 240,
+    "logo_lr_mean": 0.5273,
+    "logo_lr_std": 0.3829,
+    "logo_mlp_mean": 0.4904,
+    "logo_mlp_std": 0.3796,
+    "logo_gain": -0.0369
+  }
+]

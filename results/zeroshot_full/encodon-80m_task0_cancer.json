@@ -1,0 +1,27 @@
+{
+  "model": "encodon-80m",
+  "task": "task0_cancer",
+  "architecture": "encoder",
+  "params_M": 80,
+  "success": true,
+  "n_samples": 1000,
+  "n_pathogenic": 333,
+  "n_benign": 667,
+  "ROC-AUC": 0.5085,
+  "PR-AUC": 0.3344,
+  "neg_log10_p": 0.4808,
+  "mann_whitney_U": 112943.0,
+  "eval_time_s": 19.9,
+  "load_meta": {
+    "model_name": "encodon-80m",
+    "model_path": "goodarzilab/encodon-80M",
+    "architecture": "encoder",
+    "params_M": 80,
+    "quantized": false,
+    "device": "cuda:2",
+    "load_time_s": 3.75,
+    "vram_mb": 305.1,
+    "success": true,
+    "error": null
+  }
+}

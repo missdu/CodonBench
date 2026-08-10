@@ -1,0 +1,30 @@
+{
+  "task": "task2_missense",
+  "pairwise_cka": [
+    {
+      "model_1": "codonbert",
+      "model_2": "codonbert_hf",
+      "n_samples": 2000,
+      "linear_cka": 0.0065,
+      "rbf_cka": 0.0512,
+      "svca": 0.02449999935925007
+    },
+    {
+      "model_1": "codonbert",
+      "model_2": "encodon-80m",
+      "n_samples": 2000,
+      "linear_cka": 0.0066,
+      "rbf_cka": 0.2188,
+      "svca": 0.024399999529123306
+    },
+    {
+      "model_1": "codonbert_hf",
+      "model_2": "encodon-80m",
+      "n_samples": 2000,
+      "linear_cka": 0.0086,
+      "rbf_cka": 0.2338,
+      "svca": 0.02500000037252903
+    }
+  ],
+  "layerwise_cka": {}
+}

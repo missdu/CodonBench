@@ -1,0 +1,596 @@
+{
+  "codonbert_synpath": {
+    "M0_baseline": {
+      "lr_perfold_mean": 0.5638,
+      "mlp_perfold_mean": 0.558,
+      "gain_perfold_pp": -0.6,
+      "lr_pooled": 0.5757,
+      "mlp_pooled": 0.5515,
+      "gain_pooled_pp": -2.4,
+      "n_folds": 240,
+      "paired_p": 0.8299,
+      "config": {
+        "name": "M0_baseline",
+        "use_es": false,
+        "seed": null,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M1_plus_seed": {
+      "lr_perfold_mean": 0.5638,
+      "mlp_perfold_mean": 0.5731,
+      "gain_perfold_pp": 0.9,
+      "lr_pooled": 0.5757,
+      "mlp_pooled": 0.5467,
+      "gain_pooled_pp": -2.9,
+      "n_folds": 240,
+      "paired_p": 0.7347,
+      "config": {
+        "name": "M1_plus_seed",
+        "use_es": false,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M2_plus_early_stop": {
+      "lr_perfold_mean": 0.5638,
+      "mlp_perfold_mean": 0.5749,
+      "gain_perfold_pp": 1.1,
+      "lr_pooled": 0.5757,
+      "mlp_pooled": 0.5483,
+      "gain_pooled_pp": -2.7,
+      "n_folds": 240,
+      "paired_p": 0.6621,
+      "config": {
+        "name": "M2_plus_early_stop",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M3_plus_weight_decay": {
+      "lr_perfold_mean": 0.5638,
+      "mlp_perfold_mean": 0.5803,
+      "gain_perfold_pp": 1.7,
+      "lr_pooled": 0.5757,
+      "mlp_pooled": 0.5489,
+      "gain_pooled_pp": -2.7,
+      "n_folds": 240,
+      "paired_p": 0.5286,
+      "config": {
+        "name": "M3_plus_weight_decay",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0001
+      }
+    },
+    "M4_plus_epochs200": {
+      "lr_perfold_mean": 0.5638,
+      "mlp_perfold_mean": 0.5803,
+      "gain_perfold_pp": 1.7,
+      "lr_pooled": 0.5757,
+      "mlp_pooled": 0.5489,
+      "gain_pooled_pp": -2.7,
+      "n_folds": 240,
+      "paired_p": 0.5286,
+      "config": {
+        "name": "M4_plus_epochs200",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 200,
+        "wd": 0.0001
+      }
+    },
+    "M5_sklearn_anchor": {
+      "lr_perfold_mean": 0.5638,
+      "mlp_perfold_mean": 0.6106,
+      "gain_perfold_pp": 4.7,
+      "lr_pooled": 0.5757,
+      "mlp_pooled": 0.5643,
+      "gain_pooled_pp": -1.1,
+      "n_folds": 240,
+      "paired_p": 0.0987,
+      "config": {
+        "name": "M5_sklearn",
+        "impl": "sklearn_MLPClassifier"
+      }
+    }
+  },
+  "encodon-80m_synpath": {
+    "M0_baseline": {
+      "lr_perfold_mean": 0.5369,
+      "mlp_perfold_mean": 0.5566,
+      "gain_perfold_pp": 2.0,
+      "lr_pooled": 0.5234,
+      "mlp_pooled": 0.5513,
+      "gain_pooled_pp": 2.8,
+      "n_folds": 240,
+      "paired_p": 0.429,
+      "config": {
+        "name": "M0_baseline",
+        "use_es": false,
+        "seed": null,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M1_plus_seed": {
+      "lr_perfold_mean": 0.5369,
+      "mlp_perfold_mean": 0.5766,
+      "gain_perfold_pp": 4.0,
+      "lr_pooled": 0.5234,
+      "mlp_pooled": 0.5617,
+      "gain_pooled_pp": 3.8,
+      "n_folds": 240,
+      "paired_p": 0.1359,
+      "config": {
+        "name": "M1_plus_seed",
+        "use_es": false,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M2_plus_early_stop": {
+      "lr_perfold_mean": 0.5369,
+      "mlp_perfold_mean": 0.5807,
+      "gain_perfold_pp": 4.4,
+      "lr_pooled": 0.5234,
+      "mlp_pooled": 0.5595,
+      "gain_pooled_pp": 3.6,
+      "n_folds": 240,
+      "paired_p": 0.0989,
+      "config": {
+        "name": "M2_plus_early_stop",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M3_plus_weight_decay": {
+      "lr_perfold_mean": 0.5369,
+      "mlp_perfold_mean": 0.5797,
+      "gain_perfold_pp": 4.3,
+      "lr_pooled": 0.5234,
+      "mlp_pooled": 0.5602,
+      "gain_pooled_pp": 3.7,
+      "n_folds": 240,
+      "paired_p": 0.105,
+      "config": {
+        "name": "M3_plus_weight_decay",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0001
+      }
+    },
+    "M4_plus_epochs200": {
+      "lr_perfold_mean": 0.5369,
+      "mlp_perfold_mean": 0.5797,
+      "gain_perfold_pp": 4.3,
+      "lr_pooled": 0.5234,
+      "mlp_pooled": 0.5602,
+      "gain_pooled_pp": 3.7,
+      "n_folds": 240,
+      "paired_p": 0.105,
+      "config": {
+        "name": "M4_plus_epochs200",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 200,
+        "wd": 0.0001
+      }
+    },
+    "M5_sklearn_anchor": {
+      "lr_perfold_mean": 0.5369,
+      "mlp_perfold_mean": 0.544,
+      "gain_perfold_pp": 0.7,
+      "lr_pooled": 0.5234,
+      "mlp_pooled": 0.5685,
+      "gain_pooled_pp": 4.5,
+      "n_folds": 240,
+      "paired_p": 0.806,
+      "config": {
+        "name": "M5_sklearn",
+        "impl": "sklearn_MLPClassifier"
+      }
+    }
+  },
+  "encodon-80m_mispath": {
+    "M0_baseline": {
+      "lr_perfold_mean": 0.5602,
+      "mlp_perfold_mean": 0.5751,
+      "gain_perfold_pp": 1.5,
+      "lr_pooled": 0.6063,
+      "mlp_pooled": 0.616,
+      "gain_pooled_pp": 1.0,
+      "n_folds": 286,
+      "paired_p": 0.3274,
+      "config": {
+        "name": "M0_baseline",
+        "use_es": false,
+        "seed": null,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M1_plus_seed": {
+      "lr_perfold_mean": 0.5602,
+      "mlp_perfold_mean": 0.5799,
+      "gain_perfold_pp": 2.0,
+      "lr_pooled": 0.6063,
+      "mlp_pooled": 0.6076,
+      "gain_pooled_pp": 0.1,
+      "n_folds": 286,
+      "paired_p": 0.1608,
+      "config": {
+        "name": "M1_plus_seed",
+        "use_es": false,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M2_plus_early_stop": {
+      "lr_perfold_mean": 0.5602,
+      "mlp_perfold_mean": 0.6064,
+      "gain_perfold_pp": 4.6,
+      "lr_pooled": 0.6063,
+      "mlp_pooled": 0.652,
+      "gain_pooled_pp": 4.6,
+      "n_folds": 286,
+      "paired_p": 0.0076,
+      "config": {
+        "name": "M2_plus_early_stop",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M3_plus_weight_decay": {
+      "lr_perfold_mean": 0.5602,
+      "mlp_perfold_mean": 0.6054,
+      "gain_perfold_pp": 4.5,
+      "lr_pooled": 0.6063,
+      "mlp_pooled": 0.6525,
+      "gain_pooled_pp": 4.6,
+      "n_folds": 286,
+      "paired_p": 0.0093,
+      "config": {
+        "name": "M3_plus_weight_decay",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0001
+      }
+    },
+    "M4_plus_epochs200": {
+      "lr_perfold_mean": 0.5602,
+      "mlp_perfold_mean": 0.6054,
+      "gain_perfold_pp": 4.5,
+      "lr_pooled": 0.6063,
+      "mlp_pooled": 0.6525,
+      "gain_pooled_pp": 4.6,
+      "n_folds": 286,
+      "paired_p": 0.0093,
+      "config": {
+        "name": "M4_plus_epochs200",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 200,
+        "wd": 0.0001
+      }
+    },
+    "M5_sklearn_anchor": {
+      "lr_perfold_mean": 0.5602,
+      "mlp_perfold_mean": 0.6042,
+      "gain_perfold_pp": 4.4,
+      "lr_pooled": 0.6063,
+      "mlp_pooled": 0.6161,
+      "gain_pooled_pp": 1.0,
+      "n_folds": 286,
+      "paired_p": 0.0158,
+      "config": {
+        "name": "M5_sklearn",
+        "impl": "sklearn_MLPClassifier"
+      }
+    }
+  },
+  "esm2-650m_synpath": {
+    "M0_baseline": {
+      "lr_perfold_mean": 0.507,
+      "mlp_perfold_mean": 0.5236,
+      "gain_perfold_pp": 1.7,
+      "lr_pooled": 0.5463,
+      "mlp_pooled": 0.5649,
+      "gain_pooled_pp": 1.9,
+      "n_folds": 240,
+      "paired_p": 0.5189,
+      "config": {
+        "name": "M0_baseline",
+        "use_es": false,
+        "seed": null,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M1_plus_seed": {
+      "lr_perfold_mean": 0.507,
+      "mlp_perfold_mean": 0.5259,
+      "gain_perfold_pp": 1.9,
+      "lr_pooled": 0.5463,
+      "mlp_pooled": 0.5644,
+      "gain_pooled_pp": 1.8,
+      "n_folds": 240,
+      "paired_p": 0.4687,
+      "config": {
+        "name": "M1_plus_seed",
+        "use_es": false,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M2_plus_early_stop": {
+      "lr_perfold_mean": 0.507,
+      "mlp_perfold_mean": 0.5111,
+      "gain_perfold_pp": 0.4,
+      "lr_pooled": 0.5463,
+      "mlp_pooled": 0.5415,
+      "gain_pooled_pp": -0.5,
+      "n_folds": 240,
+      "paired_p": 0.8778,
+      "config": {
+        "name": "M2_plus_early_stop",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M3_plus_weight_decay": {
+      "lr_perfold_mean": 0.507,
+      "mlp_perfold_mean": 0.5121,
+      "gain_perfold_pp": 0.5,
+      "lr_pooled": 0.5463,
+      "mlp_pooled": 0.542,
+      "gain_pooled_pp": -0.4,
+      "n_folds": 240,
+      "paired_p": 0.8419,
+      "config": {
+        "name": "M3_plus_weight_decay",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0001
+      }
+    },
+    "M4_plus_epochs200": {
+      "lr_perfold_mean": 0.507,
+      "mlp_perfold_mean": 0.5121,
+      "gain_perfold_pp": 0.5,
+      "lr_pooled": 0.5463,
+      "mlp_pooled": 0.542,
+      "gain_pooled_pp": -0.4,
+      "n_folds": 240,
+      "paired_p": 0.8419,
+      "config": {
+        "name": "M4_plus_epochs200",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 200,
+        "wd": 0.0001
+      }
+    },
+    "M5_sklearn_anchor": {
+      "lr_perfold_mean": 0.507,
+      "mlp_perfold_mean": 0.5283,
+      "gain_perfold_pp": 2.1,
+      "lr_pooled": 0.5463,
+      "mlp_pooled": 0.558,
+      "gain_pooled_pp": 1.2,
+      "n_folds": 240,
+      "paired_p": 0.4548,
+      "config": {
+        "name": "M5_sklearn",
+        "impl": "sklearn_MLPClassifier"
+      }
+    }
+  },
+  "esm2-650m_mispath": {
+    "M0_baseline": {
+      "lr_perfold_mean": 0.5955,
+      "mlp_perfold_mean": 0.6073,
+      "gain_perfold_pp": 1.2,
+      "lr_pooled": 0.6159,
+      "mlp_pooled": 0.6305,
+      "gain_pooled_pp": 1.5,
+      "n_folds": 286,
+      "paired_p": 0.4764,
+      "config": {
+        "name": "M0_baseline",
+        "use_es": false,
+        "seed": null,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M1_plus_seed": {
+      "lr_perfold_mean": 0.5955,
+      "mlp_perfold_mean": 0.6063,
+      "gain_perfold_pp": 1.1,
+      "lr_pooled": 0.6159,
+      "mlp_pooled": 0.6313,
+      "gain_pooled_pp": 1.5,
+      "n_folds": 286,
+      "paired_p": 0.4927,
+      "config": {
+        "name": "M1_plus_seed",
+        "use_es": false,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M2_plus_early_stop": {
+      "lr_perfold_mean": 0.5955,
+      "mlp_perfold_mean": 0.6488,
+      "gain_perfold_pp": 5.3,
+      "lr_pooled": 0.6159,
+      "mlp_pooled": 0.6839,
+      "gain_pooled_pp": 6.8,
+      "n_folds": 286,
+      "paired_p": 0.0021,
+      "config": {
+        "name": "M2_plus_early_stop",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M3_plus_weight_decay": {
+      "lr_perfold_mean": 0.5955,
+      "mlp_perfold_mean": 0.6542,
+      "gain_perfold_pp": 5.9,
+      "lr_pooled": 0.6159,
+      "mlp_pooled": 0.6853,
+      "gain_pooled_pp": 6.9,
+      "n_folds": 286,
+      "paired_p": 0.0005,
+      "config": {
+        "name": "M3_plus_weight_decay",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0001
+      }
+    },
+    "M4_plus_epochs200": {
+      "lr_perfold_mean": 0.5955,
+      "mlp_perfold_mean": 0.6542,
+      "gain_perfold_pp": 5.9,
+      "lr_pooled": 0.6159,
+      "mlp_pooled": 0.6853,
+      "gain_pooled_pp": 6.9,
+      "n_folds": 286,
+      "paired_p": 0.0005,
+      "config": {
+        "name": "M4_plus_epochs200",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 200,
+        "wd": 0.0001
+      }
+    },
+    "M5_sklearn_anchor": {
+      "lr_perfold_mean": 0.5955,
+      "mlp_perfold_mean": 0.6325,
+      "gain_perfold_pp": 3.7,
+      "lr_pooled": 0.6159,
+      "mlp_pooled": 0.6452,
+      "gain_pooled_pp": 2.9,
+      "n_folds": 286,
+      "paired_p": 0.0329,
+      "config": {
+        "name": "M5_sklearn",
+        "impl": "sklearn_MLPClassifier"
+      }
+    }
+  },
+  "codonbert_mispath": {
+    "M0_baseline": {
+      "lr_perfold_mean": 0.5971,
+      "mlp_perfold_mean": 0.5788,
+      "gain_perfold_pp": -1.8,
+      "n_folds": 183,
+      "paired_t": -1.488,
+      "paired_p": 0.1384,
+      "config": {
+        "name": "M0_baseline",
+        "use_es": false,
+        "seed": null,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M1_plus_seed": {
+      "lr_perfold_mean": 0.5971,
+      "mlp_perfold_mean": 0.5838,
+      "gain_perfold_pp": -1.3,
+      "n_folds": 183,
+      "paired_t": -0.968,
+      "paired_p": 0.3346,
+      "config": {
+        "name": "M1_plus_seed",
+        "use_es": false,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M2_plus_early_stop": {
+      "lr_perfold_mean": 0.5971,
+      "mlp_perfold_mean": 0.5838,
+      "gain_perfold_pp": -1.3,
+      "n_folds": 183,
+      "paired_t": -0.968,
+      "paired_p": 0.3346,
+      "config": {
+        "name": "M2_plus_early_stop",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0
+      }
+    },
+    "M3_plus_weight_decay": {
+      "lr_perfold_mean": 0.5971,
+      "mlp_perfold_mean": 0.5888,
+      "gain_perfold_pp": -0.8,
+      "n_folds": 183,
+      "paired_t": -0.668,
+      "paired_p": 0.5047,
+      "config": {
+        "name": "M3_plus_weight_decay",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 100,
+        "wd": 0.0001
+      }
+    },
+    "M4_plus_epochs200": {
+      "lr_perfold_mean": 0.5971,
+      "mlp_perfold_mean": 0.5891,
+      "gain_perfold_pp": -0.8,
+      "n_folds": 183,
+      "paired_t": -0.637,
+      "paired_p": 0.5248,
+      "config": {
+        "name": "M4_plus_epochs200",
+        "use_es": true,
+        "seed": 42,
+        "epochs": 200,
+        "wd": 0.0001
+      }
+    },
+    "M5_sklearn_anchor": {
+      "lr_perfold_mean": 0.5971,
+      "mlp_perfold_mean": 0.592,
+      "gain_perfold_pp": -0.5,
+      "n_folds": 183,
+      "paired_t": -0.342,
+      "paired_p": 0.7326,
+      "config": {
+        "name": "M5_sklearn",
+        "impl": "sklearn_MLPClassifier"
+      }
+    }
+  }
+}

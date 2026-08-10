@@ -1,0 +1,98 @@
+[
+  {
+    "model": "codonbert",
+    "task": "task2_missense",
+    "n_samples": 5000,
+    "auc_mean": 0.5693480000000001,
+    "auc_std": 0.01834934017342316,
+    "sens_at_90spec_per_fold": [
+      0.124,
+      0.148,
+      0.15,
+      0.17,
+      0.154
+    ],
+    "sens_at_90spec_mean": 0.14920000000000003,
+    "sens_at_90spec_pooled": 0.15
+  },
+  {
+    "model": "codonbert",
+    "task": "task3_synonymous",
+    "n_samples": 3312,
+    "auc_mean": 0.6467530383855041,
+    "auc_std": 0.013032152316128611,
+    "sens_at_90spec_per_fold": [
+      0.18072289156626506,
+      0.13897280966767372,
+      0.17522658610271905,
+      0.2054380664652568,
+      0.1510574018126888
+    ],
+    "sens_at_90spec_mean": 0.17028355112292065,
+    "sens_at_90spec_pooled": 0.1636473429951691
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task2_missense",
+    "n_samples": 5000,
+    "auc_mean": 0.5284352,
+    "auc_std": 0.007926303511726004,
+    "sens_at_90spec_per_fold": [
+      0.106,
+      0.118,
+      0.148,
+      0.12,
+      0.11
+    ],
+    "sens_at_90spec_mean": 0.1204,
+    "sens_at_90spec_pooled": 0.1176
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task3_synonymous",
+    "n_samples": 3312,
+    "auc_mean": 0.6601567999253978,
+    "auc_std": 0.013898022942597468,
+    "sens_at_90spec_per_fold": [
+      0.14457831325301204,
+      0.19939577039274925,
+      0.2054380664652568,
+      0.13595166163141995,
+      0.1903323262839879
+    ],
+    "sens_at_90spec_mean": 0.17513922760528516,
+    "sens_at_90spec_pooled": 0.16485507246376813
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task2_missense",
+    "n_samples": 5000,
+    "auc_mean": 0.5235968,
+    "auc_std": 0.018699645241554735,
+    "sens_at_90spec_per_fold": [
+      0.144,
+      0.142,
+      0.096,
+      0.126,
+      0.112
+    ],
+    "sens_at_90spec_mean": 0.124,
+    "sens_at_90spec_pooled": 0.1268
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task3_synonymous",
+    "n_samples": 3312,
+    "auc_mean": 0.6619735410641571,
+    "auc_std": 0.0252466647807564,
+    "sens_at_90spec_per_fold": [
+      0.1566265060240964,
+      0.11178247734138973,
+      0.1148036253776435,
+      0.10574018126888217,
+      0.0755287009063444
+    ],
+    "sens_at_90spec_mean": 0.11289629818367124,
+    "sens_at_90spec_pooled": 0.09601449275362318
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "model": "encodon-80m",
+  "task": "task5_protein_expression",
+  "architecture": "encoder",
+  "params_M": 80,
+  "success": true,
+  "n_samples": 1500,
+  "n_folds": 5,
+  "embedding_dim": 1024,
+  "embed_time_s": 3.2,
+  "load_meta": {
+    "model_name": "encodon-80m",
+    "model_path": "goodarzilab/encodon-80M",
+    "architecture": "encoder",
+    "params_M": 80,
+    "quantized": false,
+    "device": "cuda:2",
+    "load_time_s": 5.8,
+    "vram_mb": 313.3,
+    "success": true,
+    "error": null
+  },
+  "R2": -0.3624,
+  "pearson_r": -0.0219,
+  "spearman_r": 0.0093,
+  "R2_std": 0.2153,
+  "pearson_r_std": 0.036,
+  "spearman_r_std": 0.0461,
+  "fold_details": {
+    "R2": [
+      -0.466,
+      -0.1664,
+      -0.7394,
+      -0.2219,
+      -0.2183
+    ],
+    "pearson_r": [
+      -0.0149,
+      0.0303,
+      -0.0753,
+      -0.0453,
+      -0.0041
+    ],
+    "spearman_r": [
+      0.0664,
+      0.0556,
+      -0.0576,
+      -0.0037,
+      -0.0141
+    ]
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "total_tested": 20,
+  "n_successfully_loaded": 3,
+  "n_no_public_weights": 7,
+  "n_failed_compatibility": 10,
+  "success_rate": 0.15,
+  "models": [
+    {
+      "model": "EnCodon-600M",
+      "hf_id": "nvidia/NV-CodonFM-Encodon-600M",
+      "architecture": "Custom (NVIDIA)",
+      "timestamp": "2026-05-31T11:03:02.942652",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "CONFIG_LOAD_FAILED",
+      "error_message": "nvidia/NV-CodonFM-Encodon-600M is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having per",
+      "error_traceback": "Traceback (most recent call last):\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/huggingface_hub/utils/_http.py\", line 403, in hf_raise_for_status\n    response.raise_for_status()\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hf-mirror.com/nvidia/NV-CodonF",
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "EnCodon-1B",
+      "hf_id": "nvidia/NV-CodonFM-Encodon-1B",
+      "architecture": "Custom (NVIDIA)",
+      "timestamp": "2026-05-31T11:03:05.338772",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "CONFIG_LOAD_FAILED",
+      "error_message": "nvidia/NV-CodonFM-Encodon-1B is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permi",
+      "error_traceback": "Traceback (most recent call last):\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/huggingface_hub/utils/_http.py\", line 403, in hf_raise_for_status\n    response.raise_for_status()\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hf-mirror.com/nvidia/NV-CodonF",
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "TE-80M",
+      "hf_id": "nvidia/NV-CodonFM-TE-80M",
+      "architecture": "Custom (NVIDIA)",
+      "timestamp": "2026-05-31T11:03:05.612055",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "CONFIG_LOAD_FAILED",
+      "error_message": "nvidia/NV-CodonFM-TE-80M is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permissio",
+      "error_traceback": "Traceback (most recent call last):\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/huggingface_hub/utils/_http.py\", line 403, in hf_raise_for_status\n    response.raise_for_status()\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hf-mirror.com/nvidia/NV-CodonF",
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "TE-600M",
+      "hf_id": "nvidia/NV-CodonFM-TE-600M",
+      "architecture": "Custom (NVIDIA)",
+      "timestamp": "2026-05-31T11:03:06.160853",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "CONFIG_LOAD_FAILED",
+      "error_message": "nvidia/NV-CodonFM-TE-600M is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permissi",
+      "error_traceback": "Traceback (most recent call last):\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/huggingface_hub/utils/_http.py\", line 403, in hf_raise_for_status\n    response.raise_for_status()\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hf-mirror.com/nvidia/NV-CodonF",
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "TE-1B",
+      "hf_id": "nvidia/NV-CodonFM-TE-1B",
+      "architecture": "Custom (NVIDIA)",
+      "timestamp": "2026-05-31T11:03:06.409769",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "CONFIG_LOAD_FAILED",
+      "error_message": "nvidia/NV-CodonFM-TE-1B is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission",
+      "error_traceback": "Traceback (most recent call last):\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/huggingface_hub/utils/_http.py\", line 403, in hf_raise_for_status\n    response.raise_for_status()\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hf-mirror.com/nvidia/NV-CodonF",
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "Cdwt-1B",
+      "hf_id": "nvidia/NV-CodonFM-Cdwt-1B",
+      "architecture": "Custom (NVIDIA)",
+      "timestamp": "2026-05-31T11:03:06.707882",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "CONFIG_LOAD_FAILED",
+      "error_message": "nvidia/NV-CodonFM-Cdwt-1B is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permissi",
+      "error_traceback": "Traceback (most recent call last):\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/huggingface_hub/utils/_http.py\", line 403, in hf_raise_for_status\n    response.raise_for_status()\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hf-mirror.com/nvidia/NV-CodonF",
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "CodonTransformer",
+      "hf_id": "adibvafa/CodonTransformer",
+      "architecture": "BigBird",
+      "timestamp": "2026-05-31T11:03:06.970954",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "TOKENIZER_UNK",
+      "error_message": "5/7 tokens are UNK (71.4%)",
+      "error_traceback": null,
+      "tokenizer_test": {
+        "input": "ATG GCT TTT GAA CCG",
+        "decoded_tokens": [
+          "[CLS]",
+          "[UNK]",
+          "[UNK]",
+          "[UNK]",
+          "[UNK]",
+          "[UNK]",
+          "[SEP]"
+        ],
+        "n_tokens": 7,
+        "n_unk": 5,
+        "unk_ratio": 0.714,
+        "is_char_level": false
+      },
+      "forward_test": null,
+      "config_loaded": true,
+      "model_type": "big_bird"
+    },
+    {
+      "model": "Mistral-Codon-117M",
+      "hf_id": "RaphaelMourad/Mistral-Codon-v1-117M",
+      "architecture": "Mixtral MoE",
+      "timestamp": "2026-05-31T11:03:08.159443",
+      "load_attempted": true,
+      "load_success": true,
+      "error_type": null,
+      "error_message": null,
+      "error_traceback": null,
+      "tokenizer_test": {
+        "input": "ATG GCT TTT GAA CCG",
+        "decoded_tokens": [
+          "[CLS]",
+          "ATG",
+          "GCT",
+          "TTT",
+          "GAA",
+          "CCG",
+          "[SEP]"
+        ],
+        "n_tokens": 7,
+        "n_unk": 0,
+        "unk_ratio": 0.0,
+        "is_char_level": false
+      },
+      "forward_test": {
+        "output_shape": [
+          1,
+          7,
+          768
+        ]
+      },
+      "config_loaded": true,
+      "model_type": "mixtral"
+    },
+    {
+      "model": "Mistral-Codon-16M",
+      "hf_id": "RaphaelMourad/Mistral-Codon-v1-16M",
+      "architecture": "Mixtral MoE",
+      "timestamp": "2026-05-31T11:03:13.776706",
+      "load_attempted": true,
+      "load_success": true,
+      "error_type": null,
+      "error_message": null,
+      "error_traceback": null,
+      "tokenizer_test": {
+        "input": "ATG GCT TTT GAA CCG",
+        "decoded_tokens": [
+          "[CLS]",
+          "ATG",
+          "GCT",
+          "TTT",
+          "GAA",
+          "CCG",
+          "[SEP]"
+        ],
+        "n_tokens": 7,
+        "n_unk": 0,
+        "unk_ratio": 0.0,
+        "is_char_level": false
+      },
+      "forward_test": {
+        "output_shape": [
+          1,
+          7,
+          256
+        ]
+      },
+      "config_loaded": true,
+      "model_type": "mixtral"
+    },
+    {
+      "model": "Mistral-Codon-1M",
+      "hf_id": "RaphaelMourad/Mistral-Codon-v1-1M",
+      "architecture": "Mixtral MoE",
+      "timestamp": "2026-05-31T11:03:24.327150",
+      "load_attempted": true,
+      "load_success": true,
+      "error_type": null,
+      "error_message": null,
+      "error_traceback": null,
+      "tokenizer_test": {
+        "input": "ATG GCT TTT GAA CCG",
+        "decoded_tokens": [
+          "[CLS]",
+          "ATG",
+          "GCT",
+          "TTT",
+          "GAA",
+          "CCG",
+          "[SEP]"
+        ],
+        "n_tokens": 7,
+        "n_unk": 0,
+        "unk_ratio": 0.0,
+        "is_char_level": false
+      },
+      "forward_test": {
+        "output_shape": [
+          1,
+          7,
+          64
+        ]
+      },
+      "config_loaded": true,
+      "model_type": "mixtral"
+    },
+    {
+      "model": "cdsBERT",
+      "hf_id": "GleghornLab/cdsBERT",
+      "architecture": "BERT (char tokenizer)",
+      "timestamp": "2026-05-31T11:03:26.312099",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "TOKENIZER_UNK",
+      "error_message": "5/7 tokens are UNK (71.4%)",
+      "error_traceback": null,
+      "tokenizer_test": {
+        "input": "ATG GCT TTT GAA CCG",
+        "decoded_tokens": [
+          "[CLS]",
+          "[UNK]",
+          "[UNK]",
+          "[UNK]",
+          "[UNK]",
+          "[UNK]",
+          "[SEP]"
+        ],
+        "n_tokens": 7,
+        "n_unk": 5,
+        "unk_ratio": 0.714,
+        "is_char_level": false
+      },
+      "forward_test": null,
+      "config_loaded": true,
+      "model_type": "bert"
+    },
+    {
+      "model": "cdsBERT-plus",
+      "hf_id": "GleghornLab/cdsBERT-plus",
+      "architecture": "BERT (char tokenizer)",
+      "timestamp": "2026-05-31T11:03:28.190374",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "TOKENIZER_UNK",
+      "error_message": "5/7 tokens are UNK (71.4%)",
+      "error_traceback": null,
+      "tokenizer_test": {
+        "input": "ATG GCT TTT GAA CCG",
+        "decoded_tokens": [
+          "[CLS]",
+          "[UNK]",
+          "[UNK]",
+          "[UNK]",
+          "[UNK]",
+          "[UNK]",
+          "[SEP]"
+        ],
+        "n_tokens": 7,
+        "n_unk": 5,
+        "unk_ratio": 0.714,
+        "is_char_level": false
+      },
+      "forward_test": null,
+      "config_loaded": true,
+      "model_type": "bert"
+    },
+    {
+      "model": "CodonT5",
+      "hf_id": null,
+      "architecture": "Custom (T5 variant)",
+      "timestamp": "2026-05-31T11:03:29.583293",
+      "load_attempted": false,
+      "load_success": false,
+      "error_type": "NO_PUBLIC_WEIGHTS",
+      "error_message": "No HuggingFace model ID available; weights not publicly accessible",
+      "error_traceback": null,
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "CodonBert-v2",
+      "hf_id": "zluvolyote/CodonBert",
+      "architecture": "Custom",
+      "timestamp": "2026-05-31T11:03:29.583327",
+      "load_attempted": true,
+      "load_success": false,
+      "error_type": "CONFIG_LOAD_FAILED",
+      "error_message": "zluvolyote/CodonBert is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'\nIf this is a private repository, make sure to pass a token having permission to",
+      "error_traceback": "Traceback (most recent call last):\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/huggingface_hub/utils/_http.py\", line 403, in hf_raise_for_status\n    response.raise_for_status()\n  File \"<CONDA_ENV>/lib/python3.11/site-packages/requests/models.py\", line 1167, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://hf-mirror.com/zluvolyote/Codon",
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "CaLM",
+      "hf_id": null,
+      "architecture": "Contrastive",
+      "timestamp": "2026-05-31T11:03:29.863832",
+      "load_attempted": false,
+      "load_success": false,
+      "error_type": "NO_PUBLIC_WEIGHTS",
+      "error_message": "No HuggingFace model ID available; weights not publicly accessible",
+      "error_traceback": null,
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "DeCodon",
+      "hf_id": null,
+      "architecture": "Encoder-Decoder",
+      "timestamp": "2026-05-31T11:03:29.863872",
+      "load_attempted": false,
+      "load_success": false,
+      "error_type": "NO_PUBLIC_WEIGHTS",
+      "error_message": "No HuggingFace model ID available; weights not publicly accessible",
+      "error_traceback": null,
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "HELM",
+      "hf_id": null,
+      "architecture": "Hierarchical",
+      "timestamp": "2026-05-31T11:03:29.863906",
+      "load_attempted": false,
+      "load_success": false,
+      "error_type": "NO_PUBLIC_WEIGHTS",
+      "error_message": "No HuggingFace model ID available; weights not publicly accessible",
+      "error_traceback": null,
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "Equi-mRNA",
+      "hf_id": null,
+      "architecture": "Equivariant",
+      "timestamp": "2026-05-31T11:03:29.863928",
+      "load_attempted": false,
+      "load_success": false,
+      "error_type": "NO_PUBLIC_WEIGHTS",
+      "error_message": "No HuggingFace model ID available; weights not publicly accessible",
+      "error_traceback": null,
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "CodonMoE",
+      "hf_id": null,
+      "architecture": "MoE",
+      "timestamp": "2026-05-31T11:03:29.863950",
+      "load_attempted": false,
+      "load_success": false,
+      "error_type": "NO_PUBLIC_WEIGHTS",
+      "error_message": "No HuggingFace model ID available; weights not publicly accessible",
+      "error_traceback": null,
+      "tokenizer_test": null,
+      "forward_test": null
+    },
+    {
+      "model": "SynCodonLM",
+      "hf_id": null,
+      "architecture": "Unknown",
+      "timestamp": "2026-05-31T11:03:29.863971",
+      "load_attempted": false,
+      "load_success": false,
+      "error_type": "NO_PUBLIC_WEIGHTS",
+      "error_message": "No HuggingFace model ID available; weights not publicly accessible",
+      "error_traceback": null,
+      "tokenizer_test": null,
+      "forward_test": null
+    }
+  ]
+}

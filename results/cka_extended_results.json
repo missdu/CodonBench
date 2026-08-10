@@ -1,0 +1,122 @@
+[
+  {
+    "model1": "encodon-620m",
+    "model2": "encodon-80m",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.6613,
+    "rbf_cka": 0.9849
+  },
+  {
+    "model1": "encodon-620m",
+    "model2": "codonbert",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.308,
+    "rbf_cka": 0.9833
+  },
+  {
+    "model1": "encodon-620m",
+    "model2": "codonbert_hf",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.3998,
+    "rbf_cka": 0.9833
+  },
+  {
+    "model1": "encodon-620m",
+    "model2": "codontransformer",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.4548,
+    "rbf_cka": 0.9833
+  },
+  {
+    "model1": "encodon-620m",
+    "model2": "calm",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.5127,
+    "rbf_cka": 0.9833
+  },
+  {
+    "model1": "codontransformer",
+    "model2": "codonbert",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.4378,
+    "rbf_cka": 0.9829
+  },
+  {
+    "model1": "codontransformer",
+    "model2": "codonbert_hf",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.7113,
+    "rbf_cka": 0.9861
+  },
+  {
+    "model1": "codontransformer",
+    "model2": "encodon-80m",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.4968,
+    "rbf_cka": 0.0443
+  },
+  {
+    "model1": "codontransformer",
+    "model2": "calm",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.6785,
+    "rbf_cka": 0.9814
+  },
+  {
+    "model1": "calm",
+    "model2": "codonbert",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.3959,
+    "rbf_cka": 0.894
+  },
+  {
+    "model1": "calm",
+    "model2": "codonbert_hf",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.6549,
+    "rbf_cka": 0.8868
+  },
+  {
+    "model1": "calm",
+    "model2": "encodon-80m",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.5377,
+    "rbf_cka": 0.0436
+  },
+  {
+    "model1": "codonbert",
+    "model2": "codonbert_hf",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.3651,
+    "rbf_cka": 0.9704
+  },
+  {
+    "model1": "codonbert",
+    "model2": "encodon-80m",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.3387,
+    "rbf_cka": 0.0444
+  },
+  {
+    "model1": "codonbert_hf",
+    "model2": "encodon-80m",
+    "task": "task3_synonymous",
+    "n_samples": 2000,
+    "linear_cka": 0.478,
+    "rbf_cka": 0.0443
+  }
+]

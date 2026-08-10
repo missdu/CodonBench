@@ -1,0 +1,226 @@
+[
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 0,
+    "lr_auc": 0.5,
+    "mlp_auc": 0.5,
+    "lr_to_mlp": 0.0
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 1,
+    "lr_auc": 0.6899,
+    "mlp_auc": 0.8187,
+    "lr_to_mlp": 0.1288
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 2,
+    "lr_auc": 0.6947,
+    "mlp_auc": 0.8335,
+    "lr_to_mlp": 0.1388
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 3,
+    "lr_auc": 0.6828,
+    "mlp_auc": 0.8348,
+    "lr_to_mlp": 0.152
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 4,
+    "lr_auc": 0.6579,
+    "mlp_auc": 0.8513,
+    "lr_to_mlp": 0.1934
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 5,
+    "lr_auc": 0.6423,
+    "mlp_auc": 0.8197,
+    "lr_to_mlp": 0.1773
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 6,
+    "lr_auc": 0.6264,
+    "mlp_auc": 0.8315,
+    "lr_to_mlp": 0.2051
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 7,
+    "lr_auc": 0.6517,
+    "mlp_auc": 0.7937,
+    "lr_to_mlp": 0.1419
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 8,
+    "lr_auc": 0.6381,
+    "mlp_auc": 0.8029,
+    "lr_to_mlp": 0.1648
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 9,
+    "lr_auc": 0.66,
+    "mlp_auc": 0.804,
+    "lr_to_mlp": 0.144
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 10,
+    "lr_auc": 0.6798,
+    "mlp_auc": 0.8188,
+    "lr_to_mlp": 0.139
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 11,
+    "lr_auc": 0.6644,
+    "mlp_auc": 0.8139,
+    "lr_to_mlp": 0.1494
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": 12,
+    "lr_auc": 0.6217,
+    "mlp_auc": 0.8079,
+    "lr_to_mlp": 0.1863
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 0,
+    "lr_auc": 0.5,
+    "mlp_auc": 0.5,
+    "lr_to_mlp": 0.0
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 1,
+    "lr_auc": 0.6291,
+    "mlp_auc": 0.6659,
+    "lr_to_mlp": 0.0368
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 2,
+    "lr_auc": 0.6255,
+    "mlp_auc": 0.662,
+    "lr_to_mlp": 0.0365
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 3,
+    "lr_auc": 0.6294,
+    "mlp_auc": 0.6509,
+    "lr_to_mlp": 0.0215
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 4,
+    "lr_auc": 0.6181,
+    "mlp_auc": 0.6438,
+    "lr_to_mlp": 0.0257
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 5,
+    "lr_auc": 0.6128,
+    "mlp_auc": 0.6352,
+    "lr_to_mlp": 0.0225
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 6,
+    "lr_auc": 0.6177,
+    "mlp_auc": 0.6489,
+    "lr_to_mlp": 0.0312
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 7,
+    "lr_auc": 0.6256,
+    "mlp_auc": 0.6422,
+    "lr_to_mlp": 0.0166
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 8,
+    "lr_auc": 0.6418,
+    "mlp_auc": 0.634,
+    "lr_to_mlp": -0.0078
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 9,
+    "lr_auc": 0.6424,
+    "mlp_auc": 0.6492,
+    "lr_to_mlp": 0.0068
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 10,
+    "lr_auc": 0.615,
+    "mlp_auc": 0.6437,
+    "lr_to_mlp": 0.0286
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 11,
+    "lr_auc": 0.6202,
+    "mlp_auc": 0.6479,
+    "lr_to_mlp": 0.0277
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": 12,
+    "lr_auc": 0.6127,
+    "mlp_auc": 0.6407,
+    "lr_to_mlp": 0.028
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task3_synonymous",
+    "layer": "llr",
+    "lr_auc": 0.491,
+    "mlp_auc": null,
+    "lr_to_mlp": null
+  },
+  {
+    "model": "CodonBERT-HF",
+    "task": "task2_missense",
+    "layer": "llr",
+    "lr_auc": 0.7669,
+    "mlp_auc": null,
+    "lr_to_mlp": null
+  }
+]

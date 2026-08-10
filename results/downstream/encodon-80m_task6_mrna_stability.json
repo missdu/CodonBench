@@ -1,0 +1,52 @@
+{
+  "model": "encodon-80m",
+  "task": "task6_mrna_stability",
+  "architecture": "encoder",
+  "params_M": 80,
+  "success": true,
+  "n_samples": 5000,
+  "n_folds": 5,
+  "embedding_dim": 1024,
+  "embed_time_s": 12.6,
+  "load_meta": {
+    "model_name": "encodon-80m",
+    "model_path": "goodarzilab/encodon-80M",
+    "architecture": "encoder",
+    "params_M": 80,
+    "quantized": false,
+    "device": "cuda:2",
+    "load_time_s": 3.43,
+    "vram_mb": 313.3,
+    "success": true,
+    "error": null
+  },
+  "R2": -0.1533,
+  "pearson_r": 0.0494,
+  "spearman_r": 0.0225,
+  "R2_std": 0.029,
+  "pearson_r_std": 0.039,
+  "spearman_r_std": 0.0205,
+  "fold_details": {
+    "R2": [
+      -0.1029,
+      -0.1836,
+      -0.1802,
+      -0.1523,
+      -0.1476
+    ],
+    "pearson_r": [
+      0.0867,
+      0.0522,
+      0.0363,
+      0.0892,
+      -0.0173
+    ],
+    "spearman_r": [
+      0.0301,
+      -0.0119,
+      0.0511,
+      0.0173,
+      0.026
+    ]
+  }
+}

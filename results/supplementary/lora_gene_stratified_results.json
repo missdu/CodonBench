@@ -1,0 +1,272 @@
+[
+  {
+    "model": "codonbert",
+    "task": "task2_missense",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.8094,
+      "best_epoch": 15,
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_train_genes": 443,
+      "n_test_genes": 325,
+      "gene_overlap": 308
+    },
+    "gene_stratified": {
+      "auc": 0.8152,
+      "best_epoch": 7,
+      "n_train": 3963,
+      "n_test": 1037,
+      "n_train_genes": 368,
+      "n_test_genes": 92,
+      "gene_overlap": 0
+    },
+    "drop_pp": -0.0058
+  },
+  {
+    "model": "codonbert",
+    "task": "task3_synonymous",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.9092,
+      "best_epoch": 30,
+      "n_train": 2272,
+      "n_test": 568,
+      "n_train_genes": 488,
+      "n_test_genes": 301,
+      "gene_overlap": 292
+    },
+    "gene_stratified": {
+      "auc": 0.6743,
+      "best_epoch": 27,
+      "n_train": 2269,
+      "n_test": 571,
+      "n_train_genes": 397,
+      "n_test_genes": 100,
+      "gene_overlap": 0
+    },
+    "drop_pp": 0.2349
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task2_missense",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.8114,
+      "best_epoch": 10,
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_train_genes": 443,
+      "n_test_genes": 325,
+      "gene_overlap": 308
+    },
+    "gene_stratified": {
+      "auc": 0.8137,
+      "best_epoch": 5,
+      "n_train": 3963,
+      "n_test": 1037,
+      "n_train_genes": 368,
+      "n_test_genes": 92,
+      "gene_overlap": 0
+    },
+    "drop_pp": -0.0022
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task3_synonymous",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.9034,
+      "best_epoch": 30,
+      "n_train": 2272,
+      "n_test": 568,
+      "n_train_genes": 488,
+      "n_test_genes": 301,
+      "gene_overlap": 292
+    },
+    "gene_stratified": {
+      "auc": 0.6723,
+      "best_epoch": 30,
+      "n_train": 2269,
+      "n_test": 571,
+      "n_train_genes": 397,
+      "n_test_genes": 100,
+      "gene_overlap": 0
+    },
+    "drop_pp": 0.2312
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task2_missense",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.7008,
+      "best_epoch": 10,
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_train_genes": 443,
+      "n_test_genes": 325,
+      "gene_overlap": 308
+    },
+    "gene_stratified": {
+      "auc": 0.6571,
+      "best_epoch": 22,
+      "n_train": 3963,
+      "n_test": 1037,
+      "n_train_genes": 368,
+      "n_test_genes": 92,
+      "gene_overlap": 0
+    },
+    "drop_pp": 0.0437
+  },
+  {
+    "model": "encodon-80m",
+    "task": "task3_synonymous",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.8743,
+      "best_epoch": 26,
+      "n_train": 2272,
+      "n_test": 568,
+      "n_train_genes": 488,
+      "n_test_genes": 301,
+      "gene_overlap": 292
+    },
+    "gene_stratified": {
+      "auc": 0.6113,
+      "best_epoch": 3,
+      "n_train": 2269,
+      "n_test": 571,
+      "n_train_genes": 397,
+      "n_test_genes": 100,
+      "gene_overlap": 0
+    },
+    "drop_pp": 0.263
+  },
+  {
+    "model": "encodon-620m",
+    "task": "task2_missense",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.7535,
+      "best_epoch": 26,
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_train_genes": 443,
+      "n_test_genes": 325,
+      "gene_overlap": 308
+    },
+    "gene_stratified": {
+      "auc": 0.6697,
+      "best_epoch": 7,
+      "n_train": 3963,
+      "n_test": 1037,
+      "n_train_genes": 368,
+      "n_test_genes": 92,
+      "gene_overlap": 0
+    },
+    "drop_pp": 0.0838
+  },
+  {
+    "model": "encodon-620m",
+    "task": "task3_synonymous",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.8971,
+      "best_epoch": 23,
+      "n_train": 2272,
+      "n_test": 568,
+      "n_train_genes": 488,
+      "n_test_genes": 301,
+      "gene_overlap": 292
+    },
+    "gene_stratified": {
+      "auc": 0.6116,
+      "best_epoch": 27,
+      "n_train": 2269,
+      "n_test": 571,
+      "n_train_genes": 397,
+      "n_test_genes": 100,
+      "gene_overlap": 0
+    },
+    "drop_pp": 0.2855
+  },
+  {
+    "model": "codontransformer",
+    "task": "task2_missense",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.8364,
+      "best_epoch": 6,
+      "n_train": 4000,
+      "n_test": 1000,
+      "n_train_genes": 443,
+      "n_test_genes": 325,
+      "gene_overlap": 308
+    },
+    "gene_stratified": {
+      "auc": 0.8258,
+      "best_epoch": 4,
+      "n_train": 3963,
+      "n_test": 1037,
+      "n_train_genes": 368,
+      "n_test_genes": 92,
+      "gene_overlap": 0
+    },
+    "drop_pp": 0.0105
+  },
+  {
+    "model": "codontransformer",
+    "task": "task3_synonymous",
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_epochs": 30,
+    "lora_lr": 0.0002,
+    "standard_split": {
+      "auc": 0.9191,
+      "best_epoch": 28,
+      "n_train": 2272,
+      "n_test": 568,
+      "n_train_genes": 488,
+      "n_test_genes": 301,
+      "gene_overlap": 292
+    },
+    "gene_stratified": {
+      "auc": 0.7602,
+      "best_epoch": 3,
+      "n_train": 2269,
+      "n_test": 571,
+      "n_train_genes": 397,
+      "n_test_genes": 100,
+      "gene_overlap": 0
+    },
+    "drop_pp": 0.159
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "model": "encodon-80m",
+    "task": "task2_clinvar_missense",
+    "architecture": "encoder",
+    "params_M": 80,
+    "success": true,
+    "n_samples": 1000,
+    "n_pathogenic": 504,
+    "n_benign": 496,
+    "ROC-AUC": 0.5033,
+    "PR-AUC": 0.4977,
+    "neg_log10_p": 0.3692,
+    "eval_time_s": 23.5,
+    "use_rna": false
+  },
+  {
+    "model": "codonbert",
+    "task": "task2_clinvar_missense",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "n_samples": 1000,
+    "n_pathogenic": 504,
+    "n_benign": 496,
+    "ROC-AUC": 0.5218,
+    "PR-AUC": 0.5322,
+    "neg_log10_p": 0.9337,
+    "eval_time_s": 15.2,
+    "use_rna": false
+  },
+  {
+    "model": "codonbert_hf",
+    "task": "task2_clinvar_missense",
+    "architecture": "encoder",
+    "params_M": 87,
+    "success": true,
+    "n_samples": 1000,
+    "n_pathogenic": 504,
+    "n_benign": 496,
+    "ROC-AUC": 0.5112,
+    "PR-AUC": 0.5132,
+    "neg_log10_p": 0.5688,
+    "eval_time_s": 15.3,
+    "use_rna": true
+  },
+  {
+    "model": "cdsbert",
+    "task": "task2_clinvar_missense",
+    "architecture": "encoder",
+    "params_M": 110,
+    "success": true,
+    "n_samples": 1000,
+    "n_pathogenic": 504,
+    "n_benign": 496,
+    "ROC-AUC": 0.5,
+    "PR-AUC": 0.504,
+    "neg_log10_p": -0.0,
+    "eval_time_s": 34.2,
+    "use_rna": false
+  }
+]

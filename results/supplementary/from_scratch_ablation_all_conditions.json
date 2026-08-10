@@ -1,0 +1,177 @@
+{
+  "description": "From-scratch ablation: 5 conditions x 2 probe depths x 2 tokenizers x 2 tasks (SynPath + MisPath)",
+  "last_updated": "2026-06-28",
+  "data_source": "server ./results/ from_scratch_*.json",
+  "data_scale_layer": {
+    "v1": {
+      "params": "~20M",
+      "architecture": "6 layers, hidden 512, intermediate 2048",
+      "cds_count": 4842,
+      "cds_type": "real human CDS",
+      "epochs": 10,
+      "training_samples": 48420,
+      "codon": {
+        "synpath_lr_mean": 0.701,
+        "synpath_lr_std": 0.013,
+        "synpath_lr_folds": [0.7211, 0.7011, 0.7066, 0.6834, 0.6920],
+        "synpath_mlp": 0.719,
+        "mispath_lr_mean": 0.704,
+        "mispath_lr_std": 0.012,
+        "mispath_lr_folds": [0.6840, 0.7084, 0.7191, 0.7075, 0.7013],
+        "mispath_mlp": 0.655
+      },
+      "char": {
+        "synpath_lr_mean": 0.711,
+        "synpath_lr_std": 0.023,
+        "synpath_lr_folds": [0.7448, 0.7047, 0.7076, 0.6739, 0.7234],
+        "synpath_mlp": 0.627,
+        "mispath_lr_mean": 0.701,
+        "mispath_lr_std": 0.020,
+        "mispath_lr_folds": [0.6929, 0.7408, 0.6908, 0.6944, 0.6859],
+        "mispath_mlp": 0.648
+      },
+      "delong_synpath": {
+        "lr_delta_pp": 0.08,
+        "lr_ci": [-4.56, 4.72],
+        "lr_p": 0.81,
+        "mlp_delta_pp": 7.93,
+        "mlp_ci": [2.73, 13.13],
+        "mlp_p": 0.003
+      }
+    },
+    "v3a": {
+      "params": "~20M",
+      "architecture": "6 layers, hidden 512, intermediate 2048",
+      "cds_count": 4842,
+      "cds_type": "real human CDS",
+      "epochs": 100,
+      "training_samples": 484200,
+      "codon": {
+        "synpath_lr_mean": 0.670,
+        "synpath_lr_std": 0.018,
+        "synpath_lr_folds": [0.7033, 0.6492, 0.6716, 0.6622, 0.6649],
+        "synpath_mlp": 0.720,
+        "mispath_lr_mean": 0.701,
+        "mispath_lr_std": 0.014,
+        "mispath_lr_folds": [0.6757, 0.7169, 0.7118, 0.7012, 0.7005],
+        "mispath_mlp": 0.670
+      },
+      "char": {
+        "synpath_lr_mean": 0.647,
+        "synpath_lr_std": 0.026,
+        "synpath_lr_folds": [0.6882, 0.6396, 0.6507, 0.6054, 0.6511],
+        "synpath_mlp": 0.606,
+        "mispath_lr_mean": 0.675,
+        "mispath_lr_std": 0.026,
+        "mispath_lr_folds": [0.6584, 0.7243, 0.6597, 0.6788, 0.6552],
+        "mispath_mlp": 0.634
+      },
+      "delong_synpath": {
+        "lr_delta_pp": 0.88,
+        "lr_ci": [-3.97, 5.73],
+        "lr_p": 0.54,
+        "mlp_delta_pp": 11.11,
+        "mlp_ci": [5.77, 16.44],
+        "mlp_p": 0.001
+      }
+    },
+    "v3b": {
+      "params": "~20M",
+      "architecture": "6 layers, hidden 512, intermediate 2048",
+      "cds_count": 114119,
+      "cds_type": "real Ensembl human CDS",
+      "epochs": 30,
+      "training_samples": 3423570,
+      "codon": {
+        "synpath_lr_mean": 0.706,
+        "synpath_lr_std": 0.013,
+        "synpath_lr_folds": [0.6947, 0.7256, 0.7157, 0.6974, 0.6956],
+        "synpath_mlp": 0.792,
+        "mispath_lr_mean": 0.691,
+        "mispath_lr_std": 0.006,
+        "mispath_lr_folds": [0.6852, 0.6827, 0.6969, 0.6909, 0.6986],
+        "mispath_mlp": 0.674
+      },
+      "char": {
+        "synpath_lr_mean": 0.675,
+        "synpath_lr_std": 0.004,
+        "synpath_lr_folds": [0.6723, 0.6806, 0.6727, 0.6788, 0.6717],
+        "synpath_mlp": 0.647,
+        "mispath_lr_mean": 0.719,
+        "mispath_lr_std": 0.013,
+        "mispath_lr_folds": [0.6976, 0.7341, 0.7166, 0.7304, 0.7145],
+        "mispath_mlp": 0.702
+      },
+      "delong_synpath": {
+        "lr_delta_pp": 1.28,
+        "lr_ci": [-3.63, 6.19],
+        "lr_p": 0.57,
+        "mlp_delta_pp": 13.69,
+        "mlp_ci": [9.05, 18.33],
+        "mlp_p": 0.001
+      }
+    },
+    "v2": {
+      "params": "~20M",
+      "architecture": "6 layers, hidden 512, intermediate 2048",
+      "cds_count": 55000,
+      "cds_type": "mixed: 50658 synthetic + 4342 real CDS",
+      "epochs": 30,
+      "training_samples": 1650000,
+      "codon": {
+        "synpath_lr_mean": 0.669,
+        "synpath_lr_std": 0.011,
+        "synpath_lr_folds": [0.6878, 0.6692, 0.6736, 0.6590, 0.6578],
+        "synpath_mlp": 0.643,
+        "mispath_lr_mean": 0.683,
+        "mispath_lr_std": 0.027,
+        "mispath_lr_folds": [0.6398, 0.7205, 0.6868, 0.6731, 0.6972],
+        "mispath_mlp": 0.648
+      },
+      "char": {
+        "synpath_lr_mean": 0.667,
+        "synpath_lr_std": 0.016,
+        "synpath_lr_folds": [0.6770, 0.6652, 0.6852, 0.6369, 0.6708],
+        "synpath_mlp": 0.662,
+        "mispath_lr_mean": 0.684,
+        "mispath_lr_std": 0.017,
+        "mispath_lr_folds": [0.6636, 0.7125, 0.6777, 0.6917, 0.6746],
+        "mispath_mlp": 0.661
+      },
+      "delong_synpath": null,
+      "note": "negative control: synthetic CDS destroy inter-position codon co-occurrence"
+    }
+  },
+  "model_scale_layer": {
+    "v4": {
+      "params": "~110M",
+      "architecture": "12 layers, hidden 768, intermediate 3072",
+      "cds_count": 114119,
+      "cds_type": "real Ensembl human CDS (same as v3b)",
+      "epochs": 30,
+      "training_samples": 3423570,
+      "codon": {
+        "synpath_lr_mean": 0.706,
+        "synpath_lr_std": 0.012,
+        "synpath_lr_folds": [0.6924, 0.7272, 0.7085, 0.6951, 0.7088],
+        "synpath_mlp": 0.831,
+        "mispath_lr_mean": 0.680,
+        "mispath_lr_std": 0.014,
+        "mispath_lr_folds": [0.6680, 0.7037, 0.6896, 0.6676, 0.6709],
+        "mispath_mlp": 0.681
+      },
+      "char": {
+        "synpath_lr_mean": 0.567,
+        "synpath_lr_std": 0.017,
+        "synpath_lr_folds": [0.5938, 0.5754, 0.5507, 0.5460, 0.5713],
+        "synpath_mlp": 0.590,
+        "mispath_lr_mean": 0.653,
+        "mispath_lr_std": 0.020,
+        "mispath_lr_folds": [0.6404, 0.6912, 0.6478, 0.6450, 0.6381],
+        "mispath_mlp": 0.643
+      },
+      "delong_synpath": null,
+      "note": "model-scale condition: same data as v3b, 5x more parameters"
+    }
+  }
+}

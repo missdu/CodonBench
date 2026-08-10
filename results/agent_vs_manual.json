@@ -1,0 +1,64 @@
+{
+  "speedup_factor": 30.8,
+  "agent_total_time_min": 16.3,
+  "manual_total_time_min": 501.3,
+  "agent_error_rate": 0.143,
+  "manual_error_rate": 0.08,
+  "runtime_error_detection_rate": 1.0,
+  "recommendation_accuracy": 1.0,
+  "n_tasks": 14,
+  "n_success": 12,
+  "n_failed": 2,
+  "runtime_error_types": {
+    "tokenizer_mismatch": 2
+  },
+  "artifact_detection": {
+    "n_checks": 5,
+    "n_detected": 3,
+    "n_artifact_types": 2,
+    "artifact_types_detected": [
+      "gene_identity_leakage",
+      "best_epoch_selection_bias"
+    ],
+    "details": {
+      "standard_split_synpath": {
+        "artifact_type": "gene_identity_leakage",
+        "detected": true,
+        "n_overlapping_genes": 478,
+        "overlap_ratio": 0.96,
+        "severity": "critical"
+      },
+      "standard_split_missense": {
+        "artifact_type": "gene_identity_leakage",
+        "detected": true,
+        "n_overlapping_genes": 478,
+        "overlap_ratio": 0.96,
+        "severity": "critical"
+      },
+      "logo_cv_synpath": {
+        "artifact_type": "gene_identity_leakage",
+        "detected": false,
+        "n_overlapping_genes": 0,
+        "overlap_ratio": 0.0,
+        "severity": "info"
+      },
+      "regression_mrfp_best_epoch": {
+        "artifact_type": "best_epoch_selection_bias",
+        "detected": true,
+        "selection_source": "test",
+        "severity": "critical"
+      },
+      "regression_mrfp_val_early_stop": {
+        "artifact_type": "best_epoch_selectio
+        
+        
+        
+        
+        n_bias",
+        "detected": false,
+        "selection_source": "validation",
+        "severity": "info"
+      }
+    }
+  }
+}

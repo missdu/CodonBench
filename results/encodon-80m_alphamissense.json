@@ -1,0 +1,12 @@
+{
+  "model": "encodon-80m",
+  "task": "alphamissense_correlation",
+  "n_samples": 2000,
+  "ROC-AUC": 0.4951,
+  "spearman_r": 0.0025,
+  "spearman_p": "9.12e-01",
+  "pearson_r": -0.0069,
+  "pearson_p": "7.58e-01",
+  "llr_mean": -0.0825,
+  "llr_std": 4.6705
+}

@@ -1,0 +1,20 @@
+{
+  "model": "encodon-620m",
+  "task": "task2_missense",
+  "type": "cLM",
+  "params_M": 620,
+  "emb_dim": 2048,
+  "n_samples": 5000,
+  "success": true,
+  "lr_auc_mean": 0.6167,
+  "lr_auc_std": 0.0139,
+  "lr_auc_folds": [
+    0.5968,
+    0.6028,
+    0.6272,
+    0.6263,
+    0.6302
+  ],
+  "mlp_auc_test": 0.6667,
+  "emb_time_s": 56.2
+}

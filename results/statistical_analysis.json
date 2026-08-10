@@ -1,0 +1,3465 @@
+{
+  "pairwise_comparisons": [
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "codonbert",
+      "type_1": "cLM",
+      "type_2": "cLM",
+      "auc_1": 0.6329,
+      "auc_2": 0.6602,
+      "diff": -0.0273,
+      "cohens_d": -1.281,
+      "effect_size": "large",
+      "p_value": 0.07010030519453571,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6126,
+        0.6529
+      ],
+      "bootstrap_ci_2": [
+        0.6481,
+        0.6719
+      ],
+      "p_fdr": 0.091616,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "codonbert_hf",
+      "type_1": "cLM",
+      "type_2": "cLM",
+      "auc_1": 0.6329,
+      "auc_2": 0.6594,
+      "diff": -0.0265,
+      "cohens_d": -1.245,
+      "effect_size": "large",
+      "p_value": 0.04065952463234485,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6134,
+        0.6529
+      ],
+      "bootstrap_ci_2": [
+        0.6484,
+        0.6712
+      ],
+      "p_fdr": 0.05533,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "nt-50m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.6329,
+      "auc_2": 0.5734,
+      "diff": 0.0595,
+      "cohens_d": 2.53,
+      "effect_size": "large",
+      "p_value": 0.003739834671932808,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6134,
+        0.6529
+      ],
+      "bootstrap_ci_2": [
+        0.5595,
+        0.5907
+      ],
+      "p_fdr": 0.006856,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "nt-500m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.6329,
+      "auc_2": 0.5695,
+      "diff": 0.0634,
+      "cohens_d": 2.563,
+      "effect_size": "large",
+      "p_value": 0.007893603486944381,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6126,
+        0.6516
+      ],
+      "bootstrap_ci_2": [
+        0.5503,
+        0.5878
+      ],
+      "p_fdr": 0.012554,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "onehot_freq",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6329,
+      "auc_2": 0.6669,
+      "diff": -0.034,
+      "cohens_d": -1.584,
+      "effect_size": "large",
+      "p_value": 0.036880259104132694,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6134,
+        0.6519
+      ],
+      "bootstrap_ci_2": [
+        0.6551,
+        0.6787
+      ],
+      "p_fdr": 0.05071,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "onehot_pos",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6329,
+      "auc_2": 0.7554,
+      "diff": -0.1225,
+      "cohens_d": -6.036,
+      "effect_size": "large",
+      "p_value": 0.0006552931824796231,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6126,
+        0.6516
+      ],
+      "bootstrap_ci_2": [
+        0.7451,
+        0.763
+      ],
+      "p_fdr": 0.001573,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "kmer3",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6329,
+      "auc_2": 0.6214,
+      "diff": 0.0115,
+      "cohens_d": 0.469,
+      "effect_size": "small",
+      "p_value": 0.49306962111470953,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6126,
+        0.6516
+      ],
+      "bootstrap_ci_2": [
+        0.6055,
+        0.6393
+      ],
+      "p_fdr": 0.529148,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "kmer4",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6329,
+      "auc_2": 0.6271,
+      "diff": 0.0058,
+      "cohens_d": 0.246,
+      "effect_size": "small",
+      "p_value": 0.6062144013583584,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6126,
+        0.6529
+      ],
+      "bootstrap_ci_2": [
+        0.6156,
+        0.6457
+      ],
+      "p_fdr": 0.6387,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "kmer6",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6329,
+      "auc_2": 0.6508,
+      "diff": -0.0179,
+      "cohens_d": -0.672,
+      "effect_size": "medium",
+      "p_value": 0.13315449605346213,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6134,
+        0.6529
+      ],
+      "bootstrap_ci_2": [
+        0.6331,
+        0.6747
+      ],
+      "p_fdr": 0.162744,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "combined",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6329,
+      "auc_2": 0.6662,
+      "diff": -0.0333,
+      "cohens_d": -1.464,
+      "effect_size": "large",
+      "p_value": 0.05664004503433629,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6126,
+        0.6516
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6812
+      ],
+      "p_fdr": 0.07552,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "encodon-80m",
+      "model_2": "esm_2_650m",
+      "type_1": "cLM",
+      "type_2": "pLM",
+      "auc_1": 0.6329,
+      "auc_2": 0.7191,
+      "diff": -0.0862,
+      "cohens_d": -3.837,
+      "effect_size": "large",
+      "p_value": 0.0008361285716811076,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6126,
+        0.6529
+      ],
+      "bootstrap_ci_2": [
+        0.7061,
+        0.7338
+      ],
+      "p_fdr": 0.001971,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "codonbert_hf",
+      "type_1": "cLM",
+      "type_2": "cLM",
+      "auc_1": 0.6602,
+      "auc_2": 0.6594,
+      "diff": 0.0008,
+      "cohens_d": 0.055,
+      "effect_size": "negligible",
+      "p_value": 0.8950741349573124,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.6484,
+        0.6712
+      ],
+      "p_fdr": 0.901907,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "nt-50m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.6602,
+      "auc_2": 0.5734,
+      "diff": 0.0868,
+      "cohens_d": 4.792,
+      "effect_size": "large",
+      "p_value": 0.00014016624126660763,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.5595,
+        0.591
+      ],
+      "p_fdr": 0.000586,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "nt-500m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.6602,
+      "auc_2": 0.5695,
+      "diff": 0.0907,
+      "cohens_d": 4.606,
+      "effect_size": "large",
+      "p_value": 0.0018124386399806184,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.5503,
+        0.5878
+      ],
+      "p_fdr": 0.003738,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "onehot_freq",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6602,
+      "auc_2": 0.6669,
+      "diff": -0.0067,
+      "cohens_d": -0.431,
+      "effect_size": "small",
+      "p_value": 0.3954325054865927,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.6551,
+        0.6787
+      ],
+      "p_fdr": 0.438631,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "onehot_pos",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6602,
+      "auc_2": 0.7554,
+      "diff": -0.0952,
+      "cohens_d": -6.939,
+      "effect_size": "large",
+      "p_value": 0.00040490031839368097,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.7451,
+        0.763
+      ],
+      "p_fdr": 0.001113,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "kmer3",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6602,
+      "auc_2": 0.6214,
+      "diff": 0.0388,
+      "cohens_d": 2.007,
+      "effect_size": "large",
+      "p_value": 0.016835260348166188,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.6055,
+        0.6396
+      ],
+      "p_fdr": 0.02442,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "kmer4",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6602,
+      "auc_2": 0.6271,
+      "diff": 0.0331,
+      "cohens_d": 1.804,
+      "effect_size": "large",
+      "p_value": 0.015733117834479893,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.6156,
+        0.646
+      ],
+      "p_fdr": 0.023075,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "kmer6",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6602,
+      "auc_2": 0.6508,
+      "diff": 0.0094,
+      "cohens_d": 0.424,
+      "effect_size": "small",
+      "p_value": 0.3924190916191456,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.6331,
+        0.6747
+      ],
+      "p_fdr": 0.438631,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "combined",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6602,
+      "auc_2": 0.6662,
+      "diff": -0.006,
+      "cohens_d": -0.348,
+      "effect_size": "small",
+      "p_value": 0.4988974518286653,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6809
+      ],
+      "p_fdr": 0.531084,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert",
+      "model_2": "esm_2_650m",
+      "type_1": "cLM",
+      "type_2": "pLM",
+      "auc_1": 0.6602,
+      "auc_2": 0.7191,
+      "diff": -0.0589,
+      "cohens_d": -3.512,
+      "effect_size": "large",
+      "p_value": 0.0017691580039515416,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6481,
+        0.6719
+      ],
+      "bootstrap_ci_2": [
+        0.7049,
+        0.7338
+      ],
+      "p_fdr": 0.003738,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert_hf",
+      "model_2": "nt-50m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.6594,
+      "auc_2": 0.5734,
+      "diff": 0.086,
+      "cohens_d": 4.762,
+      "effect_size": "large",
+      "p_value": 0.00010899329260115217,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6484,
+        0.6712
+      ],
+      "bootstrap_ci_2": [
+        0.5592,
+        0.5907
+      ],
+      "p_fdr": 0.000524,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert_hf",
+      "model_2": "nt-500m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.6594,
+      "auc_2": 0.5695,
+      "diff": 0.0899,
+      "cohens_d": 4.576,
+      "effect_size": "large",
+      "p_value": 0.00018247833845340275,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6484,
+        0.6712
+      ],
+      "bootstrap_ci_2": [
+        0.5503,
+        0.5879
+      ],
+      "p_fdr": 0.000669,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert_hf",
+      "model_2": "onehot_freq",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6594,
+      "auc_2": 0.6669,
+      "diff": -0.0075,
+      "cohens_d": -0.488,
+      "effect_size": "small",
+      "p_value": 0.08308313441920141,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6484,
+        0.6712
+      ],
+      "bootstrap_ci_2": [
+        0.6551,
+        0.6787
+      ],
+      "p_fdr": 0.107519,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert_hf",
+      "model_2": "onehot_pos",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6594,
+      "auc_2": 0.7554,
+      "diff": -0.096,
+      "cohens_d": -7.042,
+      "effect_size": "large",
+      "p_value": 8.724564338725445e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6484,
+        0.6712
+      ],
+      "bootstrap_ci_2": [
+        0.7451,
+        0.763
+      ],
+      "p_fdr": 0.000469,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert_hf",
+      "model_2": "kmer3",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6594,
+      "auc_2": 0.6214,
+      "diff": 0.038,
+      "cohens_d": 1.969,
+      "effect_size": "large",
+      "p_value": 0.015049212695684343,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6484,
+        0.6712
+      ],
+      "bootstrap_ci_2": [
+        0.6055,
+        0.6396
+      ],
+      "p_fdr": 0.022833,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert_hf",
+      "model_2": "kmer4",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6594,
+      "auc_2": 0.6271,
+      "diff": 0.0323,
+      "cohens_d": 1.764,
+      "effect_size": "large",
+      "p_value": 0.003916980093224244,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6484,
+        0.6712
+      ],
+      "bootstrap_ci_2": [
+        0.6155,
+        0.6457
+      ],
+      "p_fdr": 0.007083,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert_hf",
+      "model_2": "kmer6",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6594,
+      "auc_2": 0.6508,
+      "diff": 0.0086,
+      "cohens_d": 0.387,
+      "effect_size": "small",
+      "p_value": 0.28518473344652884,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6484,
+        0.6712
+      ],
+      "bootstrap_ci_2": [
+        0.6331,
+        0.6747
+      ],
+      "p_fdr": 0.330214,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert_hf",
+      "model_2": "combined",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6594,
+      "auc_2": 0.6662,
+      "diff": -0.0068,
+      "cohens_d": -0.399,
+      "effect_size": "small",
+      "p_value": 0.16659747025279584,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6484,
+        0.6712
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6809
+      ],
+      "p_fdr": 0.199917,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "codonbert_hf",
+      "model_2": "esm_2_650m",
+      "type_1": "cLM",
+      "type_2": "pLM",
+      "auc_1": 0.6594,
+      "auc_2": 0.7191,
+      "diff": -0.0597,
+      "cohens_d": -3.577,
+      "effect_size": "large",
+      "p_value": 8.635675220697945e-06,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6484,
+        0.6712
+      ],
+      "bootstrap_ci_2": [
+        0.7061,
+        0.7338
+      ],
+      "p_fdr": 0.000163,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-50m",
+      "model_2": "nt-500m",
+      "type_1": "DNA LM",
+      "type_2": "DNA LM",
+      "auc_1": 0.5734,
+      "auc_2": 0.5695,
+      "diff": 0.0039,
+      "cohens_d": 0.181,
+      "effect_size": "negligible",
+      "p_value": 0.7227928825332407,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.5595,
+        0.591
+      ],
+      "bootstrap_ci_2": [
+        0.5501,
+        0.5878
+      ],
+      "p_fdr": 0.751249,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-50m",
+      "model_2": "onehot_freq",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5734,
+      "auc_2": 0.6669,
+      "diff": -0.0935,
+      "cohens_d": -5.126,
+      "effect_size": "large",
+      "p_value": 0.0004022119475091266,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5595,
+        0.591
+      ],
+      "bootstrap_ci_2": [
+        0.6551,
+        0.6787
+      ],
+      "p_fdr": 0.001113,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-50m",
+      "model_2": "onehot_pos",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5734,
+      "auc_2": 0.7554,
+      "diff": -0.182,
+      "cohens_d": -10.793,
+      "effect_size": "large",
+      "p_value": 7.531604267850508e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5595,
+        0.591
+      ],
+      "bootstrap_ci_2": [
+        0.7451,
+        0.763
+      ],
+      "p_fdr": 0.000452,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-50m",
+      "model_2": "kmer3",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5734,
+      "auc_2": 0.6214,
+      "diff": -0.048,
+      "cohens_d": -2.212,
+      "effect_size": "large",
+      "p_value": 0.0018598435330801472,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5595,
+        0.591
+      ],
+      "bootstrap_ci_2": [
+        0.6055,
+        0.6396
+      ],
+      "p_fdr": 0.003777,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-50m",
+      "model_2": "kmer4",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5734,
+      "auc_2": 0.6271,
+      "diff": -0.0537,
+      "cohens_d": -2.57,
+      "effect_size": "large",
+      "p_value": 7.345785411992e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5595,
+        0.591
+      ],
+      "bootstrap_ci_2": [
+        0.6155,
+        0.6457
+      ],
+      "p_fdr": 0.000452,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-50m",
+      "model_2": "kmer6",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5734,
+      "auc_2": 0.6508,
+      "diff": -0.0774,
+      "cohens_d": -3.194,
+      "effect_size": "large",
+      "p_value": 6.019796744478285e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5592,
+        0.5907
+      ],
+      "bootstrap_ci_2": [
+        0.6331,
+        0.6747
+      ],
+      "p_fdr": 0.000452,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-50m",
+      "model_2": "combined",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5734,
+      "auc_2": 0.6662,
+      "diff": -0.0928,
+      "cohens_d": -4.692,
+      "effect_size": "large",
+      "p_value": 0.00040052872199747855,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5595,
+        0.591
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6812
+      ],
+      "p_fdr": 0.001113,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-50m",
+      "model_2": "esm_2_650m",
+      "type_1": "DNA LM",
+      "type_2": "pLM",
+      "auc_1": 0.5734,
+      "auc_2": 0.7191,
+      "diff": -0.1457,
+      "cohens_d": -7.502,
+      "effect_size": "large",
+      "p_value": 2.7588123943016143e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5595,
+        0.591
+      ],
+      "bootstrap_ci_2": [
+        0.7064,
+        0.7338
+      ],
+      "p_fdr": 0.000303,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-500m",
+      "model_2": "onehot_freq",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5695,
+      "auc_2": 0.6669,
+      "diff": -0.0974,
+      "cohens_d": -4.916,
+      "effect_size": "large",
+      "p_value": 0.00014212297534110593,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5501,
+        0.5878
+      ],
+      "bootstrap_ci_2": [
+        0.6551,
+        0.6787
+      ],
+      "p_fdr": 0.000586,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-500m",
+      "model_2": "onehot_pos",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5695,
+      "auc_2": 0.7554,
+      "diff": -0.1859,
+      "cohens_d": -10.016,
+      "effect_size": "large",
+      "p_value": 1.5531462113592263e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5503,
+        0.5878
+      ],
+      "bootstrap_ci_2": [
+        0.7451,
+        0.763
+      ],
+      "p_fdr": 0.000205,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-500m",
+      "model_2": "kmer3",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5695,
+      "auc_2": 0.6214,
+      "diff": -0.0519,
+      "cohens_d": -2.255,
+      "effect_size": "large",
+      "p_value": 0.008871548532623934,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5488,
+        0.5878
+      ],
+      "bootstrap_ci_2": [
+        0.6055,
+        0.6393
+      ],
+      "p_fdr": 0.013777,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-500m",
+      "model_2": "kmer4",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5695,
+      "auc_2": 0.6271,
+      "diff": -0.0576,
+      "cohens_d": -2.587,
+      "effect_size": "large",
+      "p_value": 0.00196639084368186,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5501,
+        0.5878
+      ],
+      "bootstrap_ci_2": [
+        0.6155,
+        0.646
+      ],
+      "p_fdr": 0.003874,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-500m",
+      "model_2": "kmer6",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5695,
+      "auc_2": 0.6508,
+      "diff": -0.0813,
+      "cohens_d": -3.197,
+      "effect_size": "large",
+      "p_value": 0.0010599267934373248,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5501,
+        0.5878
+      ],
+      "bootstrap_ci_2": [
+        0.6331,
+        0.6747
+      ],
+      "p_fdr": 0.002412,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-500m",
+      "model_2": "combined",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.5695,
+      "auc_2": 0.6662,
+      "diff": -0.0967,
+      "cohens_d": -4.554,
+      "effect_size": "large",
+      "p_value": 7.036679155496098e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5501,
+        0.5878
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6809
+      ],
+      "p_fdr": 0.000452,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "nt-500m",
+      "model_2": "esm_2_650m",
+      "type_1": "DNA LM",
+      "type_2": "pLM",
+      "auc_1": 0.5695,
+      "auc_2": 0.7191,
+      "diff": -0.1496,
+      "cohens_d": -7.155,
+      "effect_size": "large",
+      "p_value": 7.0939636092001715e-06,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5503,
+        0.5878
+      ],
+      "bootstrap_ci_2": [
+        0.7049,
+        0.7338
+      ],
+      "p_fdr": 0.000156,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_freq",
+      "model_2": "onehot_pos",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6669,
+      "auc_2": 0.7554,
+      "diff": -0.0885,
+      "cohens_d": -6.388,
+      "effect_size": "large",
+      "p_value": 2.1106370695453247e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6551,
+        0.6787
+      ],
+      "bootstrap_ci_2": [
+        0.7451,
+        0.763
+      ],
+      "p_fdr": 0.000253,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_freq",
+      "model_2": "kmer3",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6669,
+      "auc_2": 0.6214,
+      "diff": 0.0455,
+      "cohens_d": 2.336,
+      "effect_size": "large",
+      "p_value": 0.01563031609149714,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6551,
+        0.6787
+      ],
+      "bootstrap_ci_2": [
+        0.6055,
+        0.6393
+      ],
+      "p_fdr": 0.023075,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_freq",
+      "model_2": "kmer4",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6669,
+      "auc_2": 0.6271,
+      "diff": 0.0398,
+      "cohens_d": 2.15,
+      "effect_size": "large",
+      "p_value": 0.008541311567152958,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6551,
+        0.6787
+      ],
+      "bootstrap_ci_2": [
+        0.6155,
+        0.6457
+      ],
+      "p_fdr": 0.013422,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_freq",
+      "model_2": "kmer6",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6669,
+      "auc_2": 0.6508,
+      "diff": 0.0161,
+      "cohens_d": 0.72,
+      "effect_size": "medium",
+      "p_value": 0.18040306610865753,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6551,
+        0.6784
+      ],
+      "bootstrap_ci_2": [
+        0.6331,
+        0.6747
+      ],
+      "p_fdr": 0.212618,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_freq",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6669,
+      "auc_2": 0.6662,
+      "diff": 0.0007,
+      "cohens_d": 0.037,
+      "effect_size": "negligible",
+      "p_value": 0.8179489053991871,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.654,
+        0.6787
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6812
+      ],
+      "p_fdr": 0.830533,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_freq",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.6669,
+      "auc_2": 0.7191,
+      "diff": -0.0522,
+      "cohens_d": -3.095,
+      "effect_size": "large",
+      "p_value": 0.00012140828071002359,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6551,
+        0.6787
+      ],
+      "bootstrap_ci_2": [
+        0.7061,
+        0.7338
+      ],
+      "p_fdr": 0.000534,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_pos",
+      "model_2": "kmer3",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.7554,
+      "auc_2": 0.6214,
+      "diff": 0.134,
+      "cohens_d": 7.371,
+      "effect_size": "large",
+      "p_value": 0.000370932020000442,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7451,
+        0.763
+      ],
+      "bootstrap_ci_2": [
+        0.6055,
+        0.6396
+      ],
+      "p_fdr": 0.001113,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_pos",
+      "model_2": "kmer4",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.7554,
+      "auc_2": 0.6271,
+      "diff": 0.1283,
+      "cohens_d": 7.474,
+      "effect_size": "large",
+      "p_value": 0.00023583202459689473,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7442,
+        0.763
+      ],
+      "bootstrap_ci_2": [
+        0.6155,
+        0.6457
+      ],
+      "p_fdr": 0.000803,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_pos",
+      "model_2": "kmer6",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.7554,
+      "auc_2": 0.6508,
+      "diff": 0.1046,
+      "cohens_d": 4.943,
+      "effect_size": "large",
+      "p_value": 0.0011683978398090618,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7451,
+        0.763
+      ],
+      "bootstrap_ci_2": [
+        0.6331,
+        0.6747
+      ],
+      "p_fdr": 0.002614,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_pos",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.7554,
+      "auc_2": 0.6662,
+      "diff": 0.0892,
+      "cohens_d": 5.629,
+      "effect_size": "large",
+      "p_value": 6.957704898371647e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7451,
+        0.763
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6812
+      ],
+      "p_fdr": 0.000452,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "onehot_pos",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.7554,
+      "auc_2": 0.7191,
+      "diff": 0.0363,
+      "cohens_d": 2.358,
+      "effect_size": "large",
+      "p_value": 0.004306437901624338,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7451,
+        0.763
+      ],
+      "bootstrap_ci_2": [
+        0.7061,
+        0.7338
+      ],
+      "p_fdr": 0.007643,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "kmer3",
+      "model_2": "kmer4",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6214,
+      "auc_2": 0.6271,
+      "diff": -0.0057,
+      "cohens_d": -0.256,
+      "effect_size": "small",
+      "p_value": 0.3708412814322411,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6055,
+        0.6396
+      ],
+      "bootstrap_ci_2": [
+        0.6155,
+        0.6457
+      ],
+      "p_fdr": 0.418385,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "kmer3",
+      "model_2": "kmer6",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6214,
+      "auc_2": 0.6508,
+      "diff": -0.0294,
+      "cohens_d": -1.169,
+      "effect_size": "large",
+      "p_value": 0.027727778926241283,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6055,
+        0.6393
+      ],
+      "bootstrap_ci_2": [
+        0.6331,
+        0.6747
+      ],
+      "p_fdr": 0.039356,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "kmer3",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6214,
+      "auc_2": 0.6662,
+      "diff": -0.0448,
+      "cohens_d": -2.143,
+      "effect_size": "large",
+      "p_value": 0.012146263269735842,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6055,
+        0.6393
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6809
+      ],
+      "p_fdr": 0.018643,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "kmer3",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.6214,
+      "auc_2": 0.7191,
+      "diff": -0.0977,
+      "cohens_d": -4.748,
+      "effect_size": "large",
+      "p_value": 0.0005637902489839526,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6055,
+        0.6396
+      ],
+      "bootstrap_ci_2": [
+        0.7049,
+        0.7338
+      ],
+      "p_fdr": 0.001423,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "kmer4",
+      "model_2": "kmer6",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6271,
+      "auc_2": 0.6508,
+      "diff": -0.0237,
+      "cohens_d": -0.973,
+      "effect_size": "large",
+      "p_value": 0.0029000672738605446,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6156,
+        0.646
+      ],
+      "bootstrap_ci_2": [
+        0.6331,
+        0.6747
+      ],
+      "p_fdr": 0.005469,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "kmer4",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6271,
+      "auc_2": 0.6662,
+      "diff": -0.0391,
+      "cohens_d": -1.955,
+      "effect_size": "large",
+      "p_value": 0.006772542886397985,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6155,
+        0.6457
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6816
+      ],
+      "p_fdr": 0.011461,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "kmer4",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.6271,
+      "auc_2": 0.7191,
+      "diff": -0.092,
+      "cohens_d": -4.675,
+      "effect_size": "large",
+      "p_value": 8.081511819029597e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6155,
+        0.6457
+      ],
+      "bootstrap_ci_2": [
+        0.7061,
+        0.7338
+      ],
+      "p_fdr": 0.000464,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "kmer6",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6508,
+      "auc_2": 0.6662,
+      "diff": -0.0154,
+      "cohens_d": -0.653,
+      "effect_size": "medium",
+      "p_value": 0.17377864541322913,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6331,
+        0.6747
+      ],
+      "bootstrap_ci_2": [
+        0.6522,
+        0.6812
+      ],
+      "p_fdr": 0.206656,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "kmer6",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.6508,
+      "auc_2": 0.7191,
+      "diff": -0.0683,
+      "cohens_d": -2.937,
+      "effect_size": "large",
+      "p_value": 0.0005788450426191426,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6331,
+        0.6765
+      ],
+      "bootstrap_ci_2": [
+        0.7049,
+        0.7338
+      ],
+      "p_fdr": 0.001423,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task2_missense",
+      "model_1": "combined",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.6662,
+      "auc_2": 0.7191,
+      "diff": -0.0529,
+      "cohens_d": -2.852,
+      "effect_size": "large",
+      "p_value": 0.0001001747503424981,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6522,
+        0.6816
+      ],
+      "bootstrap_ci_2": [
+        0.7049,
+        0.7333
+      ],
+      "p_fdr": 0.000509,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "codonbert",
+      "type_1": "cLM",
+      "type_2": "cLM",
+      "auc_1": 0.6856,
+      "auc_2": 0.7336,
+      "diff": -0.048,
+      "cohens_d": -1.972,
+      "effect_size": "large",
+      "p_value": 0.05185882693452325,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6651,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.7271,
+        0.7394
+      ],
+      "p_fdr": 0.069851,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "codonbert_hf",
+      "type_1": "cLM",
+      "type_2": "cLM",
+      "auc_1": 0.6856,
+      "auc_2": 0.7047,
+      "diff": -0.0191,
+      "cohens_d": -0.739,
+      "effect_size": "medium",
+      "p_value": 0.1932838833139058,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6653,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.6932,
+        0.7161
+      ],
+      "p_fdr": 0.225783,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "nt-50m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.6856,
+      "auc_2": 0.6425,
+      "diff": 0.0431,
+      "cohens_d": 1.528,
+      "effect_size": "large",
+      "p_value": 0.06575217414444838,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6653,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.6231,
+        0.6562
+      ],
+      "p_fdr": 0.086793,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "nt-500m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.6856,
+      "auc_2": 0.6991,
+      "diff": -0.0135,
+      "cohens_d": -0.549,
+      "effect_size": "medium",
+      "p_value": 0.44578329302666747,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6651,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.6934,
+        0.7073
+      ],
+      "p_fdr": 0.486309,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "onehot_freq",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6856,
+      "auc_2": 0.589,
+      "diff": 0.0966,
+      "cohens_d": 3.864,
+      "effect_size": "large",
+      "p_value": 0.006010751213208412,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6651,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.5812,
+        0.5983
+      ],
+      "p_fdr": 0.010304,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "onehot_pos",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6856,
+      "auc_2": 0.891,
+      "diff": -0.2054,
+      "cohens_d": -7.106,
+      "effect_size": "large",
+      "p_value": 7.181507481709561e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6653,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.871,
+        0.9076
+      ],
+      "p_fdr": 0.000452,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "kmer3",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6856,
+      "auc_2": 0.5617,
+      "diff": 0.1239,
+      "cohens_d": 4.259,
+      "effect_size": "large",
+      "p_value": 0.0004291357029957575,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6651,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.5408,
+        0.577
+      ],
+      "p_fdr": 0.001133,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "kmer4",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6856,
+      "auc_2": 0.5804,
+      "diff": 0.1052,
+      "cohens_d": 3.457,
+      "effect_size": "large",
+      "p_value": 0.00017943155747488589,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6651,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.5583,
+        0.6027
+      ],
+      "p_fdr": 0.000669,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "kmer6",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6856,
+      "auc_2": 0.6999,
+      "diff": -0.0143,
+      "cohens_d": -0.435,
+      "effect_size": "small",
+      "p_value": 0.10931105484229685,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6653,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.6753,
+        0.7253
+      ],
+      "p_fdr": 0.134851,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "combined",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.6856,
+      "auc_2": 0.5936,
+      "diff": 0.092,
+      "cohens_d": 3.539,
+      "effect_size": "large",
+      "p_value": 0.004485216779962479,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6651,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.5828,
+        0.6066
+      ],
+      "p_fdr": 0.00779,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "encodon-80m",
+      "model_2": "esm_2_650m",
+      "type_1": "cLM",
+      "type_2": "pLM",
+      "auc_1": 0.6856,
+      "auc_2": 0.6797,
+      "diff": 0.0059,
+      "cohens_d": 0.199,
+      "effect_size": "negligible",
+      "p_value": 0.7857750602328133,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6653,
+        0.7145
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6988
+      ],
+      "p_fdr": 0.804049,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "codonbert_hf",
+      "type_1": "cLM",
+      "type_2": "cLM",
+      "auc_1": 0.7336,
+      "auc_2": 0.7047,
+      "diff": 0.0289,
+      "cohens_d": 2.518,
+      "effect_size": "large",
+      "p_value": 0.03172499063331691,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7271,
+        0.7394
+      ],
+      "bootstrap_ci_2": [
+        0.6932,
+        0.7161
+      ],
+      "p_fdr": 0.04455,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "nt-50m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.7336,
+      "auc_2": 0.6425,
+      "diff": 0.0911,
+      "cohens_d": 5.655,
+      "effect_size": "large",
+      "p_value": 0.000543906335238793,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7271,
+        0.7394
+      ],
+      "bootstrap_ci_2": [
+        0.6231,
+        0.6562
+      ],
+      "p_fdr": 0.001408,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "nt-500m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.7336,
+      "auc_2": 0.6991,
+      "diff": 0.0345,
+      "cohens_d": 4.027,
+      "effect_size": "large",
+      "p_value": 0.0017592465008817986,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7272,
+        0.7394
+      ],
+      "bootstrap_ci_2": [
+        0.6933,
+        0.7076
+      ],
+      "p_fdr": 0.003738,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "onehot_freq",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7336,
+      "auc_2": 0.589,
+      "diff": 0.1446,
+      "cohens_d": 15.248,
+      "effect_size": "large",
+      "p_value": 4.697179653034206e-07,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7271,
+        0.7394
+      ],
+      "bootstrap_ci_2": [
+        0.5812,
+        0.5975
+      ],
+      "p_fdr": 3.1e-05,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "onehot_pos",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7336,
+      "auc_2": 0.891,
+      "diff": -0.1574,
+      "cohens_d": -9.076,
+      "effect_size": "large",
+      "p_value": 0.00012056854606436949,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7271,
+        0.7393
+      ],
+      "bootstrap_ci_2": [
+        0.871,
+        0.9076
+      ],
+      "p_fdr": 0.000534,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "kmer3",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7336,
+      "auc_2": 0.5617,
+      "diff": 0.1719,
+      "cohens_d": 9.74,
+      "effect_size": "large",
+      "p_value": 0.00011121389953699301,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7271,
+        0.7393
+      ],
+      "bootstrap_ci_2": [
+        0.5415,
+        0.577
+      ],
+      "p_fdr": 0.000524,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "kmer4",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7336,
+      "auc_2": 0.5804,
+      "diff": 0.1532,
+      "cohens_d": 7.746,
+      "effect_size": "large",
+      "p_value": 0.0004172432576692716,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7272,
+        0.7394
+      ],
+      "bootstrap_ci_2": [
+        0.5577,
+        0.6022
+      ],
+      "p_fdr": 0.001124,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "kmer6",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7336,
+      "auc_2": 0.6999,
+      "diff": 0.0337,
+      "cohens_d": 1.431,
+      "effect_size": "large",
+      "p_value": 0.10030657423311157,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.7271,
+        0.7393
+      ],
+      "bootstrap_ci_2": [
+        0.6753,
+        0.7253
+      ],
+      "p_fdr": 0.12491,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "combined",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7336,
+      "auc_2": 0.5936,
+      "diff": 0.14,
+      "cohens_d": 11.793,
+      "effect_size": "large",
+      "p_value": 1.055206576406239e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7272,
+        0.7393
+      ],
+      "bootstrap_ci_2": [
+        0.5828,
+        0.6049
+      ],
+      "p_fdr": 0.000174,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert",
+      "model_2": "esm_2_650m",
+      "type_1": "cLM",
+      "type_2": "pLM",
+      "auc_1": 0.7336,
+      "auc_2": 0.6797,
+      "diff": 0.0539,
+      "cohens_d": 2.878,
+      "effect_size": "large",
+      "p_value": 0.007148877776173453,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.7272,
+        0.7394
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6987
+      ],
+      "p_fdr": 0.011796,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert_hf",
+      "model_2": "nt-50m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.7047,
+      "auc_2": 0.6425,
+      "diff": 0.0622,
+      "cohens_d": 3.406,
+      "effect_size": "large",
+      "p_value": 0.006912971947635443,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6932,
+        0.7161
+      ],
+      "bootstrap_ci_2": [
+        0.6231,
+        0.6562
+      ],
+      "p_fdr": 0.011551,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert_hf",
+      "model_2": "nt-500m",
+      "type_1": "cLM",
+      "type_2": "DNA LM",
+      "auc_1": 0.7047,
+      "auc_2": 0.6991,
+      "diff": 0.0056,
+      "cohens_d": 0.457,
+      "effect_size": "small",
+      "p_value": 0.40937055009633766,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6932,
+        0.7161
+      ],
+      "bootstrap_ci_2": [
+        0.6933,
+        0.7076
+      ],
+      "p_fdr": 0.450308,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert_hf",
+      "model_2": "onehot_freq",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7047,
+      "auc_2": 0.589,
+      "diff": 0.1157,
+      "cohens_d": 9.052,
+      "effect_size": "large",
+      "p_value": 0.0003662258148524681,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6932,
+        0.7161
+      ],
+      "bootstrap_ci_2": [
+        0.5812,
+        0.5975
+      ],
+      "p_fdr": 0.001113,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert_hf",
+      "model_2": "onehot_pos",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7047,
+      "auc_2": 0.891,
+      "diff": -0.1863,
+      "cohens_d": -9.636,
+      "effect_size": "large",
+      "p_value": 5.686090479276683e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6932,
+        0.7161
+      ],
+      "bootstrap_ci_2": [
+        0.8715,
+        0.9076
+      ],
+      "p_fdr": 0.000452,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert_hf",
+      "model_2": "kmer3",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7047,
+      "auc_2": 0.5617,
+      "diff": 0.143,
+      "cohens_d": 7.288,
+      "effect_size": "large",
+      "p_value": 0.00024407342233845957,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6932,
+        0.7161
+      ],
+      "bootstrap_ci_2": [
+        0.5415,
+        0.577
+      ],
+      "p_fdr": 0.000805,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert_hf",
+      "model_2": "kmer4",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7047,
+      "auc_2": 0.5804,
+      "diff": 0.1243,
+      "cohens_d": 5.765,
+      "effect_size": "large",
+      "p_value": 0.0003101780053793391,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6932,
+        0.7161
+      ],
+      "bootstrap_ci_2": [
+        0.5583,
+        0.6027
+      ],
+      "p_fdr": 0.000999,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert_hf",
+      "model_2": "kmer6",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7047,
+      "auc_2": 0.6999,
+      "diff": 0.0048,
+      "cohens_d": 0.188,
+      "effect_size": "negligible",
+      "p_value": 0.7350095319968168,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6932,
+        0.7161
+      ],
+      "bootstrap_ci_2": [
+        0.6753,
+        0.7253
+      ],
+      "p_fdr": 0.757979,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert_hf",
+      "model_2": "combined",
+      "type_1": "cLM",
+      "type_2": "Traditional",
+      "auc_1": 0.7047,
+      "auc_2": 0.5936,
+      "diff": 0.1111,
+      "cohens_d": 7.587,
+      "effect_size": "large",
+      "p_value": 0.0003895366909470213,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6932,
+        0.7161
+      ],
+      "bootstrap_ci_2": [
+        0.5828,
+        0.6066
+      ],
+      "p_fdr": 0.001113,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "codonbert_hf",
+      "model_2": "esm_2_650m",
+      "type_1": "cLM",
+      "type_2": "pLM",
+      "auc_1": 0.7047,
+      "auc_2": 0.6797,
+      "diff": 0.025,
+      "cohens_d": 1.213,
+      "effect_size": "large",
+      "p_value": 0.0843543523131843,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6932,
+        0.7161
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6988
+      ],
+      "p_fdr": 0.108105,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-50m",
+      "model_2": "nt-500m",
+      "type_1": "DNA LM",
+      "type_2": "DNA LM",
+      "auc_1": 0.6425,
+      "auc_2": 0.6991,
+      "diff": -0.0566,
+      "cohens_d": -3.42,
+      "effect_size": "large",
+      "p_value": 0.0018910892272518862,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6231,
+        0.6562
+      ],
+      "bootstrap_ci_2": [
+        0.6934,
+        0.7076
+      ],
+      "p_fdr": 0.003782,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-50m",
+      "model_2": "onehot_freq",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6425,
+      "auc_2": 0.589,
+      "diff": 0.0535,
+      "cohens_d": 3.141,
+      "effect_size": "large",
+      "p_value": 0.007642447375146043,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6231,
+        0.6562
+      ],
+      "bootstrap_ci_2": [
+        0.5812,
+        0.5983
+      ],
+      "p_fdr": 0.012454,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-50m",
+      "model_2": "onehot_pos",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6425,
+      "auc_2": 0.891,
+      "diff": -0.2485,
+      "cohens_d": -11.1,
+      "effect_size": "large",
+      "p_value": 4.907617084434408e-06,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6231,
+        0.6562
+      ],
+      "bootstrap_ci_2": [
+        0.871,
+        0.9076
+      ],
+      "p_fdr": 0.00013,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-50m",
+      "model_2": "kmer3",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6425,
+      "auc_2": 0.5617,
+      "diff": 0.0808,
+      "cohens_d": 3.572,
+      "effect_size": "large",
+      "p_value": 0.00023727910039627575,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6231,
+        0.6562
+      ],
+      "bootstrap_ci_2": [
+        0.5408,
+        0.577
+      ],
+      "p_fdr": 0.000803,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-50m",
+      "model_2": "kmer4",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6425,
+      "auc_2": 0.5804,
+      "diff": 0.0621,
+      "cohens_d": 2.554,
+      "effect_size": "large",
+      "p_value": 0.0043426220949942,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6231,
+        0.6562
+      ],
+      "bootstrap_ci_2": [
+        0.5577,
+        0.6029
+      ],
+      "p_fdr": 0.007643,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-50m",
+      "model_2": "kmer6",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6425,
+      "auc_2": 0.6999,
+      "diff": -0.0574,
+      "cohens_d": -2.091,
+      "effect_size": "large",
+      "p_value": 0.023558826270699794,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6231,
+        0.6562
+      ],
+      "bootstrap_ci_2": [
+        0.6753,
+        0.7253
+      ],
+      "p_fdr": 0.033802,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-50m",
+      "model_2": "combined",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6425,
+      "auc_2": 0.5936,
+      "diff": 0.0489,
+      "cohens_d": 2.648,
+      "effect_size": "large",
+      "p_value": 0.0018039148177148097,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6231,
+        0.6562
+      ],
+      "bootstrap_ci_2": [
+        0.5828,
+        0.6049
+      ],
+      "p_fdr": 0.003738,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-50m",
+      "model_2": "esm_2_650m",
+      "type_1": "DNA LM",
+      "type_2": "pLM",
+      "auc_1": 0.6425,
+      "auc_2": 0.6797,
+      "diff": -0.0372,
+      "cohens_d": -1.581,
+      "effect_size": "large",
+      "p_value": 0.0989765759862244,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6231,
+        0.6562
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6988
+      ],
+      "p_fdr": 0.124428,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-500m",
+      "model_2": "onehot_freq",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6991,
+      "auc_2": 0.589,
+      "diff": 0.1101,
+      "cohens_d": 10.782,
+      "effect_size": "large",
+      "p_value": 8.882871234850661e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6934,
+        0.7073
+      ],
+      "bootstrap_ci_2": [
+        0.5812,
+        0.5983
+      ],
+      "p_fdr": 0.000469,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-500m",
+      "model_2": "onehot_pos",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6991,
+      "auc_2": 0.891,
+      "diff": -0.1919,
+      "cohens_d": -10.811,
+      "effect_size": "large",
+      "p_value": 3.1121528746915855e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6934,
+        0.7076
+      ],
+      "bootstrap_ci_2": [
+        0.871,
+        0.9076
+      ],
+      "p_fdr": 0.000316,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-500m",
+      "model_2": "kmer3",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6991,
+      "auc_2": 0.5617,
+      "diff": 0.1374,
+      "cohens_d": 7.612,
+      "effect_size": "large",
+      "p_value": 0.00017533682081205076,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6934,
+        0.7076
+      ],
+      "bootstrap_ci_2": [
+        0.5408,
+        0.577
+      ],
+      "p_fdr": 0.000669,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-500m",
+      "model_2": "kmer4",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6991,
+      "auc_2": 0.5804,
+      "diff": 0.1187,
+      "cohens_d": 5.895,
+      "effect_size": "large",
+      "p_value": 0.000582207049843099,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6934,
+        0.7073
+      ],
+      "bootstrap_ci_2": [
+        0.5577,
+        0.6029
+      ],
+      "p_fdr": 0.001423,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-500m",
+      "model_2": "kmer6",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6991,
+      "auc_2": 0.6999,
+      "diff": -0.0008,
+      "cohens_d": -0.034,
+      "effect_size": "negligible",
+      "p_value": 0.9600469563997187,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6933,
+        0.7076
+      ],
+      "bootstrap_ci_2": [
+        0.6753,
+        0.725
+      ],
+      "p_fdr": 0.960047,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-500m",
+      "model_2": "combined",
+      "type_1": "DNA LM",
+      "type_2": "Traditional",
+      "auc_1": 0.6991,
+      "auc_2": 0.5936,
+      "diff": 0.1055,
+      "cohens_d": 8.467,
+      "effect_size": "large",
+      "p_value": 7.165124208335584e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6934,
+        0.7076
+      ],
+      "bootstrap_ci_2": [
+        0.5828,
+        0.6049
+      ],
+      "p_fdr": 0.000452,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "nt-500m",
+      "model_2": "esm_2_650m",
+      "type_1": "DNA LM",
+      "type_2": "pLM",
+      "auc_1": 0.6991,
+      "auc_2": 0.6797,
+      "diff": 0.0194,
+      "cohens_d": 1.017,
+      "effect_size": "large",
+      "p_value": 0.14862705907175774,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6934,
+        0.7073
+      ],
+      "bootstrap_ci_2": [
+        0.6593,
+        0.6988
+      ],
+      "p_fdr": 0.179989,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_freq",
+      "model_2": "onehot_pos",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.589,
+      "auc_2": 0.891,
+      "diff": -0.302,
+      "cohens_d": -16.587,
+      "effect_size": "large",
+      "p_value": 1.2827110144001293e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5812,
+        0.5975
+      ],
+      "bootstrap_ci_2": [
+        0.8715,
+        0.9076
+      ],
+      "p_fdr": 0.000188,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_freq",
+      "model_2": "kmer3",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.589,
+      "auc_2": 0.5617,
+      "diff": 0.0273,
+      "cohens_d": 1.475,
+      "effect_size": "large",
+      "p_value": 0.09448837776583204,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.5812,
+        0.5983
+      ],
+      "bootstrap_ci_2": [
+        0.5415,
+        0.577
+      ],
+      "p_fdr": 0.119928,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_freq",
+      "model_2": "kmer4",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.589,
+      "auc_2": 0.5804,
+      "diff": 0.0086,
+      "cohens_d": 0.419,
+      "effect_size": "small",
+      "p_value": 0.6096684532551793,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.5812,
+        0.5983
+      ],
+      "bootstrap_ci_2": [
+        0.5583,
+        0.6027
+      ],
+      "p_fdr": 0.6387,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_freq",
+      "model_2": "kmer6",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.589,
+      "auc_2": 0.6999,
+      "diff": -0.1109,
+      "cohens_d": -4.588,
+      "effect_size": "large",
+      "p_value": 0.0021662985092347252,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5812,
+        0.5975
+      ],
+      "bootstrap_ci_2": [
+        0.6753,
+        0.7253
+      ],
+      "p_fdr": 0.004144,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_freq",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.589,
+      "auc_2": 0.5936,
+      "diff": -0.0046,
+      "cohens_d": -0.351,
+      "effect_size": "small",
+      "p_value": 0.46774594724426766,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.5812,
+        0.5975
+      ],
+      "bootstrap_ci_2": [
+        0.5828,
+        0.6066
+      ],
+      "p_fdr": 0.506086,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_freq",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.589,
+      "auc_2": 0.6797,
+      "diff": -0.0907,
+      "cohens_d": -4.635,
+      "effect_size": "large",
+      "p_value": 0.0009233970783044327,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5812,
+        0.5983
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6988
+      ],
+      "p_fdr": 0.002138,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_pos",
+      "model_2": "kmer3",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.891,
+      "auc_2": 0.5617,
+      "diff": 0.3293,
+      "cohens_d": 14.001,
+      "effect_size": "large",
+      "p_value": 1.9117080345163446e-07,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.871,
+        0.9076
+      ],
+      "bootstrap_ci_2": [
+        0.5415,
+        0.577
+      ],
+      "p_fdr": 2.5e-05,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_pos",
+      "model_2": "kmer4",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.891,
+      "auc_2": 0.5804,
+      "diff": 0.3106,
+      "cohens_d": 12.346,
+      "effect_size": "large",
+      "p_value": 3.3701463397688897e-06,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.8715,
+        0.9076
+      ],
+      "bootstrap_ci_2": [
+        0.5577,
+        0.6027
+      ],
+      "p_fdr": 0.000111,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_pos",
+      "model_2": "kmer6",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.891,
+      "auc_2": 0.6999,
+      "diff": 0.1911,
+      "cohens_d": 6.773,
+      "effect_size": "large",
+      "p_value": 3.5488167245300464e-05,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.871,
+        0.9076
+      ],
+      "bootstrap_ci_2": [
+        0.6753,
+        0.725
+      ],
+      "p_fdr": 0.000335,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_pos",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.891,
+      "auc_2": 0.5936,
+      "diff": 0.2974,
+      "cohens_d": 15.205,
+      "effect_size": "large",
+      "p_value": 1.2636972163308612e-06,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.871,
+        0.9076
+      ],
+      "bootstrap_ci_2": [
+        0.5828,
+        0.6066
+      ],
+      "p_fdr": 5.6e-05,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "onehot_pos",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.891,
+      "auc_2": 0.6797,
+      "diff": 0.2113,
+      "cohens_d": 8.676,
+      "effect_size": "large",
+      "p_value": 0.00015624324645834793,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.8714,
+        0.9076
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6988
+      ],
+      "p_fdr": 0.000625,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "kmer3",
+      "model_2": "kmer4",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.5617,
+      "auc_2": 0.5804,
+      "diff": -0.0187,
+      "cohens_d": -0.736,
+      "effect_size": "medium",
+      "p_value": 0.0352594930629236,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5415,
+        0.577
+      ],
+      "bootstrap_ci_2": [
+        0.5583,
+        0.6022
+      ],
+      "p_fdr": 0.048992,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "kmer3",
+      "model_2": "kmer6",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.5617,
+      "auc_2": 0.6999,
+      "diff": -0.1382,
+      "cohens_d": -4.868,
+      "effect_size": "large",
+      "p_value": 0.00020141981209338935,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5408,
+        0.577
+      ],
+      "bootstrap_ci_2": [
+        0.6753,
+        0.725
+      ],
+      "p_fdr": 0.000719,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "kmer3",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.5617,
+      "auc_2": 0.5936,
+      "diff": -0.0319,
+      "cohens_d": -1.608,
+      "effect_size": "large",
+      "p_value": 0.015704998802641604,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5408,
+        0.577
+      ],
+      "bootstrap_ci_2": [
+        0.5828,
+        0.6066
+      ],
+      "p_fdr": 0.023075,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "kmer3",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.5617,
+      "auc_2": 0.6797,
+      "diff": -0.118,
+      "cohens_d": -4.799,
+      "effect_size": "large",
+      "p_value": 0.002979308501337109,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5408,
+        0.577
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6988
+      ],
+      "p_fdr": 0.005539,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "kmer4",
+      "model_2": "kmer6",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.5804,
+      "auc_2": 0.6999,
+      "diff": -0.1195,
+      "cohens_d": -4.016,
+      "effect_size": "large",
+      "p_value": 0.0003719825440614021,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5583,
+        0.6022
+      ],
+      "bootstrap_ci_2": [
+        0.6753,
+        0.7253
+      ],
+      "p_fdr": 0.001113,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "kmer4",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.5804,
+      "auc_2": 0.5936,
+      "diff": -0.0132,
+      "cohens_d": -0.608,
+      "effect_size": "medium",
+      "p_value": 0.3436687088731929,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.5577,
+        0.6027
+      ],
+      "bootstrap_ci_2": [
+        0.5822,
+        0.6066
+      ],
+      "p_fdr": 0.391071,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "kmer4",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.5804,
+      "auc_2": 0.6797,
+      "diff": -0.0993,
+      "cohens_d": -3.796,
+      "effect_size": "large",
+      "p_value": 0.007851878539560831,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5577,
+        0.6029
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6987
+      ],
+      "p_fdr": 0.012554,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "kmer6",
+      "model_2": "combined",
+      "type_1": "Traditional",
+      "type_2": "Traditional",
+      "auc_1": 0.6999,
+      "auc_2": 0.5936,
+      "diff": 0.1063,
+      "cohens_d": 4.217,
+      "effect_size": "large",
+      "p_value": 0.0012256123704669545,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.6753,
+        0.725
+      ],
+      "bootstrap_ci_2": [
+        0.5828,
+        0.6066
+      ],
+      "p_fdr": 0.002696,
+      "significant_fdr_005": true
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "kmer6",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.6999,
+      "auc_2": 0.6797,
+      "diff": 0.0202,
+      "cohens_d": 0.697,
+      "effect_size": "medium",
+      "p_value": 0.31226916078391803,
+      "significant_005": false,
+      "bootstrap_ci_1": [
+        0.6753,
+        0.7253
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6988
+      ],
+      "p_fdr": 0.358431,
+      "significant_fdr_005": false
+    },
+    {
+      "task": "task3_synonymous",
+      "model_1": "combined",
+      "model_2": "esm_2_650m",
+      "type_1": "Traditional",
+      "type_2": "pLM",
+      "auc_1": 0.5936,
+      "auc_2": 0.6797,
+      "diff": -0.0861,
+      "cohens_d": -4.133,
+      "effect_size": "large",
+      "p_value": 0.002098554262814165,
+      "significant_005": true,
+      "bootstrap_ci_1": [
+        0.5828,
+        0.6049
+      ],
+      "bootstrap_ci_2": [
+        0.6597,
+        0.6988
+      ],
+      "p_fdr": 0.004074,
+      "significant_fdr_005": true
+    }
+  ],
+  "n_comparisons": 132,
+  "n_significant_raw": 97,
+  "n_significant_fdr": 95,
+  "model_bootstrap_ci": [
+    {
+      "model": "encodon-80m",
+      "task": "task2_missense",
+      "type": "cLM",
+      "auc_mean": 0.6329,
+      "auc_std": 0.0233,
+      "bootstrap_ci_95": [
+        0.6126,
+        0.6516
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "encodon-80m",
+      "task": "task3_synonymous",
+      "type": "cLM",
+      "auc_mean": 0.6856,
+      "auc_std": 0.03,
+      "bootstrap_ci_95": [
+        0.6651,
+        0.7145
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "codonbert",
+      "task": "task2_missense",
+      "type": "cLM",
+      "auc_mean": 0.6602,
+      "auc_std": 0.0136,
+      "bootstrap_ci_95": [
+        0.6481,
+        0.6719
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "codonbert",
+      "task": "task3_synonymous",
+      "type": "cLM",
+      "auc_mean": 0.7336,
+      "auc_std": 0.0069,
+      "bootstrap_ci_95": [
+        0.7272,
+        0.7393
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "codonbert_hf",
+      "task": "task2_missense",
+      "type": "cLM",
+      "auc_mean": 0.6594,
+      "auc_std": 0.0135,
+      "bootstrap_ci_95": [
+        0.6484,
+        0.6712
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "codonbert_hf",
+      "task": "task3_synonymous",
+      "type": "cLM",
+      "auc_mean": 0.7047,
+      "auc_std": 0.0128,
+      "bootstrap_ci_95": [
+        0.6932,
+        0.7161
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "nt-50m",
+      "task": "task2_missense",
+      "type": "DNA LM",
+      "auc_mean": 0.5734,
+      "auc_std": 0.0184,
+      "bootstrap_ci_95": [
+        0.5592,
+        0.591
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "nt-50m",
+      "task": "task3_synonymous",
+      "type": "DNA LM",
+      "auc_mean": 0.6425,
+      "auc_std": 0.0192,
+      "bootstrap_ci_95": [
+        0.6231,
+        0.656
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "nt-500m",
+      "task": "task2_missense",
+      "type": "DNA LM",
+      "auc_mean": 0.5695,
+      "auc_std": 0.0209,
+      "bootstrap_ci_95": [
+        0.5501,
+        0.5879
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "nt-500m",
+      "task": "task3_synonymous",
+      "type": "DNA LM",
+      "auc_mean": 0.6991,
+      "auc_std": 0.0084,
+      "bootstrap_ci_95": [
+        0.6934,
+        0.7076
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "onehot_freq",
+      "task": "task2_missense",
+      "type": "Traditional",
+      "auc_mean": 0.6669,
+      "auc_std": 0.0139,
+      "bootstrap_ci_95": [
+        0.6551,
+        0.6787
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "onehot_freq",
+      "task": "task3_synonymous",
+      "type": "Traditional",
+      "auc_mean": 0.589,
+      "auc_std": 0.0098,
+      "bootstrap_ci_95": [
+        0.5812,
+        0.5975
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "onehot_pos",
+      "task": "task2_missense",
+      "type": "Traditional",
+      "auc_mean": 0.7554,
+      "auc_std": 0.0107,
+      "bootstrap_ci_95": [
+        0.7451,
+        0.763
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "onehot_pos",
+      "task": "task3_synonymous",
+      "type": "Traditional",
+      "auc_mean": 0.891,
+      "auc_std": 0.0208,
+      "bootstrap_ci_95": [
+        0.8714,
+        0.9076
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "kmer3",
+      "task": "task2_missense",
+      "type": "Traditional",
+      "auc_mean": 0.6214,
+      "auc_std": 0.0203,
+      "bootstrap_ci_95": [
+        0.6055,
+        0.6396
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "kmer3",
+      "task": "task3_synonymous",
+      "type": "Traditional",
+      "auc_mean": 0.5617,
+      "auc_std": 0.0212,
+      "bootstrap_ci_95": [
+        0.5408,
+        0.577
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "kmer4",
+      "task": "task2_missense",
+      "type": "Traditional",
+      "auc_mean": 0.6271,
+      "auc_std": 0.0189,
+      "bootstrap_ci_95": [
+        0.6155,
+        0.646
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "kmer4",
+      "task": "task3_synonymous",
+      "type": "Traditional",
+      "auc_mean": 0.5804,
+      "auc_std": 0.0241,
+      "bootstrap_ci_95": [
+        0.5577,
+        0.6027
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "kmer6",
+      "task": "task2_missense",
+      "type": "Traditional",
+      "auc_mean": 0.6508,
+      "auc_std": 0.0245,
+      "bootstrap_ci_95": [
+        0.6331,
+        0.6747
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "kmer6",
+      "task": "task3_synonymous",
+      "type": "Traditional",
+      "auc_mean": 0.6999,
+      "auc_std": 0.029,
+      "bootstrap_ci_95": [
+        0.6753,
+        0.7253
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "combined",
+      "task": "task2_missense",
+      "type": "Traditional",
+      "auc_mean": 0.6662,
+      "auc_std": 0.0169,
+      "bootstrap_ci_95": [
+        0.6522,
+        0.6816
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "combined",
+      "task": "task3_synonymous",
+      "type": "Traditional",
+      "auc_mean": 0.5936,
+      "auc_std": 0.0134,
+      "bootstrap_ci_95": [
+        0.5828,
+        0.6049
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "esm_2_650m",
+      "task": "task2_missense",
+      "type": "pLM",
+      "auc_mean": 0.7191,
+      "auc_std": 0.0162,
+      "bootstrap_ci_95": [
+        0.7064,
+        0.7338
+      ],
+      "n_folds": 5
+    },
+    {
+      "model": "esm_2_650m",
+      "task": "task3_synonymous",
+      "type": "pLM",
+      "auc_mean": 0.6797,
+      "auc_std": 0.0227,
+      "bootstrap_ci_95": [
+        0.6597,
+        0.6988
+      ],
+      "n_folds": 5
+    }
+  ]
+}

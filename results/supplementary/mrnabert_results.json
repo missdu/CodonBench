@@ -1,0 +1,24 @@
+[
+  {
+    "model": "mRNABERT",
+    "task": "task2_missense",
+    "model_type": "cLM (MosaicBERT, codon tokenizer)",
+    "n": 5000,
+    "cv_lr_mean": 0.6848,
+    "cv_lr_std": 0.0173,
+    "test_lr": 0.687,
+    "test_mlp": 0.6848,
+    "lr_to_mlp_gain": -0.0022
+  },
+  {
+    "model": "mRNABERT",
+    "task": "task3_synonymous",
+    "model_type": "cLM (MosaicBERT, codon tokenizer)",
+    "n": 2840,
+    "cv_lr_mean": 0.6242,
+    "cv_lr_std": 0.0187,
+    "test_lr": 0.6085,
+    "test_mlp": 0.6665,
+    "lr_to_mlp_gain": 0.058
+  }
+]

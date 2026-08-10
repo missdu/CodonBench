@@ -1,0 +1,107 @@
+tasks:
+  task0_cancer:
+    name: "Cancer Hotspot Mutation Prediction"
+    type: "zeroshot"
+    description: "Predict cancer hotspot mutations vs benign variants"
+    data_source: "alphamissense"
+    url: "https://storage.googleapis.com/alphamissense/AlphaMissense_cds_compressed.tsv"
+    fallback_url: null
+    local_fallback: "./data/alphamissense/"
+    n_pathogenic: 5342
+    n_benign: 15026
+    primary_metric: "ROC-AUC"
+    secondary_metric: "PR-AUC"
+    priority: 1
+
+  task1_ddd_asd:
+    name: "DDD/ASD Patient De Novo Variant Separation"
+    type: "zeroshot"
+    description: "Separate pathogenic de novo variants from population variants"
+    data_source: "zhou_2022"
+    url: null
+    local_fallback: "./data/ddd_asd/"
+    n_pathogenic: 1247
+    n_benign: 5288
+    primary_metric: "neg_log10_p"
+    secondary_metric: "mann_whitney_U"
+    priority: 2
+
+  task2_clinvar_missense:
+    name: "ClinVar Pathogenic Missense Classification"
+    type: "zeroshot"
+    description: "Classify ClinVar pathogenic vs benign missense variants"
+    data_source: "clinvar"
+    url: "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz"
+    fallback_url: null
+    local_fallback: "./data/clinvar/"
+    n_pathogenic: 12847
+    n_benign: 254391
+    primary_metric: "ROC-AUC"
+    secondary_metric: "PR-AUC"
+    priority: 2
+
+  task3_synonymous:
+    name: "ClinVar Synonymous Variant Prediction"
+    type: "zeroshot"
+    description: "Predict pathogenic synonymous variants (core differentiating task)"
+    data_source: "clinvar_synonymous"
+    url: null
+    local_fallback: "./data/clinvar_synonymous/"
+    n_pathogenic: 892
+    n_benign: 4215
+    primary_metric: "ROC-AUC"
+    secondary_metric: "mann_whitney_U"
+    priority: 1
+
+  task4_translation_efficiency:
+    name: "Translation Efficiency Prediction"
+    type: "downstream"
+    description: "Predict translation efficiency from CDS sequences"
+    data_source: "ribonn"
+    url: "https://raw.githubusercontent.com/CenikLab/ribonn/main/data/te_measurements.csv"
+    fallback_url: null
+    local_fallback: "./data/ribonn/"
+    n_samples: 11153
+    primary_metric: "R2"
+    secondary_metric: "pearson_r"
+    eval_method: "embedding_rf"
+    n_folds: 5
+    priority: 1
+
+  task5_protein_expression:
+    name: "Protein Expression Prediction"
+    type: "downstream"
+    description: "Predict protein expression from mRNA sequences (mRFP assay)"
+    data_source: "mrfp_assay"
+    url: null
+    local_fallback: "./data/mrfp_expression/"
+    n_samples: 3842
+    primary_metric: "R2"
+    secondary_metric: "spearman_r"
+    eval_method: "embedding_rf"
+    n_folds: 5
+    priority: 1
+
+  task6_mrna_stability:
+    name: "mRNA Stability Prediction"
+    type: "downstream"
+    description: "Predict mRNA half-life from CDS sequences"
+    data_source: "halflife_assay"
+    url: null
+    local_fallback: "./data/mrna_halflife/"
+    n_samples: 65356
+    primary_metric: "R2"
+    secondary_metric: "spearman_r"
+    eval_method: "embedding_rf"
+    n_folds: 5
+    priority: 2
+
+eval:
+  random_seed: 42
+  batch_size: 8
+  max_seq_length: 2048
+  embedding_layer: -2
+  rf_n_estimators: 100
+  n_bootstrap: 1000
+  ci_alpha: 0.05
+  fdr_method: "fdr_bh"
