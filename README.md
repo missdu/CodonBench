@@ -13,6 +13,7 @@ Xiaoyong Pan<sup>2</sup>
 ORCID: Y.L. 0009-0004-4761-2706 &middot; H.L. 0000-0002-9987-8002 &middot; X.P. 0000-0001-5010-464X
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23176516.svg)](https://doi.org/10.5281/zenodo.23176516)
 
 ---
 
@@ -68,6 +69,10 @@ export CODONBENCH_SERVER_HOME=/your/home                    # conda / preinstall
 Metadata for archiving is in `CITATION.cff`. See the manuscript for the journal
 reference; the current submission supersedes the earlier preprint
 (doi 10.64898/2026.08.12.744371).
+
+Version 1.0.0 is archived on Zenodo at **doi 10.5281/zenodo.23176516**
+(`missdu/CodonBench-V1.0.0.zip`, 890.5 kB, md5 `f08e2c64a12e44ea51d7281e5bb5c01e`).
+Cite that DOI to point at this exact snapshot of the code and data.
 
 ## Known issues
 
