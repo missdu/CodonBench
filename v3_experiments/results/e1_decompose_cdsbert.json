@@ -1,0 +1,250 @@
+{
+  "model": "cdsbert",
+  "n_total": 1839,
+  "protocol": "LOGO-240 逐折训练 / pooled OOF AUC / 基因聚类配对自举",
+  "diagnostics": {
+    "n_control_zero_vector": 630,
+    "frac_control_zero_vector": 0.3426,
+    "n_real_zero_vector": 0,
+    "norm_median_real": 0.14163,
+    "norm_median_control_all": 0.11698,
+    "norm_median_control_constructed": 0.16502,
+    "pathogenic_fraction_all": 0.5416,
+    "pathogenic_fraction_constructed": 0.493,
+    "pathogenic_fraction_zero": 0.6349,
+    "n_genes_all": 241,
+    "n_genes_constructed": 230,
+    "mean_delta_codonfreq_real": -0.05256,
+    "mean_delta_codonfreq_ctrl_all": -0.00686,
+    "mean_delta_codonfreq_ctrl_constructed": -0.01043,
+    "mean_dGC_real": -0.45677,
+    "mean_dGC_ctrl_constructed": -0.20678,
+    "mean_transition_real": 0.76455,
+    "mean_transition_ctrl_constructed": 0.15219,
+    "codon_table": {
+      "n_tx": 500,
+      "total_codons": 782719
+    }
+  },
+  "scope_all": {
+    "n": 1839,
+    "n_folds_used": 240,
+    "auc": {
+      "full_real": 0.667,
+      "full_ctrl": 0.5287,
+      "full_p15": 0.4965,
+      "norm_real": 0.5976,
+      "norm_ctrl": 0.5181,
+      "dir_real": 0.6623,
+      "dir_ctrl": 0.5321,
+      "cheap_real": 0.8214,
+      "cheap_ctrl": 0.7576,
+      "resid_real": 0.3669,
+      "resid_ctrl": 0.4144
+    },
+    "contrasts": {
+      "full_real_vs_full_ctrl": {
+        "label": "总差值（结论三主数）",
+        "delta": 0.1384,
+        "ci_lo": 0.101,
+        "ci_hi": 0.1756,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "norm_real_vs_norm_ctrl": {
+        "label": "仅幅度 ‖Δ‖",
+        "delta": 0.0795,
+        "ci_lo": 0.0395,
+        "ci_hi": 0.1176,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "dir_real_vs_dir_ctrl": {
+        "label": "仅方向 Δ/‖Δ‖",
+        "delta": 0.1302,
+        "ci_lo": 0.0877,
+        "ci_hi": 0.1712,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "resid_real_vs_resid_ctrl": {
+        "label": "残差（扣掉幅度与廉价特征）",
+        "delta": -0.0475,
+        "ci_lo": -0.0798,
+        "ci_hi": -0.0117,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "full_real_vs_full_p15": {
+        "label": "总差值（对上游对照）",
+        "delta": 0.1706,
+        "ci_lo": 0.1267,
+        "ci_hi": 0.2139,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      }
+    },
+    "strata": {
+      "频率下降": {
+        "n": 1133,
+        "auc_real": 0.6723,
+        "auc_ctrl": 0.4924,
+        "delta": 0.1799,
+        "ci_lo": 0.1322,
+        "ci_hi": 0.2269,
+        "excludes_zero": true
+      },
+      "频率上升": {
+        "n": 547,
+        "auc_real": 0.6634,
+        "auc_ctrl": 0.6338,
+        "delta": 0.0296,
+        "ci_lo": -0.0381,
+        "ci_hi": 0.0948,
+        "excludes_zero": false
+      },
+      "近似不变": {
+        "n": 159,
+        "auc_real": 0.5193,
+        "auc_ctrl": 0.4889,
+        "delta": 0.0305,
+        "ci_lo": -0.1328,
+        "ci_hi": 0.1815,
+        "excludes_zero": false
+      }
+    },
+    "negative_control": {
+      "seed7": 0.4993,
+      "seed2026": 0.4718
+    },
+    "rank": {
+      "1": 0.4536,
+      "2": 0.5504,
+      "4": 0.6196,
+      "8": 0.6924,
+      "16": 0.7171,
+      "32": 0.7284,
+      "64": 0.7404,
+      "128": 0.7342,
+      "256": 0.6804,
+      "512": 0.6279,
+      "1024": 0.5563
+    }
+  },
+  "scope_control_constructed": {
+    "n": 1209,
+    "n_folds_used": 230,
+    "auc": {
+      "full_real": 0.6658,
+      "full_ctrl": 0.6018,
+      "full_p15": 0.4938,
+      "norm_real": 0.5205,
+      "norm_ctrl": 0.3184,
+      "dir_real": 0.6656,
+      "dir_ctrl": 0.6019,
+      "cheap_real": 0.7852,
+      "cheap_ctrl": 0.7608,
+      "resid_real": 0.3993,
+      "resid_ctrl": 0.3857
+    },
+    "contrasts": {
+      "full_real_vs_full_ctrl": {
+        "label": "总差值（结论三主数）",
+        "delta": 0.064,
+        "ci_lo": 0.0171,
+        "ci_hi": 0.1055,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "norm_real_vs_norm_ctrl": {
+        "label": "仅幅度 ‖Δ‖",
+        "delta": 0.2021,
+        "ci_lo": 0.1361,
+        "ci_hi": 0.2624,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "dir_real_vs_dir_ctrl": {
+        "label": "仅方向 Δ/‖Δ‖",
+        "delta": 0.0637,
+        "ci_lo": 0.0194,
+        "ci_hi": 0.1102,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "resid_real_vs_resid_ctrl": {
+        "label": "残差（扣掉幅度与廉价特征）",
+        "delta": 0.0136,
+        "ci_lo": -0.027,
+        "ci_hi": 0.0539,
+        "excludes_zero": false,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "full_real_vs_full_p15": {
+        "label": "总差值（对上游对照）",
+        "delta": 0.172,
+        "ci_lo": 0.116,
+        "ci_hi": 0.2297,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      }
+    },
+    "strata": {
+      "频率下降": {
+        "n": 661,
+        "auc_real": 0.6533,
+        "auc_ctrl": 0.5303,
+        "delta": 0.1229,
+        "ci_lo": 0.0571,
+        "ci_hi": 0.191,
+        "excludes_zero": true
+      },
+      "频率上升": {
+        "n": 451,
+        "auc_real": 0.6971,
+        "auc_ctrl": 0.6795,
+        "delta": 0.0176,
+        "ci_lo": -0.0468,
+        "ci_hi": 0.0884,
+        "excludes_zero": false
+      },
+      "近似不变": {
+        "n": 97,
+        "auc_real": 0.571,
+        "auc_ctrl": 0.5915,
+        "delta": -0.0205,
+        "ci_lo": -0.1595,
+        "ci_hi": 0.1202,
+        "excludes_zero": false
+      }
+    },
+    "negative_control": {
+      "seed7": 0.5098,
+      "seed2026": 0.5146
+    },
+    "rank": {
+      "1": 0.4664,
+      "2": 0.5398,
+      "4": 0.608,
+      "8": 0.65,
+      "16": 0.6744,
+      "32": 0.6847,
+      "64": 0.7044,
+      "128": 0.6877,
+      "256": 0.6343,
+      "512": 0.6073,
+      "1024": 0.2946
+    }
+  },
+  "elapsed_sec": 2259.0
+}

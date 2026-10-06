@@ -1,3 +1,4 @@
+import os  # [脱敏] 供读取 CODONBENCH_REPO_ROOT
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.neural_network import MLPClassifier
@@ -6,7 +7,7 @@ from sklearn.metrics import roc_auc_score
 from scipy.stats import wilcoxon
 import warnings; warnings.filterwarnings('ignore')
 
-BASE = r'F:\2025-2026-2\CODEARTS\shorts\codonbench\codonbench\results\supplementary'
+BASE = r'os.environ.get("CODONBENCH_REPO_ROOT", "/path/to/your/codonbench") + "/results/supplementary"'
 
 for ctx in [16, 128]:
     suffix = '' if ctx == 16 else '_ctx128'

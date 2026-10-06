@@ -1,0 +1,76 @@
+{
+ "_design": "WB-实验设计书 v1",
+ "_seed": 42,
+ "_note": "逐基因留一 + 支持/排除臂训练规模匹配 + 按基因聚类 bootstrap",
+ "_n_test": 489,
+ "_n_genes": 489,
+ "_compare": "CodeArts 版 n_test=65",
+ "models": {
+  "codonbert": {
+   "auc_support": 0.7580900034352456,
+   "auc_exclude": 0.6240810717966335,
+   "delta": 0.13400893163861205,
+   "ci95_lo": 0.11701977139843736,
+   "ci95_hi": 0.1528806002629291,
+   "ci_includes_zero": false,
+   "n_test": 489,
+   "n_train_matched": 2836,
+   "cfg": "{'C': 0.1}"
+  },
+  "codonbert_hf": {
+   "auc_support": 0.7064582617657162,
+   "auc_exclude": 0.562281003091721,
+   "delta": 0.14417725867399522,
+   "ci95_lo": 0.1254881284881434,
+   "ci95_hi": 0.16311038717862192,
+   "ci_includes_zero": false,
+   "n_test": 489,
+   "n_train_matched": 2836,
+   "cfg": "{'C': 0.1}"
+  },
+  "encodon-80m": {
+   "auc_support": 0.7155788388869804,
+   "auc_exclude": 0.5285812435589146,
+   "delta": 0.1869975953280658,
+   "ci95_lo": 0.16260018439971044,
+   "ci95_hi": 0.2093803749570005,
+   "ci_includes_zero": false,
+   "n_test": 489,
+   "n_train_matched": 2836,
+   "cfg": "{'C': 0.1}"
+  },
+  "mrnabert": {
+   "auc_support": 0.7209549982823772,
+   "auc_exclude": 0.5613191343181038,
+   "delta": 0.15963586396427343,
+   "ci95_lo": 0.1376071203500327,
+   "ci95_hi": 0.18093962956447282,
+   "ci_includes_zero": false,
+   "n_test": 489,
+   "n_train_matched": 2836,
+   "cfg": "{'C': 1.0}"
+  },
+  "ESM-2-650M": {
+   "auc_support": 0.7552043971143937,
+   "auc_exclude": 0.5462212298179321,
+   "delta": 0.2089831672964616,
+   "ci95_lo": 0.17895832446697668,
+   "ci95_hi": 0.24222467073293905,
+   "ci_includes_zero": false,
+   "n_test": 489,
+   "n_train_matched": 2836,
+   "cfg": "{'C': 0.1}"
+  },
+  "ESM-1b-650M": {
+   "auc_support": 0.7626331157677774,
+   "auc_exclude": 0.5454654757815184,
+   "delta": 0.217167639986259,
+   "ci95_lo": 0.18204581464730782,
+   "ci95_hi": 0.25183909675035193,
+   "ci_includes_zero": false,
+   "n_test": 489,
+   "n_train_matched": 2836,
+   "cfg": "{'C': 0.1}"
+  }
+ }
+}

@@ -1,30 +1,30 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
 *.egg-info/
+.venv/
+venv/
 
-# Data (too large for GitHub)
-data/
+# 大型数据：不入 git，按 README 在运行期获取
 *.npy
 *.npz
 *.parquet
-*.h5
 *.pt
+*.pth
 *.bin
+*.safetensors
+*.h5
+*.tar.gz
 
-# IDE
-.vscode/
-.idea/
-*.swp
+# 本机与凭据：绝不进仓库
+push_to_github.ps1
+*.ps1
+SERVER-INFO.md
+setup_ssh.sh
+.env
+*.key
+*.pem
+
+# 系统
 .DS_Store
 Thumbs.db
-
-# Databases
-*.db
-
-# System
-*.stat
-*.dict
-*.dat

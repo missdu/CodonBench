@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "CodonBench"
+abstract: "CodonBench: separating gene context, exon position, and variant-specific component in synonymous-variant classification"
+authors:
+  - family-names: "Liang"
+    given-names: "Yuanqing"
+    orcid: "https://orcid.org/0009-0004-4761-2706"
+    affiliation: "School of Biomedical Engineering, Shanghai Jiao Tong University"
+  - family-names: "Zhu"
+    given-names: "Weimin"
+    affiliation: "Institute of Image Processing and Pattern Recognition, Shanghai Jiao Tong University"
+  - family-names: "Liang"
+    given-names: "Huiying"
+    orcid: "https://orcid.org/0000-0002-9987-8002"
+    affiliation: "Intelligent Medicine Institute, Shanghai Medical College, Fudan University"
+  - family-names: "Pan"
+    given-names: "Xiaoyong"
+    orcid: "https://orcid.org/0000-0001-5010-464X"
+    affiliation: "Institute of Image Processing and Pattern Recognition, Shanghai Jiao Tong University"
+license: MIT
+keywords:
+  - synonymous variant
+  - codon language model
+  - variant effect prediction
+  - leakage control
+  - interpretability

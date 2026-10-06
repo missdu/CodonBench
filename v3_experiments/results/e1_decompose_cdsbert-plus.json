@@ -1,0 +1,224 @@
+{
+  "model": "cdsbert-plus",
+  "n_total": 1839,
+  "protocol": "LOGO-240 逐折训练 / pooled OOF AUC / 基因聚类配对自举",
+  "diagnostics": {
+    "n_control_zero_vector": 630,
+    "frac_control_zero_vector": 0.3426,
+    "n_real_zero_vector": 0,
+    "norm_median_real": 0.12233,
+    "norm_median_control_all": 0.11425,
+    "norm_median_control_constructed": 0.14451,
+    "pathogenic_fraction_all": 0.5416,
+    "pathogenic_fraction_constructed": 0.493,
+    "pathogenic_fraction_zero": 0.6349,
+    "n_genes_all": 241,
+    "n_genes_constructed": 230,
+    "mean_delta_codonfreq_real": -0.05256,
+    "mean_delta_codonfreq_ctrl_all": -0.00686,
+    "mean_delta_codonfreq_ctrl_constructed": -0.01043,
+    "mean_dGC_real": -0.45677,
+    "mean_dGC_ctrl_constructed": -0.20678,
+    "mean_transition_real": 0.76455,
+    "mean_transition_ctrl_constructed": 0.15219,
+    "codon_table": {
+      "n_tx": 500,
+      "total_codons": 782719
+    }
+  },
+  "scope_all": {
+    "n": 1839,
+    "n_folds_used": 240,
+    "auc": {
+      "full_real": 0.6712,
+      "full_ctrl": 0.5258,
+      "full_p15": 0.5049,
+      "norm_real": 0.6446,
+      "norm_ctrl": 0.5248,
+      "dir_real": 0.6719,
+      "dir_ctrl": 0.5256,
+      "cheap_real": 0.8214,
+      "cheap_ctrl": 0.7576,
+      "resid_real": 0.3675,
+      "resid_ctrl": 0.41
+    },
+    "contrasts": {
+      "full_real_vs_full_ctrl": {
+        "label": "总差值（结论三主数）",
+        "delta": 0.1454,
+        "ci_lo": 0.1079,
+        "ci_hi": 0.1827,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "norm_real_vs_norm_ctrl": {
+        "label": "仅幅度 ‖Δ‖",
+        "delta": 0.1198,
+        "ci_lo": 0.0806,
+        "ci_hi": 0.1585,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "dir_real_vs_dir_ctrl": {
+        "label": "仅方向 Δ/‖Δ‖",
+        "delta": 0.1464,
+        "ci_lo": 0.1058,
+        "ci_hi": 0.1848,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "resid_real_vs_resid_ctrl": {
+        "label": "残差（扣掉幅度与廉价特征）",
+        "delta": -0.0424,
+        "ci_lo": -0.0819,
+        "ci_hi": -0.0044,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "full_real_vs_full_p15": {
+        "label": "总差值（对上游对照）",
+        "delta": 0.1662,
+        "ci_lo": 0.1232,
+        "ci_hi": 0.2078,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      }
+    },
+    "strata": {
+      "频率下降": {
+        "n": 1133,
+        "auc_real": 0.6585,
+        "auc_ctrl": 0.5104,
+        "delta": 0.1481,
+        "ci_lo": 0.094,
+        "ci_hi": 0.2005,
+        "excludes_zero": true
+      },
+      "频率上升": {
+        "n": 547,
+        "auc_real": 0.6968,
+        "auc_ctrl": 0.5894,
+        "delta": 0.1073,
+        "ci_lo": 0.0345,
+        "ci_hi": 0.1787,
+        "excludes_zero": true
+      },
+      "近似不变": {
+        "n": 159,
+        "auc_real": 0.613,
+        "auc_ctrl": 0.5952,
+        "delta": 0.0179,
+        "ci_lo": -0.1412,
+        "ci_hi": 0.181,
+        "excludes_zero": false
+      }
+    },
+    "negative_control": {
+      "seed7": 0.4822,
+      "seed2026": 0.5012
+    }
+  },
+  "scope_control_constructed": {
+    "n": 1209,
+    "n_folds_used": 230,
+    "auc": {
+      "full_real": 0.6819,
+      "full_ctrl": 0.5821,
+      "full_p15": 0.4937,
+      "norm_real": 0.592,
+      "norm_ctrl": 0.4118,
+      "dir_real": 0.6828,
+      "dir_ctrl": 0.5802,
+      "cheap_real": 0.7852,
+      "cheap_ctrl": 0.7608,
+      "resid_real": 0.38,
+      "resid_ctrl": 0.3732
+    },
+    "contrasts": {
+      "full_real_vs_full_ctrl": {
+        "label": "总差值（结论三主数）",
+        "delta": 0.0999,
+        "ci_lo": 0.0529,
+        "ci_hi": 0.1461,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "norm_real_vs_norm_ctrl": {
+        "label": "仅幅度 ‖Δ‖",
+        "delta": 0.1802,
+        "ci_lo": 0.1263,
+        "ci_hi": 0.2382,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "dir_real_vs_dir_ctrl": {
+        "label": "仅方向 Δ/‖Δ‖",
+        "delta": 0.1026,
+        "ci_lo": 0.0579,
+        "ci_hi": 0.1473,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "resid_real_vs_resid_ctrl": {
+        "label": "残差（扣掉幅度与廉价特征）",
+        "delta": 0.0068,
+        "ci_lo": -0.0333,
+        "ci_hi": 0.048,
+        "excludes_zero": false,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      },
+      "full_real_vs_full_p15": {
+        "label": "总差值（对上游对照）",
+        "delta": 0.1882,
+        "ci_lo": 0.1285,
+        "ci_hi": 0.2414,
+        "excludes_zero": true,
+        "n_boot": 1000,
+        "cluster_unit": "gene"
+      }
+    },
+    "strata": {
+      "频率下降": {
+        "n": 661,
+        "auc_real": 0.6598,
+        "auc_ctrl": 0.5587,
+        "delta": 0.1011,
+        "ci_lo": 0.0404,
+        "ci_hi": 0.1613,
+        "excludes_zero": true
+      },
+      "频率上升": {
+        "n": 451,
+        "auc_real": 0.7206,
+        "auc_ctrl": 0.5973,
+        "delta": 0.1233,
+        "ci_lo": 0.0463,
+        "ci_hi": 0.2006,
+        "excludes_zero": true
+      },
+      "近似不变": {
+        "n": 97,
+        "auc_real": 0.6202,
+        "auc_ctrl": 0.6225,
+        "delta": -0.0023,
+        "ci_lo": -0.1548,
+        "ci_hi": 0.1471,
+        "excludes_zero": false
+      }
+    },
+    "negative_control": {
+      "seed7": 0.4904,
+      "seed2026": 0.4664
+    }
+  },
+  "elapsed_sec": 2172.5
+}

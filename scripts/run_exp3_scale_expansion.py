@@ -1,5 +1,5 @@
 """
-Exp3: From-scratch scale expansion �?12-layer 768-dim BERT (~110M params).
+Exp3: From-scratch scale expansion 鈥?12-layer 768-dim BERT (~110M params).
 
 Tests whether the tokenization advantage from the 20M-parameter ablation
 scales to production-model size. Uses the same v3b Ensembl corpus (114K CDS).
@@ -488,7 +488,7 @@ def evaluate(tokenizer_type, output_suffix=""):
 
         lr_mean = np.mean(fold_aucs)
         lr_std = np.std(fold_aucs)
-        print(f"  LR 5-fold CV AUC: {lr_mean:.3f} ± {lr_std:.3f}")
+        print(f"  LR 5-fold CV AUC: {lr_mean:.3f} 卤 {lr_std:.3f}")
         print(f"  Folds: {[f'{a:.3f}' for a in fold_aucs]}")
 
         from sklearn.neural_network import MLPClassifier

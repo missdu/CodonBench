@@ -1,0 +1,52 @@
+{
+ "p_synonymous_notation": {
+  "n": 2840,
+  "total": 2840
+ },
+ "p_notation_counterexamples": [],
+ "p_missense_notation": 0,
+ "char_seq_len": {
+  "min": 46,
+  "max": 91
+ },
+ "center_base_match": {
+  "n": 1427,
+  "total": 2840
+ },
+ "center_base_match_complement": {
+  "n": 1403,
+  "total": 2840
+ },
+ "center_base_match_either": {
+  "n": 2830,
+  "total": 2840
+ },
+ "codon_frame_match": {
+  "n": 0,
+  "total": 2840
+ },
+ "codon_frame_match_complement": {
+  "n": 0,
+  "total": 2840
+ },
+ "strand": {
+  "plus": 1427,
+  "minus": 1403,
+  "unknown": 10
+ },
+ "window_identical": 10,
+ "translation_equal": {
+  "n": 2637,
+  "total": 2840
+ },
+ "codon_table_synonymous": {
+  "syn": 0,
+  "judgeable": 0
+ },
+ "n_genes": 498,
+ "n_tx": 497,
+ "labels": {
+  "1": 1420,
+  "0": 1420
+ }
+}

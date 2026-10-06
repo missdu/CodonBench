@@ -1,0 +1,155 @@
+{
+ "_design": "WB-实验设计书 v1",
+ "_seed": 42,
+ "_note": "同一测试人群 + 训练规模匹配 + gene ID 分组 + 公平搜索探针 + 加强背景基线",
+ "_unit_check": {
+  "n": 2840,
+  "n_genes": 498,
+  "n_tx": 497,
+  "multi_tx_genes": 0
+ },
+ "models": {
+  "codonbert": {
+   "G1_known_gene": {
+    "auc_lr": 0.79734219269103,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.6653330551698489,
+    "auc_mlp": 0.893998422524439,
+    "cfg_mlp": "{'alpha': 0.001, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.6987791924731633
+   },
+   "G2_unseen_gene": {
+    "auc_lr": 0.6131121680728507,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.693945615741323,
+    "auc_mlp": 0.5950429025550323,
+    "cfg_mlp": "{'alpha': 0.001, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.7282592926358454
+   },
+   "delta_add": {
+    "G1_known_gene": 0.18912975931547116,
+    "G2_unseen_gene": -0.032601161595640415
+   }
+  },
+  "codonbert_hf": {
+   "G1_known_gene": {
+    "auc_lr": 0.7508066636391882,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.6413046563247734,
+    "auc_mlp": 0.8704318936877077,
+    "cfg_mlp": "{'alpha': 0.001, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.7244621123813744
+   },
+   "G2_unseen_gene": {
+    "auc_lr": 0.5484117689237313,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.652176954160164,
+    "auc_mlp": 0.5472884151150841,
+    "cfg_mlp": "{'alpha': 0.01, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.7184677892363815
+   },
+   "delta_add": {
+    "G1_known_gene": 0.18026243457061586,
+    "G2_unseen_gene": -0.03513468295131328
+   }
+  },
+  "encodon-80m": {
+   "G1_known_gene": {
+    "auc_lr": 0.7784363871029423,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.6637128596026782,
+    "auc_mlp": 0.8681612849255479,
+    "cfg_mlp": "{'alpha': 0.001, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.7191995996818834
+   },
+   "G2_unseen_gene": {
+    "auc_lr": 0.535122732378881,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.6835792989643843,
+    "auc_mlp": 0.5845981022490977,
+    "cfg_mlp": "{'alpha': 0.01, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.6796549726695738
+   },
+   "delta_add": {
+    "G1_known_gene": 0.1350653696312052,
+    "G2_unseen_gene": -0.011520351824852337
+   }
+  },
+  "mrnabert": {
+   "G1_known_gene": {
+    "auc_lr": 0.7440187384975739,
+    "cfg_lr": "{'C': 1.0}",
+    "cv_lr": 0.6597476826547741,
+    "auc_mlp": 0.8499964148282703,
+    "cfg_mlp": "{'alpha': 0.001, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.6866887475912273
+   },
+   "G2_unseen_gene": {
+    "auc_lr": 0.5841678816415306,
+    "cfg_lr": "{'C': 1.0}",
+    "cv_lr": 0.657666598003064,
+    "auc_mlp": 0.5860321709409881,
+    "cfg_mlp": "{'alpha': 0.001, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.7224902157163489
+   },
+   "delta_add": {
+    "G1_known_gene": 0.17438275293386551,
+    "G2_unseen_gene": 0.0021033007481059407
+   }
+  },
+  "ESM-2-650M": {
+   "G1_known_gene": {
+    "auc_lr": 0.8254260379072157,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.6844050680754812,
+    "auc_mlp": 0.8906283610984966,
+    "cfg_mlp": "{'alpha': 0.01, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.7164754105586578
+   },
+   "G2_unseen_gene": {
+    "auc_lr": 0.5850044217118,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.6995036108252926,
+    "auc_mlp": 0.572982145844786,
+    "cfg_mlp": "{'alpha': 0.01, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.6916764104831754
+   },
+   "delta_add": {
+    "G1_known_gene": 0.15674370802361426,
+    "G2_unseen_gene": -0.02287339563565094
+   }
+  },
+  "ESM-1b-650M": {
+   "G1_known_gene": {
+    "auc_lr": 0.7975334018499486,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.672593673785035,
+    "auc_mlp": 0.8584454695379908,
+    "cfg_mlp": "{'alpha': 0.01, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.7259660304002693
+   },
+   "G2_unseen_gene": {
+    "auc_lr": 0.5503477616577834,
+    "cfg_lr": "{'C': 0.1}",
+    "cv_lr": 0.7069911361293779,
+    "auc_mlp": 0.5795549606826166,
+    "cfg_mlp": "{'alpha': 0.01, 'hidden_layer_sizes': (128, 64)}",
+    "cv_mlp": 0.7487891102808322
+   },
+   "delta_add": {
+    "G1_known_gene": 0.11355433925285008,
+    "G2_unseen_gene": -0.07225316092640832
+   }
+  }
+ },
+ "baseline": {
+  "bg_G1_known_gene": {
+   "auc_lr": 0.6109849661798801,
+   "cfg": "{'C': 1.0}"
+  },
+  "bg_G2_unseen_gene": {
+   "auc_lr": 0.5978632376490833,
+   "cfg": "{'C': 1.0}"
+  }
+ }
+}

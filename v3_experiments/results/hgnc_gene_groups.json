@@ -1,0 +1,7974 @@
+{
+ "by_hgnc_id": {
+  "HGNC:1020": {
+   "symbol": "BCS1L",
+   "gene_group": [
+    "AAA ATPases",
+    "Mitochondrial respiratory chain complex assembly factors"
+   ],
+   "gene_group_id": [
+    413,
+    645
+   ],
+   "ensembl_gene_id": "ENSG00000074582",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y276"
+   ]
+  },
+  "HGNC:1058": {
+   "symbol": "BLM",
+   "gene_group": [
+    "RecQ like helicases",
+    "BRCA1-associated genome surveillance complex"
+   ],
+   "gene_group_id": [
+    1049,
+    3643
+   ],
+   "ensembl_gene_id": "ENSG00000197299",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P54132"
+   ]
+  },
+  "HGNC:10024": {
+   "symbol": "RLBP1",
+   "gene_group": [
+    "CRAL-TRIO lipid binding domain containing"
+   ],
+   "gene_group_id": [
+    3691
+   ],
+   "ensembl_gene_id": "ENSG00000140522",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P12271"
+   ]
+  },
+  "HGNC:10274": {
+   "symbol": "RP2",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000102218",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75695"
+   ]
+  },
+  "HGNC:10294": {
+   "symbol": "RPE65",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000116745",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q16518"
+   ]
+  },
+  "HGNC:10432": {
+   "symbol": "RPS6KA3",
+   "gene_group": [
+    "MAPK activated protein kinases",
+    "Ribosomal protein S6 kinase family"
+   ],
+   "gene_group_id": [
+    1156,
+    3524
+   ],
+   "ensembl_gene_id": "ENSG00000177189",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P51812"
+   ]
+  },
+  "HGNC:10389": {
+   "symbol": "RPS15A",
+   "gene_group": [
+    "S ribosomal proteins"
+   ],
+   "gene_group_id": [
+    728
+   ],
+   "ensembl_gene_id": "ENSG00000134419",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P62244"
+   ]
+  },
+  "HGNC:10472": {
+   "symbol": "RUNX2",
+   "gene_group": [
+    "Runt-related transcription factors"
+   ],
+   "gene_group_id": [
+    1880
+   ],
+   "ensembl_gene_id": "ENSG00000124813",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13950"
+   ]
+  },
+  "HGNC:10483": {
+   "symbol": "RYR1",
+   "gene_group": [
+    "Ryanodine receptors",
+    "Protein phosphatase 1 regulatory subunits"
+   ],
+   "gene_group_id": [
+    287,
+    694
+   ],
+   "ensembl_gene_id": "ENSG00000196218",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P21817"
+   ]
+  },
+  "HGNC:10484": {
+   "symbol": "RYR2",
+   "gene_group": [
+    "Ryanodine receptors",
+    "EF-hand domain containing",
+    "Armadillo like helical domain containing",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    287,
+    863,
+    1492,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000198626",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q92736"
+   ]
+  },
+  "HGNC:10519": {
+   "symbol": "SACS",
+   "gene_group": [
+    "DNAJ (HSP40) heat shock proteins",
+    "Protein phosphatase 1 regulatory subunits"
+   ],
+   "gene_group_id": [
+    584,
+    694
+   ],
+   "ensembl_gene_id": "ENSG00000151835",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NZJ4"
+   ]
+  },
+  "HGNC:10542": {
+   "symbol": "SBF1",
+   "gene_group": [
+    "DENN domain containing",
+    "Pleckstrin homology domain containing",
+    "Myotubularins"
+   ],
+   "gene_group_id": [
+    504,
+    682,
+    903
+   ],
+   "ensembl_gene_id": "ENSG00000100241",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O95248"
+   ]
+  },
+  "HGNC:10585": {
+   "symbol": "SCN1A",
+   "gene_group": [
+    "Sodium voltage-gated channel alpha subunits"
+   ],
+   "gene_group_id": [
+    1203
+   ],
+   "ensembl_gene_id": "ENSG00000144285",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35498"
+   ]
+  },
+  "HGNC:10588": {
+   "symbol": "SCN2A",
+   "gene_group": [
+    "Sodium voltage-gated channel alpha subunits"
+   ],
+   "gene_group_id": [
+    1203
+   ],
+   "ensembl_gene_id": "ENSG00000136531",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q99250"
+   ]
+  },
+  "HGNC:10591": {
+   "symbol": "SCN4A",
+   "gene_group": [
+    "Sodium voltage-gated channel alpha subunits"
+   ],
+   "gene_group_id": [
+    1203
+   ],
+   "ensembl_gene_id": "ENSG00000007314",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35499"
+   ]
+  },
+  "HGNC:10593": {
+   "symbol": "SCN5A",
+   "gene_group": [
+    "Sodium voltage-gated channel alpha subunits"
+   ],
+   "gene_group_id": [
+    1203
+   ],
+   "ensembl_gene_id": "ENSG00000183873",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q14524"
+   ]
+  },
+  "HGNC:10597": {
+   "symbol": "SCN9A",
+   "gene_group": [
+    "Sodium voltage-gated channel alpha subunits"
+   ],
+   "gene_group_id": [
+    1203
+   ],
+   "ensembl_gene_id": "ENSG00000169432",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q15858"
+   ]
+  },
+  "HGNC:10582": {
+   "symbol": "SCN10A",
+   "gene_group": [
+    "Sodium voltage-gated channel alpha subunits"
+   ],
+   "gene_group_id": [
+    1203
+   ],
+   "ensembl_gene_id": "ENSG00000185313",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y5Y9"
+   ]
+  },
+  "HGNC:10664": {
+   "symbol": "CWC27",
+   "gene_group": [
+    "Cyclophilin peptidylprolyl isomerases",
+    "NTC associated proteins",
+    "Spliceosomal Bact complex",
+    "Spliceosomal C complex",
+    "Spliceosomal P complex"
+   ],
+   "gene_group_id": [
+    909,
+    1498,
+    1508,
+    1510,
+    1516
+   ],
+   "ensembl_gene_id": "ENSG00000153015",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q6UX04"
+   ]
+  },
+  "HGNC:11110": {
+   "symbol": "ARID1A",
+   "gene_group": [
+    "AT-rich interaction domain containing",
+    "Armadillo like helical domain containing",
+    "BAF complex subunits"
+   ],
+   "gene_group_id": [
+    418,
+    1492,
+    1604
+   ],
+   "ensembl_gene_id": "ENSG00000117713",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O14497"
+   ]
+  },
+  "HGNC:1076": {
+   "symbol": "BMPR1A",
+   "gene_group": [
+    "Type 1 receptor serine/threonine kinases",
+    "CD molecules",
+    "BMP receptors"
+   ],
+   "gene_group_id": [
+    345,
+    471,
+    3948
+   ],
+   "ensembl_gene_id": "ENSG00000107779",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P36894"
+   ]
+  },
+  "HGNC:1100": {
+   "symbol": "BRCA1",
+   "gene_group": [
+    "Ring finger proteins",
+    "FA complementation groups",
+    "Protein phosphatase 1 regulatory subunits",
+    "BRCA1 A complex",
+    "BRCA1 B complex",
+    "BRCA1 C complex"
+   ],
+   "gene_group_id": [
+    58,
+    548,
+    694,
+    1328,
+    1335,
+    1336
+   ],
+   "ensembl_gene_id": "ENSG00000012048",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P38398"
+   ]
+  },
+  "HGNC:1101": {
+   "symbol": "BRCA2",
+   "gene_group": [
+    "FA complementation groups"
+   ],
+   "gene_group_id": [
+    548
+   ],
+   "ensembl_gene_id": "ENSG00000139618",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P51587"
+   ]
+  },
+  "HGNC:1122": {
+   "symbol": "BTD",
+   "gene_group": [
+    "Vanin family"
+   ],
+   "gene_group_id": [
+    10
+   ],
+   "ensembl_gene_id": "ENSG00000169814",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P43251"
+   ]
+  },
+  "HGNC:10680": {
+   "symbol": "SDHA",
+   "gene_group": [
+    "Mitochondrial complex II: succinate dehydrogenase subunits",
+    "Flavoproteins"
+   ],
+   "gene_group_id": [
+    641,
+    2258
+   ],
+   "ensembl_gene_id": "ENSG00000073578",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P31040"
+   ]
+  },
+  "HGNC:10681": {
+   "symbol": "SDHB",
+   "gene_group": [
+    "Mitochondrial complex II: succinate dehydrogenase subunits"
+   ],
+   "gene_group_id": [
+    641
+   ],
+   "ensembl_gene_id": "ENSG00000117118",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P21912"
+   ]
+  },
+  "HGNC:10801": {
+   "symbol": "SFTPB",
+   "gene_group": [
+    "Saposin B type domain containing"
+   ],
+   "gene_group_id": [
+    4153
+   ],
+   "ensembl_gene_id": "ENSG00000168878",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P07988"
+   ]
+  },
+  "HGNC:10802": {
+   "symbol": "SFTPC",
+   "gene_group": [
+    "BRICHOS domain containing"
+   ],
+   "gene_group_id": [
+    457
+   ],
+   "ensembl_gene_id": "ENSG00000168484",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P11686"
+   ]
+  },
+  "HGNC:10805": {
+   "symbol": "SGCA",
+   "gene_group": [
+    "Sarcoglycans"
+   ],
+   "gene_group_id": [
+    3801
+   ],
+   "ensembl_gene_id": "ENSG00000108823",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q16586"
+   ]
+  },
+  "HGNC:11005": {
+   "symbol": "SLC2A1",
+   "gene_group": [
+    "Solute carrier family 2"
+   ],
+   "gene_group_id": [
+    2155
+   ],
+   "ensembl_gene_id": "ENSG00000117394",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P11166"
+   ]
+  },
+  "HGNC:11025": {
+   "symbol": "SLC3A1",
+   "gene_group": [
+    "Solute carrier family 3"
+   ],
+   "gene_group_id": [
+    2156
+   ],
+   "ensembl_gene_id": "ENSG00000138079",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q07837"
+   ]
+  },
+  "HGNC:11067": {
+   "symbol": "SLC7A9",
+   "gene_group": [
+    "Solute carrier family 7"
+   ],
+   "gene_group_id": [
+    2160
+   ],
+   "ensembl_gene_id": "ENSG00000021488",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P82251"
+   ]
+  },
+  "HGNC:10912": {
+   "symbol": "SLC12A3",
+   "gene_group": [
+    "MicroRNA protein coding host genes",
+    "Solute carrier family 12"
+   ],
+   "gene_group_id": [
+    1691,
+    2152
+   ],
+   "ensembl_gene_id": "ENSG00000070915",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P55017"
+   ]
+  },
+  "HGNC:10933": {
+   "symbol": "SLC17A5",
+   "gene_group": [
+    "Solute carrier family 17"
+   ],
+   "gene_group_id": [
+    2169
+   ],
+   "ensembl_gene_id": "ENSG00000119899",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NRA2"
+   ]
+  },
+  "HGNC:10981": {
+   "symbol": "SLC25A11",
+   "gene_group": [
+    "Solute carrier family 25"
+   ],
+   "gene_group_id": [
+    2176
+   ],
+   "ensembl_gene_id": "ENSG00000108528",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q02978"
+   ]
+  },
+  "HGNC:10983": {
+   "symbol": "SLC25A13",
+   "gene_group": [
+    "EF-hand domain containing",
+    "MicroRNA protein coding host genes",
+    "Solute carrier family 25"
+   ],
+   "gene_group_id": [
+    863,
+    1691,
+    2176
+   ],
+   "ensembl_gene_id": "ENSG00000004864",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UJS0"
+   ]
+  },
+  "HGNC:11100": {
+   "symbol": "SMARCA4",
+   "gene_group": [
+    "SNF2 related family",
+    "Bromodomain containing",
+    "BAF complex subunits",
+    "PBAF complex subunits",
+    "GBAF complex subunits"
+   ],
+   "gene_group_id": [
+    1190,
+    1232,
+    1604,
+    1605,
+    1606
+   ],
+   "ensembl_gene_id": "ENSG00000127616",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P51532"
+   ]
+  },
+  "HGNC:11120": {
+   "symbol": "SMPD1",
+   "gene_group": [
+    "Saposin B type domain containing"
+   ],
+   "gene_group_id": [
+    4153
+   ],
+   "ensembl_gene_id": "ENSG00000166311",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P17405"
+   ]
+  },
+  "HGNC:1090": {
+   "symbol": "DST",
+   "gene_group": [
+    "EF-hand domain containing",
+    "Plakins",
+    "Spectrin repeat containing",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    863,
+    939,
+    3626,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000151914",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q03001"
+   ]
+  },
+  "HGNC:11957": {
+   "symbol": "MED12",
+   "gene_group": [
+    "Mediator complex"
+   ],
+   "gene_group_id": [
+    1061
+   ],
+   "ensembl_gene_id": "ENSG00000184634",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q93074"
+   ]
+  },
+  "HGNC:11231": {
+   "symbol": "ATL1",
+   "gene_group": [
+    "Atlastins"
+   ],
+   "gene_group_id": [
+    1887
+   ],
+   "ensembl_gene_id": "ENSG00000198513",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8WXF7"
+   ]
+  },
+  "HGNC:1133": {
+   "symbol": "BTK",
+   "gene_group": [
+    "Pleckstrin homology domain containing",
+    "SH2 domain containing",
+    "Tec family tyrosine kinases",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    682,
+    741,
+    1457,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000010671",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q06187"
+   ]
+  },
+  "HGNC:11233": {
+   "symbol": "SPAST",
+   "gene_group": [
+    "AAA ATPases"
+   ],
+   "gene_group_id": [
+    413
+   ],
+   "ensembl_gene_id": "ENSG00000021574",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UBP0"
+   ]
+  },
+  "HGNC:11226": {
+   "symbol": "SPG11",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000104133",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96JI7"
+   ]
+  },
+  "HGNC:11250": {
+   "symbol": "SPO11",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000054796",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y5K1"
+   ]
+  },
+  "HGNC:11272": {
+   "symbol": "SPTA1",
+   "gene_group": [
+    "EF-hand domain containing",
+    "Spectrins",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    863,
+    1113,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000163554",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P02549"
+   ]
+  },
+  "HGNC:11273": {
+   "symbol": "SPTAN1",
+   "gene_group": [
+    "EF-hand domain containing",
+    "Spectrins",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    863,
+    1113,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000197694",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13813"
+   ]
+  },
+  "HGNC:11389": {
+   "symbol": "STK11",
+   "gene_group": [
+    "STK11 family kinases"
+   ],
+   "gene_group_id": [
+    3546
+   ],
+   "ensembl_gene_id": "ENSG00000118046",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q15831"
+   ]
+  },
+  "HGNC:11444": {
+   "symbol": "STXBP1",
+   "gene_group": [
+    "SM family of SNARE chaperones"
+   ],
+   "gene_group_id": [
+    3908
+   ],
+   "ensembl_gene_id": "ENSG00000136854",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P61764"
+   ]
+  },
+  "HGNC:11497": {
+   "symbol": "SYNGAP1",
+   "gene_group": [
+    "C2 and RasGAP domain containing",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    830,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000197283",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96PV0"
+   ]
+  },
+  "HGNC:11584": {
+   "symbol": "TBK1",
+   "gene_group": [
+    "I kappa B kinase family"
+   ],
+   "gene_group_id": [
+    1802
+   ],
+   "ensembl_gene_id": "ENSG00000183735",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UHD2"
+   ]
+  },
+  "HGNC:11634": {
+   "symbol": "TCF4",
+   "gene_group": [
+    "Basic helix-loop-helix proteins"
+   ],
+   "gene_group_id": [
+    420
+   ],
+   "ensembl_gene_id": "ENSG00000196628",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P15884"
+   ]
+  },
+  "HGNC:11647": {
+   "symbol": "TCIRG1",
+   "gene_group": [
+    "V-type ATPase subunits",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    415,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000110719",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13488"
+   ]
+  },
+  "HGNC:11720": {
+   "symbol": "TECTA",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000109927",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75443"
+   ]
+  },
+  "HGNC:11730": {
+   "symbol": "TERT",
+   "gene_group": [
+    "Telomerase holoenzyme subunits"
+   ],
+   "gene_group_id": [
+    3438
+   ],
+   "ensembl_gene_id": "ENSG00000164362",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O14746"
+   ]
+  },
+  "HGNC:11773": {
+   "symbol": "TGFBR2",
+   "gene_group": [
+    "Type 2 receptor serine/threonine kinases"
+   ],
+   "gene_group_id": [
+    346
+   ],
+   "ensembl_gene_id": "ENSG00000163513",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P37173"
+   ]
+  },
+  "HGNC:11976": {
+   "symbol": "TNXB",
+   "gene_group": [
+    "Tenascins"
+   ],
+   "gene_group_id": [
+    1983
+   ],
+   "ensembl_gene_id": "ENSG00000168477",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P22105"
+   ]
+  },
+  "HGNC:11919": {
+   "symbol": "CD40",
+   "gene_group": [
+    "CD molecules",
+    "Tumor necrosis factor receptor superfamily"
+   ],
+   "gene_group_id": [
+    471,
+    782
+   ],
+   "ensembl_gene_id": "ENSG00000101017",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P25942"
+   ]
+  },
+  "HGNC:11411": {
+   "symbol": "CDKL5",
+   "gene_group": [
+    "Cilia and flagella associated",
+    "Cyclin dependent kinase like family"
+   ],
+   "gene_group_id": [
+    1491,
+    3786
+   ],
+   "ensembl_gene_id": "ENSG00000008086",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O76039"
+   ]
+  },
+  "HGNC:13210": {
+   "symbol": "ARL6",
+   "gene_group": [
+    "ARF GTPase family"
+   ],
+   "gene_group_id": [
+    357
+   ],
+   "ensembl_gene_id": "ENSG00000113966",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9H0F7"
+   ]
+  },
+  "HGNC:13406": {
+   "symbol": "PCLO",
+   "gene_group": [
+    "C2 domain containing",
+    "PDZ domain containing",
+    "Zinc fingers PCLO-type"
+   ],
+   "gene_group_id": [
+    823,
+    1220,
+    2125
+   ],
+   "ensembl_gene_id": "ENSG00000186472",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y6V0"
+   ]
+  },
+  "HGNC:12703": {
+   "symbol": "BEST1",
+   "gene_group": [
+    "Bestrophins"
+   ],
+   "gene_group_id": [
+    866
+   ],
+   "ensembl_gene_id": "ENSG00000167995",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O76090"
+   ]
+  },
+  "HGNC:1348": {
+   "symbol": "SAMD9",
+   "gene_group": [
+    "Sterile alpha motif domain containing"
+   ],
+   "gene_group_id": [
+    760
+   ],
+   "ensembl_gene_id": "ENSG00000205413",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5K651"
+   ]
+  },
+  "HGNC:1349": {
+   "symbol": "SAMD9L",
+   "gene_group": [
+    "Sterile alpha motif domain containing"
+   ],
+   "gene_group_id": [
+    760
+   ],
+   "ensembl_gene_id": "ENSG00000177409",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IVG5"
+   ]
+  },
+  "HGNC:11998": {
+   "symbol": "TP53",
+   "gene_group": [
+    "p53 transcription factor family"
+   ],
+   "gene_group_id": [
+    4068
+   ],
+   "ensembl_gene_id": "ENSG00000141510",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P04637"
+   ]
+  },
+  "HGNC:12347": {
+   "symbol": "TRRAP",
+   "gene_group": [
+    "SAGA complex",
+    "Armadillo like helical domain containing",
+    "Tip60/Nua4 histone acetyltransferase complex subunits",
+    "Pseudokinases",
+    "MicroRNA protein coding host genes",
+    "Phosphatidylinositol 3-kinase-related kinase family"
+   ],
+   "gene_group_id": [
+    1059,
+    1492,
+    1634,
+    1678,
+    1691,
+    3631
+   ],
+   "ensembl_gene_id": "ENSG00000196367",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y4A5"
+   ]
+  },
+  "HGNC:12362": {
+   "symbol": "TSC1",
+   "gene_group": [
+    "Armadillo like helical domain containing",
+    "TSC complex"
+   ],
+   "gene_group_id": [
+    1492,
+    1497
+   ],
+   "ensembl_gene_id": "ENSG00000165699",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q92574"
+   ]
+  },
+  "HGNC:12363": {
+   "symbol": "TSC2",
+   "gene_group": [
+    "Protein phosphatase 1 regulatory subunits",
+    "Armadillo like helical domain containing",
+    "TSC complex"
+   ],
+   "gene_group_id": [
+    694,
+    1492,
+    1497
+   ],
+   "ensembl_gene_id": "ENSG00000103197",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P49815"
+   ]
+  },
+  "HGNC:12403": {
+   "symbol": "TTN",
+   "gene_group": [
+    "Fibronectin type III domain containing",
+    "I-set domain containing",
+    "Myosin light chain kinase family"
+   ],
+   "gene_group_id": [
+    555,
+    593,
+    1668
+   ],
+   "ensembl_gene_id": "ENSG00000155657",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8WZ42"
+   ]
+  },
+  "HGNC:12404": {
+   "symbol": "TTPA",
+   "gene_group": [
+    "CRAL-TRIO lipid binding domain containing"
+   ],
+   "gene_group_id": [
+    3691
+   ],
+   "ensembl_gene_id": "ENSG00000137561",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P49638"
+   ]
+  },
+  "HGNC:12591": {
+   "symbol": "UROD",
+   "gene_group": [
+    "Decarboxylases"
+   ],
+   "gene_group_id": [
+    3807
+   ],
+   "ensembl_gene_id": "ENSG00000126088",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P06132"
+   ]
+  },
+  "HGNC:12597": {
+   "symbol": "USH1C",
+   "gene_group": [
+    "PDZ domain containing"
+   ],
+   "gene_group_id": [
+    1220
+   ],
+   "ensembl_gene_id": "ENSG00000006611",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y6N9"
+   ]
+  },
+  "HGNC:12601": {
+   "symbol": "USH2A",
+   "gene_group": [
+    "Fibronectin type III domain containing",
+    "USH2 complex"
+   ],
+   "gene_group_id": [
+    555,
+    1244
+   ],
+   "ensembl_gene_id": "ENSG00000042781",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75445"
+   ]
+  },
+  "HGNC:12687": {
+   "symbol": "VHL",
+   "gene_group": [
+    "E3 ubiquitin ligases"
+   ],
+   "gene_group_id": [
+    1137
+   ],
+   "ensembl_gene_id": "ENSG00000134086",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P40337"
+   ]
+  },
+  "HGNC:12712": {
+   "symbol": "VPS33B",
+   "gene_group": [
+    "SM family of SNARE chaperones"
+   ],
+   "gene_group_id": [
+    3908
+   ],
+   "ensembl_gene_id": "ENSG00000184056",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9H267"
+   ]
+  },
+  "HGNC:12726": {
+   "symbol": "VWF",
+   "gene_group": [
+    "Receptor ligands"
+   ],
+   "gene_group_id": [
+    542
+   ],
+   "ensembl_gene_id": "ENSG00000110799",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P04275"
+   ]
+  },
+  "HGNC:12791": {
+   "symbol": "WRN",
+   "gene_group": [
+    "Exonucleases",
+    "RecQ like helicases"
+   ],
+   "gene_group_id": [
+    544,
+    1049
+   ],
+   "ensembl_gene_id": "ENSG00000165392",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q14191"
+   ]
+  },
+  "HGNC:12856": {
+   "symbol": "YY1",
+   "gene_group": [
+    "Zinc fingers C2H2-type",
+    "INO80 complex subunits"
+   ],
+   "gene_group_id": [
+    28,
+    595
+   ],
+   "ensembl_gene_id": "ENSG00000100811",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P25490"
+   ]
+  },
+  "HGNC:12858": {
+   "symbol": "ZAP70",
+   "gene_group": [
+    "SH2 domain containing",
+    "Syk family tyrosine kinases"
+   ],
+   "gene_group_id": [
+    741,
+    1464
+   ],
+   "ensembl_gene_id": "ENSG00000115085",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P43403"
+   ]
+  },
+  "HGNC:14637": {
+   "symbol": "ABCA12",
+   "gene_group": [
+    "ATP binding cassette subfamily A",
+    "ATPase phospholipid transporting"
+   ],
+   "gene_group_id": [
+    805,
+    1210
+   ],
+   "ensembl_gene_id": "ENSG00000144452",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q86UK0"
+   ]
+  },
+  "HGNC:13601": {
+   "symbol": "FBXL4",
+   "gene_group": [
+    "F-box and leucine rich repeat proteins"
+   ],
+   "gene_group_id": [
+    558
+   ],
+   "ensembl_gene_id": "ENSG00000112234",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UKA2"
+   ]
+  },
+  "HGNC:13726": {
+   "symbol": "KMT2C",
+   "gene_group": [
+    "PHD finger proteins",
+    "Histone lysine methyltransferases",
+    "SET domain containing"
+   ],
+   "gene_group_id": [
+    88,
+    487,
+    1399
+   ],
+   "ensembl_gene_id": "ENSG00000055609",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8NEZ4"
+   ]
+  },
+  "HGNC:13743": {
+   "symbol": "ALOXE3",
+   "gene_group": [
+    "Arachidonate lipoxygenases",
+    "Hydroperoxy icosatetraenoate dehydratases"
+   ],
+   "gene_group_id": [
+    407,
+    3926
+   ],
+   "ensembl_gene_id": "ENSG00000179148",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9BYJ1"
+   ]
+  },
+  "HGNC:14561": {
+   "symbol": "ARHGEF9",
+   "gene_group": [
+    "Pleckstrin homology domain containing",
+    "Dbl family Rho GEFs",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    682,
+    722,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000131089",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O43307"
+   ]
+  },
+  "HGNC:13937": {
+   "symbol": "MPIG6B",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000204420",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O95866"
+   ]
+  },
+  "HGNC:14674": {
+   "symbol": "PCDH15",
+   "gene_group": [
+    "Cadherin related",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    24,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000150275",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96QU1"
+   ]
+  },
+  "HGNC:14294": {
+   "symbol": "SHANK3",
+   "gene_group": [
+    "Ankyrin repeat domain containing",
+    "Sterile alpha motif domain containing",
+    "PDZ domain containing",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    403,
+    760,
+    1220,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000251322",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9BYB0"
+   ]
+  },
+  "HGNC:1388": {
+   "symbol": "CACNA1A",
+   "gene_group": [
+    "Calcium voltage-gated channel alpha1 subunits"
+   ],
+   "gene_group_id": [
+    1512
+   ],
+   "ensembl_gene_id": "ENSG00000141837",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O00555"
+   ]
+  },
+  "HGNC:1390": {
+   "symbol": "CACNA1C",
+   "gene_group": [
+    "Calcium voltage-gated channel alpha1 subunits"
+   ],
+   "gene_group_id": [
+    1512
+   ],
+   "ensembl_gene_id": "ENSG00000151067",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13936"
+   ]
+  },
+  "HGNC:1391": {
+   "symbol": "CACNA1D",
+   "gene_group": [
+    "Calcium voltage-gated channel alpha1 subunits"
+   ],
+   "gene_group_id": [
+    1512
+   ],
+   "ensembl_gene_id": "ENSG00000157388",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q01668"
+   ]
+  },
+  "HGNC:1392": {
+   "symbol": "CACNA1E",
+   "gene_group": [
+    "EF-hand domain containing",
+    "Calcium voltage-gated channel alpha1 subunits"
+   ],
+   "gene_group_id": [
+    863,
+    1512
+   ],
+   "ensembl_gene_id": "ENSG00000198216",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q15878"
+   ]
+  },
+  "HGNC:1395": {
+   "symbol": "CACNA1H",
+   "gene_group": [
+    "Calcium voltage-gated channel alpha1 subunits"
+   ],
+   "gene_group_id": [
+    1512
+   ],
+   "ensembl_gene_id": "ENSG00000196557",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O95180"
+   ]
+  },
+  "HGNC:1397": {
+   "symbol": "CACNA1S",
+   "gene_group": [
+    "Calcium voltage-gated channel alpha1 subunits"
+   ],
+   "gene_group_id": [
+    1512
+   ],
+   "ensembl_gene_id": "ENSG00000081248",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13698"
+   ]
+  },
+  "HGNC:1480": {
+   "symbol": "CAPN3",
+   "gene_group": [
+    "EF-hand domain containing",
+    "Calpains"
+   ],
+   "gene_group_id": [
+    863,
+    975
+   ],
+   "ensembl_gene_id": "ENSG00000092529",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P20807"
+   ]
+  },
+  "HGNC:14542": {
+   "symbol": "WNK2",
+   "gene_group": [
+    "WNK lysine deficient protein kinases"
+   ],
+   "gene_group_id": [
+    1899
+   ],
+   "ensembl_gene_id": "ENSG00000165238",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y3S1"
+   ]
+  },
+  "HGNC:13733": {
+   "symbol": "CDH23",
+   "gene_group": [
+    "Cadherin related",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    24,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000107736",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9H251"
+   ]
+  },
+  "HGNC:14214": {
+   "symbol": "CIC",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000079432",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96RK0"
+   ]
+  },
+  "HGNC:13681": {
+   "symbol": "DCHS1",
+   "gene_group": [
+    "Cadherin related"
+   ],
+   "gene_group_id": [
+    24
+   ],
+   "ensembl_gene_id": "ENSG00000166341",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96JQ0"
+   ]
+  },
+  "HGNC:1356": {
+   "symbol": "ERLIN2",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000147475",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O94905"
+   ]
+  },
+  "HGNC:16636": {
+   "symbol": "KIF1B",
+   "gene_group": [
+    "Kinesins",
+    "Pleckstrin homology domain containing",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    622,
+    682,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000054523",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O60333"
+   ]
+  },
+  "HGNC:15840": {
+   "symbol": "KMT2B",
+   "gene_group": [
+    "PHD finger proteins",
+    "Zinc fingers CXXC-type",
+    "Histone lysine methyltransferases",
+    "SET domain containing"
+   ],
+   "gene_group_id": [
+    88,
+    136,
+    487,
+    1399
+   ],
+   "ensembl_gene_id": "ENSG00000272333",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UMN6"
+   ]
+  },
+  "HGNC:15582": {
+   "symbol": "MUC16",
+   "gene_group": [
+    "Mucins",
+    "SEA domain containing"
+   ],
+   "gene_group_id": [
+    648,
+    4166
+   ],
+   "ensembl_gene_id": "ENSG00000181143",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8WXI7"
+   ]
+  },
+  "HGNC:15625": {
+   "symbol": "NBAS",
+   "gene_group": [
+    "NRZ tethering complex"
+   ],
+   "gene_group_id": [
+    1931
+   ],
+   "ensembl_gene_id": "ENSG00000151779",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "A2RRP1"
+   ]
+  },
+  "HGNC:15911": {
+   "symbol": "NOP56",
+   "gene_group": [
+    "U3 small nucleolar ribonucleoprotein",
+    "MicroRNA protein coding host genes",
+    "Small nucleolar RNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    1485,
+    1691,
+    1835
+   ],
+   "ensembl_gene_id": "ENSG00000101361",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O00567"
+   ]
+  },
+  "HGNC:15719": {
+   "symbol": "OBSCN",
+   "gene_group": [
+    "Fibronectin type III domain containing",
+    "I-set domain containing",
+    "Dbl family Rho GEFs",
+    "Myosin light chain kinase family",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    555,
+    593,
+    722,
+    1668,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000154358",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5VST9"
+   ]
+  },
+  "HGNC:16068": {
+   "symbol": "PCNT",
+   "gene_group": [
+    "Centriolar satellite proteins"
+   ],
+   "gene_group_id": [
+    3838
+   ],
+   "ensembl_gene_id": "ENSG00000160299",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O95613"
+   ]
+  },
+  "HGNC:15946": {
+   "symbol": "RP1L1",
+   "gene_group": [
+    "Doublecortin superfamily"
+   ],
+   "gene_group_id": [
+    1369
+   ],
+   "ensembl_gene_id": "ENSG00000183638",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IWN7"
+   ]
+  },
+  "HGNC:15888": {
+   "symbol": "RTEL1",
+   "gene_group": [
+    "DEAH-box helicases"
+   ],
+   "gene_group_id": [
+    500
+   ],
+   "ensembl_gene_id": "ENSG00000258366",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NZ71"
+   ]
+  },
+  "HGNC:15925": {
+   "symbol": "SAMHD1",
+   "gene_group": [
+    "Sterile alpha motif domain containing"
+   ],
+   "gene_group_id": [
+    760
+   ],
+   "ensembl_gene_id": "ENSG00000101347",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y3Z3"
+   ]
+  },
+  "HGNC:15999": {
+   "symbol": "SELENON",
+   "gene_group": [
+    "EF-hand domain containing",
+    "Selenoproteins"
+   ],
+   "gene_group_id": [
+    863,
+    890
+   ],
+   "ensembl_gene_id": "ENSG00000162430",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NZV5"
+   ]
+  },
+  "HGNC:1497": {
+   "symbol": "CASK",
+   "gene_group": [
+    "Membrane associated guanylate kinases",
+    "PDZ domain containing",
+    "CASK family",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    904,
+    1220,
+    3542,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000147044",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O14936"
+   ]
+  },
+  "HGNC:1513": {
+   "symbol": "CASQ2",
+   "gene_group": [
+    "Protein disulfide isomerases"
+   ],
+   "gene_group_id": [
+    692
+   ],
+   "ensembl_gene_id": "ENSG00000118729",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O14958"
+   ]
+  },
+  "HGNC:1514": {
+   "symbol": "CASR",
+   "gene_group": [
+    "Calcium sensing receptors"
+   ],
+   "gene_group_id": [
+    279
+   ],
+   "ensembl_gene_id": "ENSG00000036828",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P41180"
+   ]
+  },
+  "HGNC:15464": {
+   "symbol": "SPINK5",
+   "gene_group": [
+    "Serine peptidase inhibitors, Kazal type"
+   ],
+   "gene_group_id": [
+    740
+   ],
+   "ensembl_gene_id": "ENSG00000133710",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NQ38"
+   ]
+  },
+  "HGNC:15954": {
+   "symbol": "TOE1",
+   "gene_group": [
+    "Zinc fingers CCCH-type",
+    "PARN exonuclease family"
+   ],
+   "gene_group_id": [
+    73,
+    2052
+   ],
+   "ensembl_gene_id": "ENSG00000132773",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96GM8"
+   ]
+  },
+  "HGNC:16691": {
+   "symbol": "TUBGCP4",
+   "gene_group": [
+    "Tubulin gamma complex component family"
+   ],
+   "gene_group_id": [
+    2224
+   ],
+   "ensembl_gene_id": "ENSG00000137822",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UGJ1"
+   ]
+  },
+  "HGNC:16493": {
+   "symbol": "ZMIZ1",
+   "gene_group": [
+    "Zinc fingers MIZ-type"
+   ],
+   "gene_group_id": [
+    85
+   ],
+   "ensembl_gene_id": "ENSG00000108175",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9ULJ6"
+   ]
+  },
+  "HGNC:15992": {
+   "symbol": "ZNF341",
+   "gene_group": [
+    "Zinc fingers C2H2-type"
+   ],
+   "gene_group_id": [
+    28
+   ],
+   "ensembl_gene_id": "ENSG00000131061",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9BYN7"
+   ]
+  },
+  "HGNC:16627": {
+   "symbol": "CHEK2",
+   "gene_group": [
+    "Checkpoint kinase 2 family"
+   ],
+   "gene_group_id": [
+    3543
+   ],
+   "ensembl_gene_id": "ENSG00000183765",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O96017"
+   ]
+  },
+  "HGNC:17416": {
+   "symbol": "ADGRV1",
+   "gene_group": [
+    "Adhesion G protein-coupled receptors, subfamily V",
+    "USH2 complex"
+   ],
+   "gene_group_id": [
+    919,
+    1244
+   ],
+   "ensembl_gene_id": "ENSG00000164199",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8WXG9"
+   ]
+  },
+  "HGNC:17022": {
+   "symbol": "HPS5",
+   "gene_group": [
+    "WD repeat domain containing",
+    "Biogenesis of lysosomal organelles complex 2 "
+   ],
+   "gene_group_id": [
+    362,
+    1038
+   ],
+   "ensembl_gene_id": "ENSG00000110756",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UPZ3"
+   ]
+  },
+  "HGNC:17367": {
+   "symbol": "IFT57",
+   "gene_group": [
+    "IFT-B2 complex"
+   ],
+   "gene_group_id": [
+    1981
+   ],
+   "ensembl_gene_id": "ENSG00000114446",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NWB7"
+   ]
+  },
+  "HGNC:17582": {
+   "symbol": "KAT6B",
+   "gene_group": [
+    "PHD finger proteins",
+    "MYST type domain containing lysine acetyltransferases",
+    "Zinc fingers MYST C2HC-type"
+   ],
+   "gene_group_id": [
+    88,
+    1584,
+    3404
+   ],
+   "ensembl_gene_id": "ENSG00000156650",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8WYB5"
+   ]
+  },
+  "HGNC:17574": {
+   "symbol": "ALPK3",
+   "gene_group": [
+    "I-set domain containing",
+    "Alpha kinases"
+   ],
+   "gene_group_id": [
+    593,
+    3630
+   ],
+   "ensembl_gene_id": "ENSG00000136383",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96L96"
+   ]
+  },
+  "HGNC:18040": {
+   "symbol": "ARID1B",
+   "gene_group": [
+    "AT-rich interaction domain containing",
+    "Armadillo like helical domain containing",
+    "BAF complex subunits"
+   ],
+   "gene_group_id": [
+    418,
+    1492,
+    1604
+   ],
+   "ensembl_gene_id": "ENSG00000049618",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8NFD5"
+   ]
+  },
+  "HGNC:18318": {
+   "symbol": "ASXL1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000171456",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IXJ9"
+   ]
+  },
+  "HGNC:17068": {
+   "symbol": "PALLD",
+   "gene_group": [
+    "I-set domain containing"
+   ],
+   "gene_group_id": [
+    593
+   ],
+   "ensembl_gene_id": "ENSG00000129116",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8WX93"
+   ]
+  },
+  "HGNC:17284": {
+   "symbol": "POT1",
+   "gene_group": [
+    "Shelterin complex"
+   ],
+   "gene_group_id": [
+    1334
+   ],
+   "ensembl_gene_id": "ENSG00000128513",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NUX5"
+   ]
+  },
+  "HGNC:18305": {
+   "symbol": "ATP6AP2",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000182220",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75787"
+   ]
+  },
+  "HGNC:17296": {
+   "symbol": "RRM2B",
+   "gene_group": [
+    "Ribonucleotide reductase subunits"
+   ],
+   "gene_group_id": [
+    3469
+   ],
+   "ensembl_gene_id": "ENSG00000048392",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q7LG56"
+   ]
+  },
+  "HGNC:18130": {
+   "symbol": "SYCP3",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000139351",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IZU3"
+   ]
+  },
+  "HGNC:17089": {
+   "symbol": "SYNE1",
+   "gene_group": [
+    "Spectrin repeat containing nuclear envelope family",
+    "KASH domain containing"
+   ],
+   "gene_group_id": [
+    1252,
+    2010
+   ],
+   "ensembl_gene_id": "ENSG00000131018",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8NF91"
+   ]
+  },
+  "HGNC:17084": {
+   "symbol": "SYNE2",
+   "gene_group": [
+    "Spectrin repeat containing nuclear envelope family",
+    "KASH domain containing"
+   ],
+   "gene_group_id": [
+    1252,
+    2010
+   ],
+   "ensembl_gene_id": "ENSG00000054654",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8WXH0"
+   ]
+  },
+  "HGNC:17300": {
+   "symbol": "TAF8",
+   "gene_group": [
+    "General transcription factor IID complex subunits"
+   ],
+   "gene_group_id": [
+    1878
+   ],
+   "ensembl_gene_id": "ENSG00000137413",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q7Z7C8"
+   ]
+  },
+  "HGNC:18083": {
+   "symbol": "TRPV4",
+   "gene_group": [
+    "Ankyrin repeat domain containing",
+    "Transient receptor potential cation channel subfamily V"
+   ],
+   "gene_group_id": [
+    403,
+    4028
+   ],
+   "ensembl_gene_id": "ENSG00000111199",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9HBA0"
+   ]
+  },
+  "HGNC:1748": {
+   "symbol": "CDH1",
+   "gene_group": [
+    "CD molecules",
+    "Type I classical cadherins"
+   ],
+   "gene_group_id": [
+    471,
+    1185
+   ],
+   "ensembl_gene_id": "ENSG00000039068",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P12830"
+   ]
+  },
+  "HGNC:1833": {
+   "symbol": "CEBPA",
+   "gene_group": [
+    "CCAAT/enhancer binding proteins"
+   ],
+   "gene_group_id": [
+    1165
+   ],
+   "ensembl_gene_id": "ENSG00000245848",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P49715"
+   ]
+  },
+  "HGNC:17210": {
+   "symbol": "DHX37",
+   "gene_group": [
+    "DEAH-box helicases",
+    "SSU processome"
+   ],
+   "gene_group_id": [
+    500,
+    1484
+   ],
+   "ensembl_gene_id": "ENSG00000150990",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IY37"
+   ]
+  },
+  "HGNC:17098": {
+   "symbol": "DICER1",
+   "gene_group": [
+    "Endoribonucleases",
+    "MicroRNA protein coding host genes",
+    "RISC loading complex subunits"
+   ],
+   "gene_group_id": [
+    1687,
+    1691,
+    1776
+   ],
+   "ensembl_gene_id": "ENSG00000100697",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UPY3"
+   ]
+  },
+  "HGNC:1839": {
+   "symbol": "ADA2",
+   "gene_group": [
+    "Adenosine deaminase family"
+   ],
+   "gene_group_id": [
+    1302
+   ],
+   "ensembl_gene_id": "ENSG00000093072",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NZK5"
+   ]
+  },
+  "HGNC:19185": {
+   "symbol": "FRAS1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000138759",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q86XX4"
+   ]
+  },
+  "HGNC:19194": {
+   "symbol": "HMCN1",
+   "gene_group": [
+    "Fibulins",
+    "I-set domain containing"
+   ],
+   "gene_group_id": [
+    556,
+    593
+   ],
+   "ensembl_gene_id": "ENSG00000143341",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96RW7"
+   ]
+  },
+  "HGNC:18865": {
+   "symbol": "KCNT1",
+   "gene_group": [
+    "Potassium sodium-activated channel subfamily T "
+   ],
+   "gene_group_id": [
+    856
+   ],
+   "ensembl_gene_id": "ENSG00000107147",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5JUK3"
+   ]
+  },
+  "HGNC:19181": {
+   "symbol": "KIF14",
+   "gene_group": [
+    "Kinesins"
+   ],
+   "gene_group_id": [
+    622
+   ],
+   "ensembl_gene_id": "ENSG00000118193",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q15058"
+   ]
+  },
+  "HGNC:18541": {
+   "symbol": "KMT2E",
+   "gene_group": [
+    "PHD finger proteins",
+    "SET domain containing",
+    "Putative lysine methyltransferases"
+   ],
+   "gene_group_id": [
+    88,
+    1399,
+    3513
+   ],
+   "ensembl_gene_id": "ENSG00000005483",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IZD2"
+   ]
+  },
+  "HGNC:18608": {
+   "symbol": "LRRK1",
+   "gene_group": [
+    "ROCO family",
+    "Leucine rich repeat kinase family"
+   ],
+   "gene_group_id": [
+    1421,
+    3674
+   ],
+   "ensembl_gene_id": "ENSG00000154237",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q38SD2"
+   ]
+  },
+  "HGNC:18618": {
+   "symbol": "LRRK2",
+   "gene_group": [
+    "ROCO family",
+    "Armadillo like helical domain containing",
+    "Leucine rich repeat kinase family"
+   ],
+   "gene_group_id": [
+    1421,
+    1492,
+    3674
+   ],
+   "ensembl_gene_id": "ENSG00000188906",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5S007"
+   ]
+  },
+  "HGNC:19082": {
+   "symbol": "NALCN",
+   "gene_group": [
+    "Sodium leak channels, non selective",
+    "NALCN channel complex subunits"
+   ],
+   "gene_group_id": [
+    283,
+    3463
+   ],
+   "ensembl_gene_id": "ENSG00000102452",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IZF0"
+   ]
+  },
+  "HGNC:19139": {
+   "symbol": "POMGNT1",
+   "gene_group": [
+    "O-linked N-acetylglucosaminyltransferases"
+   ],
+   "gene_group_id": [
+    446
+   ],
+   "ensembl_gene_id": "ENSG00000085998",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8WZA1"
+   ]
+  },
+  "HGNC:18518": {
+   "symbol": "RNASEH2A",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000104889",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75792"
+   ]
+  },
+  "HGNC:18806": {
+   "symbol": "CAMTA1",
+   "gene_group": [
+    "IPT domain containing",
+    "Calmodulin binding transcription activators "
+   ],
+   "gene_group_id": [
+    1752,
+    1941
+   ],
+   "ensembl_gene_id": "ENSG00000171735",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y6Y1"
+   ]
+  },
+  "HGNC:1908": {
+   "symbol": "VPS13A",
+   "gene_group": [
+    "Bridge-like lipid transfer protein family"
+   ],
+   "gene_group_id": [
+    2141
+   ],
+   "ensembl_gene_id": "ENSG00000197969",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96RL7"
+   ]
+  },
+  "HGNC:1884": {
+   "symbol": "CFTR",
+   "gene_group": [
+    "Chloride channels, ATP-gated CFTR",
+    "ATP binding cassette subfamily C"
+   ],
+   "gene_group_id": [
+    309,
+    807
+   ],
+   "ensembl_gene_id": "ENSG00000001626",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P13569"
+   ]
+  },
+  "HGNC:1917": {
+   "symbol": "CHD2",
+   "gene_group": [
+    "Helicases",
+    "SNF2 related family",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    1166,
+    1190,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000173575",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O14647"
+   ]
+  },
+  "HGNC:1918": {
+   "symbol": "CHD3",
+   "gene_group": [
+    "PHD finger proteins",
+    "SNF2 related family",
+    "NuRD complex subunits",
+    "Small nucleolar RNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    88,
+    1190,
+    1305,
+    1835
+   ],
+   "ensembl_gene_id": "ENSG00000170004",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q12873"
+   ]
+  },
+  "HGNC:18621": {
+   "symbol": "COG6",
+   "gene_group": [
+    "Components of oligomeric golgi complex"
+   ],
+   "gene_group_id": [
+    493
+   ],
+   "ensembl_gene_id": "ENSG00000133103",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y2V7"
+   ]
+  },
+  "HGNC:18423": {
+   "symbol": "DEPDC5",
+   "gene_group": [
+    "GATOR1 subcomplex",
+    "DEP domain containing"
+   ],
+   "gene_group_id": [
+    1394,
+    2329
+   ],
+   "ensembl_gene_id": "ENSG00000100150",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75140"
+   ]
+  },
+  "HGNC:19190": {
+   "symbol": "DOCK7",
+   "gene_group": [
+    "DOCK family Rho GEFs"
+   ],
+   "gene_group_id": [
+    1536
+   ],
+   "ensembl_gene_id": "ENSG00000116641",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96N67"
+   ]
+  },
+  "HGNC:19191": {
+   "symbol": "DOCK8",
+   "gene_group": [
+    "Armadillo like helical domain containing",
+    "DOCK family Rho GEFs"
+   ],
+   "gene_group_id": [
+    1492,
+    1536
+   ],
+   "ensembl_gene_id": "ENSG00000107099",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8NF50"
+   ]
+  },
+  "HGNC:21197": {
+   "symbol": "FA2H",
+   "gene_group": [
+    "Fatty acid hydroxylase domain containing",
+    "Cytochrome b5 domain containing"
+   ],
+   "gene_group_id": [
+    552,
+    3991
+   ],
+   "ensembl_gene_id": "ENSG00000103089",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q7L5A8"
+   ]
+  },
+  "HGNC:20748": {
+   "symbol": "FANCL",
+   "gene_group": [
+    "PHD finger proteins",
+    "FA complementation groups",
+    "FA core complex",
+    "RING finger E3 ubiquitin protein ligases"
+   ],
+   "gene_group_id": [
+    88,
+    548,
+    1751,
+    4163
+   ],
+   "ensembl_gene_id": "ENSG00000115392",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NW38"
+   ]
+  },
+  "HGNC:20134": {
+   "symbol": "GLRX5",
+   "gene_group": [
+    "Glutaredoxin domain containing",
+    "Mitochondrial iron-sulfur assembly components"
+   ],
+   "gene_group_id": [
+    1468,
+    1853
+   ],
+   "ensembl_gene_id": "ENSG00000182512",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q86SX6"
+   ]
+  },
+  "HGNC:20145": {
+   "symbol": "GPR143",
+   "gene_group": [
+    "7TM uncharacterized proteins"
+   ],
+   "gene_group_id": [
+    310
+   ],
+   "ensembl_gene_id": "ENSG00000101850",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P51810"
+   ]
+  },
+  "HGNC:19960": {
+   "symbol": "KIAA0586",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000100578",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9BVV6"
+   ]
+  },
+  "HGNC:20499": {
+   "symbol": "L2HGDH",
+   "gene_group": [
+    "MicroRNA protein coding host genes",
+    "Flavoproteins"
+   ],
+   "gene_group_id": [
+    1691,
+    2258
+   ],
+   "ensembl_gene_id": "ENSG00000087299",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9H9P8"
+   ]
+  },
+  "HGNC:20565": {
+   "symbol": "ALPK2",
+   "gene_group": [
+    "I-set domain containing",
+    "Alpha kinases"
+   ],
+   "gene_group_id": [
+    593,
+    3630
+   ],
+   "ensembl_gene_id": "ENSG00000198796",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q86TB3"
+   ]
+  },
+  "HGNC:21316": {
+   "symbol": "ANKRD11",
+   "gene_group": [
+    "Ankyrin repeat domain containing"
+   ],
+   "gene_group_id": [
+    403
+   ],
+   "ensembl_gene_id": "ENSG00000167522",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q6UB99"
+   ]
+  },
+  "HGNC:21014": {
+   "symbol": "ANTXR1",
+   "gene_group": [
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000169604",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9H6X2"
+   ]
+  },
+  "HGNC:20730": {
+   "symbol": "ARMC9",
+   "gene_group": [
+    "Armadillo repeat containing",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    409,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000135931",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q7Z3E5"
+   ]
+  },
+  "HGNC:1968": {
+   "symbol": "LYST",
+   "gene_group": [
+    "WD repeat domain containing",
+    "BEACH domain containing ",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    362,
+    1230,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000143669",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q99698"
+   ]
+  },
+  "HGNC:20473": {
+   "symbol": "BRIP1",
+   "gene_group": [
+    "DEAH-box helicases",
+    "FA complementation groups",
+    "BRCA1 B complex"
+   ],
+   "gene_group_id": [
+    500,
+    548,
+    1335
+   ],
+   "ensembl_gene_id": "ENSG00000136492",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9BX63"
+   ]
+  },
+  "HGNC:2073": {
+   "symbol": "TPP1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000166340",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O14773"
+   ]
+  },
+  "HGNC:20087": {
+   "symbol": "TTC8",
+   "gene_group": [
+    "Tetratricopeptide repeat domain containing",
+    "BBSome"
+   ],
+   "gene_group_id": [
+    769,
+    1122
+   ],
+   "ensembl_gene_id": "ENSG00000165533",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8TAM2"
+   ]
+  },
+  "HGNC:19684": {
+   "symbol": "WEE2",
+   "gene_group": [
+    "WEE family tyrosine specific kinases"
+   ],
+   "gene_group_id": [
+    3954
+   ],
+   "ensembl_gene_id": "ENSG00000214102",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P0C1S8"
+   ]
+  },
+  "HGNC:20761": {
+   "symbol": "ZFYVE26",
+   "gene_group": [
+    "Zinc fingers FYVE-type"
+   ],
+   "gene_group_id": [
+    81
+   ],
+   "ensembl_gene_id": "ENSG00000072121",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q68DK2"
+   ]
+  },
+  "HGNC:20626": {
+   "symbol": "CHD7",
+   "gene_group": [
+    "Myb/SANT domain containing",
+    "Helicases",
+    "SNF2 related family"
+   ],
+   "gene_group_id": [
+    532,
+    1166,
+    1190
+   ],
+   "ensembl_gene_id": "ENSG00000171316",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9P2D1"
+   ]
+  },
+  "HGNC:1955": {
+   "symbol": "CHRNA1",
+   "gene_group": [
+    "Cholinergic receptors nicotinic subunits"
+   ],
+   "gene_group_id": [
+    173
+   ],
+   "ensembl_gene_id": "ENSG00000138435",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P02708"
+   ]
+  },
+  "HGNC:2019": {
+   "symbol": "CLCN1",
+   "gene_group": [
+    "CLC chloride channel and transporter family"
+   ],
+   "gene_group_id": [
+    302
+   ],
+   "ensembl_gene_id": "ENSG00000188037",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35523"
+   ]
+  },
+  "HGNC:19687": {
+   "symbol": "EIF2AK4",
+   "gene_group": [
+    "Eukaryotic translation initiation factor 2 alpha kinases",
+    "RWD domain containing"
+   ],
+   "gene_group_id": [
+    2124,
+    3988
+   ],
+   "ensembl_gene_id": "ENSG00000128829",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9P2K8"
+   ]
+  },
+  "HGNC:21869": {
+   "symbol": "AGK",
+   "gene_group": [
+    "SPHK, AGK, CERK lipid kinase family"
+   ],
+   "gene_group_id": [
+    3583
+   ],
+   "ensembl_gene_id": "ENSG00000006530",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q53H12"
+   ]
+  },
+  "HGNC:21575": {
+   "symbol": "AHI1",
+   "gene_group": [
+    "WD repeat domain containing",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    362,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000135541",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8N157"
+   ]
+  },
+  "HGNC:21555": {
+   "symbol": "EYS",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000188107",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5T1H1"
+   ]
+  },
+  "HGNC:21732": {
+   "symbol": "ANTXR2",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000163297",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P58335"
+   ]
+  },
+  "HGNC:21701": {
+   "symbol": "BRAT1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000106009",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q6PJG6"
+   ]
+  },
+  "HGNC:21698": {
+   "symbol": "RNF216",
+   "gene_group": [
+    "Ring finger proteins",
+    "RBR E3 ubiquitin ligases",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    58,
+    1391,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000011275",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NWF9"
+   ]
+  },
+  "HGNC:2183": {
+   "symbol": "VPS13B",
+   "gene_group": [
+    "Bridge-like lipid transfer protein family"
+   ],
+   "gene_group_id": [
+    2141
+   ],
+   "ensembl_gene_id": "ENSG00000132549",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q7Z7G8"
+   ]
+  },
+  "HGNC:21708": {
+   "symbol": "CCM2",
+   "gene_group": [
+    "CCM adhesion complex"
+   ],
+   "gene_group_id": [
+    1940
+   ],
+   "ensembl_gene_id": "ENSG00000136280",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9BSQ5"
+   ]
+  },
+  "HGNC:2150": {
+   "symbol": "CNGA3",
+   "gene_group": [
+    "Cyclic nucleotide gated channels"
+   ],
+   "gene_group_id": [
+    250
+   ],
+   "ensembl_gene_id": "ENSG00000144191",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q16281"
+   ]
+  },
+  "HGNC:2197": {
+   "symbol": "COL1A1",
+   "gene_group": [
+    "Fibrillar collagens"
+   ],
+   "gene_group_id": [
+    2247
+   ],
+   "ensembl_gene_id": "ENSG00000108821",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P02452"
+   ]
+  },
+  "HGNC:2198": {
+   "symbol": "COL1A2",
+   "gene_group": [
+    "Fibrillar collagens"
+   ],
+   "gene_group_id": [
+    2247
+   ],
+   "ensembl_gene_id": "ENSG00000164692",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P08123"
+   ]
+  },
+  "HGNC:2200": {
+   "symbol": "COL2A1",
+   "gene_group": [
+    "Fibrillar collagens"
+   ],
+   "gene_group_id": [
+    2247
+   ],
+   "ensembl_gene_id": "ENSG00000139219",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P02458"
+   ]
+  },
+  "HGNC:2201": {
+   "symbol": "COL3A1",
+   "gene_group": [
+    "MicroRNA protein coding host genes",
+    "Fibrillar collagens"
+   ],
+   "gene_group_id": [
+    1691,
+    2247
+   ],
+   "ensembl_gene_id": "ENSG00000168542",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P02461"
+   ]
+  },
+  "HGNC:2202": {
+   "symbol": "COL4A1",
+   "gene_group": [
+    "Network forming collagens"
+   ],
+   "gene_group_id": [
+    2249
+   ],
+   "ensembl_gene_id": "ENSG00000187498",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P02462"
+   ]
+  },
+  "HGNC:2204": {
+   "symbol": "COL4A3",
+   "gene_group": [
+    "Network forming collagens"
+   ],
+   "gene_group_id": [
+    2249
+   ],
+   "ensembl_gene_id": "ENSG00000169031",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q01955"
+   ]
+  },
+  "HGNC:2186": {
+   "symbol": "COL11A1",
+   "gene_group": [
+    "Fibrillar collagens"
+   ],
+   "gene_group_id": [
+    2247
+   ],
+   "ensembl_gene_id": "ENSG00000060718",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P12107"
+   ]
+  },
+  "HGNC:2187": {
+   "symbol": "COL11A2",
+   "gene_group": [
+    "Fibrillar collagens"
+   ],
+   "gene_group_id": [
+    2247
+   ],
+   "ensembl_gene_id": "ENSG00000204248",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P13942"
+   ]
+  },
+  "HGNC:2188": {
+   "symbol": "COL12A1",
+   "gene_group": [
+    "Fibronectin type III domain containing",
+    "Collagen proteoglycans",
+    "Fibril associated collagens with interrupted triple helices"
+   ],
+   "gene_group_id": [
+    555,
+    575,
+    2248
+   ],
+   "ensembl_gene_id": "ENSG00000111799",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q99715"
+   ]
+  },
+  "HGNC:2194": {
+   "symbol": "COL17A1",
+   "gene_group": [
+    "MicroRNA protein coding host genes",
+    "Transmembrane collagens"
+   ],
+   "gene_group_id": [
+    1691,
+    2251
+   ],
+   "ensembl_gene_id": "ENSG00000065618",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UMD9"
+   ]
+  },
+  "HGNC:2195": {
+   "symbol": "COL18A1",
+   "gene_group": [
+    "MicroRNA protein coding host genes",
+    "Multiplexin collagens"
+   ],
+   "gene_group_id": [
+    1691,
+    2252
+   ],
+   "ensembl_gene_id": "ENSG00000182871",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P39060"
+   ]
+  },
+  "HGNC:23056": {
+   "symbol": "ALG3",
+   "gene_group": [
+    "Dolichyl D-mannosyl phosphate dependent mannosyltransferases"
+   ],
+   "gene_group_id": [
+    430
+   ],
+   "ensembl_gene_id": "ENSG00000214160",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q92685"
+   ]
+  },
+  "HGNC:23168": {
+   "symbol": "FANCM",
+   "gene_group": [
+    "DEAH-box helicases",
+    "FA complementation groups",
+    "FA core complex"
+   ],
+   "gene_group_id": [
+    500,
+    548,
+    1751
+   ],
+   "ensembl_gene_id": "ENSG00000187790",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IYD8"
+   ]
+  },
+  "HGNC:23109": {
+   "symbol": "FAT4",
+   "gene_group": [
+    "Cadherin related"
+   ],
+   "gene_group_id": [
+    24
+   ],
+   "ensembl_gene_id": "ENSG00000196159",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q6V0I7"
+   ]
+  },
+  "HGNC:23657": {
+   "symbol": "GNE",
+   "gene_group": [
+    "Carbohydrate kinases"
+   ],
+   "gene_group_id": [
+    3430
+   ],
+   "ensembl_gene_id": "ENSG00000159921",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y223"
+   ]
+  },
+  "HGNC:24008": {
+   "symbol": "MIA3",
+   "gene_group": [
+    "CTAGE family",
+    "MIA family",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    907,
+    1300,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000154305",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5JRA6"
+   ]
+  },
+  "HGNC:23166": {
+   "symbol": "PNPT1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000138035",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8TCS8"
+   ]
+  },
+  "HGNC:23845": {
+   "symbol": "SLX4",
+   "gene_group": [
+    "FA complementation groups",
+    "BTB domain containing",
+    "Zinc fingers UBZ4 CCHC-type"
+   ],
+   "gene_group_id": [
+    548,
+    861,
+    3344
+   ],
+   "ensembl_gene_id": "ENSG00000188827",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IY92"
+   ]
+  },
+  "HGNC:23230": {
+   "symbol": "UBA5",
+   "gene_group": [
+    "Ubiquitin like modifier activating enzymes"
+   ],
+   "gene_group_id": [
+    100
+   ],
+   "ensembl_gene_id": "ENSG00000081307",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9GZZ9"
+   ]
+  },
+  "HGNC:23216": {
+   "symbol": "ZNF469",
+   "gene_group": [
+    "Zinc fingers C2H2-type"
+   ],
+   "gene_group_id": [
+    28
+   ],
+   "ensembl_gene_id": "ENSG00000225614",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96JG9"
+   ]
+  },
+  "HGNC:2206": {
+   "symbol": "COL4A4",
+   "gene_group": [
+    "Network forming collagens"
+   ],
+   "gene_group_id": [
+    2249
+   ],
+   "ensembl_gene_id": "ENSG00000081052",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P53420"
+   ]
+  },
+  "HGNC:2207": {
+   "symbol": "COL4A5",
+   "gene_group": [
+    "Network forming collagens"
+   ],
+   "gene_group_id": [
+    2249
+   ],
+   "ensembl_gene_id": "ENSG00000188153",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P29400"
+   ]
+  },
+  "HGNC:2209": {
+   "symbol": "COL5A1",
+   "gene_group": [
+    "Fibrillar collagens"
+   ],
+   "gene_group_id": [
+    2247
+   ],
+   "ensembl_gene_id": "ENSG00000130635",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P20908"
+   ]
+  },
+  "HGNC:2210": {
+   "symbol": "COL5A2",
+   "gene_group": [
+    "MicroRNA protein coding host genes",
+    "Fibrillar collagens"
+   ],
+   "gene_group_id": [
+    1691,
+    2247
+   ],
+   "ensembl_gene_id": "ENSG00000204262",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P05997"
+   ]
+  },
+  "HGNC:2212": {
+   "symbol": "COL6A2",
+   "gene_group": [
+    "Collagens"
+   ],
+   "gene_group_id": [
+    490
+   ],
+   "ensembl_gene_id": "ENSG00000142173",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P12110"
+   ]
+  },
+  "HGNC:2213": {
+   "symbol": "COL6A3",
+   "gene_group": [
+    "Collagens"
+   ],
+   "gene_group_id": [
+    490
+   ],
+   "ensembl_gene_id": "ENSG00000163359",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P12111"
+   ]
+  },
+  "HGNC:2214": {
+   "symbol": "COL7A1",
+   "gene_group": [
+    "Collagens",
+    "Fibronectin type III domain containing",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    490,
+    555,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000114270",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q02388"
+   ]
+  },
+  "HGNC:2218": {
+   "symbol": "COL9A2",
+   "gene_group": [
+    "Collagen proteoglycans",
+    "Fibril associated collagens with interrupted triple helices"
+   ],
+   "gene_group_id": [
+    575,
+    2248
+   ],
+   "ensembl_gene_id": "ENSG00000049089",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q14055"
+   ]
+  },
+  "HGNC:22986": {
+   "symbol": "COL27A1",
+   "gene_group": [
+    "MicroRNA protein coding host genes",
+    "Fibrillar collagens"
+   ],
+   "gene_group_id": [
+    1691,
+    2247
+   ],
+   "ensembl_gene_id": "ENSG00000196739",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IZC6"
+   ]
+  },
+  "HGNC:2226": {
+   "symbol": "COLQ",
+   "gene_group": [
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000206561",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y215"
+   ]
+  },
+  "HGNC:2398": {
+   "symbol": "CRYBB2",
+   "gene_group": [
+    "Beta-gamma crystallins"
+   ],
+   "gene_group_id": [
+    1359
+   ],
+   "ensembl_gene_id": "ENSG00000244752",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P43320"
+   ]
+  },
+  "HGNC:24682": {
+   "symbol": "FLVCR1",
+   "gene_group": [
+    "Solute carrier family 49"
+   ],
+   "gene_group_id": [
+    2199
+   ],
+   "ensembl_gene_id": "ENSG00000162769",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y5Y0"
+   ]
+  },
+  "HGNC:25396": {
+   "symbol": "FREM2",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000150893",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5SZK8"
+   ]
+  },
+  "HGNC:25155": {
+   "symbol": "HOGA1",
+   "gene_group": [
+    "Oxo-acid lyases"
+   ],
+   "gene_group_id": [
+    4138
+   ],
+   "ensembl_gene_id": "ENSG00000241935",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q86XE5"
+   ]
+  },
+  "HGNC:24054": {
+   "symbol": "KNL1",
+   "gene_group": [
+    "Protein phosphatase 1 regulatory subunits",
+    "KNL1 complex"
+   ],
+   "gene_group_id": [
+    694,
+    1575
+   ],
+   "ensembl_gene_id": "ENSG00000137812",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8NG31"
+   ]
+  },
+  "HGNC:25135": {
+   "symbol": "LRSAM1",
+   "gene_group": [
+    "Ring finger proteins",
+    "Sterile alpha motif domain containing",
+    "RING finger E3 ubiquitin protein ligases"
+   ],
+   "gene_group_id": [
+    58,
+    760,
+    4163
+   ],
+   "ensembl_gene_id": "ENSG00000148356",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q6UWE0"
+   ]
+  },
+  "HGNC:24525": {
+   "symbol": "MMACHC",
+   "gene_group": [
+    "Flavoproteins",
+    "Oxidoreductases"
+   ],
+   "gene_group_id": [
+    2258,
+    4070
+   ],
+   "ensembl_gene_id": "ENSG00000132763",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y4U1"
+   ]
+  },
+  "HGNC:25590": {
+   "symbol": "OGDHL",
+   "gene_group": [
+    "Oxoglutarate dehydrogenase family",
+    "Oxoglutarate dehydrogenase complex subunits"
+   ],
+   "gene_group_id": [
+    1666,
+    2022
+   ],
+   "ensembl_gene_id": "ENSG00000197444",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9ULD0"
+   ]
+  },
+  "HGNC:25566": {
+   "symbol": "SETD5",
+   "gene_group": [
+    "SET domain containing",
+    "Putative lysine methyltransferases"
+   ],
+   "gene_group_id": [
+    1399,
+    3513
+   ],
+   "ensembl_gene_id": "ENSG00000168137",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9C0A6"
+   ]
+  },
+  "HGNC:25244": {
+   "symbol": "CCDC39",
+   "gene_group": [
+    "Cilia and flagella associated"
+   ],
+   "gene_group_id": [
+    1491
+   ],
+   "ensembl_gene_id": "ENSG00000284862",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UFE4"
+   ]
+  },
+  "HGNC:2464": {
+   "symbol": "VCAN",
+   "gene_group": [
+    "Hyalectan proteoglycans",
+    "V-set domain containing",
+    "Sushi domain containing",
+    "C-type lectin domain containing"
+   ],
+   "gene_group_id": [
+    574,
+    590,
+    1179,
+    1298
+   ],
+   "ensembl_gene_id": "ENSG00000038427",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P13611"
+   ]
+  },
+  "HGNC:24931": {
+   "symbol": "ZC4H2",
+   "gene_group": [
+    "Zinc fingers"
+   ],
+   "gene_group_id": [
+    26
+   ],
+   "ensembl_gene_id": "ENSG00000126970",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NQZ6"
+   ]
+  },
+  "HGNC:2472": {
+   "symbol": "CSRP3",
+   "gene_group": [
+    "LIM domain containing"
+   ],
+   "gene_group_id": [
+    1218
+   ],
+   "ensembl_gene_id": "ENSG00000129170",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P50461"
+   ]
+  },
+  "HGNC:2482": {
+   "symbol": "CSTB",
+   "gene_group": [
+    "Cystatins, type 1"
+   ],
+   "gene_group_id": [
+    966
+   ],
+   "ensembl_gene_id": "ENSG00000160213",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P04080"
+   ]
+  },
+  "HGNC:2509": {
+   "symbol": "CTNNA1",
+   "gene_group": [
+    "Alpha catenins"
+   ],
+   "gene_group_id": [
+    1543
+   ],
+   "ensembl_gene_id": "ENSG00000044115",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35221"
+   ]
+  },
+  "HGNC:2514": {
+   "symbol": "CTNNB1",
+   "gene_group": [
+    "Armadillo repeat containing",
+    "Beta catenins",
+    "Wnt enhanceosome complex"
+   ],
+   "gene_group_id": [
+    409,
+    1542,
+    1677
+   ],
+   "ensembl_gene_id": "ENSG00000168036",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35222"
+   ]
+  },
+  "HGNC:2518": {
+   "symbol": "CTNS",
+   "gene_group": [
+    "Solute carrier family 66"
+   ],
+   "gene_group_id": [
+    2215
+   ],
+   "ensembl_gene_id": "ENSG00000040531",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O60931"
+   ]
+  },
+  "HGNC:2548": {
+   "symbol": "CUBN",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000107611",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O60494"
+   ]
+  },
+  "HGNC:2553": {
+   "symbol": "CUL3",
+   "gene_group": [
+    "Cullins"
+   ],
+   "gene_group_id": [
+    1032
+   ],
+   "ensembl_gene_id": "ENSG00000036257",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13618"
+   ]
+  },
+  "HGNC:2555": {
+   "symbol": "CUL4B",
+   "gene_group": [
+    "Cullins"
+   ],
+   "gene_group_id": [
+    1032
+   ],
+   "ensembl_gene_id": "ENSG00000158290",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13620"
+   ]
+  },
+  "HGNC:2578": {
+   "symbol": "CYBB",
+   "gene_group": [
+    "Flavoproteins",
+    "NADH oxidase family"
+   ],
+   "gene_group_id": [
+    2258,
+    3535
+   ],
+   "ensembl_gene_id": "ENSG00000165168",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P04839"
+   ]
+  },
+  "HGNC:27310": {
+   "symbol": "FLCN",
+   "gene_group": [
+    "DENN domain containing"
+   ],
+   "gene_group_id": [
+    504
+   ],
+   "ensembl_gene_id": "ENSG00000154803",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8NFG4"
+   ]
+  },
+  "HGNC:27302": {
+   "symbol": "IBA57",
+   "gene_group": [
+    "Mitochondrial iron-sulfur assembly components"
+   ],
+   "gene_group_id": [
+    1853
+   ],
+   "ensembl_gene_id": "ENSG00000181873",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5T440"
+   ]
+  },
+  "HGNC:26520": {
+   "symbol": "KASH5",
+   "gene_group": [
+    "KASH domain containing"
+   ],
+   "gene_group_id": [
+    2010
+   ],
+   "ensembl_gene_id": "ENSG00000161609",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8N6L0"
+   ]
+  },
+  "HGNC:26521": {
+   "symbol": "LOXHD1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000167210",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8IVV2"
+   ]
+  },
+  "HGNC:26144": {
+   "symbol": "PALB2",
+   "gene_group": [
+    "WD repeat domain containing",
+    "FA complementation groups"
+   ],
+   "gene_group_id": [
+    362,
+    548
+   ],
+   "ensembl_gene_id": "ENSG00000083093",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q86YC2"
+   ]
+  },
+  "HGNC:25812": {
+   "symbol": "SRD5A3",
+   "gene_group": [
+    "Steroid 5-alpha reductase family"
+   ],
+   "gene_group_id": [
+    1967
+   ],
+   "ensembl_gene_id": "ENSG00000128039",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9H8P0"
+   ]
+  },
+  "HGNC:27561": {
+   "symbol": "TSEN54",
+   "gene_group": [
+    "tRNA-splicing endonuclease subunits"
+   ],
+   "gene_group_id": [
+    776
+   ],
+   "ensembl_gene_id": "ENSG00000182173",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q7Z6J9"
+   ]
+  },
+  "HGNC:26582": {
+   "symbol": "UNC80",
+   "gene_group": [
+    "NALCN channel complex subunits"
+   ],
+   "gene_group_id": [
+    3463
+   ],
+   "ensembl_gene_id": "ENSG00000144406",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8N2C7"
+   ]
+  },
+  "HGNC:26530": {
+   "symbol": "CFAP53",
+   "gene_group": [
+    "Cilia and flagella associated",
+    "Centriolar satellite proteins"
+   ],
+   "gene_group_id": [
+    1491,
+    3838
+   ],
+   "ensembl_gene_id": "ENSG00000172361",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96M91"
+   ]
+  },
+  "HGNC:25931": {
+   "symbol": "CGNL1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000128849",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q0VF96"
+   ]
+  },
+  "HGNC:25801": {
+   "symbol": "CPLANE1",
+   "gene_group": [
+    "Ciliogenesis and planar polarity effector complex subunits"
+   ],
+   "gene_group_id": [
+    1610
+   ],
+   "ensembl_gene_id": "ENSG00000197603",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9H799"
+   ]
+  },
+  "HGNC:28005": {
+   "symbol": "CTU2",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000174177",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q2VPK5"
+   ]
+  },
+  "HGNC:2591": {
+   "symbol": "CYP11B1",
+   "gene_group": [
+    "Cytochrome P450 family 11"
+   ],
+   "gene_group_id": [
+    1007
+   ],
+   "ensembl_gene_id": "ENSG00000160882",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P15538"
+   ]
+  },
+  "HGNC:2593": {
+   "symbol": "CYP17A1",
+   "gene_group": [
+    "Cytochrome P450 family 17"
+   ],
+   "gene_group_id": [
+    1008
+   ],
+   "ensembl_gene_id": "ENSG00000148795",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P05093"
+   ]
+  },
+  "HGNC:2600": {
+   "symbol": "CYP21A2",
+   "gene_group": [
+    "Cytochrome P450 family 21"
+   ],
+   "gene_group_id": [
+    1011
+   ],
+   "ensembl_gene_id": "ENSG00000231852",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P08686"
+   ]
+  },
+  "HGNC:2605": {
+   "symbol": "CYP27A1",
+   "gene_group": [
+    "Cytochrome P450 family 27"
+   ],
+   "gene_group_id": [
+    1014
+   ],
+   "ensembl_gene_id": "ENSG00000135929",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q02318"
+   ]
+  },
+  "HGNC:2698": {
+   "symbol": "DBT",
+   "gene_group": [
+    "Branched chain alpha-keto acid dehydrogenase complex subunits",
+    "Acyltransferases"
+   ],
+   "gene_group_id": [
+    3649,
+    4120
+   ],
+   "ensembl_gene_id": "ENSG00000137992",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P11182"
+   ]
+  },
+  "HGNC:2719": {
+   "symbol": "DDC",
+   "gene_group": [
+    "Decarboxylases"
+   ],
+   "gene_group_id": [
+    3807
+   ],
+   "ensembl_gene_id": "ENSG00000132437",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P20711"
+   ]
+  },
+  "HGNC:2745": {
+   "symbol": "DDX3X",
+   "gene_group": [
+    "DEAD-box helicases"
+   ],
+   "gene_group_id": [
+    499
+   ],
+   "ensembl_gene_id": "ENSG00000215301",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O00571"
+   ]
+  },
+  "HGNC:26594": {
+   "symbol": "DOK7",
+   "gene_group": [
+    "Docking protein family"
+   ],
+   "gene_group_id": [
+    3907
+   ],
+   "ensembl_gene_id": "ENSG00000175920",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q18PE1"
+   ]
+  },
+  "HGNC:29059": {
+   "symbol": "IQSEC2",
+   "gene_group": [
+    "IQSEC ARFGEF family"
+   ],
+   "gene_group_id": [
+    1881
+   ],
+   "ensembl_gene_id": "ENSG00000124313",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5JU85"
+   ]
+  },
+  "HGNC:29186": {
+   "symbol": "ANKRD26",
+   "gene_group": [
+    "N-Ank proteins"
+   ],
+   "gene_group_id": [
+    3601
+   ],
+   "ensembl_gene_id": "ENSG00000107890",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UPS8"
+   ]
+  },
+  "HGNC:28862": {
+   "symbol": "NIPBL",
+   "gene_group": [
+    "Armadillo like helical domain containing"
+   ],
+   "gene_group_id": [
+    1492
+   ],
+   "ensembl_gene_id": "ENSG00000164190",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q6KC79"
+   ]
+  },
+  "HGNC:28993": {
+   "symbol": "PIEZO1",
+   "gene_group": [
+    "Blood group antigens",
+    "MicroRNA protein coding host genes",
+    "Piezo type mechanosensitive ion channel components"
+   ],
+   "gene_group_id": [
+    454,
+    1691,
+    3579
+   ],
+   "ensembl_gene_id": "ENSG00000103335",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q92508"
+   ]
+  },
+  "HGNC:29427": {
+   "symbol": "SH3TC2",
+   "gene_group": [
+    "Tetratricopeptide repeat domain containing",
+    "MicroRNA protein coding host genes",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    769,
+    1691,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000169247",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8TF17"
+   ]
+  },
+  "HGNC:29090": {
+   "symbol": "SMCHD1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000101596",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "A6NHR9"
+   ]
+  },
+  "HGNC:29253": {
+   "symbol": "CC2D2A",
+   "gene_group": [
+    "MKS complex"
+   ],
+   "gene_group_id": [
+    1545
+   ],
+   "ensembl_gene_id": "ENSG00000048342",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9P2K1"
+   ]
+  },
+  "HGNC:29040": {
+   "symbol": "SZT2",
+   "gene_group": [
+    "KICSTOR complex",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    1393,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000198198",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5T011"
+   ]
+  },
+  "HGNC:28396": {
+   "symbol": "TMEM67",
+   "gene_group": [
+    "MKS complex"
+   ],
+   "gene_group_id": [
+    1545
+   ],
+   "ensembl_gene_id": "ENSG00000164953",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q5HYA8"
+   ]
+  },
+  "HGNC:29250": {
+   "symbol": "WDR35",
+   "gene_group": [
+    "WD repeat domain containing",
+    "IFT-A complex"
+   ],
+   "gene_group_id": [
+    362,
+    1978
+   ],
+   "ensembl_gene_id": "ENSG00000118965",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9P2L0"
+   ]
+  },
+  "HGNC:28912": {
+   "symbol": "WDR45",
+   "gene_group": [
+    "WD repeat domain containing",
+    "WIPI family"
+   ],
+   "gene_group_id": [
+    362,
+    1568
+   ],
+   "ensembl_gene_id": "ENSG00000196998",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y484"
+   ]
+  },
+  "HGNC:29021": {
+   "symbol": "CEP290",
+   "gene_group": [
+    "MKS complex",
+    "Centriolar satellite proteins"
+   ],
+   "gene_group_id": [
+    1545,
+    3838
+   ],
+   "ensembl_gene_id": "ENSG00000198707",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O15078"
+   ]
+  },
+  "HGNC:2858": {
+   "symbol": "DGUOK",
+   "gene_group": [
+    "Deoxyribonucleoside kinases"
+   ],
+   "gene_group_id": [
+    1699
+   ],
+   "ensembl_gene_id": "ENSG00000114956",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q16854"
+   ]
+  },
+  "HGNC:2896": {
+   "symbol": "DLAT",
+   "gene_group": [
+    "Pyruvate dehydrogenase complex subunits",
+    "Acyltransferases"
+   ],
+   "gene_group_id": [
+    1547,
+    4120
+   ],
+   "ensembl_gene_id": "ENSG00000150768",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P10515"
+   ]
+  },
+  "HGNC:2903": {
+   "symbol": "DLG4",
+   "gene_group": [
+    "Membrane associated guanylate kinases",
+    "PDZ domain containing",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    904,
+    1220,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000132535",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P78352"
+   ]
+  },
+  "HGNC:2928": {
+   "symbol": "DMD",
+   "gene_group": [
+    "Zinc fingers ZZ-type",
+    "MicroRNA protein coding host genes",
+    "Spectrin repeat containing"
+   ],
+   "gene_group_id": [
+    91,
+    1691,
+    3626
+   ],
+   "ensembl_gene_id": "ENSG00000198947",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P11532"
+   ]
+  },
+  "HGNC:2940": {
+   "symbol": "DNAH1",
+   "gene_group": [
+    "Dyneins, axonemal inner arm I1/f complex subunits",
+    "Dynein heavy chains"
+   ],
+   "gene_group_id": [
+    2032,
+    3999
+   ],
+   "ensembl_gene_id": "ENSG00000114841",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9P2D7"
+   ]
+  },
+  "HGNC:2950": {
+   "symbol": "DNAH5",
+   "gene_group": [
+    "Dyneins, axonemal outer arm complex subunits",
+    "Dynein heavy chains"
+   ],
+   "gene_group_id": [
+    2031,
+    3999
+   ],
+   "ensembl_gene_id": "ENSG00000039139",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8TE73"
+   ]
+  },
+  "HGNC:2942": {
+   "symbol": "DNAH11",
+   "gene_group": [
+    "Dyneins, axonemal outer arm complex subunits",
+    "Dynein heavy chains"
+   ],
+   "gene_group_id": [
+    2031,
+    3999
+   ],
+   "ensembl_gene_id": "ENSG00000105877",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96DT5"
+   ]
+  },
+  "HGNC:29331": {
+   "symbol": "EPG5",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000152223",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9HCE0"
+   ]
+  },
+  "HGNC:33": {
+   "symbol": "ABCA3",
+   "gene_group": [
+    "ATP binding cassette subfamily A",
+    "ATPase phospholipid transporting"
+   ],
+   "gene_group_id": [
+    805,
+    1210
+   ],
+   "ensembl_gene_id": "ENSG00000167972",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q99758"
+   ]
+  },
+  "HGNC:34": {
+   "symbol": "ABCA4",
+   "gene_group": [
+    "ATP binding cassette subfamily A",
+    "ATPase phospholipid transporting"
+   ],
+   "gene_group_id": [
+    805,
+    1210
+   ],
+   "ensembl_gene_id": "ENSG00000198691",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P78363"
+   ]
+  },
+  "HGNC:321": {
+   "symbol": "AGL",
+   "gene_group": [
+    "Glycoside hydrolase family"
+   ],
+   "gene_group_id": [
+    1650
+   ],
+   "ensembl_gene_id": "ENSG00000162688",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35573"
+   ]
+  },
+  "HGNC:329": {
+   "symbol": "AGRN",
+   "gene_group": [
+    "Proteoglycans",
+    "SEA domain containing"
+   ],
+   "gene_group_id": [
+    570,
+    4166
+   ],
+   "ensembl_gene_id": "ENSG00000188157",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O00468"
+   ]
+  },
+  "HGNC:29670": {
+   "symbol": "GNPTAB",
+   "gene_group": [
+    "EF-hand domain containing"
+   ],
+   "gene_group_id": [
+    863
+   ],
+   "ensembl_gene_id": "ENSG00000111670",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q3T906"
+   ]
+  },
+  "HGNC:30892": {
+   "symbol": "HUWE1",
+   "gene_group": [
+    "Armadillo like helical domain containing",
+    "MicroRNA protein coding host genes",
+    "HECT domain E3 ubiquitin protein ligases"
+   ],
+   "gene_group_id": [
+    1492,
+    1691,
+    1959
+   ],
+   "ensembl_gene_id": "ENSG00000086758",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q7Z6Z7"
+   ]
+  },
+  "HGNC:30074": {
+   "symbol": "POLR3A",
+   "gene_group": [
+    "RNA polymerase subunits"
+   ],
+   "gene_group_id": [
+    726
+   ],
+   "ensembl_gene_id": "ENSG00000148606",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O14802"
+   ]
+  },
+  "HGNC:2952": {
+   "symbol": "DNAH8",
+   "gene_group": [
+    "Dyneins, axonemal outer arm complex subunits",
+    "Dynein heavy chains"
+   ],
+   "gene_group_id": [
+    2031,
+    3999
+   ],
+   "ensembl_gene_id": "ENSG00000124721",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96JB1"
+   ]
+  },
+  "HGNC:2953": {
+   "symbol": "DNAH9",
+   "gene_group": [
+    "Dyneins, axonemal outer arm complex subunits",
+    "Dynein heavy chains"
+   ],
+   "gene_group_id": [
+    2031,
+    3999
+   ],
+   "ensembl_gene_id": "ENSG00000007174",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NYC9"
+   ]
+  },
+  "HGNC:2954": {
+   "symbol": "DNAI1",
+   "gene_group": [
+    "WD repeat domain containing",
+    "Dyneins, axonemal outer arm complex subunits",
+    "Dynein intermediate chains"
+   ],
+   "gene_group_id": [
+    362,
+    2031,
+    4004
+   ],
+   "ensembl_gene_id": "ENSG00000122735",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UI46"
+   ]
+  },
+  "HGNC:2995": {
+   "symbol": "DPAGT1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000172269",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9H3H5"
+   ]
+  },
+  "HGNC:3052": {
+   "symbol": "DSP",
+   "gene_group": [
+    "Plakins",
+    "Spectrin repeat containing",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    939,
+    3626,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000096696",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P15924"
+   ]
+  },
+  "HGNC:3054": {
+   "symbol": "DSPP",
+   "gene_group": [
+    "SIBLING family"
+   ],
+   "gene_group_id": [
+    1279
+   ],
+   "ensembl_gene_id": "ENSG00000152591",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9NZW4"
+   ]
+  },
+  "HGNC:2961": {
+   "symbol": "DYNC1H1",
+   "gene_group": [
+    "Dynein 1 complex subunits",
+    "Dynein heavy chains"
+   ],
+   "gene_group_id": [
+    2028,
+    3999
+   ],
+   "ensembl_gene_id": "ENSG00000197102",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q14204"
+   ]
+  },
+  "HGNC:2962": {
+   "symbol": "DYNC2H1",
+   "gene_group": [
+    "Dynein 2 complex subunits",
+    "Dynein heavy chains"
+   ],
+   "gene_group_id": [
+    2029,
+    3999
+   ],
+   "ensembl_gene_id": "ENSG00000187240",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8NCM8"
+   ]
+  },
+  "HGNC:3097": {
+   "symbol": "DYSF",
+   "gene_group": [
+    "Ferlin family"
+   ],
+   "gene_group_id": [
+    828
+   ],
+   "ensembl_gene_id": "ENSG00000135636",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75923"
+   ]
+  },
+  "HGNC:3157": {
+   "symbol": "EDA",
+   "gene_group": [
+    "Tumor necrosis factor superfamily",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    781,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000158813",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q92838"
+   ]
+  },
+  "HGNC:30858": {
+   "symbol": "EFTUD2",
+   "gene_group": [
+    "U5 small nuclear ribonucleoprotein",
+    "Spliceosomal Bact complex",
+    "Spliceosomal C complex",
+    "Spliceosomal P complex",
+    "Translational GTPases"
+   ],
+   "gene_group_id": [
+    1503,
+    1508,
+    1510,
+    1516,
+    3571
+   ],
+   "ensembl_gene_id": "ENSG00000108883",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q15029"
+   ]
+  },
+  "HGNC:3236": {
+   "symbol": "EGFR",
+   "gene_group": [
+    "Erb-b2 receptor tyrosine kinases"
+   ],
+   "gene_group_id": [
+    1096
+   ],
+   "ensembl_gene_id": "ENSG00000146648",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P00533"
+   ]
+  },
+  "HGNC:3349": {
+   "symbol": "ENG",
+   "gene_group": [
+    "CD molecules"
+   ],
+   "gene_group_id": [
+    471
+   ],
+   "ensembl_gene_id": "ENSG00000106991",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P17813"
+   ]
+  },
+  "HGNC:379": {
+   "symbol": "AKAP9",
+   "gene_group": [
+    "A-kinase anchoring proteins",
+    "Protein phosphatase 1 regulatory subunits"
+   ],
+   "gene_group_id": [
+    396,
+    694
+   ],
+   "ensembl_gene_id": "ENSG00000127914",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q99996"
+   ]
+  },
+  "HGNC:3497": {
+   "symbol": "EVC",
+   "gene_group": [
+    "EvC complex subunits"
+   ],
+   "gene_group_id": [
+    3915
+   ],
+   "ensembl_gene_id": "ENSG00000072840",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P57679"
+   ]
+  },
+  "HGNC:3513": {
+   "symbol": "EXT2",
+   "gene_group": [
+    "Exostosin glycosyltransferase family"
+   ],
+   "gene_group_id": [
+    431
+   ],
+   "ensembl_gene_id": "ENSG00000151348",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q93063"
+   ]
+  },
+  "HGNC:3546": {
+   "symbol": "F8",
+   "gene_group": [
+    "Multicopper oxidase family",
+    "Coagulation factors"
+   ],
+   "gene_group_id": [
+    3428,
+    3806
+   ],
+   "ensembl_gene_id": "ENSG00000185010",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P00451"
+   ]
+  },
+  "HGNC:3551": {
+   "symbol": "F9",
+   "gene_group": [
+    "Serine proteases",
+    "Gla domain containing",
+    "Coagulation factors"
+   ],
+   "gene_group_id": [
+    738,
+    1250,
+    3806
+   ],
+   "ensembl_gene_id": "ENSG00000101981",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P00740"
+   ]
+  },
+  "HGNC:3529": {
+   "symbol": "F11",
+   "gene_group": [
+    "Serine proteases",
+    "Coagulation factors"
+   ],
+   "gene_group_id": [
+    738,
+    3806
+   ],
+   "ensembl_gene_id": "ENSG00000088926",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P03951"
+   ]
+  },
+  "HGNC:3579": {
+   "symbol": "FAH",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000103876",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P16930"
+   ]
+  },
+  "HGNC:3582": {
+   "symbol": "FANCA",
+   "gene_group": [
+    "FA complementation groups",
+    "FA core complex"
+   ],
+   "gene_group_id": [
+    548,
+    1751
+   ],
+   "ensembl_gene_id": "ENSG00000187741",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O15360"
+   ]
+  },
+  "HGNC:3584": {
+   "symbol": "FANCC",
+   "gene_group": [
+    "FA complementation groups",
+    "FA core complex"
+   ],
+   "gene_group_id": [
+    548,
+    1751
+   ],
+   "ensembl_gene_id": "ENSG00000158169",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q00597"
+   ]
+  },
+  "HGNC:3594": {
+   "symbol": "FASN",
+   "gene_group": [
+    "Short chain dehydrogenase/reductase superfamily",
+    "7BS orphan methyltransferases",
+    "3-hydroxyacyl-[acyl-carrier-protein] dehydratases",
+    "Thioester hydrolases",
+    "Acyltransferases"
+   ],
+   "gene_group_id": [
+    743,
+    2066,
+    3943,
+    4119,
+    4120
+   ],
+   "ensembl_gene_id": "ENSG00000169710",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P49327"
+   ]
+  },
+  "HGNC:3603": {
+   "symbol": "FBN1",
+   "gene_group": [
+    "Fibrillin family"
+   ],
+   "gene_group_id": [
+    1888
+   ],
+   "ensembl_gene_id": "ENSG00000166147",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35555"
+   ]
+  },
+  "HGNC:3604": {
+   "symbol": "FBN2",
+   "gene_group": [
+    "Fibrillin family"
+   ],
+   "gene_group_id": [
+    1888
+   ],
+   "ensembl_gene_id": "ENSG00000138829",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35556"
+   ]
+  },
+  "HGNC:3689": {
+   "symbol": "FGFR2",
+   "gene_group": [
+    "CD molecules",
+    "I-set domain containing",
+    "Fibroblast growth factor receptor family"
+   ],
+   "gene_group_id": [
+    471,
+    593,
+    3856
+   ],
+   "ensembl_gene_id": "ENSG00000066468",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P21802"
+   ]
+  },
+  "HGNC:3690": {
+   "symbol": "FGFR3",
+   "gene_group": [
+    "CD molecules",
+    "I-set domain containing",
+    "Fibroblast growth factor receptor family"
+   ],
+   "gene_group_id": [
+    471,
+    593,
+    3856
+   ],
+   "ensembl_gene_id": "ENSG00000068078",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P22607"
+   ]
+  },
+  "HGNC:3754": {
+   "symbol": "FLNA",
+   "gene_group": [
+    "Filamin family"
+   ],
+   "gene_group_id": [
+    1889
+   ],
+   "ensembl_gene_id": "ENSG00000196924",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P21333"
+   ]
+  },
+  "HGNC:3755": {
+   "symbol": "FLNB",
+   "gene_group": [
+    "Filamin family"
+   ],
+   "gene_group_id": [
+    1889
+   ],
+   "ensembl_gene_id": "ENSG00000136068",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75369"
+   ]
+  },
+  "HGNC:3756": {
+   "symbol": "FLNC",
+   "gene_group": [
+    "Filamin family"
+   ],
+   "gene_group_id": [
+    1889
+   ],
+   "ensembl_gene_id": "ENSG00000128591",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q14315"
+   ]
+  },
+  "HGNC:3823": {
+   "symbol": "FOXP1",
+   "gene_group": [
+    "Forkhead boxes",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    508,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000114861",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9H334"
+   ]
+  },
+  "HGNC:3706": {
+   "symbol": "ATP8B1",
+   "gene_group": [
+    "ATPase phospholipid transporting"
+   ],
+   "gene_group_id": [
+    1210
+   ],
+   "ensembl_gene_id": "ENSG00000081923",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O43520"
+   ]
+  },
+  "HGNC:3434": {
+   "symbol": "ERCC2",
+   "gene_group": [
+    "DEAH-box helicases",
+    "Xeroderma pigmentosum complementation groups",
+    "ERCC excision repair associated",
+    "General transcription factor IIH complex subunits"
+   ],
+   "gene_group_id": [
+    500,
+    1125,
+    1268,
+    1745
+   ],
+   "ensembl_gene_id": "ENSG00000104884",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P18074"
+   ]
+  },
+  "HGNC:408": {
+   "symbol": "ALDH5A1",
+   "gene_group": [
+    "Aldehyde dehydrogenases"
+   ],
+   "gene_group_id": [
+    398
+   ],
+   "ensembl_gene_id": "ENSG00000112294",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P51649"
+   ]
+  },
+  "HGNC:417": {
+   "symbol": "ALDOB",
+   "gene_group": [
+    "Aldolase, fructose-bisphosphate family"
+   ],
+   "gene_group_id": [
+    1903
+   ],
+   "ensembl_gene_id": "ENSG00000136872",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P05062"
+   ]
+  },
+  "HGNC:427": {
+   "symbol": "ALK",
+   "gene_group": [
+    "CD molecules",
+    "ALK and LTK receptor tyrosine kinase family"
+   ],
+   "gene_group_id": [
+    471,
+    3866
+   ],
+   "ensembl_gene_id": "ENSG00000171094",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UM73"
+   ]
+  },
+  "HGNC:428": {
+   "symbol": "ALMS1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000116127",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8TCU4"
+   ]
+  },
+  "HGNC:4056": {
+   "symbol": "G6PC1",
+   "gene_group": [
+    "Glucose 6-phosphatases, catalytic"
+   ],
+   "gene_group_id": [
+    1074
+   ],
+   "ensembl_gene_id": "ENSG00000131482",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35575"
+   ]
+  },
+  "HGNC:4057": {
+   "symbol": "G6PD",
+   "gene_group": [
+    "Oxidoreductases"
+   ],
+   "gene_group_id": [
+    4070
+   ],
+   "ensembl_gene_id": "ENSG00000160211",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P11413"
+   ]
+  },
+  "HGNC:4065": {
+   "symbol": "GAA",
+   "gene_group": [
+    "Glycoside hydrolase family 31"
+   ],
+   "gene_group_id": [
+    1413
+   ],
+   "ensembl_gene_id": "ENSG00000171298",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P10253"
+   ]
+  },
+  "HGNC:4088": {
+   "symbol": "GABRG3",
+   "gene_group": [
+    "Gamma-aminobutyric acid type A receptor subunits"
+   ],
+   "gene_group_id": [
+    563
+   ],
+   "ensembl_gene_id": "ENSG00000182256",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q99928"
+   ]
+  },
+  "HGNC:4115": {
+   "symbol": "GALC",
+   "gene_group": [
+    "Glycoside hydrolase family"
+   ],
+   "gene_group_id": [
+    1650
+   ],
+   "ensembl_gene_id": "ENSG00000054983",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P54803"
+   ]
+  },
+  "HGNC:4135": {
+   "symbol": "GALT",
+   "gene_group": [
+    "Histidine triad superfamily"
+   ],
+   "gene_group_id": [
+    1811
+   ],
+   "ensembl_gene_id": "ENSG00000213930",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P07902"
+   ]
+  },
+  "HGNC:4136": {
+   "symbol": "GAMT",
+   "gene_group": [
+    "7BS small molecule methyltransferases",
+    "Small molecule methyltransferases"
+   ],
+   "gene_group_id": [
+    2063,
+    3372
+   ],
+   "ensembl_gene_id": "ENSG00000130005",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q14353"
+   ]
+  },
+  "HGNC:4170": {
+   "symbol": "GATA1",
+   "gene_group": [
+    "GATA zinc finger domain containing"
+   ],
+   "gene_group_id": [
+    82
+   ],
+   "ensembl_gene_id": "ENSG00000102145",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P15976"
+   ]
+  },
+  "HGNC:4171": {
+   "symbol": "GATA2",
+   "gene_group": [
+    "GATA zinc finger domain containing"
+   ],
+   "gene_group_id": [
+    82
+   ],
+   "ensembl_gene_id": "ENSG00000179348",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P23769"
+   ]
+  },
+  "HGNC:4173": {
+   "symbol": "GATA4",
+   "gene_group": [
+    "GATA zinc finger domain containing"
+   ],
+   "gene_group_id": [
+    82
+   ],
+   "ensembl_gene_id": "ENSG00000136574",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P43694"
+   ]
+  },
+  "HGNC:4195": {
+   "symbol": "GCK",
+   "gene_group": [
+    "Hexokinase family"
+   ],
+   "gene_group_id": [
+    3429
+   ],
+   "ensembl_gene_id": "ENSG00000106633",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35557"
+   ]
+  },
+  "HGNC:4263": {
+   "symbol": "GHR",
+   "gene_group": [
+    "Fibronectin type III domain containing"
+   ],
+   "gene_group_id": [
+    555
+   ],
+   "ensembl_gene_id": "ENSG00000112964",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P10912"
+   ]
+  },
+  "HGNC:4283": {
+   "symbol": "GJB1",
+   "gene_group": [
+    "Gap junction proteins"
+   ],
+   "gene_group_id": [
+    314
+   ],
+   "ensembl_gene_id": "ENSG00000169562",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P08034"
+   ]
+  },
+  "HGNC:4021": {
+   "symbol": "KDSR",
+   "gene_group": [
+    "Short chain dehydrogenase/reductase superfamily"
+   ],
+   "gene_group_id": [
+    743
+   ],
+   "ensembl_gene_id": "ENSG00000119537",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q06136"
+   ]
+  },
+  "HGNC:3942": {
+   "symbol": "MTOR",
+   "gene_group": [
+    "MTOR complex 1",
+    "MTOR complex 2",
+    "Armadillo like helical domain containing",
+    "Phosphatidylinositol 3-kinase-related kinase family"
+   ],
+   "gene_group_id": [
+    1332,
+    1333,
+    1492,
+    3631
+   ],
+   "ensembl_gene_id": "ENSG00000198793",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P42345"
+   ]
+  },
+  "HGNC:42937": {
+   "symbol": "SETSIP",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000230667",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P0DME0"
+   ]
+  },
+  "HGNC:4313": {
+   "symbol": "GLDC",
+   "gene_group": [
+    "Oxidoreductases"
+   ],
+   "gene_group_id": [
+    4070
+   ],
+   "ensembl_gene_id": "ENSG00000178445",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P23378"
+   ]
+  },
+  "HGNC:4401": {
+   "symbol": "GNB5",
+   "gene_group": [
+    "WD repeat domain containing",
+    "G protein subunits beta"
+   ],
+   "gene_group_id": [
+    362,
+    1430
+   ],
+   "ensembl_gene_id": "ENSG00000069966",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O14775"
+   ]
+  },
+  "HGNC:4601": {
+   "symbol": "GRN",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000030582",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P28799"
+   ]
+  },
+  "HGNC:4696": {
+   "symbol": "GUSB",
+   "gene_group": [
+    "Glycoside hydrolase family"
+   ],
+   "gene_group_id": [
+    1650
+   ],
+   "ensembl_gene_id": "ENSG00000169919",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P08236"
+   ]
+  },
+  "HGNC:4795": {
+   "symbol": "H6PD",
+   "gene_group": [
+    "Oxidoreductases"
+   ],
+   "gene_group_id": [
+    4070
+   ],
+   "ensembl_gene_id": "ENSG00000049239",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O95479"
+   ]
+  },
+  "HGNC:4808": {
+   "symbol": "HAND2",
+   "gene_group": [
+    "Basic helix-loop-helix proteins"
+   ],
+   "gene_group_id": [
+    420
+   ],
+   "ensembl_gene_id": "ENSG00000164107",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P61296"
+   ]
+  },
+  "HGNC:4824": {
+   "symbol": "HBA2",
+   "gene_group": [
+    "Hemoglobin subunits",
+    "Proteins encoded by multiple genes"
+   ],
+   "gene_group_id": [
+    940,
+    2293
+   ],
+   "ensembl_gene_id": "ENSG00000188536",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P69905"
+   ]
+  },
+  "HGNC:4827": {
+   "symbol": "HBB",
+   "gene_group": [
+    "Hemoglobin subunits"
+   ],
+   "gene_group_id": [
+    940
+   ],
+   "ensembl_gene_id": "ENSG00000244734",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P68871"
+   ]
+  },
+  "HGNC:4878": {
+   "symbol": "HEXA",
+   "gene_group": [
+    "Hexosaminidases"
+   ],
+   "gene_group_id": [
+    1642
+   ],
+   "ensembl_gene_id": "ENSG00000213614",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P06865"
+   ]
+  },
+  "HGNC:4879": {
+   "symbol": "HEXB",
+   "gene_group": [
+    "Hexosaminidases"
+   ],
+   "gene_group_id": [
+    1642
+   ],
+   "ensembl_gene_id": "ENSG00000049860",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P07686"
+   ]
+  },
+  "HGNC:4892": {
+   "symbol": "HGD",
+   "gene_group": [
+    "Oxygenases"
+   ],
+   "gene_group_id": [
+    3876
+   ],
+   "ensembl_gene_id": "ENSG00000113924",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q93099"
+   ]
+  },
+  "HGNC:4893": {
+   "symbol": "HGF",
+   "gene_group": [
+    "Kringle domain containing"
+   ],
+   "gene_group_id": [
+    3654
+   ],
+   "ensembl_gene_id": "ENSG00000019991",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P14210"
+   ]
+  },
+  "HGNC:5213": {
+   "symbol": "HSD17B4",
+   "gene_group": [
+    "Short chain dehydrogenase/reductase superfamily",
+    "SCP2 domain containing",
+    "Carbon-oxygen lyases"
+   ],
+   "gene_group_id": [
+    743,
+    3686,
+    3925
+   ],
+   "ensembl_gene_id": "ENSG00000133835",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P51659"
+   ]
+  },
+  "HGNC:4800": {
+   "symbol": "HSD17B10",
+   "gene_group": [
+    "Short chain dehydrogenase/reductase superfamily",
+    "Mitochondrial RNase P complex"
+   ],
+   "gene_group_id": [
+    743,
+    1534
+   ],
+   "ensembl_gene_id": "ENSG00000072506",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q99714"
+   ]
+  },
+  "HGNC:5273": {
+   "symbol": "HSPG2",
+   "gene_group": [
+    "Proteoglycans",
+    "I-set domain containing",
+    "SEA domain containing"
+   ],
+   "gene_group_id": [
+    570,
+    593,
+    4166
+   ],
+   "ensembl_gene_id": "ENSG00000142798",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P98160"
+   ]
+  },
+  "HGNC:5389": {
+   "symbol": "IDS",
+   "gene_group": [
+    "Sulfatases"
+   ],
+   "gene_group_id": [
+    410
+   ],
+   "ensembl_gene_id": "ENSG00000010404",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P22304"
+   ]
+  },
+  "HGNC:5465": {
+   "symbol": "IGF1R",
+   "gene_group": [
+    "CD molecules",
+    "Fibronectin type III domain containing",
+    "MicroRNA protein coding host genes",
+    "Insulin receptor family"
+   ],
+   "gene_group_id": [
+    471,
+    555,
+    1691,
+    3555
+   ],
+   "ensembl_gene_id": "ENSG00000140443",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P08069"
+   ]
+  },
+  "HGNC:473": {
+   "symbol": "AMT",
+   "gene_group": [
+    "Small molecule methyltransferases",
+    "Methyltransferases with unique structures"
+   ],
+   "gene_group_id": [
+    3372,
+    3581
+   ],
+   "ensembl_gene_id": "ENSG00000145020",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P48728"
+   ]
+  },
+  "HGNC:493": {
+   "symbol": "ANK2",
+   "gene_group": [
+    "Cilia and flagella associated",
+    "MicroRNA protein coding host genes",
+    "ZU5 domain containing ",
+    "Ankyrin family"
+   ],
+   "gene_group_id": [
+    1491,
+    1691,
+    2313,
+    4097
+   ],
+   "ensembl_gene_id": "ENSG00000145362",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q01484"
+   ]
+  },
+  "HGNC:567": {
+   "symbol": "AP3B2",
+   "gene_group": [
+    "Clathrin/coatomer adaptor, adaptin-like, N-terminal domain containing",
+    "Adaptor related protein complex 3"
+   ],
+   "gene_group_id": [
+    1493,
+    1673
+   ],
+   "ensembl_gene_id": "ENSG00000103723",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13367"
+   ]
+  },
+  "HGNC:57": {
+   "symbol": "ABCC6",
+   "gene_group": [
+    "ATP binding cassette subfamily C"
+   ],
+   "gene_group_id": [
+    807
+   ],
+   "ensembl_gene_id": "ENSG00000091262",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O95255"
+   ]
+  },
+  "HGNC:59": {
+   "symbol": "ABCC8",
+   "gene_group": [
+    "ATP binding cassette subfamily C",
+    "ATP-sensitive potassium channel subunits"
+   ],
+   "gene_group_id": [
+    807,
+    4159
+   ],
+   "ensembl_gene_id": "ENSG00000006071",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q09428"
+   ]
+  },
+  "HGNC:61": {
+   "symbol": "ABCD1",
+   "gene_group": [
+    "ATP binding cassette subfamily D"
+   ],
+   "gene_group_id": [
+    808
+   ],
+   "ensembl_gene_id": "ENSG00000101986",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P33897"
+   ]
+  },
+  "HGNC:6000": {
+   "symbol": "IL1RN",
+   "gene_group": [
+    "Interleukins",
+    "Interleukin 1 family"
+   ],
+   "gene_group_id": [
+    601,
+    3613
+   ],
+   "ensembl_gene_id": "ENSG00000136689",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P18510"
+   ]
+  },
+  "HGNC:6010": {
+   "symbol": "IL2RG",
+   "gene_group": [
+    "CD molecules",
+    "Fibronectin type III domain containing",
+    "Interleukin receptors"
+   ],
+   "gene_group_id": [
+    471,
+    555,
+    602
+   ],
+   "ensembl_gene_id": "ENSG00000147168",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P31785"
+   ]
+  },
+  "HGNC:6024": {
+   "symbol": "IL7R",
+   "gene_group": [
+    "CD molecules",
+    "Fibronectin type III domain containing",
+    "Interleukin receptors"
+   ],
+   "gene_group_id": [
+    471,
+    555,
+    602
+   ],
+   "ensembl_gene_id": "ENSG00000168685",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P16871"
+   ]
+  },
+  "HGNC:5964": {
+   "symbol": "IL10RA",
+   "gene_group": [
+    "CD molecules",
+    "Interleukin receptors"
+   ],
+   "gene_group_id": [
+    471,
+    602
+   ],
+   "ensembl_gene_id": "ENSG00000110324",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13651"
+   ]
+  },
+  "HGNC:5967": {
+   "symbol": "IL11RA",
+   "gene_group": [
+    "Immunoglobulin like domain containing",
+    "Interleukin receptors"
+   ],
+   "gene_group_id": [
+    594,
+    602
+   ],
+   "ensembl_gene_id": "ENSG00000137070",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q14626"
+   ]
+  },
+  "HGNC:6074": {
+   "symbol": "INPP4A",
+   "gene_group": [
+    "C2 domain containing"
+   ],
+   "gene_group_id": [
+    823
+   ],
+   "ensembl_gene_id": "ENSG00000040933",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q96PE3"
+   ]
+  },
+  "HGNC:6138": {
+   "symbol": "ITGA2B",
+   "gene_group": [
+    "CD molecules",
+    "Protein phosphatase 1 regulatory subunits",
+    "Integrin alpha subunits",
+    "Human platelet antigens"
+   ],
+   "gene_group_id": [
+    471,
+    694,
+    1160,
+    3685
+   ],
+   "ensembl_gene_id": "ENSG00000005961",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P08514"
+   ]
+  },
+  "HGNC:6142": {
+   "symbol": "ITGA6",
+   "gene_group": [
+    "CD molecules",
+    "Integrin alpha subunits"
+   ],
+   "gene_group_id": [
+    471,
+    1160
+   ],
+   "ensembl_gene_id": "ENSG00000091409",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P23229"
+   ]
+  },
+  "HGNC:6156": {
+   "symbol": "ITGB3",
+   "gene_group": [
+    "CD molecules",
+    "Integrin beta subunits",
+    "Human platelet antigens"
+   ],
+   "gene_group_id": [
+    471,
+    1159,
+    3685
+   ],
+   "ensembl_gene_id": "ENSG00000259207",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P05106"
+   ]
+  },
+  "HGNC:6193": {
+   "symbol": "JAK3",
+   "gene_group": [
+    "Jak family tyrosine kinases"
+   ],
+   "gene_group_id": [
+    1459
+   ],
+   "ensembl_gene_id": "ENSG00000105639",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P52333"
+   ]
+  },
+  "HGNC:6251": {
+   "symbol": "KCNH2",
+   "gene_group": [
+    "Potassium voltage-gated channels",
+    "PAS domain containing"
+   ],
+   "gene_group_id": [
+    274,
+    2127
+   ],
+   "ensembl_gene_id": "ENSG00000055118",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q12809"
+   ]
+  },
+  "HGNC:6294": {
+   "symbol": "KCNQ1",
+   "gene_group": [
+    "Potassium voltage-gated channels"
+   ],
+   "gene_group_id": [
+    274
+   ],
+   "ensembl_gene_id": "ENSG00000053918",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P51787"
+   ]
+  },
+  "HGNC:6296": {
+   "symbol": "KCNQ2",
+   "gene_group": [
+    "Potassium voltage-gated channels"
+   ],
+   "gene_group_id": [
+    274
+   ],
+   "ensembl_gene_id": "ENSG00000075043",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O43526"
+   ]
+  },
+  "HGNC:6297": {
+   "symbol": "KCNQ3",
+   "gene_group": [
+    "Potassium voltage-gated channels"
+   ],
+   "gene_group_id": [
+    274
+   ],
+   "ensembl_gene_id": "ENSG00000184156",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O43525"
+   ]
+  },
+  "HGNC:583": {
+   "symbol": "APC",
+   "gene_group": [
+    "Armadillo repeat containing",
+    "Protein phosphatase 1 regulatory subunits"
+   ],
+   "gene_group_id": [
+    409,
+    694
+   ],
+   "ensembl_gene_id": "ENSG00000134982",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P25054"
+   ]
+  },
+  "HGNC:603": {
+   "symbol": "APOB",
+   "gene_group": [
+    "Apolipoproteins"
+   ],
+   "gene_group_id": [
+    405
+   ],
+   "ensembl_gene_id": "ENSG00000084674",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P04114"
+   ]
+  },
+  "HGNC:5959": {
+   "symbol": "ELP1",
+   "gene_group": [
+    "Elongator acetyltransferase complex "
+   ],
+   "gene_group_id": [
+    539
+   ],
+   "ensembl_gene_id": "ENSG00000070061",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O95163"
+   ]
+  },
+  "HGNC:6317": {
+   "symbol": "KIF1C",
+   "gene_group": [
+    "Kinesins"
+   ],
+   "gene_group_id": [
+    622
+   ],
+   "ensembl_gene_id": "ENSG00000129250",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O43896"
+   ]
+  },
+  "HGNC:6388": {
+   "symbol": "KIF11",
+   "gene_group": [
+    "Kinesins"
+   ],
+   "gene_group_id": [
+    622
+   ],
+   "ensembl_gene_id": "ENSG00000138160",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P52732"
+   ]
+  },
+  "HGNC:6342": {
+   "symbol": "KIT",
+   "gene_group": [
+    "CD molecules",
+    "Immunoglobulin like domain containing",
+    "CSF1R, KIT, FLT3 receptor tyrosine kinase family"
+   ],
+   "gene_group_id": [
+    471,
+    594,
+    3929
+   ],
+   "ensembl_gene_id": "ENSG00000157404",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P10721"
+   ]
+  },
+  "HGNC:6407": {
+   "symbol": "KRAS",
+   "gene_group": [
+    "RAS type GTPase family"
+   ],
+   "gene_group_id": [
+    389
+   ],
+   "ensembl_gene_id": "ENSG00000133703",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P01116"
+   ]
+  },
+  "HGNC:6470": {
+   "symbol": "L1CAM",
+   "gene_group": [
+    "CD molecules",
+    "Fibronectin type III domain containing",
+    "I-set domain containing",
+    "Ig-like cell adhesion molecule family"
+   ],
+   "gene_group_id": [
+    471,
+    555,
+    593,
+    1410
+   ],
+   "ensembl_gene_id": "ENSG00000198910",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P32004"
+   ]
+  },
+  "HGNC:6482": {
+   "symbol": "LAMA2",
+   "gene_group": [
+    "Laminin subunits"
+   ],
+   "gene_group_id": [
+    626
+   ],
+   "ensembl_gene_id": "ENSG00000196569",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P24043"
+   ]
+  },
+  "HGNC:6501": {
+   "symbol": "LAMP2",
+   "gene_group": [
+    "CD molecules",
+    "Lysosome associated membrane proteins"
+   ],
+   "gene_group_id": [
+    471,
+    1910
+   ],
+   "ensembl_gene_id": "ENSG00000005893",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P13473"
+   ]
+  },
+  "HGNC:6547": {
+   "symbol": "LDLR",
+   "gene_group": [
+    "Low density lipoprotein receptors",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    634,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000130164",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P01130"
+   ]
+  },
+  "HGNC:6617": {
+   "symbol": "LIPA",
+   "gene_group": [
+    "Lipases"
+   ],
+   "gene_group_id": [
+    464
+   ],
+   "ensembl_gene_id": "ENSG00000107798",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P38571"
+   ]
+  },
+  "HGNC:6636": {
+   "symbol": "LMNA",
+   "gene_group": [
+    "Lamins"
+   ],
+   "gene_group_id": [
+    612
+   ],
+   "ensembl_gene_id": "ENSG00000160789",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P02545"
+   ]
+  },
+  "HGNC:6694": {
+   "symbol": "LRP2",
+   "gene_group": [
+    "Low density lipoprotein receptors"
+   ],
+   "gene_group_id": [
+    634
+   ],
+   "ensembl_gene_id": "ENSG00000081479",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P98164"
+   ]
+  },
+  "HGNC:6696": {
+   "symbol": "LRP4",
+   "gene_group": [
+    "Low density lipoprotein receptors"
+   ],
+   "gene_group_id": [
+    634
+   ],
+   "ensembl_gene_id": "ENSG00000134569",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75096"
+   ]
+  },
+  "HGNC:644": {
+   "symbol": "AR",
+   "gene_group": [
+    "Nuclear receptor subfamily 3 group C"
+   ],
+   "gene_group_id": [
+    2076
+   ],
+   "ensembl_gene_id": "ENSG00000169083",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P10275"
+   ]
+  },
+  "HGNC:6742": {
+   "symbol": "LZTR1",
+   "gene_group": [
+    "BTB domain containing"
+   ],
+   "gene_group_id": [
+    861
+   ],
+   "ensembl_gene_id": "ENSG00000099949",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8N653"
+   ]
+  },
+  "HGNC:6776": {
+   "symbol": "MAF",
+   "gene_group": [
+    "Large MAF bZIP transcription factor family"
+   ],
+   "gene_group_id": [
+    2264
+   ],
+   "ensembl_gene_id": "ENSG00000178573",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75444"
+   ]
+  },
+  "HGNC:6826": {
+   "symbol": "MAN2B1",
+   "gene_group": [
+    "Mannosidases alpha class 2"
+   ],
+   "gene_group_id": [
+    1194
+   ],
+   "ensembl_gene_id": "ENSG00000104774",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O00754"
+   ]
+  },
+  "HGNC:6831": {
+   "symbol": "MANBA",
+   "gene_group": [
+    "Mannosidases type beta"
+   ],
+   "gene_group_id": [
+    1196
+   ],
+   "ensembl_gene_id": "ENSG00000109323",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O00462"
+   ]
+  },
+  "HGNC:6893": {
+   "symbol": "MAPT",
+   "gene_group": [
+    "Protein phosphatase 1 regulatory subunits"
+   ],
+   "gene_group_id": [
+    694
+   ],
+   "ensembl_gene_id": "ENSG00000186868",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P10636"
+   ]
+  },
+  "HGNC:6946": {
+   "symbol": "MCM3AP",
+   "gene_group": [
+    "Lysine acetyltransferases",
+    "Transcription and export complex 2"
+   ],
+   "gene_group_id": [
+    486,
+    1276
+   ],
+   "ensembl_gene_id": "ENSG00000160294",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O60318"
+   ]
+  },
+  "HGNC:6990": {
+   "symbol": "MECP2",
+   "gene_group": [
+    "Methyl-CpG binding domain containing"
+   ],
+   "gene_group_id": [
+    1025
+   ],
+   "ensembl_gene_id": "ENSG00000169057",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P51608"
+   ]
+  },
+  "HGNC:7132": {
+   "symbol": "KMT2A",
+   "gene_group": [
+    "PHD finger proteins",
+    "Zinc fingers CXXC-type",
+    "Histone lysine methyltransferases",
+    "Bromodomain containing",
+    "SET domain containing"
+   ],
+   "gene_group_id": [
+    88,
+    136,
+    487,
+    1232,
+    1399
+   ],
+   "ensembl_gene_id": "ENSG00000118058",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q03164"
+   ]
+  },
+  "HGNC:7133": {
+   "symbol": "KMT2D",
+   "gene_group": [
+    "PHD finger proteins",
+    "Histone lysine methyltransferases",
+    "SET domain containing"
+   ],
+   "gene_group_id": [
+    88,
+    487,
+    1399
+   ],
+   "ensembl_gene_id": "ENSG00000167548",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O14686"
+   ]
+  },
+  "HGNC:704": {
+   "symbol": "ARPC1B",
+   "gene_group": [
+    "Actin related protein 2/3 complex subunits",
+    "WD repeat domain containing"
+   ],
+   "gene_group_id": [
+    39,
+    362
+   ],
+   "ensembl_gene_id": "ENSG00000130429",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O15143"
+   ]
+  },
+  "HGNC:713": {
+   "symbol": "ARSA",
+   "gene_group": [
+    "Sulfatases"
+   ],
+   "gene_group_id": [
+    410
+   ],
+   "ensembl_gene_id": "ENSG00000100299",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P15289"
+   ]
+  },
+  "HGNC:6996": {
+   "symbol": "MEF2C",
+   "gene_group": [
+    "Myocyte enhancer factor 2 proteins",
+    "MADS box family"
+   ],
+   "gene_group_id": [
+    649,
+    1086
+   ],
+   "ensembl_gene_id": "ENSG00000081189",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q06413"
+   ]
+  },
+  "HGNC:7010": {
+   "symbol": "MEN1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000133895",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O00255"
+   ]
+  },
+  "HGNC:7027": {
+   "symbol": "MERTK",
+   "gene_group": [
+    "Fibronectin type III domain containing",
+    "I-set domain containing",
+    "AXL receptor tyrosine kinase family"
+   ],
+   "gene_group_id": [
+    555,
+    593,
+    3854
+   ],
+   "ensembl_gene_id": "ENSG00000153208",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q12866"
+   ]
+  },
+  "HGNC:7029": {
+   "symbol": "MET",
+   "gene_group": [
+    "IPT domain containing",
+    "MET proto-oncogene, receptor tyrosine kinase family"
+   ],
+   "gene_group_id": [
+    1752,
+    3859
+   ],
+   "ensembl_gene_id": "ENSG00000105976",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P08581"
+   ]
+  },
+  "HGNC:7105": {
+   "symbol": "MITF",
+   "gene_group": [
+    "Basic helix-loop-helix proteins"
+   ],
+   "gene_group_id": [
+    420
+   ],
+   "ensembl_gene_id": "ENSG00000187098",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75030"
+   ]
+  },
+  "HGNC:7127": {
+   "symbol": "MLH1",
+   "gene_group": [
+    "MutL homologs",
+    "BRCA1-associated genome surveillance complex"
+   ],
+   "gene_group_id": [
+    1027,
+    3643
+   ],
+   "ensembl_gene_id": "ENSG00000076242",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P40692"
+   ]
+  },
+  "HGNC:7128": {
+   "symbol": "MLH3",
+   "gene_group": [
+    "MutL homologs"
+   ],
+   "gene_group_id": [
+    1027
+   ],
+   "ensembl_gene_id": "ENSG00000119684",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UHC1"
+   ]
+  },
+  "HGNC:7224": {
+   "symbol": "MPV17",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000115204",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P39210"
+   ]
+  },
+  "HGNC:7225": {
+   "symbol": "MPZ",
+   "gene_group": [
+    "V-set domain containing",
+    "Ig-like cell adhesion molecule family"
+   ],
+   "gene_group_id": [
+    590,
+    1410
+   ],
+   "ensembl_gene_id": "ENSG00000158887",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P25189"
+   ]
+  },
+  "HGNC:7325": {
+   "symbol": "MSH2",
+   "gene_group": [
+    "MutS homologs",
+    "BRCA1-associated genome surveillance complex"
+   ],
+   "gene_group_id": [
+    1026,
+    3643
+   ],
+   "ensembl_gene_id": "ENSG00000095002",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P43246"
+   ]
+  },
+  "HGNC:7326": {
+   "symbol": "MSH3",
+   "gene_group": [
+    "MutS homologs"
+   ],
+   "gene_group_id": [
+    1026
+   ],
+   "ensembl_gene_id": "ENSG00000113318",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P20585"
+   ]
+  },
+  "HGNC:7329": {
+   "symbol": "MSH6",
+   "gene_group": [
+    "MutS homologs",
+    "PWWP domain containing",
+    "BRCA1-associated genome surveillance complex"
+   ],
+   "gene_group_id": [
+    1026,
+    1147,
+    3643
+   ],
+   "ensembl_gene_id": "ENSG00000116062",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P52701"
+   ]
+  },
+  "HGNC:7432": {
+   "symbol": "MTHFD1",
+   "gene_group": [
+    "Minor histocompatibility antigens",
+    "MTHFD family",
+    "Methylenetetrahydrofolate dehydrogenases",
+    "Formyltetrahydrofolate synthetases"
+   ],
+   "gene_group_id": [
+    870,
+    4094,
+    4096,
+    4110
+   ],
+   "ensembl_gene_id": "ENSG00000100714",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P11586"
+   ]
+  },
+  "HGNC:7436": {
+   "symbol": "MTHFR",
+   "gene_group": [
+    "Flavoproteins",
+    "Oxidoreductases"
+   ],
+   "gene_group_id": [
+    2258,
+    4070
+   ],
+   "ensembl_gene_id": "ENSG00000177000",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P42898"
+   ]
+  },
+  "HGNC:7448": {
+   "symbol": "MTM1",
+   "gene_group": [
+    "Myotubularins",
+    "Phosphoinositide phosphatases"
+   ],
+   "gene_group_id": [
+    903,
+    1079
+   ],
+   "ensembl_gene_id": "ENSG00000171100",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13496"
+   ]
+  },
+  "HGNC:7527": {
+   "symbol": "MUTYH",
+   "gene_group": [
+    "DNA glycosylases"
+   ],
+   "gene_group_id": [
+    1024
+   ],
+   "ensembl_gene_id": "ENSG00000132781",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UIF7"
+   ]
+  },
+  "HGNC:756": {
+   "symbol": "ASPA",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000108381",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P45381"
+   ]
+  },
+  "HGNC:757": {
+   "symbol": "ASPH",
+   "gene_group": [
+    "Aspartate beta-hydroxylase domain containing"
+   ],
+   "gene_group_id": [
+    3884
+   ],
+   "ensembl_gene_id": "ENSG00000198363",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q12797"
+   ]
+  },
+  "HGNC:7551": {
+   "symbol": "MYBPC3",
+   "gene_group": [
+    "I-set domain containing",
+    "Myosin binding proteins"
+   ],
+   "gene_group_id": [
+    593,
+    658
+   ],
+   "ensembl_gene_id": "ENSG00000134571",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q14896"
+   ]
+  },
+  "HGNC:7576": {
+   "symbol": "MYH6",
+   "gene_group": [
+    "Myosin heavy chains, class II",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    1098,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000197616",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P13533"
+   ]
+  },
+  "HGNC:7577": {
+   "symbol": "MYH7",
+   "gene_group": [
+    "Myosin heavy chains, class II",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    1098,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000092054",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P12883"
+   ]
+  },
+  "HGNC:7569": {
+   "symbol": "MYH11",
+   "gene_group": [
+    "Myosin heavy chains, class II"
+   ],
+   "gene_group_id": [
+    1098
+   ],
+   "ensembl_gene_id": "ENSG00000133392",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35749"
+   ]
+  },
+  "HGNC:7590": {
+   "symbol": "MYLK",
+   "gene_group": [
+    "Fibronectin type III domain containing",
+    "I-set domain containing",
+    "Myosin light chain kinase family"
+   ],
+   "gene_group_id": [
+    555,
+    593,
+    1668
+   ],
+   "ensembl_gene_id": "ENSG00000065534",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q15746"
+   ]
+  },
+  "HGNC:7606": {
+   "symbol": "MYO7A",
+   "gene_group": [
+    "A-kinase anchoring proteins",
+    "Myosin heavy chains, class VII",
+    "FERM domain containing",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    396,
+    1102,
+    1293,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000137474",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13402"
+   ]
+  },
+  "HGNC:7594": {
+   "symbol": "MYO15A",
+   "gene_group": [
+    "Myosin heavy chains, class XV",
+    "FERM domain containing",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    1105,
+    1293,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000091536",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UKN7"
+   ]
+  },
+  "HGNC:7623": {
+   "symbol": "MYT1L",
+   "gene_group": [
+    "Zinc fingers C2H2C-type"
+   ],
+   "gene_group_id": [
+    1261
+   ],
+   "ensembl_gene_id": "ENSG00000186487",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UL68"
+   ]
+  },
+  "HGNC:7652": {
+   "symbol": "NBN",
+   "gene_group": [
+    "BRCA1 C complex",
+    "MRN complex"
+   ],
+   "gene_group_id": [
+    1336,
+    1344
+   ],
+   "ensembl_gene_id": "ENSG00000104320",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O60934"
+   ]
+  },
+  "HGNC:7720": {
+   "symbol": "NEB",
+   "gene_group": [
+    "Nebulin family",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    2240,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000183091",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P20929"
+   ]
+  },
+  "HGNC:7762": {
+   "symbol": "NEUROD1",
+   "gene_group": [
+    "Basic helix-loop-helix proteins"
+   ],
+   "gene_group_id": [
+    420
+   ],
+   "ensembl_gene_id": "ENSG00000162992",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13562"
+   ]
+  },
+  "HGNC:7765": {
+   "symbol": "NF1",
+   "gene_group": [
+    "Armadillo like helical domain containing",
+    "CRAL-TRIO lipid binding domain containing"
+   ],
+   "gene_group_id": [
+    1492,
+    3691
+   ],
+   "ensembl_gene_id": "ENSG00000196712",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P21359"
+   ]
+  },
+  "HGNC:7871": {
+   "symbol": "NONO",
+   "gene_group": [
+    "Protein phosphatase 1 regulatory subunits",
+    "RNA binding motif containing"
+   ],
+   "gene_group_id": [
+    694,
+    725
+   ],
+   "ensembl_gene_id": "ENSG00000147140",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q15233"
+   ]
+  },
+  "HGNC:7881": {
+   "symbol": "NOTCH1",
+   "gene_group": [
+    "Notch receptors",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    1689,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000148400",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P46531"
+   ]
+  },
+  "HGNC:7907": {
+   "symbol": "NPHP3",
+   "gene_group": [
+    "Tetratricopeptide repeat domain containing",
+    "Cilia and flagella associated",
+    "Inversin complex subunits"
+   ],
+   "gene_group_id": [
+    769,
+    1491,
+    3727
+   ],
+   "ensembl_gene_id": "ENSG00000113971",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q7Z494"
+   ]
+  },
+  "HGNC:7910": {
+   "symbol": "NPM1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000181163",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P06748"
+   ]
+  },
+  "HGNC:795": {
+   "symbol": "ATM",
+   "gene_group": [
+    "Armadillo like helical domain containing",
+    "Phosphatidylinositol 3-kinase-related kinase family",
+    "BRCA1-associated genome surveillance complex"
+   ],
+   "gene_group_id": [
+    1492,
+    3631,
+    3643
+   ],
+   "ensembl_gene_id": "ENSG00000149311",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13315"
+   ]
+  },
+  "HGNC:7879": {
+   "symbol": "CNOT3",
+   "gene_group": [
+    "CCR4-NOT transcription complex"
+   ],
+   "gene_group_id": [
+    1023
+   ],
+   "ensembl_gene_id": "ENSG00000088038",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75175"
+   ]
+  },
+  "HGNC:877": {
+   "symbol": "ALDH7A1",
+   "gene_group": [
+    "Aldehyde dehydrogenases"
+   ],
+   "gene_group_id": [
+    398
+   ],
+   "ensembl_gene_id": "ENSG00000164904",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P49419"
+   ]
+  },
+  "HGNC:8079": {
+   "symbol": "FRMD7",
+   "gene_group": [
+    "FERM domain containing"
+   ],
+   "gene_group_id": [
+    1293
+   ],
+   "ensembl_gene_id": "ENSG00000165694",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q6ZUT3"
+   ]
+  },
+  "HGNC:7974": {
+   "symbol": "NR2E3",
+   "gene_group": [
+    "Nuclear receptor subfamily 2 group E"
+   ],
+   "gene_group_id": [
+    2074
+   ],
+   "ensembl_gene_id": "ENSG00000278570",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y5X4"
+   ]
+  },
+  "HGNC:7983": {
+   "symbol": "NR5A1",
+   "gene_group": [
+    "Nuclear receptor subfamily 5 group A"
+   ],
+   "gene_group_id": [
+    2080
+   ],
+   "ensembl_gene_id": "ENSG00000136931",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13285"
+   ]
+  },
+  "HGNC:8031": {
+   "symbol": "NTRK1",
+   "gene_group": [
+    "Immunoglobulin like domain containing",
+    "Neurotrophic receptor tyrosine kinase family"
+   ],
+   "gene_group_id": [
+    594,
+    3857
+   ],
+   "ensembl_gene_id": "ENSG00000198400",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P04629"
+   ]
+  },
+  "HGNC:8101": {
+   "symbol": "OCA2",
+   "gene_group": [
+    "Solute carrier family 13"
+   ],
+   "gene_group_id": [
+    2165
+   ],
+   "ensembl_gene_id": "ENSG00000104044",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q04671"
+   ]
+  },
+  "HGNC:8104": {
+   "symbol": "OCLN",
+   "gene_group": [
+    "Protein phosphatase 1 regulatory subunits",
+    "Tetraspan junctional complex superfamily",
+    "MARVEL domain containing"
+   ],
+   "gene_group_id": [
+    694,
+    1471,
+    1626
+   ],
+   "ensembl_gene_id": "ENSG00000197822",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q16625"
+   ]
+  },
+  "HGNC:8140": {
+   "symbol": "OPA1",
+   "gene_group": [
+    "Dynamin superfamily"
+   ],
+   "gene_group_id": [
+    3567
+   ],
+   "ensembl_gene_id": "ENSG00000198836",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O60313"
+   ]
+  },
+  "HGNC:8512": {
+   "symbol": "OTC",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000036473",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P00480"
+   ]
+  },
+  "HGNC:8574": {
+   "symbol": "PAFAH1B1",
+   "gene_group": [
+    "WD repeat domain containing"
+   ],
+   "gene_group_id": [
+    362
+   ],
+   "ensembl_gene_id": "ENSG00000007168",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P43034"
+   ]
+  },
+  "HGNC:8582": {
+   "symbol": "PAH",
+   "gene_group": [
+    "Aromatic amino acid hydroxylase family"
+   ],
+   "gene_group_id": [
+    3458
+   ],
+   "ensembl_gene_id": "ENSG00000171759",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P00439"
+   ]
+  },
+  "HGNC:8617": {
+   "symbol": "PAX3",
+   "gene_group": [
+    "PRD class homeoboxes and pseudogenes",
+    "Paired boxes"
+   ],
+   "gene_group_id": [
+    521,
+    675
+   ],
+   "ensembl_gene_id": "ENSG00000135903",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P23760"
+   ]
+  },
+  "HGNC:8620": {
+   "symbol": "PAX6",
+   "gene_group": [
+    "PRD class homeoboxes and pseudogenes",
+    "Paired boxes"
+   ],
+   "gene_group_id": [
+    521,
+    675
+   ],
+   "ensembl_gene_id": "ENSG00000007372",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P26367"
+   ]
+  },
+  "HGNC:8653": {
+   "symbol": "PCCA",
+   "gene_group": [
+    "Propionyl-CoA carboxylase subunits",
+    "ATP-grasp fold containing"
+   ],
+   "gene_group_id": [
+    3436,
+    3752
+   ],
+   "ensembl_gene_id": "ENSG00000175198",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P05165"
+   ]
+  },
+  "HGNC:8803": {
+   "symbol": "PDGFRA",
+   "gene_group": [
+    "CD molecules",
+    "I-set domain containing",
+    "Platelet derived growth factor receptor family"
+   ],
+   "gene_group_id": [
+    471,
+    593,
+    3864
+   ],
+   "ensembl_gene_id": "ENSG00000134853",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P16234"
+   ]
+  },
+  "HGNC:8806": {
+   "symbol": "PDHA1",
+   "gene_group": [
+    "Pyruvate dehydrogenase complex subunits",
+    "Pyruvate dehydrogenase E1 subunits"
+   ],
+   "gene_group_id": [
+    1547,
+    4092
+   ],
+   "ensembl_gene_id": "ENSG00000131828",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P08559"
+   ]
+  },
+  "HGNC:866": {
+   "symbol": "ATP6V0A4",
+   "gene_group": [
+    "V-type ATPase subunits"
+   ],
+   "gene_group_id": [
+    415
+   ],
+   "ensembl_gene_id": "ENSG00000105929",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9HBG4"
+   ]
+  },
+  "HGNC:870": {
+   "symbol": "ATP7B",
+   "gene_group": [
+    "ATPase copper transporting"
+   ],
+   "gene_group_id": [
+    1212
+   ],
+   "ensembl_gene_id": "ENSG00000123191",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P35670"
+   ]
+  },
+  "HGNC:882": {
+   "symbol": "ATR",
+   "gene_group": [
+    "Armadillo like helical domain containing",
+    "Phosphatidylinositol 3-kinase-related kinase family"
+   ],
+   "gene_group_id": [
+    1492,
+    3631
+   ],
+   "ensembl_gene_id": "ENSG00000175054",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13535"
+   ]
+  },
+  "HGNC:8818": {
+   "symbol": "SLC26A4",
+   "gene_group": [
+    "Solute carrier family 26"
+   ],
+   "gene_group_id": [
+    2177
+   ],
+   "ensembl_gene_id": "ENSG00000091137",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O43511"
+   ]
+  },
+  "HGNC:92": {
+   "symbol": "ACADVL",
+   "gene_group": [
+    "Acyl-CoA dehydrogenase family",
+    "Flavoproteins"
+   ],
+   "gene_group_id": [
+    974,
+    2258
+   ],
+   "ensembl_gene_id": "ENSG00000072778",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P49748"
+   ]
+  },
+  "HGNC:888": {
+   "symbol": "KIF1A",
+   "gene_group": [
+    "Kinesins",
+    "Pleckstrin homology domain containing"
+   ],
+   "gene_group_id": [
+    622,
+    682
+   ],
+   "ensembl_gene_id": "ENSG00000130294",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q12756"
+   ]
+  },
+  "HGNC:8918": {
+   "symbol": "PHEX",
+   "gene_group": [
+    "M13 metallopeptidases"
+   ],
+   "gene_group_id": [
+    1439
+   ],
+   "ensembl_gene_id": "ENSG00000102174",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P78562"
+   ]
+  },
+  "HGNC:8967": {
+   "symbol": "PIGN",
+   "gene_group": [
+    "Phosphatidylinositol glycan anchor biosynthesis"
+   ],
+   "gene_group_id": [
+    680
+   ],
+   "ensembl_gene_id": "ENSG00000197563",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O95427"
+   ]
+  },
+  "HGNC:9008": {
+   "symbol": "PKD1",
+   "gene_group": [
+    "C-type lectin domain containing",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    1298,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000008710",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P98161"
+   ]
+  },
+  "HGNC:9016": {
+   "symbol": "PKHD1",
+   "gene_group": [
+    "IPT domain containing"
+   ],
+   "gene_group_id": [
+    1752
+   ],
+   "ensembl_gene_id": "ENSG00000170927",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P08F94"
+   ]
+  },
+  "HGNC:9020": {
+   "symbol": "PKLR",
+   "gene_group": [
+    "Pyruvate kinase family"
+   ],
+   "gene_group_id": [
+    3659
+   ],
+   "ensembl_gene_id": "ENSG00000143627",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P30613"
+   ]
+  },
+  "HGNC:9039": {
+   "symbol": "PLA2G6",
+   "gene_group": [
+    "Ankyrin repeat domain containing",
+    "Patatin like phospholipase domain containing",
+    "Phospholipases",
+    "Thioester hydrolases"
+   ],
+   "gene_group_id": [
+    403,
+    466,
+    467,
+    4119
+   ],
+   "ensembl_gene_id": "ENSG00000184381",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O60733"
+   ]
+  },
+  "HGNC:9043": {
+   "symbol": "PLAA",
+   "gene_group": [
+    "WD repeat domain containing",
+    "Armadillo like helical domain containing"
+   ],
+   "gene_group_id": [
+    362,
+    1492
+   ],
+   "ensembl_gene_id": "ENSG00000137055",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y263"
+   ]
+  },
+  "HGNC:9069": {
+   "symbol": "PLEC",
+   "gene_group": [
+    "Plakins",
+    "MicroRNA protein coding host genes",
+    "Spectrin repeat containing",
+    "SH3 domain containing"
+   ],
+   "gene_group_id": [
+    939,
+    1691,
+    3626,
+    4034
+   ],
+   "ensembl_gene_id": "ENSG00000178209",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q15149"
+   ]
+  },
+  "HGNC:9086": {
+   "symbol": "PLP1",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000123560",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P60201"
+   ]
+  },
+  "HGNC:9104": {
+   "symbol": "PLXNB2",
+   "gene_group": [
+    "Plexins",
+    "IPT domain containing"
+   ],
+   "gene_group_id": [
+    683,
+    1752
+   ],
+   "ensembl_gene_id": "ENSG00000196576",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O15031"
+   ]
+  },
+  "HGNC:9122": {
+   "symbol": "PMS2",
+   "gene_group": [
+    "MutL homologs"
+   ],
+   "gene_group_id": [
+    1027
+   ],
+   "ensembl_gene_id": "ENSG00000122512",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P54278"
+   ]
+  },
+  "HGNC:9175": {
+   "symbol": "POLD1",
+   "gene_group": [
+    "DNA polymerases"
+   ],
+   "gene_group_id": [
+    535
+   ],
+   "ensembl_gene_id": "ENSG00000062822",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P28340"
+   ]
+  },
+  "HGNC:9177": {
+   "symbol": "POLE",
+   "gene_group": [
+    "DNA polymerases"
+   ],
+   "gene_group_id": [
+    535
+   ],
+   "ensembl_gene_id": "ENSG00000177084",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q07864"
+   ]
+  },
+  "HGNC:9179": {
+   "symbol": "POLG",
+   "gene_group": [
+    "DNA polymerases",
+    "MicroRNA protein coding host genes"
+   ],
+   "gene_group_id": [
+    535,
+    1691
+   ],
+   "ensembl_gene_id": "ENSG00000140521",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P54098"
+   ]
+  },
+  "HGNC:9183": {
+   "symbol": "POLK",
+   "gene_group": [
+    "DNA polymerases",
+    "Zinc fingers UBZ4 CCHC-type"
+   ],
+   "gene_group_id": [
+    535,
+    3344
+   ],
+   "ensembl_gene_id": "ENSG00000122008",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9UBT6"
+   ]
+  },
+  "HGNC:9186": {
+   "symbol": "POLQ",
+   "gene_group": [
+    "DNA polymerases"
+   ],
+   "gene_group_id": [
+    535
+   ],
+   "ensembl_gene_id": "ENSG00000051341",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O75417"
+   ]
+  },
+  "HGNC:886": {
+   "symbol": "ATRX",
+   "gene_group": [
+    "SNF2 related family"
+   ],
+   "gene_group_id": [
+    1190
+   ],
+   "ensembl_gene_id": "ENSG00000085224",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P46100"
+   ]
+  },
+  "HGNC:904": {
+   "symbol": "AXIN2",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000168646",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9Y2T1"
+   ]
+  },
+  "HGNC:9413": {
+   "symbol": "PRKDC",
+   "gene_group": [
+    "Armadillo like helical domain containing",
+    "Phosphatidylinositol 3-kinase-related kinase family"
+   ],
+   "gene_group_id": [
+    1492,
+    3631
+   ],
+   "ensembl_gene_id": "ENSG00000253729",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P78527"
+   ]
+  },
+  "HGNC:9942": {
+   "symbol": "PRPH2",
+   "gene_group": [
+    "Tetraspanin family"
+   ],
+   "gene_group_id": [
+    768
+   ],
+   "ensembl_gene_id": "ENSG00000112619",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P23942"
+   ]
+  },
+  "HGNC:950": {
+   "symbol": "BAP1",
+   "gene_group": [
+    "Ubiquitin C-terminal hydrolases"
+   ],
+   "gene_group_id": [
+    998
+   ],
+   "ensembl_gene_id": "ENSG00000163930",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q92560"
+   ]
+  },
+  "HGNC:952": {
+   "symbol": "BARD1",
+   "gene_group": [
+    "Ring finger proteins",
+    "Ankyrin repeat domain containing",
+    "BRCA1 B complex",
+    "RING finger E3 ubiquitin protein ligases"
+   ],
+   "gene_group_id": [
+    58,
+    403,
+    1335,
+    4163
+   ],
+   "ensembl_gene_id": "ENSG00000138376",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q99728"
+   ]
+  },
+  "HGNC:966": {
+   "symbol": "BBS1",
+   "gene_group": [
+    "BBSome"
+   ],
+   "gene_group_id": [
+    1122
+   ],
+   "ensembl_gene_id": "ENSG00000174483",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q8NFJ9"
+   ]
+  },
+  "HGNC:967": {
+   "symbol": "BBS2",
+   "gene_group": [
+    "BBSome"
+   ],
+   "gene_group_id": [
+    1122
+   ],
+   "ensembl_gene_id": "ENSG00000125124",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q9BXC9"
+   ]
+  },
+  "HGNC:9498": {
+   "symbol": "PSAP",
+   "gene_group": [
+    "Receptor ligands",
+    "Saposin B type domain containing"
+   ],
+   "gene_group_id": [
+    542,
+    4153
+   ],
+   "ensembl_gene_id": "ENSG00000197746",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P07602"
+   ]
+  },
+  "HGNC:9585": {
+   "symbol": "PTCH1",
+   "gene_group": [
+    "Solute carrier family 65"
+   ],
+   "gene_group_id": [
+    2214
+   ],
+   "ensembl_gene_id": "ENSG00000185920",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q13635"
+   ]
+  },
+  "HGNC:9588": {
+   "symbol": "PTEN",
+   "gene_group": [
+    "C2 tensin-type domain containing",
+    "PTEN protein phosphatases",
+    "Phosphoinositide phosphatases"
+   ],
+   "gene_group_id": [
+    837,
+    902,
+    1079
+   ],
+   "ensembl_gene_id": "ENSG00000171862",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P60484"
+   ]
+  },
+  "HGNC:9644": {
+   "symbol": "PTPN11",
+   "gene_group": [
+    "SH2 domain containing",
+    "Protein tyrosine phosphatases non-receptor type"
+   ],
+   "gene_group_id": [
+    741,
+    812
+   ],
+   "ensembl_gene_id": "ENSG00000179295",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q06124"
+   ]
+  },
+  "HGNC:9689": {
+   "symbol": "PTS",
+   "gene_group": [
+    "Carbon-oxygen lyases"
+   ],
+   "gene_group_id": [
+    3925
+   ],
+   "ensembl_gene_id": "ENSG00000150787",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q03393"
+   ]
+  },
+  "HGNC:9726": {
+   "symbol": "PYGM",
+   "gene_group": [
+    "Glycogen phosphorylases"
+   ],
+   "gene_group_id": [
+    437
+   ],
+   "ensembl_gene_id": "ENSG00000068976",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P11217"
+   ]
+  },
+  "HGNC:9816": {
+   "symbol": "RAD50",
+   "gene_group": [
+    "BRCA1 C complex",
+    "MRN complex"
+   ],
+   "gene_group_id": [
+    1336,
+    1344
+   ],
+   "ensembl_gene_id": "ENSG00000113522",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "Q92878"
+   ]
+  },
+  "HGNC:9884": {
+   "symbol": "RB1",
+   "gene_group": [
+    "Receptor ligands"
+   ],
+   "gene_group_id": [
+    542
+   ],
+   "ensembl_gene_id": "ENSG00000139687",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P06400"
+   ]
+  },
+  "HGNC:9949": {
+   "symbol": "RECQL4",
+   "gene_group": [
+    "RecQ like helicases"
+   ],
+   "gene_group_id": [
+    1049
+   ],
+   "ensembl_gene_id": "ENSG00000160957",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "O94761"
+   ]
+  },
+  "HGNC:9957": {
+   "symbol": "RELN",
+   "gene_group": [],
+   "gene_group_id": [],
+   "ensembl_gene_id": "ENSG00000189056",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P78509"
+   ]
+  },
+  "HGNC:9967": {
+   "symbol": "RET",
+   "gene_group": [
+    "Cadherin related",
+    "Ret proto-oncogene family"
+   ],
+   "gene_group_id": [
+    24,
+    3867
+   ],
+   "ensembl_gene_id": "ENSG00000165731",
+   "locus_type": "gene with protein product",
+   "uniprot_ids": [
+    "P07949"
+   ]
+  }
+ },
+ "gene_to_hgnc": {
+  "BBS2": "HGNC:967",
+  "APC": "HGNC:583",
+  "NF1": "HGNC:7765",
+  "KIF14": "HGNC:19181",
+  "TECTA": "HGNC:11720",
+  "PKHD1": "HGNC:9016",
+  "IL2RG": "HGNC:6010",
+  "PRKDC": "HGNC:9413",
+  "CDH23": "HGNC:13733",
+  "SPTAN1": "HGNC:11273",
+  "DYNC1H1": "HGNC:2961",
+  "ASPH": "HGNC:757",
+  "TTN": "HGNC:12403",
+  "DEPDC5": "HGNC:18423",
+  "PMS2": "HGNC:9122",
+  "KIF1A": "HGNC:888",
+  "CTU2": "HGNC:28005",
+  "CYP21A2": "HGNC:2600",
+  "HPS5": "HGNC:17022",
+  "COL6A3": "HGNC:2213",
+  "COL5A1": "HGNC:2209",
+  "EIF2AK4": "HGNC:19687",
+  "NIPBL": "HGNC:28862",
+  "KDSR": "HGNC:4021",
+  "LRRK2": "HGNC:18618",
+  "TRPV4": "HGNC:18083",
+  "SCN1A": "HGNC:10585",
+  "LAMA2": "HGNC:6482",
+  "DICER1": "HGNC:17098",
+  "NBAS": "HGNC:15625",
+  "DDX3X": "HGNC:2745",
+  "SLC26A4": "HGNC:8818",
+  "KCNT1": "HGNC:18865",
+  "GATA4": "HGNC:4173",
+  "ARID1B": "HGNC:18040",
+  "RNASEH2A": "HGNC:18518",
+  "TP53": "HGNC:11998",
+  "ABCA4": "HGNC:34",
+  "NEB": "HGNC:7720",
+  "VCAN": "HGNC:2464",
+  "RTEL1": "HGNC:15888",
+  "POLG": "HGNC:9179",
+  "OCLN": "HGNC:8104",
+  "KMT2D": "HGNC:7133",
+  "BEST1": "HGNC:12703",
+  "POLR3A": "HGNC:30074",
+  "COL1A1": "HGNC:2197",
+  "ARMC9": "HGNC:20730",
+  "MECP2": "HGNC:6990",
+  "ITGB3": "HGNC:6156",
+  "SAMD9L": "HGNC:1349",
+  "SDHB": "HGNC:10681",
+  "CDH1": "HGNC:1748",
+  "STK11": "HGNC:11389",
+  "TTC8": "HGNC:20087",
+  "DNAH11": "HGNC:2942",
+  "SYNGAP1": "HGNC:11497",
+  "ATM": "HGNC:795",
+  "TOE1": "HGNC:15954",
+  "POLQ": "HGNC:9186",
+  "MED12": "HGNC:11957",
+  "WDR35": "HGNC:29250",
+  "MYBPC3": "HGNC:7551",
+  "RP1L1": "HGNC:15946",
+  "MCM3AP": "HGNC:6946",
+  "FANCA": "HGNC:3582",
+  "PLEC": "HGNC:9069",
+  "FOXP1": "HGNC:3823",
+  "VPS13B": "HGNC:2183",
+  "HSD17B4": "HGNC:5213",
+  "KCNH2": "HGNC:6251",
+  "CFTR": "HGNC:1884",
+  "RECQL4": "HGNC:9949",
+  "IDS": "HGNC:5389",
+  "IL7R": "HGNC:6024",
+  "DYSF": "HGNC:3097",
+  "FANCL": "HGNC:20748",
+  "DNAH5": "HGNC:2950",
+  "BRIP1": "HGNC:20473",
+  "CACNA1H": "HGNC:1395",
+  "IFT57": "HGNC:17367",
+  "EFTUD2": "HGNC:30858",
+  "MIA3": "HGNC:24008",
+  "TMEM67": "HGNC:28396",
+  "USH2A": "HGNC:12601",
+  "VPS13A": "HGNC:1908",
+  "CIC": "HGNC:14214",
+  "AKAP9": "HGNC:379",
+  "RYR2": "HGNC:10484",
+  "ALDH7A1": "HGNC:877",
+  "DSP": "HGNC:3052",
+  "KAT6B": "HGNC:17582",
+  "ATP7B": "HGNC:870",
+  "BRAT1": "HGNC:21701",
+  "COL11A1": "HGNC:2186",
+  "NALCN": "HGNC:19082",
+  "BARD1": "HGNC:952",
+  "COL4A3": "HGNC:2204",
+  "RB1": "HGNC:9884",
+  "ACADVL": "HGNC:92",
+  "ITGA6": "HGNC:6142",
+  "DOCK7": "HGNC:19190",
+  "COL7A1": "HGNC:2214",
+  "HGF": "HGNC:4893",
+  "SETD5": "HGNC:25566",
+  "CACNA1A": "HGNC:1388",
+  "GRN": "HGNC:4601",
+  "TCIRG1": "HGNC:11647",
+  "MEN1": "HGNC:7010",
+  "EGFR": "HGNC:3236",
+  "DGUOK": "HGNC:2858",
+  "ENG": "HGNC:3349",
+  "RPE65": "HGNC:10294",
+  "SRD5A3": "HGNC:25812",
+  "PALB2": "HGNC:26144",
+  "CUBN": "HGNC:2548",
+  "EVC": "HGNC:3497",
+  "G6PD": "HGNC:4057",
+  "BRCA2": "HGNC:1101",
+  "MET": "HGNC:7029",
+  "DMD": "HGNC:2928",
+  "GAMT": "HGNC:4136",
+  "ERCC2": "HGNC:3434",
+  "CEP290": "HGNC:29021",
+  "LDLR": "HGNC:6547",
+  "TSC2": "HGNC:12363",
+  "ZFYVE26": "HGNC:20761",
+  "TSC1": "HGNC:12362",
+  "WRN": "HGNC:12791",
+  "VHL": "HGNC:12687",
+  "PCCA": "HGNC:8653",
+  "PYGM": "HGNC:9726",
+  "COL2A1": "HGNC:2200",
+  "MAPT": "HGNC:6893",
+  "SLC12A3": "HGNC:10912",
+  "PHEX": "HGNC:8918",
+  "DSPP": "HGNC:3054",
+  "KMT2A": "HGNC:7132",
+  "CNGA3": "HGNC:2150",
+  "MSH3": "HGNC:7326",
+  "PRPH2": "HGNC:9942",
+  "GALT": "HGNC:4135",
+  "TTPA": "HGNC:12404",
+  "UROD": "HGNC:12591",
+  "SMPD1": "HGNC:11120",
+  "POLK": "HGNC:9183",
+  "HBB": "HGNC:4827",
+  "TPP1": "HGNC:2073",
+  "G6PC1": "HGNC:4056",
+  "AHI1": "HGNC:21575",
+  "MUC16": "HGNC:15582",
+  "BAP1": "HGNC:950",
+  "PCLO": "HGNC:13406",
+  "ZMIZ1": "HGNC:16493",
+  "RET": "HGNC:9967",
+  "SHANK3": "HGNC:14294",
+  "ATRX": "HGNC:886",
+  "PIGN": "HGNC:8967",
+  "MTHFD1": "HGNC:7432",
+  "PSAP": "HGNC:9498",
+  "SCN2A": "HGNC:10588",
+  "PDHA1": "HGNC:8806",
+  "BBS1": "HGNC:966",
+  "PKD1;TSC2": "-",
+  "GALNT4;POC1B;POC1B-DUSP6;POC1B-GALNT4": "-",
+  "SMARCA4": "HGNC:11100",
+  "CC2D2A": "HGNC:29253",
+  "DBT": "HGNC:2698",
+  "NBN": "HGNC:7652",
+  "KCNQ1": "HGNC:6294",
+  "MITF": "HGNC:7105",
+  "ARHGEF9": "HGNC:14561",
+  "MAN2B1": "HGNC:6826",
+  "SCN5A": "HGNC:10593",
+  "FRAS1": "HGNC:19185",
+  "KIF11": "HGNC:6388",
+  "OPA1": "HGNC:8140",
+  "KIF1C": "HGNC:6317",
+  "ANK2": "HGNC:493",
+  "ALDOB": "HGNC:417",
+  "LMNA": "HGNC:6636",
+  "TRRAP": "HGNC:12347",
+  "NR5A1": "HGNC:7983",
+  "CLCN1": "HGNC:2019",
+  "FLNC": "HGNC:3756",
+  "EDA": "HGNC:3157",
+  "ANTXR2": "HGNC:21732",
+  "CHD2": "HGNC:1917",
+  "MSH2": "HGNC:7325",
+  "AGRN": "HGNC:329",
+  "MANBA": "HGNC:6831",
+  "GNB5": "HGNC:4401",
+  "PCNT": "HGNC:16068",
+  "FANCC": "HGNC:3584",
+  "RELN": "HGNC:9957",
+  "GATA2": "HGNC:4171",
+  "ABCA12": "HGNC:14637",
+  "POMGNT1": "HGNC:19139",
+  "SLX4": "HGNC:23845",
+  "CHRNA1": "HGNC:1955",
+  "ABCD1": "HGNC:61",
+  "L2HGDH": "HGNC:20499",
+  "FA2H": "HGNC:21197",
+  "FRMD7": "HGNC:8079",
+  "PCDH15": "HGNC:14674",
+  "ELP1": "HGNC:5959",
+  "OBSCN": "HGNC:15719",
+  "CDKL5": "HGNC:11411",
+  "CTNNA1": "HGNC:2509",
+  "POLD1": "HGNC:9175",
+  "ABCA3": "HGNC:33",
+  "SLC2A1": "HGNC:11005",
+  "COL3A1": "HGNC:2201",
+  "MERTK": "HGNC:7027",
+  "CYP27A1": "HGNC:2605",
+  "LZTR1": "HGNC:6742",
+  "DDC": "HGNC:2719",
+  "MTHFR": "HGNC:7436",
+  "SLC17A5": "HGNC:10933",
+  "SCN4A": "HGNC:10591",
+  "KRAS": "HGNC:6407",
+  "GAA": "HGNC:4065",
+  "ATP6AP2": "HGNC:18305",
+  "ADGRV1": "HGNC:17416",
+  "MLH1": "HGNC:7127",
+  "ZAP70": "HGNC:12858",
+  "ALG3": "HGNC:23056",
+  "VWF": "HGNC:12726",
+  "COL12A1": "HGNC:2188",
+  "GLDC": "HGNC:4313",
+  "CCDC39": "HGNC:25244",
+  "MMACHC": "HGNC:24525",
+  "CGNL1": "HGNC:25931",
+  "RYR1": "HGNC:10483",
+  "PAX3": "HGNC:8617",
+  "LIPA": "HGNC:6617",
+  "CSTB": "HGNC:2482",
+  "CYP11B1": "HGNC:2591",
+  "LRRK1": "HGNC:18608",
+  "KMT2C": "HGNC:13726",
+  "FBN1": "HGNC:3603",
+  "COL9A2": "HGNC:2218",
+  "LRP2": "HGNC:6694",
+  "EXT2": "HGNC:3513",
+  "CACNA1D": "HGNC:1391",
+  "PAH": "HGNC:8582",
+  "HAND2": "HGNC:4808",
+  "GHR": "HGNC:4263",
+  "MTOR": "HGNC:3942",
+  "PALLD": "HGNC:17068",
+  "BLM": "HGNC:1058",
+  "SAMHD1": "HGNC:15925",
+  "EYS": "HGNC:21555",
+  "COL11A2": "HGNC:2187",
+  "ASPA": "HGNC:756",
+  "ABCC6": "HGNC:57",
+  "HEXB": "HGNC:4879",
+  "ALK": "HGNC:427",
+  "LRSAM1": "HGNC:25135",
+  "H6PD": "HGNC:4795",
+  "POLE": "HGNC:9177",
+  "TSEN54": "HGNC:27561",
+  "PLP1": "HGNC:9086",
+  "SGCA": "HGNC:10805",
+  "DST": "HGNC:1090",
+  "MAF": "HGNC:6776",
+  "CEBPA": "HGNC:1833",
+  "ALPK3": "HGNC:17574",
+  "COL18A1": "HGNC:2195",
+  "USH1C": "HGNC:12597",
+  "SBF1": "HGNC:10542",
+  "MSH6": "HGNC:7329",
+  "HGD": "HGNC:4892",
+  "EPG5": "HGNC:29331",
+  "ATP8B1": "HGNC:3706",
+  "LYST": "HGNC:1968",
+  "KCNQ3": "HGNC:6297",
+  "GALC": "HGNC:4115",
+  "DCHS1": "HGNC:13681",
+  "NOTCH1": "HGNC:7881",
+  "TGFBR2": "HGNC:11773",
+  "SLC25A11": "HGNC:10981",
+  "BCS1L": "HGNC:1020",
+  "SAMD9": "HGNC:1348",
+  "LOXHD1": "HGNC:26521",
+  "KIAA0586": "HGNC:19960",
+  "KIF1B": "HGNC:16636",
+  "FLNA": "HGNC:3754",
+  "ZNF341": "HGNC:15992",
+  "PKLR": "HGNC:9020",
+  "PTEN": "HGNC:9588",
+  "PLAA": "HGNC:9043",
+  "ZNF469": "HGNC:23216",
+  "COL5A2": "HGNC:2210",
+  "FLVCR1": "HGNC:24682",
+  "OCA2": "HGNC:8101",
+  "DYNC2H1": "HGNC:2962",
+  "SH3TC2": "HGNC:29427",
+  "COL1A2": "HGNC:2198",
+  "COL4A5": "HGNC:2207",
+  "CFAP53": "HGNC:26530",
+  "CNOT3": "HGNC:7879",
+  "UBA5": "HGNC:23230",
+  "KASH5": "HGNC:26520",
+  "SPAST": "HGNC:11233",
+  "DNAH1": "HGNC:2940",
+  "CASK": "HGNC:1497",
+  "COL17A1": "HGNC:2194",
+  "FLCN": "HGNC:27310",
+  "GLRX5": "HGNC:20134",
+  "CASQ2": "HGNC:1513",
+  "SYNE1": "HGNC:17089",
+  "SZT2": "HGNC:29040",
+  "HSPG2": "HGNC:5273",
+  "APOB": "HGNC:603",
+  "BRCA1": "HGNC:1100",
+  "HMCN1": "HGNC:19194",
+  "BMPR1A": "HGNC:1076",
+  "PTPN11": "HGNC:9644",
+  "TBK1": "HGNC:11584",
+  "RAD50": "HGNC:9816",
+  "POT1": "HGNC:17284",
+  "CASR": "HGNC:1514",
+  "GNE": "HGNC:23657",
+  "PTCH1": "HGNC:9585",
+  "ALMS1": "HGNC:428",
+  "AGK": "HGNC:21869",
+  "AXIN2": "HGNC:904",
+  "ITGA2B": "HGNC:6138",
+  "FASN": "HGNC:3594",
+  "FREM2": "HGNC:25396",
+  "F11": "HGNC:3529",
+  "INPP4A": "HGNC:6074",
+  "TCF4": "HGNC:11634",
+  "NPM1": "HGNC:7910",
+  "HBA2": "HGNC:4824",
+  "PAX6": "HGNC:8620",
+  "CHD7": "HGNC:20626",
+  "GCK": "HGNC:4195",
+  "L1CAM": "HGNC:6470",
+  "TAF8": "HGNC:17300",
+  "COL4A4": "HGNC:2206",
+  "ATR": "HGNC:882",
+  "SLC7A9": "HGNC:11067",
+  "F8": "HGNC:3546",
+  "STXBP1": "HGNC:11444",
+  "MYO7A": "HGNC:7606",
+  "OTC": "HGNC:8512",
+  "CACNA1C": "HGNC:1390",
+  "MYO15A": "HGNC:7594",
+  "PKD1": "HGNC:9008",
+  "RLBP1": "HGNC:10024",
+  "KMT2B": "HGNC:15840",
+  "COG6": "HGNC:18621",
+  "FGFR3": "HGNC:3690",
+  "COL4A1": "HGNC:2202",
+  "ARSA": "HGNC:713",
+  "DNAH9": "HGNC:2953",
+  "AR": "HGNC:644",
+  "ABCC8": "HGNC:59",
+  "ARPC1B": "HGNC:704",
+  "NONO": "HGNC:7871",
+  "SFTPC": "HGNC:10802",
+  "PNPT1": "HGNC:23166",
+  "CAPN3": "HGNC:1480",
+  "MYH11": "HGNC:7569",
+  "TERT": "HGNC:11730",
+  "GJB1": "HGNC:4283",
+  "PLA2G6": "HGNC:9039",
+  "FLNB": "HGNC:3755",
+  "CHEK2": "HGNC:16627",
+  "FAT4": "HGNC:23109",
+  "WDR45": "HGNC:28912",
+  "SPO11": "HGNC:11250",
+  "SYNE2": "HGNC:17084",
+  "IL10RA": "HGNC:5964",
+  "GATA1": "HGNC:4170",
+  "KIT": "HGNC:6342",
+  "AMT": "HGNC:473",
+  "ANKRD11": "HGNC:21316",
+  "YY1": "HGNC:12856",
+  "KCNQ2": "HGNC:6296",
+  "VPS33B": "HGNC:12712",
+  "BTK": "HGNC:1133",
+  "OGDHL": "HGNC:25590",
+  "GNPTAB": "HGNC:29670",
+  "KMT2E": "HGNC:18541",
+  "HUWE1": "HGNC:30892",
+  "ATP6V0A4": "HGNC:866",
+  "IGF1R": "HGNC:5465",
+  "MTM1": "HGNC:7448",
+  "COL27A1": "HGNC:22986",
+  "TNXB": "HGNC:11976",
+  "MPZ": "HGNC:7225",
+  "SPG11": "HGNC:11226",
+  "AP3B2": "HGNC:567",
+  "MYH7": "HGNC:7577",
+  "SPTA1": "HGNC:11272",
+  "RUNX2": "HGNC:10472",
+  "CYP17A1": "HGNC:2593",
+  "COL6A2": "HGNC:2212",
+  "CHD3": "HGNC:1918",
+  "SELENON": "HGNC:15999",
+  "CTNNB1": "HGNC:2514",
+  "MYT1L": "HGNC:7623",
+  "SMCHD1": "HGNC:29090",
+  "SPINK5": "HGNC:15464",
+  "HEXA": "HGNC:4878",
+  "ALDH5A1": "HGNC:408",
+  "TUBGCP4": "HGNC:16691",
+  "BTD": "HGNC:1122",
+  "MYLK": "HGNC:7590",
+  "SCN10A": "HGNC:10582",
+  "FAH": "HGNC:3579",
+  "RNF216": "HGNC:21698",
+  "DOCK8": "HGNC:19191",
+  "CYBB": "HGNC:2578",
+  "CWC27": "HGNC:10664",
+  "ALPK2": "HGNC:20565",
+  "DNAI1": "HGNC:2954",
+  "RPS6KA3": "HGNC:10432",
+  "DLG4": "HGNC:2903",
+  "ARID1A": "HGNC:11110",
+  "NTRK1": "HGNC:8031",
+  "F9": "HGNC:3551",
+  "PTS": "HGNC:9689",
+  "GUSB": "HGNC:4696",
+  "CPLANE1": "HGNC:25801",
+  "COLQ": "HGNC:2226",
+  "ASXL1": "HGNC:18318",
+  "DHX37": "HGNC:17210",
+  "RPS15A": "HGNC:10389",
+  "MEF2C": "HGNC:6996",
+  "IL11RA": "HGNC:5967",
+  "ANTXR1": "HGNC:21014",
+  "NR2E3": "HGNC:7974",
+  "HSD17B10": "HGNC:4800",
+  "SLC25A13": "HGNC:10983",
+  "ZC4H2": "HGNC:24931",
+  "IQSEC2": "HGNC:29059",
+  "DNAH8": "HGNC:2952",
+  "AGL": "HGNC:321",
+  "ALOXE3": "HGNC:13743",
+  "FBN2": "HGNC:3604",
+  "CD40": "HGNC:11919",
+  "MPIG6B": "HGNC:13937",
+  "CUL3": "HGNC:2553",
+  "CUL4B": "HGNC:2555",
+  "UNC80": "HGNC:26582",
+  "JAK3": "HGNC:6193",
+  "DPAGT1": "HGNC:2995",
+  "GPR143": "HGNC:20145",
+  "CAMTA1": "HGNC:18806",
+  "FGFR2": "HGNC:3689",
+  "CSRP3": "HGNC:2472",
+  "SLC3A1": "HGNC:11025",
+  "WNK2": "HGNC:14542",
+  "NEUROD1": "HGNC:7762",
+  "LAMP2": "HGNC:6501",
+  "CRYBB2": "HGNC:2398",
+  "IL1RN": "HGNC:6000",
+  "RP2": "HGNC:10274",
+  "SETSIP": "HGNC:42937",
+  "DLAT": "HGNC:2896",
+  "PAFAH1B1": "HGNC:8574",
+  "RRM2B": "HGNC:17296",
+  "DOK7": "HGNC:26594",
+  "GABRG3": "HGNC:4088",
+  "SCN9A": "HGNC:10597",
+  "CACNA1E": "HGNC:1392",
+  "HOGA1": "HGNC:25155",
+  "ANKRD26": "HGNC:29186",
+  "MUTYH": "HGNC:7527",
+  "MPV17": "HGNC:7224",
+  "PLXNB2": "HGNC:9104",
+  "IBA57": "HGNC:27302",
+  "FANCM": "HGNC:23168",
+  "NPHP3": "HGNC:7907",
+  "ARL6": "HGNC:13210",
+  "MYH6": "HGNC:7576",
+  "NOP56": "HGNC:15911",
+  "SACS": "HGNC:10519",
+  "PDGFRA": "HGNC:8803",
+  "KNL1": "HGNC:24054",
+  "CTNS": "HGNC:2518",
+  "FBXL4": "HGNC:13601",
+  "LRP4": "HGNC:6696",
+  "WEE2": "HGNC:19684",
+  "ERLIN2": "HGNC:1356",
+  "PIEZO1": "HGNC:28993",
+  "ATL1": "HGNC:11231",
+  "SFTPB": "HGNC:10801",
+  "SYCP3": "HGNC:18130",
+  "CCM2": "HGNC:21708",
+  "ADA2": "HGNC:1839",
+  "CACNA1S": "HGNC:1397",
+  "MLH3": "HGNC:7128",
+  "SDHA": "HGNC:10680"
+ }
+}

@@ -1,0 +1,110 @@
+{
+  "model": "cdsbert",
+  "n_total": 1839,
+  "n_control_zero": 630,
+  "scope_all": {
+    "n": 1839,
+    "auc": {
+      "r0_full": 0.667,
+      "c0_full": 0.5287,
+      "r1_pos_full": 0.6955,
+      "c1_pos_full": 0.6546,
+      "r1_pos_base": 0.8183,
+      "r2_seq_full": 0.7502,
+      "c2_seq_full": 0.6724,
+      "r2_seq_base": 0.815,
+      "c2_seq_base": 0.7775,
+      "r3_all_full": 0.7529,
+      "c3_all_full": 0.6775,
+      "r3_all_base": 0.8148,
+      "c3_all_base": 0.7603
+    },
+    "increments": {
+      "L0 无基线": {
+        "incr_real": 0.167,
+        "incr_ctrl": 0.0287,
+        "diff": 0.1384,
+        "ci_lo": 0.101,
+        "ci_hi": 0.1756,
+        "excludes_zero": true
+      },
+      "L1 控制位置": {
+        "incr_real": -0.1227,
+        "incr_ctrl": -0.1637,
+        "diff": 0.0409,
+        "ci_lo": 0.0059,
+        "ci_hi": 0.0765,
+        "excludes_zero": true
+      },
+      "L2 控制位置+序列特征": {
+        "incr_real": -0.0648,
+        "incr_ctrl": -0.1051,
+        "diff": 0.0403,
+        "ci_lo": 0.0094,
+        "ci_hi": 0.0747,
+        "excludes_zero": true
+      },
+      "L3 再控制幅度": {
+        "incr_real": -0.0619,
+        "incr_ctrl": -0.0828,
+        "diff": 0.0209,
+        "ci_lo": -0.0101,
+        "ci_hi": 0.054,
+        "excludes_zero": false
+      }
+    }
+  },
+  "scope_control_constructed": {
+    "n": 1209,
+    "auc": {
+      "r0_full": 0.6658,
+      "c0_full": 0.6018,
+      "r1_pos_full": 0.6965,
+      "c1_pos_full": 0.6334,
+      "r1_pos_base": 0.7344,
+      "r2_seq_full": 0.7431,
+      "c2_seq_full": 0.6504,
+      "r2_seq_base": 0.7757,
+      "c2_seq_base": 0.7528,
+      "r3_all_full": 0.741,
+      "c3_all_full": 0.6493,
+      "r3_all_base": 0.7748,
+      "c3_all_base": 0.7463
+    },
+    "increments": {
+      "L0 无基线": {
+        "incr_real": 0.1658,
+        "incr_ctrl": 0.1018,
+        "diff": 0.064,
+        "ci_lo": 0.0171,
+        "ci_hi": 0.1055,
+        "excludes_zero": true
+      },
+      "L1 控制位置": {
+        "incr_real": -0.0379,
+        "incr_ctrl": -0.101,
+        "diff": 0.0632,
+        "ci_lo": 0.0187,
+        "ci_hi": 0.1035,
+        "excludes_zero": true
+      },
+      "L2 控制位置+序列特征": {
+        "incr_real": -0.0326,
+        "incr_ctrl": -0.1025,
+        "diff": 0.0699,
+        "ci_lo": 0.0312,
+        "ci_hi": 0.108,
+        "excludes_zero": true
+      },
+      "L3 再控制幅度": {
+        "incr_real": -0.0338,
+        "incr_ctrl": -0.0971,
+        "diff": 0.0633,
+        "ci_lo": 0.0248,
+        "ci_hi": 0.1005,
+        "excludes_zero": true
+      }
+    }
+  },
+  "elapsed_sec": 1917.4
+}

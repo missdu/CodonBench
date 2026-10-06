@@ -118,7 +118,7 @@ def load_all_results():
         data["esm2"]["task3_synonymous"] = {"lr": r["ROC-AUC_mean"]}
 
     # ESM-1b (pLM, LR only for now)
-    with open(RESULTS_DIR / "esm1b_results.json", encoding="utf-16") as f:
+    with open(RESULTS_DIR / "esm1b_results.json", encoding="utf-8") as f:
         r = json.load(f)
         data["esm1b"] = {
             "task2_missense": {"lr": r["task2_missense"]["ROC-AUC_mean"]},

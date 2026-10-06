@@ -1,0 +1,48 @@
+{
+ "random": {
+  "auc_diff": 0.7178,
+  "auc_pseudo": 0.5825,
+  "delta": 0.1353,
+  "delta_ci_lo": 0.1055,
+  "delta_ci_hi": 0.1661,
+  "fold_auc_diff": [
+   0.7203,
+   0.7223,
+   0.7196,
+   0.7109,
+   0.7152
+  ],
+  "fold_auc_pseudo": [
+   0.6364,
+   0.5568,
+   0.5654,
+   0.5651,
+   0.5885
+  ],
+  "fold_delta_mean": 0.1352,
+  "fold_delta_sem": 0.0143
+ },
+ "LOGO": {
+  "auc_diff": 0.5696,
+  "auc_pseudo": 0.4844,
+  "delta": 0.0853,
+  "delta_ci_lo": 0.0513,
+  "delta_ci_hi": 0.1238,
+  "fold_auc_diff": [
+   0.554,
+   0.5809,
+   0.5464,
+   0.5897,
+   0.5754
+  ],
+  "fold_auc_pseudo": [
+   0.454,
+   0.4839,
+   0.5045,
+   0.4841,
+   0.4916
+  ],
+  "fold_delta_mean": 0.0857,
+  "fold_delta_sem": 0.0115
+ }
+}

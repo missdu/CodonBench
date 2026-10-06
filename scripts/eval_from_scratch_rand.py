@@ -1,3 +1,4 @@
+import os  # [脱敏] 供读取 CODONBENCH_REPO_ROOT
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.neural_network import MLPClassifier
@@ -12,7 +13,7 @@ def eval_emb(emb, labs):
     mlp_auc = roc_auc_score(y_te, mlp.predict_proba(X_te)[:,1])
     return lr_auc, mlp_auc
 
-base = r'F:\2025-2026-2\CODEARTS\shorts\codonbench\codonbench\results\supplementary'
+base = r'os.environ.get("CODONBENCH_REPO_ROOT", "/path/to/your/codonbench") + "/results/supplementary"'
 
 print('=== From-Scratch Synonym Randomization ===')
 

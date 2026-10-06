@@ -1,0 +1,32 @@
+{
+  "codonbert": {
+    "pooled_auc_mlp": 0.5643270365997638,
+    "pooled_auc_lr": 0.5756558441558443,
+    "n_test": 1847
+  },
+  "codonbert_hf": {
+    "pooled_auc_mlp": 0.562107438016529,
+    "pooled_auc_lr": 0.5518022432113341,
+    "n_test": 1847
+  },
+  "encodon-80m": {
+    "pooled_auc_mlp": 0.5685271546635182,
+    "pooled_auc_lr": 0.5234374262101534,
+    "n_test": 1847
+  },
+  "mrnabert": {
+    "pooled_auc_mlp": 0.5518075560802833,
+    "pooled_auc_lr": 0.5554179456906729,
+    "n_test": 1847
+  },
+  "ESM-2-650M": {
+    "pooled_auc_mlp": 0.5579822904368359,
+    "pooled_auc_lr": 0.5462567886658796,
+    "n_test": 1847
+  },
+  "ESM-1b-650M": {
+    "pooled_auc_mlp": 0.557517709563164,
+    "pooled_auc_lr": 0.5375543093270366,
+    "n_test": 1847
+  }
+}

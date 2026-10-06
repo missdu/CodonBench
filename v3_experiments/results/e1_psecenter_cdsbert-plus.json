@@ -1,0 +1,68 @@
+{
+  "model": "cdsbert-plus",
+  "kind": "clm",
+  "strategy": "nt_space",
+  "unk": 0,
+  "n": 1839,
+  "n_folds": 240,
+  "n_excluded_total": 8,
+  "n_excluded_non_snv": 8,
+  "n_excluded_protein_mismatch": 0,
+  "protocol": "LOGO-240 逐折均值",
+  "ref": {
+    "auc_pooled": 0.518,
+    "auc_perfold_mean": 0.4851,
+    "auc_perfold_sd": 0.3688,
+    "n_folds_used": 239
+  },
+  "alt": {
+    "auc_pooled": 0.5253,
+    "auc_perfold_mean": 0.5037,
+    "auc_perfold_sd": 0.3808,
+    "n_folds_used": 239
+  },
+  "diff": {
+    "auc_pooled": 0.6712,
+    "auc_perfold_mean": 0.6556,
+    "auc_perfold_sd": 0.359,
+    "n_folds_used": 239
+  },
+  "diff_pse15": {
+    "auc_pooled": 0.5049,
+    "auc_perfold_mean": 0.4979,
+    "auc_perfold_sd": 0.365,
+    "n_folds_used": 239
+  },
+  "diff_psecenter": {
+    "auc_pooled": 0.5258,
+    "auc_perfold_mean": 0.5459,
+    "auc_perfold_sd": 0.3506,
+    "n_folds_used": 239
+  },
+  "delta_alt_vs_pse15": {
+    "auc_pooled_diff": 0.1662,
+    "paired_bootstrap": {
+      "delta": 0.1662,
+      "ci_lo": 0.1232,
+      "ci_hi": 0.2078,
+      "excludes_zero": true,
+      "n_boot": 1000,
+      "cluster_unit": "gene"
+    }
+  },
+  "delta_alt_vs_psecenter": {
+    "auc_pooled_diff": 0.1454,
+    "paired_bootstrap": {
+      "delta": 0.1454,
+      "ci_lo": 0.1079,
+      "ci_hi": 0.1827,
+      "excludes_zero": true,
+      "n_boot": 1000,
+      "cluster_unit": "gene"
+    }
+  },
+  "smoke": false,
+  "output_suffix": "",
+  "embeddings_saved": "e1_psecenter_emb_cdsbert-plus.npz",
+  "elapsed_sec": 1556.2
+}

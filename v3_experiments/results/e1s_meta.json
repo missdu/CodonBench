@@ -1,0 +1,18 @@
+{
+ "n_total": 2840,
+ "n_usable": 2682,
+ "strand": {
+  "plus": 1427,
+  "minus": 1403,
+  "unknown": 10
+ },
+ "phase_equal_dist": {
+  "0": 148,
+  "1": 2441,
+  "2": 241,
+  "3": 10
+ },
+ "cpos_phase_equal": 2637,
+ "pseudo_offset_nt": 15,
+ "note": "ref/alt/pseudo 均为**编码链**窗口（负链已反向互补回来），变异位点索引见 e1s_variant_index.npy；pseudo 为同一窗口内偏移 15 nt 处的单碱基替换，用作阴性对照"
+}

@@ -1,0 +1,68 @@
+{
+  "model": "esm1b-650m",
+  "kind": "plm",
+  "strategy": "raw",
+  "unk": 0,
+  "n": 1837,
+  "n_folds": 240,
+  "n_excluded_total": 10,
+  "n_excluded_non_snv": 8,
+  "n_excluded_protein_mismatch": 2,
+  "protocol": "LOGO-240 逐折均值",
+  "ref": {
+    "auc_pooled": 0.5056,
+    "auc_perfold_mean": 0.468,
+    "auc_perfold_sd": 0.3817,
+    "n_folds_used": 238
+  },
+  "alt": {
+    "auc_pooled": 0.5056,
+    "auc_perfold_mean": 0.468,
+    "auc_perfold_sd": 0.3817,
+    "n_folds_used": 238
+  },
+  "diff": {
+    "auc_pooled": 0.2533,
+    "auc_perfold_mean": 0.5,
+    "auc_perfold_sd": 0.0,
+    "n_folds_used": 238
+  },
+  "diff_pse15": {
+    "auc_pooled": 0.4953,
+    "auc_perfold_mean": 0.5152,
+    "auc_perfold_sd": 0.3338,
+    "n_folds_used": 238
+  },
+  "diff_psecenter": {
+    "auc_pooled": 0.2533,
+    "auc_perfold_mean": 0.5,
+    "auc_perfold_sd": 0.0,
+    "n_folds_used": 238
+  },
+  "delta_alt_vs_pse15": {
+    "auc_pooled_diff": -0.242,
+    "paired_bootstrap": {
+      "delta": -0.242,
+      "ci_lo": -0.2937,
+      "ci_hi": -0.184,
+      "excludes_zero": true,
+      "n_boot": 1000,
+      "cluster_unit": "gene"
+    }
+  },
+  "delta_alt_vs_psecenter": {
+    "auc_pooled_diff": 0.0,
+    "paired_bootstrap": {
+      "delta": 0.0,
+      "ci_lo": 0.0,
+      "ci_hi": 0.0,
+      "excludes_zero": false,
+      "n_boot": 1000,
+      "cluster_unit": "gene"
+    }
+  },
+  "smoke": false,
+  "output_suffix": "",
+  "embeddings_saved": "e1_psecenter_emb_esm1b-650m.npz",
+  "elapsed_sec": 883.7
+}

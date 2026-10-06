@@ -1,7 +1,8 @@
+import os  # [脱敏] 供读取 CODONBENCH_REPO_ROOT
 """Comprehensive data audit: paper text vs experiment results."""
 import json, os
 
-BASE = r'F:\2025-2026-2\CODEARTS\shorts\codonbench\codonbench\results'
+BASE = r'os.environ.get("CODONBENCH_REPO_ROOT", "/path/to/your/codonbench") + "/results"'
 
 # Load all data sources
 with open(os.path.join(BASE, 'comprehensive_comparison.json'), encoding='utf-8') as f:

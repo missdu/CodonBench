@@ -1,0 +1,99 @@
+{
+ "_design": "WB-实验设计书 v1",
+ "_seed": 42,
+ "_note": "逐折 LOGO 训练 + pooled OOF + 按折(基因)聚类 bootstrap CI",
+ "_unit": {
+  "n": 2840,
+  "n_valid_folds": 240
+ },
+ "models": {
+  "codonbert": {
+   "n_oof": 1847,
+   "auc_pooled": 0.580426800472255,
+   "lr_config": "{'C': 0.1}"
+  },
+  "codonbert_hf": {
+   "n_oof": 1847,
+   "auc_pooled": 0.5524208972845337,
+   "lr_config": "{'C': 0.1}"
+  },
+  "encodon-80m": {
+   "n_oof": 1847,
+   "auc_pooled": 0.5246700118063754,
+   "lr_config": "{'C': 0.1}"
+  },
+  "mrnabert": {
+   "n_oof": 1847,
+   "auc_pooled": 0.5554858323494687,
+   "lr_config": "{'C': 1.0}"
+  },
+  "ESM-2-650M": {
+   "n_oof": 1847,
+   "auc_pooled": 0.55436186540732,
+   "lr_config": "{'C': 0.1}"
+  },
+  "ESM-1b-650M": {
+   "n_oof": 1847,
+   "auc_pooled": 0.5411357733175914,
+   "lr_config": "{'C': 0.1}"
+  }
+ },
+ "paired": {
+  "codonbert - ESM-2-650M": {
+   "point_diff": 0.026064935064935013,
+   "boot_mean": 0.026998794820692177,
+   "ci95_lo": -0.020350856745907395,
+   "ci95_hi": 0.07193842713252721,
+   "ci_includes_zero": true
+  },
+  "codonbert - ESM-1b-650M": {
+   "point_diff": 0.039291027154663594,
+   "boot_mean": 0.04132915192845112,
+   "ci95_lo": -0.0032796742181927766,
+   "ci95_hi": 0.08422310767819384,
+   "ci_includes_zero": true
+  },
+  "codonbert_hf - ESM-2-650M": {
+   "point_diff": -0.001940968122786324,
+   "boot_mean": -0.0008677713643826238,
+   "ci95_lo": -0.04686259345033768,
+   "ci95_hi": 0.04630322314227647,
+   "ci_includes_zero": true
+  },
+  "codonbert_hf - ESM-1b-650M": {
+   "point_diff": 0.011285123966942257,
+   "boot_mean": 0.013462585743376328,
+   "ci95_lo": -0.031065691579605138,
+   "ci95_hi": 0.05980789168073767,
+   "ci_includes_zero": true
+  },
+  "encodon-80m - ESM-2-650M": {
+   "point_diff": -0.029691853600944618,
+   "boot_mean": -0.028733794452745327,
+   "ci95_lo": -0.0738775992539439,
+   "ci95_hi": 0.015092212708644482,
+   "ci_includes_zero": true
+  },
+  "encodon-80m - ESM-1b-650M": {
+   "point_diff": -0.016465761511216037,
+   "boot_mean": -0.014403437344986378,
+   "ci95_lo": -0.058927240442318334,
+   "ci95_hi": 0.030613392091209404,
+   "ci_includes_zero": true
+  },
+  "mrnabert - ESM-2-650M": {
+   "point_diff": 0.0011239669421486687,
+   "boot_mean": 0.002037995562426264,
+   "ci95_lo": -0.03914788568970358,
+   "ci95_hi": 0.044253501592652865,
+   "ci_includes_zero": true
+  },
+  "mrnabert - ESM-1b-650M": {
+   "point_diff": 0.01435005903187725,
+   "boot_mean": 0.01636835267018522,
+   "ci95_lo": -0.027107635351875787,
+   "ci95_hi": 0.06502685847998504,
+   "ci_includes_zero": true
+  }
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "codonbert": {
+  "ref_random": {
+   "auc": 0.6518,
+   "ci_lo": 0.6286,
+   "ci_hi": 0.673
+  },
+  "alt_random": {
+   "auc": 0.6686,
+   "ci_lo": 0.6454,
+   "ci_hi": 0.6892
+  },
+  "diff_random": {
+   "auc": 0.7177,
+   "ci_lo": 0.6956,
+   "ci_hi": 0.7402
+  },
+  "pair_random": {
+   "auc": 0.7548,
+   "ci_lo": 0.7341,
+   "ci_hi": 0.7758
+  },
+  "pseudo_diff_random": {
+   "auc": 0.5825,
+   "ci_lo": 0.5593,
+   "ci_hi": 0.6044
+  },
+  "ref_LOGO": {
+   "auc": 0.5013,
+   "ci_lo": 0.4753,
+   "ci_hi": 0.5272
+  },
+  "alt_LOGO": {
+   "auc": 0.5178,
+   "ci_lo": 0.4922,
+   "ci_hi": 0.5428
+  },
+  "diff_LOGO": {
+   "auc": 0.5696,
+   "ci_lo": 0.5427,
+   "ci_hi": 0.597
+  },
+  "pair_LOGO": {
+   "auc": 0.5592,
+   "ci_lo": 0.5343,
+   "ci_hi": 0.5867
+  },
+  "pseudo_diff_LOGO": {
+   "auc": 0.4844,
+   "ci_lo": 0.4583,
+   "ci_hi": 0.5079
+  },
+  "_selfcheck": {
+   "mean_abs_ref_alt": 0.03919316455721855,
+   "unk": 0,
+   "kind": "clm"
+  },
+  "_permuted": {
+   "diff_random": {
+    "auc": 0.4817,
+    "ci_lo": 0.4596,
+    "ci_hi": 0.5034
+   },
+   "diff_LOGO": {
+    "auc": 0.4777,
+    "ci_lo": 0.4547,
+    "ci_hi": 0.4996
+   }
+  }
+ },
+ "esm1b-650m": {
+  "ref_random": {
+   "auc": 0.7357,
+   "ci_lo": 0.7136,
+   "ci_hi": 0.7556
+  },
+  "alt_random": {
+   "auc": 0.7357,
+   "ci_lo": 0.7136,
+   "ci_hi": 0.7556
+  },
+  "diff_random": {
+   "auc": 0.4993,
+   "ci_lo": 0.4779,
+   "ci_hi": 0.5211
+  },
+  "pair_random": {
+   "auc": 0.7351,
+   "ci_lo": 0.7123,
+   "ci_hi": 0.7554
+  },
+  "pseudo_diff_random": {
+   "auc": 0.4993,
+   "ci_lo": 0.4779,
+   "ci_hi": 0.5211
+  },
+  "ref_LOGO": {
+   "auc": 0.5442,
+   "ci_lo": 0.5152,
+   "ci_hi": 0.5719
+  },
+  "alt_LOGO": {
+   "auc": 0.5442,
+   "ci_lo": 0.5152,
+   "ci_hi": 0.5719
+  },
+  "diff_LOGO": {
+   "auc": 0.479,
+   "ci_lo": 0.4338,
+   "ci_hi": 0.5195
+  },
+  "pair_LOGO": {
+   "auc": 0.5446,
+   "ci_lo": 0.5145,
+   "ci_hi": 0.5734
+  },
+  "pseudo_diff_LOGO": {
+   "auc": 0.479,
+   "ci_lo": 0.4338,
+   "ci_hi": 0.5195
+  },
+  "_selfcheck": {
+   "mean_abs_ref_alt": 0.0,
+   "unk": 1,
+   "kind": "plm"
+  },
+  "_permuted": {
+   "diff_random": {
+    "auc": 0.4993,
+    "ci_lo": 0.478,
+    "ci_hi": 0.5189
+   },
+   "diff_LOGO": {
+    "auc": 0.4815,
+    "ci_lo": 0.4599,
+    "ci_hi": 0.5017
+   }
+  }
+ }
+}

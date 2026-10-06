@@ -1,106 +1,80 @@
-# CodonBench: Leakage-Controlled Benchmarking of Codon Language Models
+# CodonBench
 
-A benchmark and evaluation framework for codon language models (cLMs) with five leakage controls built in by default.
+**CodonBench: separating gene context, exon position, and variant-specific component
+in synonymous-variant classification**
 
-> **A thin synonymous channel: leakage and probe choices inflate reported gains of codon language models**
+Yuanqing Liang<sup>1</sup>, Weimin Zhu<sup>2</sup>, Huiying Liang<sup>3</sup>,
+Xiaoyong Pan<sup>2</sup>
 
-## Overview
+<sup>1</sup> School of Biomedical Engineering, Shanghai Jiao Tong University
+<sup>2</sup> Institute of Image Processing and Pattern Recognition, Shanghai Jiao Tong University
+<sup>3</sup> Intelligent Medicine Institute, Shanghai Medical College, Fudan University
 
-CodonBench evaluates 21 models (11 cLMs, 2 protein LMs, 2 DNA LMs, 6 traditional baselines) on 6 tasks spanning the synonymous (SynPath) and missense (MisPath) channels, using a four-level probing hierarchy (zero-shot LLR → linear probe → nonlinear MLP → LoRA fine-tuning).
+ORCID: Y.L. 0009-0004-4761-2706 &middot; H.L. 0000-0002-9987-8002 &middot; X.P. 0000-0001-5010-464X
 
-The framework implements five evaluation controls:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-1. **Gene-held-out splitting** (LOGO-CV) — prevents gene-identity leakage
-2. **Memorization-baseline canary** — detects whether a task is decidable without learned representations
-3. **Probe-depth ladder** — separates tokenization effects from probe-capacity effects
-4. **Single-variable probe ablation** (M0→M5) — decomposes apparent gains into defensible defaults
-5. **Best-epoch selection audit** — prevents test-set selection bias
+---
 
-## Repository Structure
+## Directory map
 
-```
-CodonBench/
-├── src/                    # Core library
-│   ├── data/               # Data loading and CDS retrieval
-│   ├── models/             # Unified model loading + adapters
-│   ├── eval/               # LLR computation, embedding extraction, probing
-│   ├── agent/              # CodonBench-Agent orchestration layer
-│   ├── stats/              # Statistical utilities
-│   └── viz/                # Visualization helpers
-├── scripts/                # Experiment scripts (run on server)
-├── configs/                # Model and task configurations
-│   ├── models.yaml         # 21 model definitions
-│   └── tasks.yaml          # 6 task definitions
-└── results/                # Benchmark results (JSON)
-```
+| Path | What it holds |
+| --- | --- |
+| `src/` | CodonBench library: model loading, task adapters, leakage pre-flight checks |
+| `configs/` | Model registry and task definitions |
+| `scripts/` | Baseline benchmark scripts (first release) |
+| `results/` | Baseline benchmark results (first release) |
+| `v3_experiments/` | **Post-review experiments.** Everything added after the reviewer report of 2026-09-30: the frozen 240-fold protocol, the position baseline, and the response-vector four-source decomposition |
+| `v3_experiments/scripts/` | 59 analysis scripts, with an index that maps each script to what it produces |
+| `v3_experiments/results/` | Result files from those experiments |
+| `v3_experiments/fold_definition/` | `split_logo_cv.npz`, the leave-one-transcript-out folds over 497 transcripts — the input from which the 240 valid folds are frozen |
 
-## Installation
+## Reproducing the reported numbers
+
+| Step | Script | Produces |
+| --- | --- | --- |
+| 1 | `scripts/step2_save_splits_and_gene_map.py` | Evaluation cohort, gene-transcript map, leave-one-out folds |
+| 2 | `v3_experiments/scripts/WB-e0-freeze-folds.py` | 240 valid gene-held-out folds, frozen |
+| 3 | `v3_experiments/scripts/WB-e0-freeze-pack.py` | Frozen data package |
+| 4 | `v3_experiments/scripts/WB-e1-*` | Reported results: frozen representations, position baseline, response vector, four-source decomposition |
+
+After step 2 every number is computed on the same frozen folds, so no result can be
+re-obtained under a different protocol.
+
+## Running
+
+Two environment variables replace the absolute paths that were hard-coded during
+development. Defaults are explicit placeholders, so a missing variable fails loudly
+instead of silently reading the wrong directory.
 
 ```bash
-git clone https://github.com/missdu/CodonBench.git
-cd CodonBench
 pip install -r requirements.txt
+export CODONBENCH_REPO_ROOT=/path/to/your/codonbench        # scripts/ and results/
+export CODONBENCH_EXP_ROOT=/path/to/your/run/directory      # v3_experiments/
+export CODONBENCH_SERVER_HOME=/your/home                    # conda / preinstalled deps only
 ```
 
-Requires Python 3.11+, PyTorch 2.0+, and a CUDA GPU.
+## What is not here
 
-## Quick Start
-
-```python
-from src.agent.codonbench_agent import CodonBenchAgent
-
-agent = CodonBenchAgent()
-results = agent.run(
-    model="esm2_650m",
-    task="synpath",
-    split="logo_cv",       # gene-held-out
-    probe="mlp",
-    controls="all",         # enable all five controls
-)
-```
-
-If a pre-flight check fails (e.g., gene overlap detected), the agent raises a diagnostic error rather than proceeding with a compromised evaluation.
-
-## Models Evaluated
-
-| Category | Models |
-|----------|--------|
-| cLMs (11) | EnCodon-620M/80M, CodonBERT, CodonBERT-HF, CodonTransformer, CaLM, Mistral-Codon (3 sizes), cdsBERT, cdsBERT-plus |
-| Protein LMs (2) | ESM-2-650M, ESM-1b |
-| DNA LMs (2) | Nucleotide Transformer v2-500M/50M |
-| Baselines (6) | onehot-pos, onehot-freq, kmer3, kmer4, kmer6, combined |
-
-Plus AlphaMissense as a specialized external reference.
-
-## Tasks
-
-| Task | Name | Type | n | Channel |
-|------|------|------|---|---------|
-| MisPath | Missense pathogenicity | Classification | 5,000 | I(A;Y) |
-| SynPath | Synonymous pathogenicity | Classification | 2,840 | I(σ;Y\|A) |
-| mRFPExpr | mRFP within-protein expression | Regression | 1,459 | I(σ;Y\|A) |
-| EcoliExpr | E. coli cross-protein expression | Regression | 3,000 | I(A;Y) |
-| mRNAStab | mRNA stability | Regression | 5,000 | Dual |
-| FungalExpr | Fungal cross-protein expression | Regression | 7,089 | I(σ;Y\|A) |
-
-## Data Sources
-
-- **ClinVar** (MisPath, SynPath): Publicly available from NCBI
-- **CodonBERT benchmark** (mRFPExpr, EcoliExpr, mRNAStab): [Sanofi-Public/CodonBERT](https://github.com/Sanofi-Public/CodonBERT)
-- **Fungal expression** (FungalExpr): From CodonBERT benchmark; Wint et al. 2022
-
-## License
-
-MIT. See [LICENSE](LICENSE).
+| Not included | Why |
+| --- | --- |
+| Figure-drawing code and figure images | Figures are in the manuscript; this repository is for re-deriving the numbers |
+| Model weights and embeddings | Too large for git; fetched at first use per `configs/models.yaml` |
+| `refgene_exons.tsv` (39 MB) | External annotation table; re-download with `v3_experiments/scripts/WB-fetch-refgene.py` |
+| Cohort parquet | Generated by step 1 above |
 
 ## Citation
 
-```bibtex
-@article{liang2026codonbench,
-  title={A thin synonymous channel: leakage and probe choices inflate reported gains of codon language models},
-  author={Liang, Yuanqing and Zhu, Weimin and Liang, Huiying and Pan, Xiaoyong},
-  journal={Nature Communications},
-  year={2026},
-  note={Preprint: bioRxiv}
-}
-```
+Metadata for archiving is in `CITATION.cff`. See the manuscript for the journal
+reference; the current submission supersedes the earlier preprint
+(doi 10.64898/2026.08.12.744371).
+
+## Known issues
+
+- `results/agent_vs_manual.json` contains a raw newline inside a string, so it does not
+  parse as JSON. It is kept byte-identical to the run that produced it rather than
+  silently repaired; the numbers it backs are reported in the supplementary tables.
+
+## License
+
+MIT. Model weights carry their own upstream licences; see `configs/models.yaml`.

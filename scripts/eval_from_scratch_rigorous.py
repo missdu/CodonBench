@@ -1,3 +1,4 @@
+import os  # [脱敏] 供读取 CODONBENCH_REPO_ROOT
 """
 Rigorous evaluation of from-scratch synonym randomization.
 - 5-fold stratified CV (per-fold delta)
@@ -13,7 +14,7 @@ from scipy.stats import wilcoxon
 import warnings
 warnings.filterwarnings('ignore')
 
-BASE = r'F:\2025-2026-2\CODEARTS\shorts\codonbench\codonbench\results\supplementary'
+BASE = r'os.environ.get("CODONBENCH_REPO_ROOT", "/path/to/your/codonbench") + "/results/supplementary"'
 
 def cv_eval_paired(emb_orig, emb_rand, labs, n_folds=5, seed=42):
     skf = StratifiedKFold(n_folds, shuffle=True, random_state=seed)
