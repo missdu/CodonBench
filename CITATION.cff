@@ -1,7 +1,18 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "CodonBench"
-abstract: "CodonBench: separating gene context, exon position, and variant-specific component in synonymous-variant classification"
+title: "CodonBench: a four-source decomposition and five-layer control of apparent codon language model advantages"
+version: 1.0.0
+type: software
+license: MIT
+abstract: >-
+  Replication material for the CodonBench manuscript. CodonBench re-examines
+  reported advantages of codon language models on synonymous-variant
+  classification under leakage-controlled protocols, and separates the apparent
+  performance into four sources of predictability: gene identity, exon position,
+  sequence background, and a variant-specific component. This repository holds
+  the experiment code, the frozen leave-one-gene-out fold definition, and the
+  result files underlying every number in the manuscript. Figure-drawing scripts
+  are deliberately excluded, because the figures ship with the manuscript.
 authors:
   - family-names: "Liang"
     given-names: "Yuanqing"
@@ -18,10 +29,12 @@ authors:
     given-names: "Xiaoyong"
     orcid: "https://orcid.org/0000-0001-5010-464X"
     affiliation: "Institute of Image Processing and Pattern Recognition, Shanghai Jiao Tong University"
-license: MIT
 keywords:
   - synonymous variant
   - codon language model
   - variant effect prediction
   - leakage control
   - interpretability
+  - four-source decomposition
+  - leave-one-gene-out cross-validation
+repository-code: "https://github.com/missdu/CodonBench"
