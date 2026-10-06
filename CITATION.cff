@@ -38,3 +38,10 @@ keywords:
   - four-source decomposition
   - leave-one-gene-out cross-validation
 repository-code: "https://github.com/missdu/CodonBench"
+identifiers:
+  - description: "Archived snapshot, version 1.0.1 (Zenodo)"
+    type: doi
+    value: "10.5281/zenodo.23176516"
+  - description: "All versions, concept DOI (Zenodo)"
+    type: doi
+    value: "10.5281/zenodo.23176515"

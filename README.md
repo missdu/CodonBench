@@ -70,9 +70,11 @@ Metadata for archiving is in `CITATION.cff`. See the manuscript for the journal
 reference; the current submission supersedes the earlier preprint
 (doi 10.64898/2026.08.12.744371).
 
-Version 1.0.0 is archived on Zenodo at **doi 10.5281/zenodo.23176516**
-(`missdu/CodonBench-V1.0.0.zip`, 890.5 kB, md5 `f08e2c64a12e44ea51d7281e5bb5c01e`).
-Cite that DOI to point at this exact snapshot of the code and data.
+This material is archived on Zenodo at **doi 10.5281/zenodo.23176516**
+(version 1.0.1; `missdu/CodonBench-V1.0.0.zip`, 890.5 kB,
+md5 `f08e2c64a12e44ea51d7281e5bb5c01e`). Cite that DOI to point at the archived
+snapshot. The DOI that always resolves to the latest version is
+**10.5281/zenodo.23176515**.
 
 ## Known issues
 
