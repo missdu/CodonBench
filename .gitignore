@@ -16,6 +16,10 @@ venv/
 *.h5
 *.tar.gz
 
+# 例外：留一基因折的划分定义（198 KB）。折的边界决定了每一个数字，
+# 而 V1 仓库没有它，重跑也无法保证同一批折，故必须固化入仓。
+!v3_experiments/fold_definition/split_logo_cv.npz
+
 # 本机与凭据：绝不进仓库
 push_to_github.ps1
 *.ps1
