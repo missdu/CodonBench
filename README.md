@@ -1,7 +1,7 @@
 # CodonBench
 
-**CodonBench: a four-source decomposition and five-layer control of apparent codon
-language model advantages**
+**CodonBench: separating gene context, exon position, and variant-specific component
+in synonymous-variant classification**
 
 Yuanqing Liang<sup>1</sup>, Weimin Zhu<sup>2</sup>, Huiying Liang<sup>3</sup>,
 Xiaoyong Pan<sup>2</sup>

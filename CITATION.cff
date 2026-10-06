@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "CodonBench: a four-source decomposition and five-layer control of apparent codon language model advantages"
-version: 1.0.0
+title: "CodonBench: separating gene context, exon position, and variant-specific component in synonymous-variant classification"
+version: 1.0.1
 type: software
 license: MIT
 abstract: >-
@@ -38,7 +38,3 @@ keywords:
   - four-source decomposition
   - leave-one-gene-out cross-validation
 repository-code: "https://github.com/missdu/CodonBench"
-identifiers:
-  - description: "Archived snapshot of version 1.0.0 (Zenodo)"
-    type: doi
-    value: "10.5281/zenodo.23176516"
